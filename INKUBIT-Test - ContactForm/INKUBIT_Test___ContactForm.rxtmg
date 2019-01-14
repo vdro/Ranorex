@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.3">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="b4e3a964-7066-4b04-ab96-bd43229654fd"
+			name="INKUBIT_Test___ContactForm">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="b4e3a964-7066-4b04-ab96-bd43229654fd"
+			name="INKUBIT_Test___ContactForm">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>

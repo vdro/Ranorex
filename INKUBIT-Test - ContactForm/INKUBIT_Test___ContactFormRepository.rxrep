@@ -1,0 +1,1908 @@
+﻿<repository
+id="22bd918a-87d1-49b0-9324-84f32d6382bb"
+name="INKUBIT_Test___ContactFormRepository"
+rxversion="8.3">
+	<codegen
+	classname="INKUBIT_Test___ContactFormRepository"
+	namespace="INKUBIT_Test___ContactForm">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="8a5ba94b-5034-4d7d-afeb-0c8994229439"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="menubar,nativewindow"
+		capname="menubar"
+		id="7b24a91e-9482-4959-84e8-131a9fad5eef"
+		isrooted="True"
+		name="Explorer"
+		refpath="/menubar[@processname='explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="199b756d-ea50-472b-9174-6ebf050a2eed"
+			name="GoogleChrome"
+			refimgid="755f76a6-481b-4228-ac72-97e00fc1d531"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[@accessiblename='Google Chrome']"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[@accessiblename='Google Chrome']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="a47916b6-b1b1-4dec-aa21-2c56a4218536"
+			name="GoogleChrome1RunningWindow"
+			refimgid="66e25329-6efc-44d7-b626-627eaf4c2694"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[7]"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[7]
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="d2f4c41f-d2b8-4c53-924a-ba26bc23857d"
+			name="RanorexStudio1RunningWindow"
+			refimgid="6156aeac-a6f7-40bc-a976-e008ef77b649"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[10]"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[10]
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="754cc8ca-adca-4745-812a-91db60a8ca8e"
+			name="RanorexStudio1RunningWindow1"
+			refimgid="def2a170-3ea9-489c-9f04-e8143148357b"
+			refpath="/menubar[@processname='explorer']/container[@controlid='40965']/container/element/toolbar/button[9]"
+			searchtimeout="30000ms">
+				/menubar[@processname='explorer']/container[@controlid='40965']//toolbar[@accessiblename='Running applications']/button[9]
+			</item>
+			<basepath>
+				/menubar[@processname='explorer']
+			</basepath>
+			<icon>
+				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
+VZB4/J8BADyZI3kwAy98AAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow,windowsapp"
+		capname="windowsapp"
+		id="c71c9ee1-b65f-4e50-99aa-5f49a5def842"
+		isrooted="True"
+		name="JumpListForGoogleChrome"
+		refpath="/winapp[@packagename='Microsoft.Windows.ShellExperienceHost' and @appid='App' and @name='Jump List for Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="620cb304-5433-4fce-8493-86da85a4bab7"
+			name="DisplayNameTextBlock"
+			refimgid="716b0901-e343-4908-9ab2-ba82fb07424a"
+			refpath="/winapp[@packagename='Microsoft.Windows.ShellExperienceHost' and @appid='App' and @name~'^Jump\ List\ for\ Google\ Chro']/container/list/container[@name='Tasks']/listitem[@name='New incognito window']/text[@automationid='DisplayNameTextBlock']"
+			searchtimeout="30000ms">
+				/winapp[@appid='App' and @name~'^Jump\ List\ for\ Google\ Chro']/?/?/list[@automationid='ItemList']/?/?/listitem[@name='New incognito window']/text[@automationid='DisplayNameTextBlock']
+			</item>
+			<item
+			addcaps="listitem,uiautomation,uiautomationinvoke,uiautomationvirtualizeditem"
+			capname="listitem"
+			id="22038d69-cc7d-410f-a20d-ab6caa495f86"
+			name="NewIncognitoWindow"
+			refimgid="f3e4cced-5efa-4964-9a56-b0a6217f90a5"
+			refpath="/winapp[@packagename='Microsoft.Windows.ShellExperienceHost' and @appid='App' and @name~'^Jump\ List\ for\ Google\ Chro']/container/list/container[@name='Tasks']/listitem[@name='New incognito window']"
+			searchtimeout="30000ms">
+				/winapp[@appid='App' and @name~'^Jump\ List\ for\ Google\ Chro']/?/?/list[@automationid='ItemList']/?/?/listitem[@name='New incognito window']
+			</item>
+			<basepath>
+				/winapp[@appid='App' and @name~'^Jump\ List\ for\ Google\ Chro']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABTSURBVDhPxY5BCgAgCAR7nf/3RYaHlZQOWlIL
+g2g5OIhIbugRZMPMhqYsiHECrRWw4wS7rPP4V2tKsIIZ6vsLAN7KFwD0vRdUwI4JTmKCG34LSCYc
+86HMBTwY0AAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow,windowsapp"
+		capname="windowsapp"
+		id="a9148f26-7313-4aa6-89bd-5a2ac31d7a86"
+		isrooted="True"
+		name="Start"
+		refimgid="05e4d234-fc2f-433a-b79f-ff8b80546803"
+		refpath="/winapp[@packagename='Microsoft.Windows.ShellExperienceHost' and @appid='App' and @name='Start']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="list,uiautomation"
+			capname="list"
+			id="3172630b-ed66-4b2b-84fc-fdbde8bfddf1"
+			name="GroupItems"
+			refimgid="e8ade3e5-c293-424d-bcc2-1cab44c3f937"
+			refpath="/winapp[@packagename='Microsoft.Windows.ShellExperienceHost' and @appid='App' and @name='Start']/form/list[@automationid='groupItems']"
+			searchtimeout="30000ms">
+				/winapp[@appid='App' and @name='Start']/?/?/list[@automationid='groupItems']
+			</item>
+			<basepath>
+				/winapp[@appid='App' and @name='Start']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABTSURBVDhPxY5BCgAgCAR7nf/3RYaHlZQOWlIL
+g2g5OIhIbugRZMPMhqYsiHECrRWw4wS7rPP4V2tKsIIZ6vsLAN7KFwD0vRdUwI4JTmKCG34LSCYc
+86HMBTwY0AAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="7a65ccfd-52d5-4174-8ecf-a96b4d6169b6"
+		isrooted="True"
+		name="NewTabGoogleChrome"
+		refpath="/form[@title='New Tab - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="81fd59e4-5603-44dd-bca2-a329b86d5b02"
+			name="Pane"
+			refimgid="948d991b-b511-4686-bd00-c8a3ad2e56db"
+			refpath="/form[@title='New Tab - Google Chrome']/container/container/container[2]/container[2]/container/container[1]/container[2]"
+			searchtimeout="30000ms">
+				/form[@title='New Tab - Google Chrome']/container[@accessiblename='New Tab - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[2]/container[@accessiblerole='Pane']/container[1]/container[2]
+			</item>
+			<basepath>
+				/form[@title='New Tab - Google Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="b5231175-bac8-423d-b9f7-19f197e30ca4"
+		isrooted="True"
+		name="INKUBITMicrosoftDynamics365CRMCon"
+		refimgid="27e00537-2335-423f-86a3-37ac62c6b1f1"
+		refpath="/dom[@domain='test.inkubit.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="b6fc91b4-6dc3-442b-a125-969f91f4eafb"
+			name="Careers"
+			refimgid="1537adde-5430-4a4c-b54a-f4792de669e0"
+			refpath="/dom[@domain='test.inkubit.com']/body/div[5]/div[1]/div/header/div/div/div/div[2]/div/div[2]/div/nav/ul/li[2]/ul/li[4]/a[@innertext='Careers']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']/body/div[5]/div[1]/?/?/header/div/div/div/div[2]//nav/ul/li[2]/ul/?/?/a[@innertext='Careers']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="a7c999b0-bb8c-4142-b134-77b9a5b70ca8"
+			name="SeniorMicrosoftDynamics365Consultan"
+			refimgid="4ff7255c-4add-40f2-b5ec-58256d5fbada"
+			refpath="/dom[@domain='test.inkubit.com']//div[#'section_Consulting']/div/div[1]/div[1]/h2/a[@innertext~'^Senior\ Microsoft\ Dynamics']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//div[#'section_Consulting']/div/div[1]//a[@innertext~'^Senior\ Microsoft\ Dynamics']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="ceb19d69-620b-4123-92f0-ef9d2c8049f8"
+			name="HttpsTestInkubitComMedia45350Ink"
+			refimgid="f3e20ed5-665f-4d0e-99dc-2136008b237b"
+			refpath="/dom[@domain='test.inkubit.com']/body/div[5]/div[1]/div/header/div/div/div/div[1]/div/a/img[@alt='']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']/body/div[5]/div[1]/?/?/header/div/div/div/div[1]/?/?/a[@href~'^https://test\.inkubit\.com/']/img[@alt='']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="295fb3e3-12bc-4006-89d9-0b7ba506218e"
+			name="AboutINKUBIT"
+			refimgid="ec526437-9b4f-42ff-8d59-4a3c0cd96e2f"
+			refpath="/dom[@domain='test.inkubit.com']/body/div[5]/div[1]/div/header/div/div/div/div[2]/div/div[2]/div/nav/ul/li[2]/a[@innertext='About INKUBIT']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']/body/div[5]/div[1]/?/?/header/div/div/div/div[2]//nav/ul/li[2]/a[@innertext='About INKUBIT']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="8c9f554a-53c2-4cce-aebf-2acdfbaf2afa"
+			name="AboutINKUBIT1"
+			refimgid="e17092a9-31bd-45b3-8fc7-0c4358f63647"
+			refpath="/dom[@domain='test.inkubit.com']/body/div[2]/div[1]/div/header/div/div/div/div[2]/div/div[2]/div/nav/ul/li[2]/a[@innertext='About INKUBIT']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']/body/div[2]/div[1]/?/?/header/div/div/div/div[2]//nav/ul/li[2]/a[@innertext='About INKUBIT']
+			</item>
+			<folder
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="59c92d11-3cd8-42c3-9ead-020cecf440c4"
+			isrooted="True"
+			name="PanelBody"
+			refpath="/dom[@domain='test.inkubit.com']//div[#'section_Consulting']/div"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="4c855dc3-4e72-4300-acdc-074e374c02e1"
+				name="SeniorSAPHCMConsultant"
+				refimgid="abb50a3d-6247-4f4f-a40a-ddff9a872fe3"
+				refpath="/dom[@domain='test.inkubit.com']//div[#'section_Consulting']/div/div[2]/div[1]/h2/a[@innertext='Senior SAP HCM Consultant']"
+				searchtimeout="30000ms">
+					/dom[@domain='test.inkubit.com']//div[#'section_Consulting']/div/div[2]//a[@innertext='Senior SAP HCM Consultant']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="a470d414-cf27-49ca-8021-6a2848bb5069"
+				name="SAPSeniorBusinessIntelligenceConsult"
+				refimgid="028d267e-387f-4543-97c4-58c78b00cb18"
+				refpath="/dom[@domain='test.inkubit.com']//div[#'section_Consulting']/div/div[3]/div[1]/h2/a[@innertext='SAP Senior Business Intelligence Consultant']"
+				searchtimeout="30000ms">
+					/dom[@domain='test.inkubit.com']//div[#'section_Consulting']/div/div[3]//a[@innertext~'^SAP\ Senior\ Business\ Intel']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="35d7f037-dcc6-4b49-99c4-999a9831b837"
+				name="SAPSeniorBankingConsultant"
+				refimgid="6d02440b-e829-4541-92a9-63efb22ab6ca"
+				refpath="/dom[@domain='test.inkubit.com']//div[#'section_Consulting']/div/div[4]/div[1]/h2/a[@innertext='SAP Senior Banking Consultant']"
+				searchtimeout="30000ms">
+					/dom[@domain='test.inkubit.com']//div[#'section_Consulting']/div/div[4]//a[@innertext~'^SAP\ Senior\ Banking\ Consul']
+				</item>
+				<basepath>
+					/dom[@domain='test.inkubit.com']//div[#'section_Consulting']/div
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="dd79fda1-678e-4e89-b237-175f2ef2323f"
+			name="DivTag"
+			refimgid="ac9c12c1-2cd0-4110-823e-58dea05015af"
+			refpath="/dom[@domain='test.inkubit.com']//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="0d3d9d34-4862-474d-a9ab-bb3c317207d4"
+			name="FirstName"
+			refimgid="648ff2b3-c384-471c-8154-41432d22dd17"
+			refpath="/dom[@domain='test.inkubit.com']//form[#'jobApplicationUploadContent']/div/div[2]/div[2]/input[@id='FirstName']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//form[#'jobApplicationUploadContent']/div/div[2]/?/?/input[@id='FirstName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="609ed142-1500-42b2-9fe8-6c224d5bbac2"
+			name="LastName"
+			refimgid="baa31810-b463-4f22-9c56-386fe1eec2d9"
+			refpath="/dom[@domain='test.inkubit.com']//form[#'jobApplicationUploadContent']/div/div[3]/div[2]/input[@id='LastName']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//form[#'jobApplicationUploadContent']/div/div[3]/?/?/input[@id='LastName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="d39020c0-dc79-42f1-9e02-d3b817053af2"
+			name="Email"
+			refimgid="6197e792-ab1b-4c56-b941-617791e3d820"
+			refpath="/dom[@domain='test.inkubit.com']//input[#'Email']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//input[#'Email']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c86818a7-56c5-4b18-8512-ad2c2ca0f58b"
+			name="PhoneNumber"
+			refimgid="13de13fb-3e24-42e7-91f6-09d523cdd159"
+			refpath="/dom[@domain='test.inkubit.com']//input[#'PhoneNumber']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//input[#'PhoneNumber']
+			</item>
+			<item
+			addcaps="unknown,webelement"
+			capname="webelement"
+			id="e15e671d-11eb-42f6-af3c-cf2b6afecb6b"
+			name="Path"
+			refimgid="344bc9d9-23f7-4a33-b1ae-45648cb73bdd"
+			refpath="/dom[@domain='test.inkubit.com']//tag[#'canvas-for-livicon-5']/tag[3]"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//tag[#'canvas-for-livicon-5']/tag[3]
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="ece15052-83bd-44c9-828a-89e11628e6b7"
+			name="InputJobapplication"
+			refimgid="e355f36d-54f6-4899-9198-fb9855e997b8"
+			refpath="/dom[@domain='test.inkubit.com']//input[#'input-jobapplication']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//input[#'input-jobapplication']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="913ae06e-ccfa-4e2c-9345-071339149f7f"
+			name="SeniorMicrosoftDynamics365Developer"
+			refimgid="4bb1c07e-2a31-4124-9540-9d153676a448"
+			refpath="/dom[@domain='test.inkubit.com']//div[#'section_Software_Engineering']/div/div[1]/div[1]/h2/a[@innertext='Senior Microsoft Dynamics 365 Developer']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//div[#'section_Software_Engineering']/div/div[1]//a[@innertext~'^Senior\ Microsoft\ Dynamics']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="5cc18c17-943e-4c34-9f62-ecbf3683fe7b"
+			name="Contact"
+			refimgid="6e5d7d02-ffbc-42e6-b22c-b672320e2001"
+			refpath="/dom[@domain='test.inkubit.com']/body/div[5]/div[1]/div/header/div/div/div/div[2]/div/div[2]/div/nav/ul/li[6]/a[@innertext='Contact']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']/body/div[5]/div[1]/?/?/header/div/div/div/div[2]//nav/ul/li[6]/a[@innertext='Contact']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="645c61b7-c9f6-4f2b-8b7f-afe674f59b36"
+			name="FirstName1"
+			refimgid="12dcb266-2bfb-4408-b03e-bacc6fc57540"
+			refpath="/dom[@domain='test.inkubit.com']//input[#'FirstName']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//input[#'FirstName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="17225465-6cd9-4812-ab23-caecf5cbcb00"
+			name="LastName1"
+			refimgid="b2fd3634-8d1f-405b-98ee-345314307ced"
+			refpath="/dom[@domain='test.inkubit.com']//input[#'LastName']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//input[#'LastName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="00bc670c-c38c-4c08-ae11-599f982508c9"
+			name="InputEmail"
+			refimgid="3c6a1b41-b948-47c2-bb0f-06f0097b39e2"
+			refpath="/dom[@domain='test.inkubit.com']//input[#'InputEmail']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//input[#'InputEmail']
+			</item>
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="0381fd33-6c55-41dc-b65a-19cb647e9d0f"
+			name="InputMessage"
+			refimgid="46f6d82b-4f96-4ae1-aefe-b8c563df94cc"
+			refpath="/dom[@domain='test.inkubit.com']//textarea[#'InputMessage']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//textarea[#'InputMessage']
+			</item>
+			<item
+			addcaps="unknown,webelement,btag"
+			capname="btag"
+			id="888c2c1b-2cbc-4c4f-baed-bd15508afbf8"
+			name="SEND"
+			refimgid="a0c90aad-606d-4d96-ac86-e2a2bcb41337"
+			refpath="/dom[@domain='test.inkubit.com']//button[#'ButtonContactForm']/b[@innertext='SEND']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//button[#'ButtonContactForm']/b[@innertext='SEND']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="webelement"
+			id="6b96bb39-e0d6-4d0c-bb1f-74522586c578"
+			name="ThankYouForYourMessageWeWillCont"
+			refimgid="eea0adf8-ffda-4d2a-b0df-972b34b7da0b"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//tag[#'canvas-for-livicon-3']/tag[4]
+			</item>
+			<item
+			addcaps="unknown,webelement"
+			capname="webelement"
+			id="dcacee35-fc46-42a4-9baa-9c7aef1154d3"
+			name="Path1"
+			refimgid="e04eb5d7-3124-4fef-b960-c9994b8b1619"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//tag[#'canvas-for-livicon-3']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f54657d6-13cd-425c-b35f-916eda14ff87"
+			name="InputPhone"
+			refimgid="66d0921b-8ea4-4b73-814b-62bb9e69a713"
+			refpath="/dom[@domain='test.inkubit.com']//input[#'InputPhone']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//input[#'InputPhone']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="6ceaef9d-2535-425a-b6dc-42e4a51f652f"
+			name="Text"
+			refimgid="bc232956-3b6a-4b88-8753-2401ec43ae2a"
+			refpath="/dom[@domain='test.inkubit.com']//div[#'wpcf7-f6086-o1']/form/div[5]/input[@type='text']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//div[#'wpcf7-f6086-o1']/form[@action='https://test.inkubit.com/en-us/#']/div[5]/input[@type='text']
+			</item>
+			<item
+			addcaps="unknown,webelement,tdtag"
+			capname="tdtag"
+			id="422f80eb-7154-4479-b212-8e8224a47d39"
+			name="TdTag25"
+			refimgid="7101bc4d-0c61-430c-af35-68c298b7dbda"
+			refpath="/dom[@domain='test.inkubit.com']/body/div[10]/div[1]/table/tbody/tr[1]/td[@innertext='25']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']/body/div[10]/?/?/table/tbody/tr[1]/td[@innertext='25']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="b4b14848-9c81-4911-b9fb-b36fcc59fc5c"
+			name="TimeToCall"
+			refimgid="50d449cc-e069-4cd0-9f83-9bdc4a380da4"
+			refpath="/dom[@domain='test.inkubit.com']//select[#'time_to_call']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//select[#'time_to_call']
+			</item>
+			<item
+			addcaps="unknown,webelement,btag"
+			capname="btag"
+			id="be661ebc-0417-478e-ba83-a514e085e237"
+			name="Request"
+			refimgid="318d1d58-d4ce-48da-ae3a-46e9b11b533e"
+			refpath="/dom[@domain='test.inkubit.com']//button[#'ButtonRequestPhoneCall']/b[@innertext='Request']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//button[#'ButtonRequestPhoneCall']/b[@innertext='Request']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="c7b31b41-4717-4bc3-a6b3-e5c2f73289d4"
+			name="ThankYouForYourRequestWeWillCont"
+			refimgid="fed93f16-9062-4f55-83d9-21461e7565dd"
+			refpath="/dom[@domain='test.inkubit.com']//div[#'wpcf7-f6086-o1']/form[@action='https://test.inkubit.com/en-us/#']/div[8]/span[@innertext='Thank you for your request. We will contact you as soon as possible.']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//div[#'wpcf7-f6086-o1']/form[@action='https://test.inkubit.com/en-us/#']/?/?/span[@innertext~'^Thank\ you\ for\ your\ reques']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="1dbed2d8-bde8-43ec-9aa2-b8167f849e55"
+			name="JobAnnouncementNotificationDiv"
+			refimgid="c9348607-37d3-47ff-941b-170d0966f4ea"
+			refpath="/dom[@domain='test.inkubit.com']//div[#'jobAnnouncementNotificationDiv']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//div[#'jobAnnouncementNotificationDiv']
+			</item>
+			<item
+			addcaps="unknown,webelement"
+			capname="webelement"
+			id="32c8b8d3-59fe-48ce-9f60-6f7e2111495d"
+			name="Path2"
+			refimgid="30880f8e-0bec-433c-a29c-af80ca8c5a97"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//tag/tag[4]
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="9a5aeca7-049e-4c54-bc58-46254173d311"
+			name="RequestACall"
+			refimgid="9eedb4aa-d0f4-4ab5-aab3-319a13c32b21"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//div/p[@innertext='Request a call']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="fb79ef65-4474-4e89-8cc3-8bf28f9d21ad"
+			name="ThankYouForYourMessageWeWillCont1"
+			refimgid="c4fa923e-0afe-4b29-9620-ee8c99a65035"
+			refpath="/dom[@domain='test.inkubit.com']//div[#'wpcf7-f6086-o1']/form[@action='https://test.inkubit.com/en-us/#']/div[8]/span[@innertext='Thank you for your message. We will contact you shortly.']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//div[#'wpcf7-f6086-o1']/form[@action='https://test.inkubit.com/en-us/#']/?/?/span[@innertext~'^Thank\ you\ for\ your\ messag']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="fef30b92-d556-4275-a23b-770c17b1eb7b"
+			name="Newsletter"
+			refimgid="14c6778a-38a0-4ef3-86c2-85caa25c895e"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//div[#'livicon-2']/p[@innertext='Newsletter']
+			</item>
+			<item
+			addcaps="unknown,webelement,btag"
+			capname="ptag"
+			id="f47078d3-1c80-42fb-aa8b-07f35cf0df82"
+			name="REGISTER"
+			refimgid="770d17aa-f59f-4da8-80c2-b2adb7347ef7"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//div[#'livicon-2']/p[@innertext='Newsletter']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="63becccb-79c1-4329-9263-9ae7f5d24bb0"
+			name="ThankYouForYourRegistration"
+			refimgid="d4cc290d-84aa-4674-b39a-ed523f260fe7"
+			refpath="/dom[@domain='test.inkubit.com']//div[#'wpcf7-f6086-o1']/form[@action='https://test.inkubit.com/en-us/#']/div[8]/span[@innertext='Thank you for your registration.']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//div[#'wpcf7-f6086-o1']/form[@action='https://test.inkubit.com/en-us/#']/?/?/span[@innertext~'^Thank\ you\ for\ your\ regist']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="6ca9828b-fa1e-4001-9cd5-e763818b456f"
+			name="Newsletter1"
+			refimgid="f2510cd4-5928-4a22-8032-12d5c916b568"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']/descendant-or-self::*/div/p[@innertext='Newsletter']
+			</item>
+			<item
+			addcaps="unknown,webelement,btag"
+			capname="btag"
+			id="1106dec2-9df5-4357-b6ff-18764d99c004"
+			name="REGISTER1"
+			refimgid="4d55139e-aa72-4a28-8c52-017c221d8827"
+			refpath="/dom[@domain='test.inkubit.com']//button[#'ButtonNewsletterRegistration']/b[@innertext='REGISTER']"
+			searchtimeout="30000ms">
+				/dom[@domain='test.inkubit.com']//button[#'ButtonNewsletterRegistration']/b[@innertext='REGISTER']
+			</item>
+			<folder
+			addcaps="unknown,webelement,formtag"
+			capname="form"
+			id="ef6506b3-5143-482e-9399-f0adc4a2780f"
+			isrooted="True"
+			name="ContactForm1"
+			refpath="/dom[@domain='test.inkubit.com']//form[#'contactForm']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,formtag"
+				capname="formtag"
+				id="032ad3d1-b6cd-46e0-bf96-3eefeeffe7d4"
+				name="ContactForm"
+				refimgid="411fc416-06a8-4545-8f48-98214ecd61ea"
+				refpath="/dom[@domain='test.inkubit.com']//form[#'contactForm']"
+				searchtimeout="30000ms">
+					/dom[@domain='test.inkubit.com']//form[#'contactForm']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="c3c30760-b040-4225-9595-36b3775e92a1"
+				name="SEND1"
+				refimgid="ec2b365f-2528-47e3-9bd3-9234abe4dbaa"
+				refpath="/dom[@domain='test.inkubit.com']//form[#'contactForm']/div[6]/button[@innertext='SEND']"
+				searchtimeout="30000ms">
+					/dom[@domain='test.inkubit.com']//form[#'contactForm']/?/?/button[@innertext='SEND']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="f56bb3f2-2ade-4381-a845-149f42d75425"
+				name="DivTagDzieki"
+				refimgid="2c75f800-5604-4854-be87-986aa64f81da"
+				refpath="/dom[@domain='test.inkubit.com']//form[#'contactForm']/div[@innertext='                Dzieki            ']"
+				searchtimeout="30000ms">
+					/dom[@domain='test.inkubit.com']//form[#'contactForm']/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Dzieki\ ']
+				</item>
+				<basepath>
+					/dom[@domain='test.inkubit.com']//form[#'contactForm']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='test.inkubit.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="5aa72bb9-0d62-445e-9433-f72145f4603f"
+		isrooted="True"
+		name="SeniorMicrosoftDynamicsCRMOrDynamic"
+		refpath="/form[@title='Senior Microsoft Dynamics CRM or Dynamics 365 Consultant Technical &amp; Functional - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="28363b1b-3302-4a49-b315-3ea9ff55b5be"
+			name="NewTab"
+			refimgid="75b98fc3-ec55-47aa-be6c-e710f4c6fb45"
+			refpath="/form[@title~'^Senior\ Microsoft\ Dynamics']/container/container/container[2]/container[2]/tabpagelist/button[@accessiblename='New Tab']"
+			searchtimeout="10000ms">
+				/form[@title~'^Senior\ Microsoft\ Dynamics']/container[@accessiblename~'^Senior\ Microsoft\ Dynamics']/container[@accessiblename='Google Chrome']//button[@accessiblename='New Tab']
+			</item>
+			<basepath>
+				/form[@title~'^Senior\ Microsoft\ Dynamics']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="487e68ad-54fe-4791-8a21-7a1e41f96a7c"
+		isrooted="True"
+		name="LogowanieNaKoncie"
+		refpath="/dom[@domain='login.microsoftonline.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="2f9521ce-3e74-4880-ae7b-81d9b9948ae7"
+			name="TableCellTextLeftContent"
+			refimgid="98d4ef88-6634-4d52-9330-28023779a0e1"
+			refpath="/dom[@domain='login.microsoftonline.com']//div[#'tilesHolder']/div[1]/div/div/div/div[2]"
+			searchtimeout="10000ms">
+				/dom[@domain='login.microsoftonline.com']//div[#'tilesHolder']/div[1]/div/div/div/div[2]
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="00b30d4a-7b39-4f91-becc-379732376f57"
+			name="I0118"
+			refimgid="944d23d7-2ed1-4a29-9849-1d01db68a2c7"
+			refpath="/dom[@domain='login.microsoftonline.com']//input[#'i0118']"
+			searchtimeout="30000ms">
+				/dom[@domain='login.microsoftonline.com']//input[#'i0118']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="14a382b0-7fdb-47ec-855a-cf5bb7ffe4a8"
+			name="IdSIButton9"
+			refimgid="99d076de-b1a5-4682-9fda-1e19a978cbb2"
+			refpath="/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']"
+			searchtimeout="10000ms">
+				/dom[@domain='login.microsoftonline.com']//input[#'idSIButton9']
+			</item>
+			<basepath>
+				/dom[@domain='login.microsoftonline.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="a6e23887-4963-4e0f-b3fe-20d4a0c1d548"
+		isrooted="True"
+		name="DashboardsINKUBITDefaultDashboard"
+		refpath="/dom[@domain='inkubit-test.crm4.dynamics.com' and @caption='Dashboards: INKUBIT Default Dashboard - Microsoft Dynamics 365']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="75c1e348-9254-4932-a78d-c970e55f185c"
+			name="ButBegin"
+			refimgid="8185680d-72a7-4579-88d1-dda41cadb5a2"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com' and @caption~'^Dashboards:\ INKUBIT\ Defau']//iframe[#'InlineDialog_Iframe']//button[#'butBegin']"
+			searchtimeout="30000ms">
+				/dom[@caption~'^Dashboards:\ INKUBIT\ Defau']//iframe[#'InlineDialog_Iframe']//button[#'butBegin']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="fbaae0c2-34f8-4837-85df-cf0940385a61"
+			name="NavTabButtonArrowDownNavTabButtonImageS"
+			refimgid="f3fe6391-fcff-4c75-bc4b-2c7fd634e8aa"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com' and @caption~'^Dashboards:\ INKUBIT\ Defau']//span[#'TabMA']/a/span/span"
+			searchtimeout="30000ms">
+				/dom[@caption~'^Dashboards:\ INKUBIT\ Defau']//span[#'TabMA']/a/span/span
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="ebee52fc-2410-4ed6-b5c1-2d41ff7c24d9"
+			name="CoreSolutions"
+			refimgid="a9c934cb-7f41-442a-90c8-37fb715960eb"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com' and @caption~'^Dashboards:\ INKUBIT\ Defau']//a[#'CoreSolutions']/span[1]/span/img[@alt='CoreSolutions']"
+			searchtimeout="30000ms">
+				/dom[@caption~'^Dashboards:\ INKUBIT\ Defau']//a[#'CoreSolutions']//img[@alt='CoreSolutions']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="031886d0-d4b3-47a2-b51d-02ed181a2f4a"
+			name="HttpsInkubitTestCrm4DynamicsComP"
+			refimgid="bacceefd-61b1-4b2d-9638-f412674b0a0d"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com' and @caption~'^Dashboards:\ INKUBIT\ Defau']//a[#'ibs_jobapplication']/span[1]/span/img[@alt='']"
+			searchtimeout="30000ms">
+				/dom[@caption~'^Dashboards:\ INKUBIT\ Defau']//a[#'ibs_jobapplication']//img[@alt='']
+			</item>
+			<basepath>
+				/dom[@caption~'^Dashboards:\ INKUBIT\ Defau']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="0d81cfb4-95f3-4e1d-bcbe-d4f199fd3b45"
+		isrooted="True"
+		name="JobApplicationsActiveJobApplications"
+		refpath="/dom[@domain='inkubit-test.crm4.dynamics.com' and @caption='Job Applications Active Job Applications - Microsoft Dynamics 365' and @page='main.aspx' and @path='/main.aspx' and @browsername='Chrome']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,labeltag"
+			capname="labeltag"
+			id="d351b6c6-a7cd-492a-9a8a-be917429ff27"
+			name="JobApplicationNo"
+			refimgid="36d0acc4-7edd-4cbf-b45e-39c7163f0d6a"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com' and @caption~'^Job\ Applications\ Active\ J' and @page='main.aspx' and @path='/main.aspx' and @browsername='Chrome']//iframe[#'contentIFrame0']//table[#'crmGrid_gridBar']/tbody/tr/th[2]/table/tbody/tr/td[1]/a/tag/label[@innertext='Job Application No']"
+			searchtimeout="30000ms">
+				/dom[@caption~'^Job\ Applications\ Active\ J' and @page='main.aspx' and @path='/main.aspx' and @browsername='Chrome']//iframe[#'contentIFrame0']//table[#'crmGrid_gridBar']/?/?/tr/th[2]/table[@title='Job Application No']//a[@title~'^Sort\ by\ Job\ Application\ N']/?/?/label[@innertext='Job Application No']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="7ba40093-c645-4e8e-98af-270747e96f63"
+			name="Ranorex1RaTest"
+			refimgid="1d4eac06-65b9-4fb4-be44-7ca35d680702"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com' and @caption='Job Applications Active Job Applications - Microsoft Dynamics 365' and @page='main.aspx' and @path='/main.aspx' and @browsername='Chrome']//iframe[#'contentIFrame0']//table[#'gridBodyTable']/tbody/tr[1]/td[2]/tag[@tagname='nobr']/a[@innertext='ranorex1 ra - test']"
+			searchtimeout="30000ms">
+				/dom[@caption~'^Job\ Applications\ Active\ J' and @page='main.aspx' and @path='/main.aspx' and @browsername='Chrome']//iframe[#'contentIFrame0']//table[#'gridBodyTable']/tbody/tr[1]//a[@innertext='ranorex1&#160;ra&#160;-&#160;test']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="a2fc1398-b685-4a3d-b031-077d33126819"
+			name="SpanTagDelete"
+			refimgid="986cbf37-6058-4dff-9b9f-3f07529d2587"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//li[#'ibs_jobapplication|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.ibs_jobapplication.DeleteMenu']/span/a[1]/span[@innertext=' Delete ']"
+			searchtimeout="30000ms">
+				/dom[@caption~'^Job\ Applications\ Active\ J' and @page='main.aspx' and @path='/main.aspx' and @browsername='Chrome']//li[#'ibs_jobapplication|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.ibs_jobapplication.DeleteMenu']//span[@innertext=' Delete ']
+			</item>
+			<basepath>
+				/dom[@caption~'^Job\ Applications\ Active\ J' and @page='main.aspx' and @path='/main.aspx' and @browsername='Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="b5a1f99c-a0ab-4d9a-80af-744800156576"
+		isrooted="True"
+		name="JobApplicationRanorex1RaTest"
+		refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="4a2885e1-2041-47bb-9e05-7150ff512619"
+			name="SpanTagDelete"
+			refimgid="12b2e84a-34be-4268-9256-8ec96c24d331"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//li[#'ibs_jobapplication|NoRelationship|Form|Mscrm.Form.ibs_jobapplication.Delete']/span/a/span[@innertext=' Delete ']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//li[#'ibs_jobapplication|NoRelationship|Form|Mscrm.Form.ibs_jobapplication.Delete']//span[@innertext=' Delete ']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="b0894e24-db40-4efa-bfa0-7eb7d6cb0ed3"
+			name="DivTagDelete"
+			refimgid="84aee2a4-777e-49f8-b727-437d16741ad4"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'InlineDialog_Iframe']//button[#'butBegin']/div[@innertext=' Delete ']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'InlineDialog_Iframe']//button[#'butBegin']/div[@innertext=' Delete ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="19edbee7-c77d-4a79-9300-d29a045374bb"
+			name="NOTES"
+			refimgid="2bd6f66e-70b4-4482-83a2-24a3fa59a982"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'header_notescontrol']/a[@innertext='NOTES']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'header_notescontrol']/a[@innertext='NOTES']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="8f04ae5f-246d-4103-8542-9846a7c59e8a"
+			name="TestPdf"
+			refimgid="5a88ed95-29d9-4bcd-ad50-6ffe0e6186c4"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_49731858-2202-e911-a97f-000d3ab2924f']/a[@innertext=' test.pdf ']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_49731858-2202-e911-a97f-000d3ab2924f']/a[@innertext=' test.pdf ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="f1898139-fc6c-48d3-a710-cea66cbe61b9"
+			name="TestPdf1"
+			refimgid="49745c37-f657-481d-98b1-c4881a7937ed"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_a084237f-2802-e911-a97d-000d3ab29321']/a[@innertext=' test.pdf ']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_a084237f-2802-e911-a97d-000d3ab29321']/a[@innertext=' test.pdf ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="e137783e-3aaf-4e1c-b0ee-7247c4ba089e"
+			name="TestPdf2"
+			refimgid="7c603a0f-3560-486d-9286-8d092f9e3941"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_29b3b03b-2902-e911-a98a-000d3ab50338']/a[@innertext=' test.pdf ']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_29b3b03b-2902-e911-a98a-000d3ab50338']/a[@innertext=' test.pdf ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="834a7f63-a1d2-421b-80d7-5f85969b3b58"
+			name="TestPdf3"
+			refimgid="10152159-3991-4265-a606-06c31a328e35"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_f94829cb-2902-e911-a97e-000d3ab50a67']/a[@innertext=' test.pdf ']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_f94829cb-2902-e911-a97e-000d3ab50a67']/a[@innertext=' test.pdf ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="67e1480b-6724-414e-8add-4162ab14f22a"
+			name="TestPdf4"
+			refimgid="40c3ec92-ce32-4da1-8ef9-da0a71b50ea2"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_72faac79-2a02-e911-a97d-000d3ab29321']/a[@innertext=' test.pdf ']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_72faac79-2a02-e911-a97d-000d3ab29321']/a[@innertext=' test.pdf ']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="ebf9fa37-6fbf-4a25-995e-4d91b3338e9e"
+			name="ButBegin"
+			refimgid="8f5797ff-a88f-4dfc-a7d4-1e74ad66fa43"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'InlineDialog_Iframe']//button[#'butBegin']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'InlineDialog_Iframe']//button[#'butBegin']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="2b9b2e11-ba7d-4f4c-9d93-59c3d0f308c7"
+			name="TestPdf5"
+			refimgid="b656d834-862d-4a0b-9639-68e0cc1215b7"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_56b979c4-2b02-e911-a97e-000d3ab50a67']/a[@innertext=' test.pdf ']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_56b979c4-2b02-e911-a97e-000d3ab50a67']/a[@innertext=' test.pdf ']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="0566d8d5-86c8-40f0-9abd-b6e7751924eb"
+			name="ImgTag"
+			refimgid="c18e097b-6111-4f30-9628-bce2a6520fa5"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'0b78853f-2c02-e911-a97f-000d3ab2924f']/div/div[2]/span[@id='actionsSpacer']/div[@id='attachSpacer']/img[@alt=' ']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'0b78853f-2c02-e911-a97f-000d3ab2924f']//span[@id='actionsSpacer']/?/?/img[@alt=' ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="01308f93-7f72-4a13-9200-9c4263ce81a9"
+			name="TestPdf6"
+			refimgid="6458a8e5-38b2-4db4-b787-8ef3bd7a6824"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_0b78853f-2c02-e911-a97f-000d3ab2924f']/a[@innertext=' test.pdf ']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_0b78853f-2c02-e911-a97f-000d3ab2924f']/a[@innertext=' test.pdf ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="ffd153d4-5ac3-46d6-b34e-f74502fd6fce"
+			name="TestPdf7"
+			refimgid="0bde6c69-e4f1-4197-a1b6-04c58f687d54"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_4c21fb62-2e02-e911-a97d-000d3ab29321']/a[@innertext=' test.pdf ']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_4c21fb62-2e02-e911-a97d-000d3ab29321']/a[@innertext=' test.pdf ']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="7ca76e92-60dc-42f9-b68c-cb9aa4518c80"
+			name="Bd2697603002E911A983000d3ab29582Not"
+			refimgid="31f7a4dd-3545-40ae-b05d-015321576a23"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//input[#'bd269760-3002-e911-a983-000d3ab29582_notesTitleBox']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//input[#'bd269760-3002-e911-a983-000d3ab29582_notesTitleBox']
+			</item>
+			<folder
+			addcaps="unknown,webelement,iframetag"
+			capname="iframetag"
+			id="b467531d-c8f6-46bc-b3d6-3173aa6d48c3"
+			isrooted="True"
+			name="ContentIFrame0"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="501f5118-ea96-49e4-9d91-e67cf3920146"
+				name="Attachment7616020a3102E911A97f000d3"
+				refimgid="4ae5ada4-ff3f-4fc1-8ce3-c9b15f53a49e"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//div[#'attachment_7616020a-3102-e911-a97f-000d3ab2924f']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//div[#'attachment_7616020a-3102-e911-a97f-000d3ab2924f']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="8bdbb958-6dbf-4a0b-b265-f2b47f5ef000"
+				name="TestPdf8"
+				refimgid="5142340e-95b1-4f72-aeb1-3c9c8090ebd0"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//div[#'attachment_7616020a-3102-e911-a97f-000d3ab2924f']/a[@innertext=' test.pdf ']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//div[#'attachment_7616020a-3102-e911-a97f-000d3ab2924f']/a[@innertext=' test.pdf ']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="85a81994-e1be-4c88-aa79-736fb8995043"
+				name="ACTIVITIES"
+				refimgid="ba64435f-be7e-41e9-914e-0f116a009ded"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//div[#'header_notescontrol']/a[@innertext='ACTIVITIES']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//div[#'header_notescontrol']/a[@innertext='ACTIVITIES']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="feadb85d-b731-4564-917d-3aeb193a4a96"
+				name="NOTES1"
+				refimgid="9965290f-e5f0-4bb8-a4d9-5106e75c5582"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//div[#'header_notescontrol']/a[@innertext='NOTES']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//div[#'header_notescontrol']/a[@innertext='NOTES']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="75fa668b-8328-4c2a-bf51-00b30abea146"
+				name="DeleteThisNote"
+				refimgid="d3884e12-d08e-499d-a786-79858c140af7"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//a[#'deleteLink']/img[@title='Delete this note']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//a[#'deleteLink']/img[@title='Delete this note']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="34624bdf-21ed-465e-a507-b817cc74f4d3"
+				name="DeleteThisAttachment"
+				refimgid="2eaf59b8-d651-414c-a1e0-c5e79d447b7b"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//a[#'deleteAttachmentLink']/img[@title='Delete this attachment']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//a[#'deleteAttachmentLink']/img[@title='Delete this attachment']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="6256c3e8-99bd-42bc-84aa-54337b9782b4"
+				name="ImgTag"
+				refimgid="5c8163ec-5f6e-48cd-b91a-1deffd975e89"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//div[#'5e867e7e-3302-e911-a985-000d3ab29e2e']/div/div[2]/span[@id='actionsSpacer']/div[@id='attachSpacer']/img[@alt=' ']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//div[#'5e867e7e-3302-e911-a985-000d3ab29e2e']//span[@id='actionsSpacer']/?/?/img[@alt=' ']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="c3d471fb-adbc-4bb2-ab25-45879145a28d"
+				name="TestPdf"
+				refimgid="54962af3-d86d-41dc-9b03-3a2fe90a1fc4"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//div[#'attachment_5e867e7e-3302-e911-a985-000d3ab29e2e']/a[@innertext=' test.pdf ']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//div[#'attachment_5e867e7e-3302-e911-a985-000d3ab29e2e']/a[@innertext=' test.pdf ']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="46dd8b71-98f0-4112-8de9-70f1db84c0f1"
+				name="SelectAView"
+				refimgid="d4151abe-bbbe-47d2-b75d-c05563393f92"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//a[#'crmGrid_SavedNewQuerySelector']/span[2]/img[@alt='Select a view']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//a[#'crmGrid_SavedNewQuerySelector']/?/?/img[@alt='Select a view']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="a3bce0bf-eba5-4d06-9f44-ea139ecf90b1"
+				name="HttpsInkubitTestCrm4DynamicsCom"
+				refimgid="f185e2f9-7016-4a42-aed8-786a05f1b819"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//li[#'ViewSelector_task']/a[@href~'^https://inkubit-test\.crm4']/span/img[@title='']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//li[#'ViewSelector_task']//img[@title='']
+				</item>
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="ff0d5284-1957-48e2-8aeb-4d6e5a5620af"
+				name="Nobr"
+				refimgid="295ec805-d795-4016-8ab9-0feb5342bf2d"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//li[#'{9C7F8970-CF05-E911-A983-000D3AB29582}']/a[@title='Ranorex-Test']/span/tag[@tagname='nobr']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//li[#'{9C7F8970-CF05-E911-A983-000D3AB29582}']//tag[@tagname='nobr']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="7145cb70-d5a7-4bc5-85e5-443a52ecdf95"
+				name="RanorexTestEmailContactFromWebsite"
+				refimgid="1b4c909d-6aba-459a-96b1-eafd79584e01"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//table[#'gridBodyTable']/tbody/tr[1]/td[2]/tag/a[@innertext~'^ranorex test Email Contac']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//table[#'gridBodyTable']/tbody/tr[1]/td[2]/?/?/a[@innertext~'^ranorex&#160;test&#160;Email&#160;Contac']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="88acef9a-3093-4e3f-ae04-61f692cbf401"
+				name="RanorexTest"
+				refimgid="a4d13aeb-8c19-4a97-af0c-eb25a832354b"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//li[#'{9C7F8970-CF05-E911-A983-000D3AB29582}']/a[@title='Ranorex-Test']/span/tag[@tagname='nobr']/span[@title='Ranorex-Test']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//li[#'{9C7F8970-CF05-E911-A983-000D3AB29582}']//span[@title='Ranorex-Test']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="767c0fb8-bb26-421a-8c75-f8fbcf717381"
+				name="RanorexTestCallbackFromWebsiteReque"
+				refimgid="1bfe1fa9-33ad-4862-8353-733c7831a732"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//table[#'gridBodyTable']/tbody/tr/td[2]/tag[@tagname='nobr']/a[@innertext='Ranorex test Callback from website requested']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//table[#'gridBodyTable']/tbody/tr/td[2]/?/?/a[@innertext~'^Ranorex&#160;test&#160;Callback&#160;fro']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="15e77de5-1d55-411c-8011-fd5726cf8e21"
+				name="CreatedOn"
+				refimgid="f6bb0f74-ffdc-4f91-bdd7-edb4e7490638"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//table[#'crmGrid_gridBar']/tbody/tr/th[2]/table/tbody/tr/td[1]/a/tag/label[@innertext='Created On']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//table[#'crmGrid_gridBar']/?/?/tr/th[2]/table[@title='Created On']//a[@title='Sort by Created On']/?/?/label[@innertext='Created On']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="abc6de7f-269f-4a7d-8772-14b3f05b0eec"
+				name="ATag1227201864414PMRanorexStudi"
+				refimgid="449f7b50-7903-4c44-b1c5-702c8c67e080"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//table[#'gridBodyTable']/tbody/tr[1]/td[2]/tag/a[@innertext~'^12/27/2018 6:44:14 PM: ra']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//table[#'gridBodyTable']/tbody/tr[1]//a[@innertext~'^12/27/2018&#160;6:44:14&#160;PM:&#160;ra']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="cf225e95-fe49-4f68-b003-4fd9ea5592e1"
+				name="ATag1227201865244PMRanorexStudi"
+				refimgid="ffdab89f-36a9-407b-9985-f56ab63d0e19"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//table[#'gridBodyTable']/tbody/tr[1]/descendant-or-self::*/a
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="6357d2b7-54c9-44fb-9468-fda5f467e6ac"
+				name="HttpsInkubitTestCrm4DynamicsCom1"
+				refimgid="8ba3c178-284c-4840-88a1-c8bb7ccedea6"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//li[#'ViewSelector_activitypointer']/a[@href~'^https://inkubit-test\.crm4']/span/img[@title='']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//li[#'ViewSelector_activitypointer']//img[@title='']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="1fb1a556-a9e4-4cfc-8b84-c5a7f4506252"
+				name="TheDataIsSortedInAscendingOrderOn"
+				refimgid="4acdd73e-9316-4aa8-b765-e2dd2f2eda50"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//table[#'crmGrid_gridBar']/tbody/tr/th[2]/table/tbody/tr/td[1]/a/tag/img[@alt~'^The\ data\ is\ sorted\ in\ asc']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//table[#'crmGrid_gridBar']/?/?/tr/th[2]/table[@title='Created On']//a[@title='Sort by Created On']/?/?/img[@alt~'^The\ data\ is\ sorted\ in\ asc']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="1489d6de-3925-40b0-b8cc-226cd377b2aa"
+				name="RefTest3"
+				refimgid="cfaca523-7914-4dc4-b656-285b46a8fd79"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//table[#'gridBodyTable']/tbody/tr[1]/td[4]/tag[@tagname='nobr']/span[@innertext='Ref - Test3']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']//table[#'gridBodyTable']/tbody/tr[1]/td[4]/?/?/span[@innertext='Ref - Test3']
+				</item>
+				<basepath>
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame0']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="b2d5e15d-4e45-417c-a514-692642b78707"
+			name="TestPdf8"
+			refimgid="44093add-298a-4a65-9ae4-7a4577b8a9d8"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_09fa2fba-3102-e911-a983-000d3ab29582']/a[@innertext=' test.pdf ']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_09fa2fba-3102-e911-a983-000d3ab29582']/a[@innertext=' test.pdf ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="99de299e-7ce6-4a67-b174-7373ad30f5b8"
+			name="TestPdf9"
+			refimgid="c978ea76-0810-4713-8d7b-7640396ba411"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_5e867e7e-3302-e911-a985-000d3ab29e2e']/a[@innertext=' test.pdf ']"
+			searchtimeout="30000ms">
+				<image
+				guid="76d5a77a-f94b-46f7-a4bc-7d219d369aa9"
+				name="Screenshot1">
+					iVBORw0KGgoAAAANSUhEUgAAACgAAAAQCAYAAABk1z2tAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAARNJREFUSEvtlD0OhSAMxz0jp/EArh6DY7h6AhMTFwcHo5sn6ANKbcHH
+C2pe4uA/YSj040eLFvBwvYB39QLma4GqHKH1FnQjFGXvAdcJVD3B7IzzanUPVeeNy5KAG+h6AL1S
+Bx8NaOFsK/2iQrYo7almw02XhPYxgfQrokvOzWBiF1OMfMQIjew5xapm8oAWjvzNcp5RB8OO8G2w
+IMGyUh1EAIzdbb2g4d4YA6Nv1oijG/jlAPzDjWF+AYYX4jHaszAm+w3yYUo4Vva5AniMyQb0ADSK
+hGTxoJjI5cYm8jpbjjg+SwKKsWIhtnHxWPY9kXz/Z9m9CFDpkT9CGWOEk8DFH4nVAfA/coBfPqoz
+egHvAQJ8AOfhU+56gK11AAAAAElFTkSuQmCC
+				</image>
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_5e867e7e-3302-e911-a985-000d3ab29e2e']/a[@innertext=' test.pdf ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="f9b57362-bc5a-45d8-b3da-db9f05bfa9ce"
+			name="TestPdf10"
+			refimgid="1a0ae494-9e6a-4a5c-b38a-bef37db8d391"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_9a3e6710-3402-e911-a983-000d3ab29582']/a[@innertext=' test.pdf ']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_9a3e6710-3402-e911-a983-000d3ab29582']/a[@innertext=' test.pdf ']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="4138e826-6936-4336-b8cd-5b0d9bfaffea"
+			name="Attachment5e867e7e3302E911A985000d3"
+			refimgid="1b065549-6b57-4efa-8a67-b1b7ab54a3d3"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_5e867e7e-3302-e911-a985-000d3ab29e2e']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_5e867e7e-3302-e911-a985-000d3ab29e2e']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="b9165a65-9358-4be4-a6fc-e8c2656eab40"
+			name="InputTag5e867e7e3302E911A985000d3ab2"
+			refimgid="4ffceb82-c38d-4a3e-ab9e-2b4b80663169"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//input[#'5e867e7e-3302-e911-a985-000d3ab29e2e_notesTitleBox']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//input[#'5e867e7e-3302-e911-a985-000d3ab29e2e_notesTitleBox']
+			</item>
+			<folder
+			addcaps="unknown,webelement,iframetag"
+			capname="iframetag"
+			id="a0a3d24c-81d0-42ee-8a3a-f5f56e3bf410"
+			isrooted="True"
+			name="ContentIFrame1"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="165c1bbd-7c25-4102-a06c-79f1d80994bd"
+				name="AttachButton"
+				refimgid="529575bb-66a4-4351-abe7-04b72ac4eb1f"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'09fa2fba-3102-e911-a983-000d3ab29582']/div/div[2]/span[@id='actionsSpacer']/div[@id='attachSpacer']/button[@id='attachButton']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'09fa2fba-3102-e911-a983-000d3ab29582']//span[@id='actionsSpacer']/?/?/button[@id='attachButton']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="3a239707-d23b-4d07-9de9-3118b2380a70"
+				name="INKUBITApi"
+				refimgid="3f8a563b-28b1-42a7-b7e4-1f8456b6bdc6"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'09fa2fba-3102-e911-a983-000d3ab29582_userName']/a[@innertext='INKUBIT Api']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'09fa2fba-3102-e911-a983-000d3ab29582_userName']/a[@innertext='INKUBIT Api']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="ec14ec14-7ffa-46df-ba62-3b61ae6faab2"
+				name="Attachment09fa2fba3102E911A983000d3"
+				refimgid="6fb8d74a-02b3-4807-8bed-30741dd569dc"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_09fa2fba-3102-e911-a983-000d3ab29582']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_09fa2fba-3102-e911-a983-000d3ab29582']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="9344ed7e-92c2-45b7-9176-87b06039b740"
+				name="NotesWall"
+				refimgid="853c41b9-4487-4cdd-b4a6-7e30f75ce369"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'notesWall']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'notesWall']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="81ffa9a8-d730-4dae-9a51-d23d8eb59b6a"
+				name="InputTag09fa2fba3102E911A983000d3ab2"
+				refimgid="9965067a-c77b-4d7d-868f-946988c1e2f5"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//input[#'09fa2fba-3102-e911-a983-000d3ab29582_notesTitleBox']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//input[#'09fa2fba-3102-e911-a983-000d3ab29582_notesTitleBox']
+				</item>
+				<item
+				addcaps="unknown,webelement,textareatag"
+				capname="textareatag"
+				id="93ae1f39-e5f5-4feb-8115-2012c3638612"
+				name="TextAreaTag09fa2fba3102E911A983000d3"
+				refimgid="f92e8da1-13e6-4f75-a438-876d8d7b3809"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//textarea[#'09fa2fba-3102-e911-a983-000d3ab29582_notesTextBox']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//textarea[#'09fa2fba-3102-e911-a983-000d3ab29582_notesTextBox']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="a5b8d002-6c6c-40f5-b9f0-7603924060b7"
+				name="AttachmentD4dc22796805E911A97e000d3"
+				refimgid="362c3728-b7f0-4080-8616-240a62f5ef40"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_d4dc2279-6805-e911-a97e-000d3ab50a67']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_d4dc2279-6805-e911-a97e-000d3ab50a67']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="1c91f733-2224-4577-a9bd-4938d094dc7c"
+				name="D4dc22796805E911A97e000d3ab50a67Not"
+				refimgid="16c9b0b8-9ccd-4f96-8ac3-5727af748ba8"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//input[#'d4dc2279-6805-e911-a97e-000d3ab50a67_notesTitleBox']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//input[#'d4dc2279-6805-e911-a97e-000d3ab50a67_notesTitleBox']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="78374246-9499-4bd2-bb69-6cbcafe7d9e0"
+				name="AttachButton1"
+				refimgid="4e9c7ad6-b36c-409f-8128-421780137551"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'d4dc2279-6805-e911-a97e-000d3ab50a67']/div/div[2]/span[@id='actionsSpacer']/div[@id='attachSpacer']/button[@id='attachButton']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'d4dc2279-6805-e911-a97e-000d3ab50a67']//span[@id='actionsSpacer']/?/?/button[@id='attachButton']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="ede29282-b221-4671-a98d-3abff3a1c201"
+				name="TestPdf"
+				refimgid="b69a14e6-8a3b-4f10-af2e-6e00497fdb60"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_d4dc2279-6805-e911-a97e-000d3ab50a67']/a[@innertext=' test.pdf ']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'attachment_d4dc2279-6805-e911-a97e-000d3ab50a67']/a[@innertext=' test.pdf ']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="5c506a66-59c0-495c-af89-e5bbb08da8cc"
+				name="TabContainerActive"
+				refimgid="bde54c20-7704-4562-9327-9416dddc52ea"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'content_notescontrol']/div[4]"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div[#'content_notescontrol']/div[4]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="6b72ef88-8dec-40e1-b740-a36bdc31af2f"
+				name="CreatedByINKUBITApi171220182027"
+				refimgid="29656706-4cfe-4700-88b6-feb88fe2ac30"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div//div[@title~'^Created\ by\ INKUBIT\ Api\ 17']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="bodytag"
+				id="923597bc-737f-4fef-84aa-18e9e3256f4f"
+				name="TestPdf1"
+				refimgid="3f5615cc-c037-41b0-8917-82bcaa060f1a"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']/body
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="2cdab9ce-c392-46b0-9772-985a2f8fcd49"
+				name="TestPdf2"
+				refimgid="44c02115-1b5d-404e-850a-776969cdfb58"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//div/a[@innertext=' test.pdf ']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="889716e4-6293-4948-9b43-cbd99e3b66bf"
+				name="RegardingobjectidLookupValue"
+				refimgid="13f8bc85-b6d1-48d7-86ec-ebceefac34ce"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//span[#'regardingobjectid_lookupValue']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//span[#'regardingobjectid_lookupValue']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="5093f217-3437-4a85-83b7-ce4a207864f5"
+				name="RanorexStudioAtgmailCom"
+				refimgid="e4ab366b-1012-4b06-90eb-e48c8dc530a0"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//label[#'Email address_label']/a[@innertext='ranorex.studio@gmail.com']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']//label[#'Email address_label']/a[@innertext='ranorex.studio@gmail.com']
+				</item>
+				<basepath>
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame1']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="01678257-7d69-44ab-ae13-d2dc603eacd9"
+			name="TabMA"
+			refimgid="4a5275bd-7e5f-4ce5-8492-429e3a5b4f71"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//span[#'TabMA']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//span[#'TabMA']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="80bbeab1-b8cd-4347-8478-06fdf129ef29"
+			name="Activities"
+			refimgid="49535acf-2acb-4582-a0c7-859372aa320d"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//a[#'nav_activities']/span[@innertext='Activities']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//a[#'nav_activities']/span[@innertext='Activities']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="e18cd97b-6ac8-4e10-9b80-214108025648"
+			name="SpanTagDelete1"
+			refimgid="0d84a63e-eb88-420b-a02c-c342f0d0d370"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//li[#'task|NoRelationship|Form|Mscrm.Form.task.Delete']/span/a/span[@innertext=' Delete ']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//li[#'task|NoRelationship|Form|Mscrm.Form.task.Delete']//span[@innertext=' Delete ']
+			</item>
+			<folder
+			addcaps="unknown,webelement,iframetag"
+			capname="iframetag"
+			id="9b2f3cfe-e806-4c9a-8b44-d35283034843"
+			isrooted="True"
+			name="ContentIFrame2"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame2']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="bdc9edd0-f5fa-4c76-b4fa-faf6a73cebd8"
+				name="SelectAView"
+				refimgid="97dd1c55-3dd6-4b1a-b958-726144e5ef57"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame2']//a[#'crmGrid_SavedNewQuerySelector']/span[2]/img[@alt='Select a view']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame2']//a[#'crmGrid_SavedNewQuerySelector']/?/?/img[@alt='Select a view']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="d72a5ae5-cc2e-4782-a69c-3f2767e726e7"
+				name="HttpsInkubitTestCrm4DynamicsCom"
+				refimgid="c0078b19-a3b7-4a83-8d4d-a42df9f075ee"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame2']//li[#'ViewSelector_task']/a[@href~'^https://inkubit-test\.crm4']/span/img[@title='']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame2']//li[#'ViewSelector_task']//img[@title='']
+				</item>
+				<item
+				addcaps="unknown,webelement"
+				capname="webelement"
+				id="c4bb8b23-468c-4592-bcf7-e145ebf0dcf0"
+				name="Nobr"
+				refimgid="4ea06f87-b274-48e2-b122-0bb086c08b1c"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame2']//li[#'{9C7F8970-CF05-E911-A983-000D3AB29582}']/a[@title='Ranorex-Test']/span/tag[@tagname='nobr']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame2']//li[#'{9C7F8970-CF05-E911-A983-000D3AB29582}']//tag[@tagname='nobr']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="3121e5e2-a85a-44fa-8134-cba87406fa9d"
+				name="RanorexTestCallbackFromWebsiteReque"
+				refimgid="0bfb81e7-3e5f-4dfa-a38b-a6fc970ada94"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame2']//table/tbody/tr/td[2]/?/?/a[@innertext~'^Ranorex&#160;test&#160;Callback&#160;fro']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="e8999b00-0689-4fe3-a6d9-1ca8ac4e027d"
+				name="ATag555555CallbackFromWebsiteReques"
+				refimgid="b1a4716a-3e7d-4a3c-88ae-8214b1026585"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame2']//table[#'gridBodyTable']/tbody/tr/td[2]/tag[@tagname='nobr']/a[@innertext='555 555 Callback from website requested']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame2']//table[#'gridBodyTable']/tbody/tr/td[2]/?/?/a[@innertext~'^555&#160;555&#160;Callback&#160;from&#160;web']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="b4f5716e-5080-4f5e-8b18-d53fdaad682b"
+				name="Checkbox"
+				refimgid="8a61c9fc-c5f0-4e42-acb1-e921ba765f13"
+				refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame2']//table[#'gridBodyTable']/tbody/tr/td[1]/img[@title='Checkbox']"
+				searchtimeout="30000ms">
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame2']//table[#'gridBodyTable']//img[@title='Checkbox']
+				</item>
+				<basepath>
+					/dom[@domain='inkubit-test.crm4.dynamics.com']//iframe[#'contentIFrame2']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="f3e71ab9-36c8-4865-bc30-b315a992cac6"
+			name="MORECOMMANDS"
+			refimgid="07fb7e98-e026-45a8-a245-d9b1fb6997f0"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//li[#'moreCommands']/span/a/img[@alt='MORE COMMANDS']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//li[#'moreCommands']//img[@alt='MORE COMMANDS']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="c281f762-568a-4378-9f6b-ab63f982286a"
+			name="SpanTagDelete2"
+			refimgid="23726cff-5096-4c12-b619-dd569c1d47b0"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//li[#'activitypointer|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.activitypointer.DeleteMenu']/span/a[1]/span[@innertext=' Delete ']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//li[#'activitypointer|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.activitypointer.DeleteMenu']//span[@innertext=' Delete ']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="6ce3fd75-efd1-4729-82ef-e361846484ef"
+			name="HttpsInkubitTestCrm4DynamicsComP"
+			refimgid="462e5c54-19f4-475c-9bd5-54f6f6589a6f"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//a[#'ibs_newsletterregistration']/span[1]/span/img[@alt='']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//a[#'ibs_newsletterregistration']//img[@alt='']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="3e8c8829-1e36-4172-bc6f-471a1d33554c"
+			name="SpanTagDelete3"
+			refimgid="5131f3e9-720e-4b48-bd73-5817ebc2af09"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//li[#'ibs_newsletterregistration|NoRelationship|Form|Mscrm.Form.ibs_newsletterregistration.Delete']/span/a/span[@innertext=' Delete ']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//li[#'ibs_newsletterregistration|NoRelationship|Form|Mscrm.Form.ibs_newsletterregistration.Delete']//span[@innertext=' Delete ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="67883b52-e886-4a10-8135-aae18775ab2d"
+			name="NavActivities"
+			refimgid="f558756d-3258-44d0-bd11-280666df8d7b"
+			refpath="/dom[@domain='inkubit-test.crm4.dynamics.com']//a[#'nav_activities']"
+			searchtimeout="30000ms">
+				/dom[@domain='inkubit-test.crm4.dynamics.com']//a[#'nav_activities']
+			</item>
+			<basepath>
+				/dom[@domain='inkubit-test.crm4.dynamics.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="ec02947a-b7b5-45a0-9c31-241ade1f9f0d"
+		isrooted="True"
+		name="ConvertYourRanorexReportToPDFYou"
+		refpath="/form[@title='Convert your Ranorex Report to PDF - YouTube - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="209eaf78-b486-4190-b053-7349f6717ed8"
+			name="PanelAdministracyjnyLinuxPLCom"
+			refimgid="7d7a9188-9596-4c0a-8f41-053e18e0dfd5"
+			refpath="/form[@title~'^Convert\ your\ Ranorex\ Repo']/container/container/container[2]/container[1]/toolbar/button[@accessiblename~'^Panel\ Administracyjny\ -\ L']"
+			searchtimeout="30000ms">
+				/form[@title~'^Convert\ your\ Ranorex\ Repo']/container[@accessiblename~'^Convert\ your\ Ranorex\ Repo']//toolbar[@accessiblename='Zak&#322;adki']/button[@accessiblename~'^Panel\ Administracyjny\ -\ L']
+			</item>
+			<basepath>
+				/form[@title~'^Convert\ your\ Ranorex\ Repo']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="4bc498ff-7482-4a63-963b-5cfb7a3e1295"
+		isrooted="True"
+		name="Open"
+		refpath="/form[@title='Open']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="b4488509-71a3-457e-8784-2a16b4cfa7b6"
+			name="Desktop"
+			refimgid="bfa905d5-555c-41c3-b85d-af69d18adffe"
+			refpath="/form[@title='Open']/element[@class='WorkerW']/container/element[@controlid='41477']/progressbar/element/toolbar/button[@text='Desktop' and @commandid='1282']"
+			searchtimeout="30000ms">
+				/form[@title='Open']/element[@class='WorkerW']/?/?/element[@controlid='41477']//toolbar[@controlid='1001']/button[@commandid='1282']
+			</item>
+			<item
+			addcaps="picture,uiautomation,uiautomationvalue"
+			capname="picture"
+			id="001595b1-313d-4937-ba1f-3de4248ac75d"
+			name="BaselineImage"
+			refimgid="3558f876-17b3-4367-8984-a097c05abba8"
+			refpath="/form[@title='Open']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='25']/picture[@automationid='BaselineImage']"
+			searchtimeout="30000ms">
+				/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='25']/picture[@automationid='BaselineImage']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="479ef73c-b971-4714-bd4a-3cf27ff14c89"
+			name="ButtonOpen"
+			refimgid="a2ef4e3c-eaf2-464a-8be7-5e60c30ce5a8"
+			refpath="/form[@title='Open']/button[@text='&amp;Open']"
+			searchtimeout="30000ms">
+				/form[@title='Open']/button[@text='&amp;Open']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="3b0213a4-568b-40aa-a775-627dac97942b"
+			name="ThisPC"
+			refimgid="4b265f06-c2e8-4d78-b076-f883365bcc27"
+			refpath="/form[@title='Open']/element[@class='WorkerW']/container/element[@controlid='41477']/progressbar/element/toolbar/button[@text='This PC']"
+			searchtimeout="30000ms">
+				/form[@title='Open']/element[@class='WorkerW']/?/?/element[@controlid='41477']//toolbar[@controlid='1001']/button[@text='This PC']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="ae4d9da3-ff68-4b08-8f25-e6f9148f845b"
+			name="SystemItemNameDisplay"
+			refimgid="56ccc91b-6e41-4f57-b386-55434dfb0770"
+			refpath="/form[@title='Open']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/container[@automationid='1']/listitem[@automationid='0']/text[@automationid='System.ItemNameDisplay']"
+			searchtimeout="30000ms">
+				/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@automationid='1']/listitem[@automationid='0']/text[@automationid='System.ItemNameDisplay']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="64decca8-5054-4a7c-8f85-3a4e0a7543b7"
+			name="SystemItemNameDisplay1"
+			refimgid="f301bd64-4647-418b-ab79-f432341133ff"
+			refpath="/form[@title='Open']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem[@automationid='5']/text[@automationid='System.ItemNameDisplay']"
+			searchtimeout="30000ms">
+				/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='5']/text[@automationid='System.ItemNameDisplay']
+			</item>
+			<item
+			addcaps="text,uiautomation,uiautomationvalue"
+			capname="text"
+			id="c75a275a-e961-4b46-a533-4a4b80de8e81"
+			name="SystemItemNameDisplay2"
+			refimgid="0acf081c-3424-4635-a930-cf6749b9bf72"
+			refpath="/form[@title='Open']/element[@class='DUIViewWndClassName']/container/element[@class='CtrlNotifySink' and @instance='1']/container/container/listitem/text[@automationid='System.ItemNameDisplay']"
+			searchtimeout="30000ms">
+				/form[@title='Open']/element[@class='DUIViewWndClassName']//container[@caption='ShellView']/?/?/listitem[@automationid='0']/text[@automationid='System.ItemNameDisplay']
+			</item>
+			<basepath>
+				/form[@title='Open']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="f1999e08-44a3-45ce-b4e8-71daa4d82601"
+		isrooted="True"
+		name="SaveAs"
+		refpath="/form[@title='Save As']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="78397d13-ac24-4b7a-8bcf-9786d03fd33c"
+			name="Close"
+			refimgid="602c009a-2eae-4acc-ba56-350c5be738e5"
+			refpath="/form[@title='Save As']/titlebar/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title='Save As']/?/?/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="415b75ab-f6a0-43fc-849e-8d40d739bd9c"
+			name="Cancel"
+			refimgid="9cb0ea86-5d3c-4154-ab65-0dcd1a6689f7"
+			refpath="/form[@title='Save As']/button[@text='Cancel']"
+			searchtimeout="30000ms">
+				/form[@title='Save As']/button[@text='Cancel']
+			</item>
+			<basepath>
+				/form[@title='Save As']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="text"
+		id="5923dec2-4c87-47ff-b9b5-166b9acd8ca8"
+		isrooted="True"
+		name="INKUBITMicrosoftDynamics365CRMCon1"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="0f1f0490-6213-4dc3-9b14-82cc2f4dfbde"
+			name="Pane"
+			refimgid="73d94978-8ead-4d57-8ae6-e2e6ff38eaae"
+			searchtimeout="30000ms">
+				/form[@title~'^Newsletter\ Registrations\ ']/container[@accessiblename~'^Newsletter\ Registrations\ ']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Newsletter\ Registrations\ ']/text[@accessiblename~'^Newsletter\ Registrations\ ']/container[@accessiblename~'^INKUBIT\ \|\ Microsoft\ Dynam']/container/container[2]/container[1]
+			</item>
+			<basepath>
+				/form[@title~'^Newsletter\ Registrations\ ']/container[@accessiblename~'^Newsletter\ Registrations\ ']/container[@accessiblename='Google Chrome']//tabpage[@accessiblename~'^Newsletter\ Registrations\ ']/text[@accessiblename~'^Newsletter\ Registrations\ ']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPrZJLTxNhFIbnD8CmgqDiJbKQlUsT
+pbTTaaWt9EYVlaGUFht0ISsT117QqGw06o5eMYArSNSNxHgtKIylBMXYmWkxxii40WkkKp3X+YYZ
+sVFX+ibP7nvec07yUf89H1l7pdjmOC+22WdFv0MSfM2S6LNmea+tb8m9u0J79ufkD7ns+bZ9bwR/
+M4TWvRB8NggeBrybBt9iBu+iFwSXxaY9Lw/nsTLCAYcs7rdDLSCy16oUWFYLXKTEBN5hlHl7I6Np
+q6m/c7yyr9f7dk4R1AJteo71loQT/rzQY+KFSBMvRsw5MWIkpMvOqR86em7XtcDKXece5DxKSfgg
+hAcTuPlEwvBjCfmXaSze8uDz7UYsj5vw/X4TSpPMWU2nqK03ume3DUZw5KQHzxxGiA8n0Hm9CFd/
+ES2XimCvFvEuPwk8t2kwkDk6o+lKwWC3tCXVjR0DIQwHWjCiTNVl58VVhh5JKGVaFdkKcKTAImk6
+RdUlQ9LmVBgEtj+oFvwqOy7oBX5VBmchG6wVbEp2ZTcmukCoS4Tk9PzrJbK2Lh++UsSr/PwHfbpW
+sHZCbSp4ZkMiCEKtws7hXoy9yKhTCaNZDu+n2K+6DI5GiaNPaTpFGUbDFTWx4EJNvBOE9fGASsPQ
+MTQke3B5zPtzsipPWwryvLv8V1YnAtbqeEBWAKEq1oF1MRbbB9qxPGWTdVnmzLI8Q1s0rTyGGMtU
+RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

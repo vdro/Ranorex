@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="463bbf85-ef2d-4b50-8e46-99213aad4c96"
+mode="Global"
+rxversion="8.3">
+	<name>
+		Recording2
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording2"
+	namespace="INKUBIT_Test___ContactForm">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="28;22"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="fe0f5a99-6a14-4dd9-9017-7cd5819391b6"
+		sx="2845"
+		sy="212"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5cc18c17-943e-4c34-9f62-ecbf3683fe7b"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="2817,190,76,44"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Contact
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://test.inkubit.com/en-us/#
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="onclick"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='test.inkubit.com']/body/div[5]/div[1]/?/?/header/div/div/div/div[2]//nav/ul/li[6]/a[@innertext='Contact']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="05223ca1-11a2-4625-9859-5b9b89319f70">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABMAVYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoqjc6rBbTtC6SFlxkgDHTPrUX9u2v/POb8h/j
+U8yNlQqNXSNOisz+3bX/AJ5zfkP8aP7dtf8AnnN+Q/xo549x/V6v8pp0Vmf27a/885vyH+NH9u2v
+/POb8h/jRzx7h9Xq/wApp0Vmf27a/wDPOb8h/jR/btr/AM85vyH+NHPHuH1er/KadFZn9u2v/POb
+8h/jR/btr/zzm/If40c8e4fV6v8AKadFU7PUobyUxxrICF3fMB/j71cppp7GUoSg7SQUUUUyQooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+DKiGfEU4PQoP5LWnsT+6v5VmRf8AIxzf7g/kK1amPU3rbx9EN2J/dX8qNif3V/KnUVRgN2J/dX8q
+Nif3V/KnUUAN2J/dX8qNif3V/KnUUAN2J/dX8qPLT+6Pyp1FAGVaHOvTk/8APIfyWtWsqz/5Ds//
+AFyH8lrVqY9TetvH0QUUUVRgFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAFQTzyMIk8tZQWDM
+QSvGOgyOuR3qW0leaHdIAGDMpA6cHFQzQNGqeSszMCSXjZd2T1zu4OamtIjDbhG65JPOepzQBNRR
+RQAVDdyNHD8hwzMFB9MnGampsiLIhRxlTQBEtv5Th45ZP9oO5YN+Z4/CmR3LtHbNtXMoJIH0zxT0
+tsOGkmkl2/dD4wPyA/Wkjs1RkPmSEJnYpIwoPbpQBXF1LJBOpkjWQRk7NjKyfgTz9RipRLcN8kbR
+7o1Bcsp+YnsOePrzTxaDnzJZJflKjeR8oPXoP55oNoCBiaVTt2sRjLj34/ligCF7udkkkiEYVEV8
+MCScjOPb68057qWASecEYgKV2Ke5xjvn8KmNrHtkUZAdQpA7AelLJbpIWLZ+ZQvXpg5B+tAFUXkw
+jfK7iCuGMLxjk4xg06W5mhlVJHiQYHzNGwVz6ZzhfxzU32XKFZJpZMkHLEcYOegAFLNb+axzLIqs
+MMgIww/EcfhigCaigDAwKKAMqL/kY5v9wfyFatZUX/Ixzf7g/kK1amPU3rbx9EV5syXKQbmVCpZt
+pwT0GM9fypGDWqYRy+9gqCQk7SffqRUs0Il2ncyOv3XXqPz4pgtE2sHd3dsEyEjdx0xjgY+lUYFW
+LUWlQrGUdtyYcxsgIbvg89qe8tw3yeYgdJlUsFOGBGemff1rPAn8qBrcxjEFtw4JySxA6H3q1aO9
+xM8c8TROzFxIjAglCFOARxzjrmgCaa8kjuAqvEw3hSiozEZOOW6A+xFSxyXE2ZEMYjJIClTnjjOc
+/pj8aGslYnMsu3dvCAjAOc+mfzp62wWTcssgTO7ywRtz+Wf1oASxMhs4zK4diOuMf1qemQxCGMIG
+ZgOm7HA9KfQBlWf/ACHZ/wDrkP5LWrWVZ/8AIdn/AOuQ/ktatTHqb1t4+iCiiiqMAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigDKi/5GOb
+/cH8hWrWJNcpaa5PJIGI2gDaM84FTf25D/dk/wC+B/jWakle511KM58riuiNWqN08636IszQxug8
+s7QVZwTkHv0x3HeoP7ch/uyf98D/ABqK51W2uYGhkWUK3dVAII5BHPrVc8e5n9Xq/wApp21usVrF
+G6qzpGiscddvT9aYVVNRhCgAeVKcD1LITWbBrxSPbPC8jLwHXA3D1IzwaZBqym6e5uEYMV2RqoyF
+XqecjknH5Ucy7iVCq/ss36Kyv7ch/uyf98D/ABo/tyH+7J/3wP8AGjnj3H9Xq/ymrRWV/bkP92T/
+AL4H+NH9uQ/3ZP8Avkf40c8e4fV6v8oWf/Idn/65D+S1q1jabMlxrE0sYYKYuN3XjaK2aUNgrpqS
+T7IKKKKswCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooA/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="37;8"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="83f02cdc-f83e-4500-9b6b-f382b186d9b6"
+		sx="1966"
+		sy="363"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6ca9828b-fa1e-4001-9cd5-e763818b456f"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, ptag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="ptag"
+				rect="1929,355,65,22"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Newsletter
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						p
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="style"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='test.inkubit.com']//div[#'livicon-2']/p[@innertext='Newsletter']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="c39ca4a2-bc1b-452c-be01-18c5688bff1d">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCADeAN4DASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDHooop
+iCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoqdrO
+6VSzW0wA5JMZ4qCgAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooA3dN1mea9SK4K7H4GBjntVDWbX7LqDhRhH+dfx/+vQulagrBlt2BByDkf41r6xZzXtl
+BIkR89fvJ9Rz+tAHNUVabTb1etrL+C5qsylWKsCCOoI6UAJRRRQAUUUUAFFFFABRRRQAUUUUAFFF
+FABRRRQAUUUUAFFFFABRRRQBPa2dxdvtgjLY6noB+Na8HhzgG4n/AAQf1P8AhW1bCJbaMQACPaNu
+PSq+o3ttbwvHPIQzKRtT73NIZRk07SLY4ml59Gk5/IVGR4f6Z/V6i0Gxin82W5i3KuNhYcHrmtJk
+0dWw32QH6igDRorK1HUJ/tQsrBd0x+8392oDZ61GPMW7DsOdu7P8xigDcrC8S26BIrkDDbtjH144
+/lV7StQN4jxzLsnj4YdKreJj/ocS+smf0NAHN0UUUxBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFAF2PVbqKzFtG+1Rn5h97HpVjQ7Jb25eWf50jwSD/ET61lV1egweTpqEj5pCXP8A
+T9KAM/WbpjctEHRY4CuITn953/KrsWjKsTAzuu9t7LGBtB9sgnvTtS01p3ae3KCZkKMHGQw/oaqF
+dZiijjgWTCrglih59vakMdoEq3F1eTkYd2BAznAJPH8q264m1uZbSYSwthh+RHoa038RTmPCwxq3
+97JP6UAPv7wWGuvNGgcmMBlzjn/OKztQ1CW/kDSYVV+6o6Cq0jtI7O7FmY5JPem0xBRRRQAUUUUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAV29qMWsIHTYv8q4itm28QPDAkb24cqMbg
++M/pQB0dFYP/AAkn/Tp/5E/+tR/wkn/Tp/5E/wDrUhmDRRRTEFFFFABRRRQAUUUUAFFFFABRRRQA
+UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRWg2mpHG8slziNdpVlTJYHpxmnHSdrS75
+WKowGY49xwRnJGeBQBm0UrgK5CsGAPDDvSUAFFFFABRRRQAU+PGGJAOKZU9ooeUKwyCwBqJ7G+H/
+AIi+f5Ee9f7go3r/AHBWu2mwf2iNi7rdtylcn5WA6f1qtDpTyxxnc4aRdy4iJUemW7UciD6xU/pI
+o71/uCjev9wVeOlN+8Ky5CxCQfL97OeOvsaX+ygse95m4wHCRbthxnnnpRyIPrFT+kihvX+4KN6/
+3BVoWglt0Maj5SPMkBJJDOVGF/CrMOmRoS0/mFGjYgNHtYEeozRyIPrFT+kjM3r/AHBRvX+4K0W0
+6OVohblwPIEj/Jkn6DPU+lNOlbVLvK6RiMv80WG4PIxn+tHIg+sVP6SKEmMKQAM0ypJcYXaSR2JG
+KjohsGI/iP5fkFFFFWYBRRV3TYFm8/dD5zJHuVeeT+FAFKitJ7LzLeMfZxbXDy7VQlhuHrgknil/
+sd2OI2fhwpMkRQfUetAGZRWjHpkUwUxXJYGXyzmPGD69agNk32d5VbcVlMe3Ht1oAkn1HzreSERB
+VbaFw33Qvb3pzajG9yZ2gcPxhklKkYGMdOlZ9FAElzMbi4eZgAXOcCo6KKACiiigAooooAKmt38t
+t+M7SDioafGQAwY4zUz2NqDSqK/n+Rdg1R4bqaXy9ySkkoW6H1zURu4pI4hPbmR4l2Ah8AjtkY7f
+UVXxH/eNGI/7xpc3kP2L/mX3ouw6o0cMEflA+U2Sd33hzx+tMjvkWdp2ifzS+4MkpXj+6eOlVcR/
+3jSjywQQQxBBwwyD7GnzeQOi+6+9GrYsdQhuldPvPEGC+hkJP6Gh9Ma1WSWB5I8RzFgwyCqtwOem
+RWnpAtHje5tF8vzcB0HRSM/41PqjBNMuixwPKYfmMVRic2NRUBVMJK+V5Tjf94du3BpiXkUSSpDb
+lRJHsJL5P1PH+FVsR/3jRiP+8ajm8jb2L/mX3oJPup9KZT5CCFCnOKZThsKu06jt5fkFFFFUYhU9
+vceQky7d3mps64xUFFAFyO/ZIYlKBpIWzHIT0HofUUv22KOcTwW2yTfuy0m4D1AGB/WqVFAGsl7D
+FZeZAgR1uA+xnyTx+HFVpr9TAYoImi3SGQkvu59OlUqKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigCe0u57OQvbvtz95SMhvqKfeajdXoCzOAgOdqDA/GqtFABRRRQAUUUUAFFFFABRRRQAUUUU
+AXikFtaW7yQCYzAsSWIwOmBj+uasW9tAETz4IUyuQJJWLt74XoKoQ3k8KBI3AAOVyoO0+2RxT11G
+7XGJeQMbto3Y9M4zQBVooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKuTadJHbtOk0MyKcN5T5xT49JndULSQxtIMqjvhj+FAFCitePTlGlTGVoUm
+D4yx+7jt9azLeFridIUIDOcAnpQBHRVmGylnu3tlZA6ZySTjinQafJNAJmlhhjJwplfGfpQBUoqa
+6tpLSYxS4zjIIOQRV+KzW40WNl8mNhId0j8cfWgDKoq8dLnFzHDvi/ejKOGyrfQ1DBZyzyyoCq+U
+CXLHgYoAr0VJbwtcTpChAZzgE9KuNo843KJYGkUZMav82PpQBn0VrR2Sz6LEy+TEwkO6R/l49M1U
+l024juI4QFkMoyhQ5BoAqUVffSplRyksErRjLJG+WH4UiaXK0EczTQRxyDILvj8OlAFGirbadcLe
+C12hpCMgg8Y9c+lOl0yWOJ5ElhmEf3xG+Sv1oApUUUUAFFFFABRRRQAUUUUAFFFFAHQsjppd0JLa
+GA4B8tOpHqahvbSa/u4rm1YGJlHzhgNmKxKKANpYWm028hhlNy4lB3Z5YYHPJrO011j1CB3OFDcm
+q1FAHQ2djNDq008gURtuKncPmzzxUNgsracgjjivEDHdEwAKH2OaxKKAL2rQwQXKrANuVBdA2dp9
+M1aitpbrQY0h5YSk7c4zWPRQBrXcjWVpZwFgZ4mLkA52+1T6m8cNpJLCRuvSDx2XHNYsLIkqtLH5
+iDqu7GfxqW9uzdOuEEcaLtRAc4FAD9J/5Cdv/vVpxWc1vq8l5MwECszeYWHOe1Y9pP8AZrqObbu2
+HOM4zTJpPNnkkxjexbHpk0AaV2+/RI2XgNcMcfnVyGWOH+zDIQoaFlyex4rnqKANqws5rC6kuLoh
+IlU/MWHz59Kg1Ns6fYY4BVjj8qzKKAOjEqRarGHKgvahVLdM+lR/6RbW87zwWlqu0qCqZL+w+asC
+igAooooAKKKKACiiigAooooAKKKKACitaWGysmggmtmnd1DM/mFcZ9AKhn03Gqm0icAHkFuwoAz6
+K0dZs4rJoEiByU+Yk9TVawthd3kcJOAx5PtQBXorXjhsbt7iCG3aF41JWTeTnHqKr2stk5ihawDO
+xClzMwyfXFAFCirurxwQ3pht4vLCDDfMTk/jVjUNPitNMhcDMzMNzZPcZxQBlUVrSw2VjHbpPbtO
+8ihmbeVx9Kp6laraXjRISVwCM9cGgCrRWjBDbQ6aLu4iM5d9ipuKgflTNSt4ohBNACsc6bghOdtA
+FGiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="22bd918a-87d1-49b0-9324-84f32d6382bb"
+	name="INKUBIT_Test___ContactFormRepository"
+	relativepath="INKUBIT_Test___ContactFormRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="INKUBIT_Test___ContactFormRepository"
+		namespace="INKUBIT_Test___ContactForm">
+		</codegen>
+		<rootfolder
+		id="8a5ba94b-5034-4d7d-afeb-0c8994229439"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording2.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
