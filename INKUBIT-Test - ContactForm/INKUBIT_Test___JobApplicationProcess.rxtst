@@ -118,6 +118,12 @@ rxversion="8.3">
 			ref="45d55875-8c1f-4c34-a84d-43b29797fbbc"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="4dacd96c-7233-45f2-8da9-a4b799b1b9d8"
+			name="LogIn"
+			ref="e7dafe58-3b98-4b0f-855c-0b0cbac94357"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="51c28c9a-71fc-49bf-8528-c5bc00b5f7b4"
 			name="LandingPage">
@@ -412,6 +418,10 @@ rxversion="8.3">
 			name="INKUBIT_Test___JobApplicationProcess"
 			reportlevel="Info;20">
 			</testcase>
+			<testcase
+			id="bbbc54d2-b065-4c7e-98a4-55eeb49b0c4b"
+			name="LogInToCrm">
+			</testcase>
 			<testmodule
 			id="be4baee9-4e60-47ee-9ebd-9939f037252d"
 			name="LandingPage"
@@ -564,6 +574,14 @@ rxversion="8.3">
 						name="LandingPage">
 						</testmodule>
 					</testcase>
+					<testcase
+					id="bbbc54d2-b065-4c7e-98a4-55eeb49b0c4b"
+					name="LogInToCrm">
+						<testmodule
+						id="4dacd96c-7233-45f2-8da9-a4b799b1b9d8"
+						name="LogIn">
+						</testmodule>
+					</testcase>
 					<teardown
 					id="2e8f1877-b1d2-4838-8332-82ad88e923cb"
 					name="teardown">
@@ -620,6 +638,9 @@ rxversion="8.3">
 			</testcontainer>
 			<testcontainer
 			id="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58">
+			</testcontainer>
+			<testcontainer
+			id="bbbc54d2-b065-4c7e-98a4-55eeb49b0c4b">
 			</testcontainer>
 			<testcontainer
 			id="e3e0756b-b6dc-4a3a-8756-342654e56b37">

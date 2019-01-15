@@ -11,6 +11,7 @@
     <RanorexVersion>8.3</RanorexVersion>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>339EB58D-6D78-4621-884F-96B51018D762</projectdefaultrepository>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -114,11 +115,39 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="LogIn.rxrec">
+      <BoundTo>339EB58D-6D78-4621-884F-96B51018D762</BoundTo>
+      <id>893a6b0e-d27f-4ff1-8881-1f52589978d5</id>
+      <recordtableid>e7dafe58-3b98-4b0f-855c-0b0cbac94357</recordtableid>
+    </None>
     <None Include="packages.config">
       <id>c75e86fb-46e1-499d-afd9-916eaa87dd74</id>
     </None>
+    <None Include="Ranorex Automation HelpersRepository.rximg">
+      <BoundTo>339EB58D-6D78-4621-884F-96B51018D762</BoundTo>
+      <DependentUpon>Ranorex Automation HelpersRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>f87213dd-90eb-4efe-bc33-f0bf09832171</id>
+    </None>
+    <None Include="Ranorex Automation HelpersRepository.rxrep">
+      <id>339EB58D-6D78-4621-884F-96B51018D762</id>
+      <repoid>4b7094e5-a699-4972-b05c-3325a727a2ae</repoid>
+      <reporootid>a8e4f482-3ad7-4de1-b09a-2e420606ad1b</reporootid>
+    </None>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LogIn.cs">
+      <BoundTo>893a6b0e-d27f-4ff1-8881-1f52589978d5</BoundTo>
+      <DependentUpon>LogIn.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4bad3044-c807-4f41-8901-221efb6c04d2</id>
+    </Compile>
+    <Compile Include="LogIn.UserCode.cs">
+      <BoundTo>893a6b0e-d27f-4ff1-8881-1f52589978d5</BoundTo>
+      <DependentUpon>LogIn.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d7b6d5d0-b1c4-4ece-b068-0547ba957969</id>
+    </Compile>
     <Compile Include="Modules\CollectRetryErrorMessagesModule.cs">
       <id>4b0f492c-f07f-41b4-8ede-f1b26c377f09</id>
     </Compile>
@@ -127,6 +156,12 @@
     </Compile>
     <Compile Include="Modules\ReportToPDFModule.cs">
       <id>ca6a0506-772d-4327-8845-733df405f654</id>
+    </Compile>
+    <Compile Include="Ranorex Automation HelpersRepository.cs">
+      <BoundTo>339EB58D-6D78-4621-884F-96B51018D762</BoundTo>
+      <DependentUpon>Ranorex Automation HelpersRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>186d458a-a157-4f0a-b6fb-19f1219c8cf2</id>
     </Compile>
     <Compile Include="UserCodeCollections\DragNDropLibrary.cs">
       <id>265a858a-ebd1-4308-8910-27e9fe5792d7</id>

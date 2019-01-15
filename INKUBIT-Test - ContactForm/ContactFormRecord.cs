@@ -90,8 +90,8 @@ namespace INKUBIT_Test___ContactForm
             repo.INKUBITMicrosoftDynamics365CRMCon.Contact.Click("35;21");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'INKUBITMicrosoftDynamics365CRMCon.FirstName1' at 95;17.", repo.INKUBITMicrosoftDynamics365CRMCon.FirstName1Info, new RecordItemIndex(3));
-            repo.INKUBITMicrosoftDynamics365CRMCon.FirstName1.Click("95;17");
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'INKUBITMicrosoftDynamics365CRMCon.FirstName1' at Center.", repo.INKUBITMicrosoftDynamics365CRMCon.FirstName1Info, new RecordItemIndex(3));
+            repo.INKUBITMicrosoftDynamics365CRMCon.FirstName1.Click();
             Delay.Milliseconds(200);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'ranorex' with focus on 'INKUBITMicrosoftDynamics365CRMCon.FirstName1'.", repo.INKUBITMicrosoftDynamics365CRMCon.FirstName1Info, new RecordItemIndex(4));

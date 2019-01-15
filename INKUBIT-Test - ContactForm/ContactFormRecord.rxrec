@@ -174,7 +174,7 @@ P//Z
 		button="Left"
 		duration="500ms"
 		enabled="True"
-		loc="95;17"
+		loc="Center"
 		movetime="300ms"
 		optional="False"
 		searchpropertyid="985be4c1-05f1-4b55-861e-84dcf1330bd9"
