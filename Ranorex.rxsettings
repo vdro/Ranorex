@@ -433,6 +433,9 @@ rxversion="8.3">
 	</plugins.win32.ProcessWhitelist>
 	<plugins.win32.ProcessBlacklist>
 	</plugins.win32.ProcessBlacklist>
+	<plugin.delphi.enabled>
+		True
+	</plugin.delphi.enabled>
 	<plugins.msaa.FilterEnabled>
 		True
 	</plugins.msaa.FilterEnabled>
