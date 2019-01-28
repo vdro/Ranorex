@@ -105,8 +105,8 @@ namespace INKUBIT_Test___ContactForm
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(6));
             Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                Dzieki\n            ') on item 'INKUBITMicrosoftDynamics365CRMCon.ContactForm1.DivTagDzieki'.", repo.INKUBITMicrosoftDynamics365CRMCon.ContactForm1.DivTagDziekiInfo, new RecordItemIndex(7));
-            Validate.AttributeEqual(repo.INKUBITMicrosoftDynamics365CRMCon.ContactForm1.DivTagDziekiInfo, "InnerText", "\n                Dzieki\n            ");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                Dzieki\r\n            ') on item 'INKUBITMicrosoftDynamics365CRMCon.ContactForm1.DivTagDzieki'.", repo.INKUBITMicrosoftDynamics365CRMCon.ContactForm1.DivTagDziekiInfo, new RecordItemIndex(7));
+            Validate.AttributeEqual(repo.INKUBITMicrosoftDynamics365CRMCon.ContactForm1.DivTagDziekiInfo, "InnerText", "\n                Dzieki\r\n            ");
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'INKUBITMicrosoftDynamics365CRMCon'.", repo.INKUBITMicrosoftDynamics365CRMCon.SelfInfo, new RecordItemIndex(8));

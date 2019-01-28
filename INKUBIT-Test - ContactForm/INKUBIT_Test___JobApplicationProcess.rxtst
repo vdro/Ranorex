@@ -102,6 +102,12 @@ rxversion="8.3">
 					</var>
 				</databinding>
 			</testmodule>
+			<testmodule
+			id="1d9a4a9c-c806-439b-9eac-9cf6ee89c4a0"
+			name="EmailModule"
+			ref="d8198cc7-82f5-46b2-81e7-3ed789544877"
+			type="UserCode">
+			</testmodule>
 			<teardown
 			id="2e8f1877-b1d2-4838-8332-82ad88e923cb"
 			name="teardown">
@@ -116,12 +122,6 @@ rxversion="8.3">
 			id="40111e77-bcb7-4b34-9ec9-d815848a5827"
 			name="CheckRecordInCRM"
 			ref="45d55875-8c1f-4c34-a84d-43b29797fbbc"
-			type="Recording">
-			</testmodule>
-			<testmodule
-			id="4dacd96c-7233-45f2-8da9-a4b799b1b9d8"
-			name="LogIn"
-			ref="e7dafe58-3b98-4b0f-855c-0b0cbac94357"
 			type="Recording">
 			</testmodule>
 			<testcase
@@ -171,140 +171,16 @@ rxversion="8.3">
 				</conditiongroup>
 			</smartfoldernode>
 			<testmodule
-			id="7094508a-2521-43d5-8e11-70655bae5b2d"
-			name="EmailModule"
-			ref="d8198cc7-82f5-46b2-81e7-3ed789544877"
+			id="6be09a01-7005-4ea7-886a-e6f4dc9b6966"
+			name="CollectRetryErrorMessagesModule"
+			ref="e4e50bbc-20f8-461f-b39a-863b6f69de89"
 			type="UserCode">
-				<databinding>
-					<var
-					dataname="Subject"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="279773ef-ef45-414a-a555-48cb80bfc115"
-					variablename="Subject">
-					</var>
-					<var
-					dataname="Body"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="ef2dc4ee-14a8-483f-92ad-f2c6bd6d67db"
-					variablename="Body">
-					</var>
-					<var
-					dataname="To"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="12fd536f-980f-4e5a-a921-acaf0c6247e5"
-					variablename="To">
-					</var>
-					<var
-					dataname="From"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="718a0466-d3a5-4d93-93a0-91ccd5f1a19e"
-					variablename="From">
-					</var>
-					<var
-					dataname="ServerHostname"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="2436c39d-0705-4ec3-85fb-5e9835a1ab18"
-					variablename="ServerHostname">
-					</var>
-					<var
-					dataname="ServerPort"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="e255daf0-00ef-4b39-a594-273d574839a1"
-					variablename="ServerPort">
-					</var>
-					<var
-					dataname="UseSSL"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="c898ee67-ee7f-4258-ab69-d855b0d92274"
-					variablename="UseSSL">
-					</var>
-					<var
-					dataname="Username"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="38abb172-e49e-4d92-a24f-145709bdd7e3"
-					variablename="Username">
-					</var>
-					<var
-					dataname="Password"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="b97a0c41-28c8-44ed-b089-a8ca4b6af9d7"
-					variablename="Password">
-					</var>
-					<var
-					dataname="SendEmailOnFailure"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="07580bd9-744c-4666-83a6-ba22c0c8d909"
-					variablename="SendEmailOnFailure">
-					</var>
-					<var
-					dataname="SendEmailOnSuccess"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="670a378a-e239-43e7-8325-c216fd11f190"
-					variablename="SendEmailOnSuccess">
-					</var>
-					<var
-					dataname="SendZippedReportOnComplete"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="154c39b9-9dd8-4f75-934e-973ef4c5de5b"
-					variablename="SendZippedReportOnComplete">
-					</var>
-					<var
-					dataname="SendPdfReportOnComplete"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="7038d9db-9189-4fe3-9fb3-13f3cacde5a0"
-					variablename="SendPdfReportOnComplete">
-					</var>
-					<var
-					dataname="PdfReportCustomStylesheet"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="b56d72a4-8257-4ec5-a054-455d9094b56a"
-					variablename="PdfReportCustomStylesheet">
-					</var>
-				</databinding>
 			</testmodule>
 			<testcase
 			datasource="NewConnector"
 			id="76b0d54a-26c1-44fe-81c2-f524ff762b69"
 			name="NewsletterRegistration">
 			</testcase>
-			<testmodule
-			id="7771dc60-dc2b-4ea3-b6f6-ffec57b97a5e"
-			name="ReportToPDFModule"
-			ref="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
-			type="UserCode">
-				<databinding>
-					<var
-					dataname="PdfName"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="1d09c6b5-db7a-4ed0-a13c-ee2add5d3d37"
-					variablename="PdfName">
-					</var>
-					<var
-					dataname="PdfDirectoryPath"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="536f8a69-f246-4f2b-ae9e-1f62babb2ba9"
-					variablename="PdfDirectoryPath">
-					</var>
-					<var
-					dataname="Xml"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="c15f25ea-9409-4e1a-b76e-cd208bae6c56"
-					variablename="Xml">
-					</var>
-					<var
-					dataname="Details"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="b9993b89-d8cb-45fe-829b-42b0f8dd8a00"
-					variablename="Details">
-					</var>
-					<var
-					dataname="DeleteRanorexReport"
-					datasourceid="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
-					variableid="7f788c18-962c-41ab-b591-9c3122512c5e"
-					variablename="DeleteRanorexReport">
-					</var>
-				</databinding>
-			</testmodule>
 			<testmodule
 			id="8ac8d425-de95-40c0-b35e-2db166ed7fa5"
 			name="ContactFormRecord"
@@ -538,14 +414,6 @@ rxversion="8.3">
 					id="8ca6a342-9a95-4a43-881f-4ca5f2afd29f"
 					name="CallBackForm">
 						<testmodule
-						id="7094508a-2521-43d5-8e11-70655bae5b2d"
-						name="EmailModule">
-						</testmodule>
-						<testmodule
-						id="7771dc60-dc2b-4ea3-b6f6-ffec57b97a5e"
-						name="ReportToPDFModule">
-						</testmodule>
-						<testmodule
 						id="395a8a24-df49-4c1e-83a3-49e9baf9c8d9"
 						name="CallBack">
 						</testmodule>
@@ -577,14 +445,18 @@ rxversion="8.3">
 					<testcase
 					id="bbbc54d2-b065-4c7e-98a4-55eeb49b0c4b"
 					name="LogInToCrm">
-						<testmodule
-						id="4dacd96c-7233-45f2-8da9-a4b799b1b9d8"
-						name="LogIn">
-						</testmodule>
 					</testcase>
 					<teardown
 					id="2e8f1877-b1d2-4838-8332-82ad88e923cb"
 					name="teardown">
+						<testmodule
+						id="1d9a4a9c-c806-439b-9eac-9cf6ee89c4a0"
+						name="EmailModule">
+						</testmodule>
+						<testmodule
+						id="6be09a01-7005-4ea7-886a-e6f4dc9b6966"
+						name="CollectRetryErrorMessagesModule">
+						</testmodule>
 					</teardown>
 				</testcase>
 			</testsuite>

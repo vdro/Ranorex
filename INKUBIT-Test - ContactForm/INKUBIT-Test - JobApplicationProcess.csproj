@@ -293,7 +293,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RanorexAutomationHelpers\Ranorex Automation Helpers.csproj">
-      <Project>{F390850B-5158-4CBF-9DA5-78507E032CA3}</Project>
+      <Project>{F1B711CA-35A3-42A3-AC65-D6F156AC2840}</Project>
       <Name>Ranorex Automation Helpers</Name>
     </ProjectReference>
   </ItemGroup>
