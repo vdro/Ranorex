@@ -386,6 +386,12 @@ rxversion="8.3">
 					</param>
 				</parameters>
 			</testcase>
+			<testmodule
+			id="f0d12780-b63f-40bf-8578-9ecef48246f5"
+			name="Login"
+			ref="11c7d049-2cc0-45d4-a89a-cc1a53d2f715"
+			type="Recording">
+			</testmodule>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -445,6 +451,10 @@ rxversion="8.3">
 					<testcase
 					id="bbbc54d2-b065-4c7e-98a4-55eeb49b0c4b"
 					name="LogInToCrm">
+						<testmodule
+						id="f0d12780-b63f-40bf-8578-9ecef48246f5"
+						name="Login">
+						</testmodule>
 					</testcase>
 					<teardown
 					id="2e8f1877-b1d2-4838-8332-82ad88e923cb"

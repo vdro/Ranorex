@@ -199,6 +199,18 @@
       <UserCode>true</UserCode>
       <id>c2bf31ad-5a84-4ec1-8bf3-056fb5f037cb</id>
     </Compile>
+    <Compile Include="Login.cs">
+      <BoundTo>d9be0358-360e-4180-8dc1-e04f5b6eefe3</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d1cc2958-7803-4575-a524-1b6b1118f0ef</id>
+    </Compile>
+    <Compile Include="Login.UserCode.cs">
+      <BoundTo>d9be0358-360e-4180-8dc1-e04f5b6eefe3</BoundTo>
+      <DependentUpon>Login.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d511bfdd-bee4-4e02-b772-63af69fc860b</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>69641c36-2997-4c00-833e-e13abc6049bf</id>
     </Compile>
@@ -266,6 +278,11 @@
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>673d055e-24d9-4f2c-9e1b-51983fd0b541</id>
       <recordtableid>aef84a13-3177-48f8-a4c4-9e26916ea3b5</recordtableid>
+    </None>
+    <None Include="Login.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>d9be0358-360e-4180-8dc1-e04f5b6eefe3</id>
+      <recordtableid>11c7d049-2cc0-45d4-a89a-cc1a53d2f715</recordtableid>
     </None>
     <None Include="Ranorex.PDF.exe">
       <id>70610555-8ef2-4ab7-9615-8a32faae3f01</id>
