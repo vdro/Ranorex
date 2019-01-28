@@ -275,6 +275,12 @@ rxversion="8.3">
 			ref="8c3c4f55-3adb-4813-9000-57a51b8521a7"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="ae978d64-9343-4071-b8ff-bc944bcb2388"
+			name="Check_Career_Test"
+			ref="a9d4027f-4759-4c9d-9921-66e2b39b7ef5"
+			type="Recording">
+			</testmodule>
 			<testsuite
 			ReportTime="RelativeToTestSuiteStartTime"
 			TracingScreenshotMode="Foreground"
@@ -304,6 +310,10 @@ rxversion="8.3">
 			ref="aef84a13-3177-48f8-a4c4-9e26916ea3b5"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="e331a302-98a6-4730-bb7d-d0bc9e8ca926"
+			name="Check_Careers_-_Test">
+			</testcase>
 			<testcase
 			id="e3e0756b-b6dc-4a3a-8756-342654e56b37"
 			name="JobApplicationProcess">
@@ -392,6 +402,10 @@ rxversion="8.3">
 			ref="11c7d049-2cc0-45d4-a89a-cc1a53d2f715"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="f8859a98-44cc-4c98-b767-a08f28199950"
+			name="Check_Careers_-_Prod">
+			</testcase>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -455,6 +469,18 @@ rxversion="8.3">
 						id="f0d12780-b63f-40bf-8578-9ecef48246f5"
 						name="Login">
 						</testmodule>
+					</testcase>
+					<testcase
+					id="e331a302-98a6-4730-bb7d-d0bc9e8ca926"
+					name="Check_Careers_-_Test">
+						<testmodule
+						id="ae978d64-9343-4071-b8ff-bc944bcb2388"
+						name="Check_Career_Test">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="f8859a98-44cc-4c98-b767-a08f28199950"
+					name="Check_Careers_-_Prod">
 					</testcase>
 					<teardown
 					id="2e8f1877-b1d2-4838-8332-82ad88e923cb"
@@ -525,7 +551,13 @@ rxversion="8.3">
 			id="bbbc54d2-b065-4c7e-98a4-55eeb49b0c4b">
 			</testcontainer>
 			<testcontainer
+			id="e331a302-98a6-4730-bb7d-d0bc9e8ca926">
+			</testcontainer>
+			<testcontainer
 			id="e3e0756b-b6dc-4a3a-8756-342654e56b37">
+			</testcontainer>
+			<testcontainer
+			id="f8859a98-44cc-4c98-b767-a08f28199950">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

@@ -157,6 +157,18 @@
       <UserCode>true</UserCode>
       <id>af7b7c88-b700-4f93-b211-2b73ffc46d23</id>
     </Compile>
+    <Compile Include="Check_Career_Test.cs">
+      <BoundTo>b8077ad7-08b4-4191-a849-bd5d7f520394</BoundTo>
+      <DependentUpon>Check_Career_Test.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e19ebe91-6b8a-4198-ae79-9ae6429822f6</id>
+    </Compile>
+    <Compile Include="Check_Career_Test.UserCode.cs">
+      <BoundTo>b8077ad7-08b4-4191-a849-bd5d7f520394</BoundTo>
+      <DependentUpon>Check_Career_Test.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>87c49936-0862-401d-b758-7948ec9455ab</id>
+    </Compile>
     <Compile Include="ContactFormRecord.cs">
       <BoundTo>756d1ce6-0f64-4707-a2a1-f2fffe970748</BoundTo>
       <DependentUpon>ContactFormRecord.rxrec</DependentUpon>
@@ -252,6 +264,11 @@
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>40019cc5-b442-4b89-9936-8e7c8256516f</id>
       <recordtableid>45d55875-8c1f-4c34-a84d-43b29797fbbc</recordtableid>
+    </None>
+    <None Include="Check_Career_Test.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>b8077ad7-08b4-4191-a849-bd5d7f520394</id>
+      <recordtableid>a9d4027f-4759-4c9d-9921-66e2b39b7ef5</recordtableid>
     </None>
     <None Include="ContactFormRecord.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
