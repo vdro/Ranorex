@@ -241,6 +241,10 @@ namespace INKUBIT_Test___ContactForm
             Validate.AttributeEqual(repo.INKUBITMicrosoftDynamics365CRMCon.H1TagJuniorHRSpecialistGlobalRecrInfo, "InnerText", "(Junior-) HR Specialist Global Recruiting");
             Delay.Milliseconds(100);
             
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'SeniorSAPHCMConsultantGoogleChrom'.", repo.SeniorSAPHCMConsultantGoogleChrom.SelfInfo, new RecordItemIndex(42));
+            Host.Current.CloseApplication(repo.SeniorSAPHCMConsultantGoogleChrom.Self, 100);
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

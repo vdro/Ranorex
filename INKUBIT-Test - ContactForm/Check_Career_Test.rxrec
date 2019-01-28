@@ -7114,6 +7114,24 @@ GiimM02chwPWo5pWXABx1oorOK1LkQiRx/EfzphuJBPgHvRRWrSM0y0rEqDmiiisman/2Q==
 				(Junior-) HR Specialist Global Recruiting
 			</matchvalue>
 		</validationitem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="100ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="56feeaad-c1ab-4fde-8200-7a5093b36a45">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="db790e24-a27d-4525-8b3e-33f5d84a3151"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@title~'^Senior\ SAP\ HCM\ Consultant']
+				</path>
+			</info>
+		</closeapprecorditem>
 	</recorditems>
 	<repository
 	id="22bd918a-87d1-49b0-9324-84f32d6382bb"
