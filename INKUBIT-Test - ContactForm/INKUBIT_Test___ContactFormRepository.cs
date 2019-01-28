@@ -42,6 +42,7 @@ namespace INKUBIT_Test___ContactForm
         INKUBIT_Test___ContactFormRepositoryFolders.SaveAsAppFolder _saveas;
         INKUBIT_Test___ContactFormRepositoryFolders.INKUBITMicrosoftDynamics365CRMCon1AppFolder _inkubitmicrosoftdynamics365crmcon1;
         INKUBIT_Test___ContactFormRepositoryFolders.SeniorSAPHCMConsultantGoogleChromAppFolder _seniorsaphcmconsultantgooglechrom;
+        INKUBIT_Test___ContactFormRepositoryFolders.HttpsWwwInkubitComEnUsCareersAppFolder _httpswwwinkubitcomenuscareers;
 
         /// <summary>
         /// Gets the singleton class instance representing the INKUBIT_Test___ContactFormRepository element repository.
@@ -73,6 +74,7 @@ namespace INKUBIT_Test___ContactForm
             _saveas = new INKUBIT_Test___ContactFormRepositoryFolders.SaveAsAppFolder(this);
             _inkubitmicrosoftdynamics365crmcon1 = new INKUBIT_Test___ContactFormRepositoryFolders.INKUBITMicrosoftDynamics365CRMCon1AppFolder(this);
             _seniorsaphcmconsultantgooglechrom = new INKUBIT_Test___ContactFormRepositoryFolders.SeniorSAPHCMConsultantGoogleChromAppFolder(this);
+            _httpswwwinkubitcomenuscareers = new INKUBIT_Test___ContactFormRepositoryFolders.HttpsWwwInkubitComEnUsCareersAppFolder(this);
         }
 
 #region Variables
@@ -224,6 +226,15 @@ namespace INKUBIT_Test___ContactForm
         public virtual INKUBIT_Test___ContactFormRepositoryFolders.SeniorSAPHCMConsultantGoogleChromAppFolder SeniorSAPHCMConsultantGoogleChrom
         {
             get { return _seniorsaphcmconsultantgooglechrom; }
+        }
+
+        /// <summary>
+        /// The HttpsWwwInkubitComEnUsCareers folder.
+        /// </summary>
+        [RepositoryFolder("6f968f1d-3e20-4082-b349-018af628285d")]
+        public virtual INKUBIT_Test___ContactFormRepositoryFolders.HttpsWwwInkubitComEnUsCareersAppFolder HttpsWwwInkubitComEnUsCareers
+        {
+            get { return _httpswwwinkubitcomenuscareers; }
         }
     }
 
@@ -5538,6 +5549,488 @@ namespace INKUBIT_Test___ContactForm
                 get
                 {
                     return _backInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The HttpsWwwInkubitComEnUsCareersAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("6f968f1d-3e20-4082-b349-018af628285d")]
+        public partial class HttpsWwwInkubitComEnUsCareersAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _managingpartnermicrosoftbusinessapplInfo;
+            RepoItemInfo _managingpartnermicrosoftbusinessappl1Info;
+            RepoItemInfo _divtagInfo;
+            RepoItemInfo _downloadaspdfInfo;
+            RepoItemInfo _seniormicrosoftdynamics365crmconsulInfo;
+            RepoItemInfo _seniorbusinessintelligenceconsultantInfo;
+            RepoItemInfo _seniorbankingconsultantforsapseproInfo;
+            RepoItemInfo _httpswwwinkubitcommedia74506backInfo;
+            RepoItemInfo _juniormicrosoftdynamics365crmdeveloInfo;
+            RepoItemInfo _juniormicrosoftbusinessintelligencedInfo;
+            RepoItemInfo _livicon6Info;
+            RepoItemInfo _juniormicrosoftaspnetfullstackdeveInfo;
+            RepoItemInfo _juniorwebfrontenddeveloperInfo;
+            RepoItemInfo _seniormicrosoftsharepointdeveloperInfo;
+            RepoItemInfo _administrativeassistanceInfo;
+            RepoItemInfo _h1tagjunioraccountmanagerInfo;
+            RepoItemInfo _h1tagjuniorhrspecialistglobalrecrInfo;
+
+            /// <summary>
+            /// Creates a new HttpsWwwInkubitComEnUsCareers  folder.
+            /// </summary>
+            public HttpsWwwInkubitComEnUsCareersAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("HttpsWwwInkubitComEnUsCareers", "/dom[1]", parentFolder, 30000, null, false, "6f968f1d-3e20-4082-b349-018af628285d", "")
+            {
+                _managingpartnermicrosoftbusinessapplInfo = new RepoItemInfo(this, "ManagingPartnerMicrosoftBusinessAppl", ".//div[#'section_Management']/div/div/div[1]/?/?/a[@innertext~'^Managing\\ Partner\\ Microsof']", 30000, null, "bb6baabd-a580-4d0c-bb22-582935775560");
+                _managingpartnermicrosoftbusinessappl1Info = new RepoItemInfo(this, "ManagingPartnerMicrosoftBusinessAppl1", ".//section[#'main']/header//h1[@innertext~'^Managing\\ Partner\\ Microsof']", 30000, null, "ecdecb1d-fbc6-4448-95de-9dcc66efcdf9");
+                _divtagInfo = new RepoItemInfo(this, "DivTag", ".//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']", 30000, null, "3c2763a3-4e54-419b-b189-9dbeea3b1b5f");
+                _downloadaspdfInfo = new RepoItemInfo(this, "DownloadAsPDF", ".//div[#'flatbuttons']/a[@innertext='Download as PDF']", 30000, null, "4ea2ec33-81de-48bf-a1f1-f108cb6b8de8");
+                _seniormicrosoftdynamics365crmconsulInfo = new RepoItemInfo(this, "SeniorMicrosoftDynamics365CRMConsul", ".//section[#'main']/header//h1[@innertext~'^Senior\\ Microsoft\\ Dynamics']", 30000, null, "ed18f102-3041-4d7f-b4e9-ed7a9d8eea9a");
+                _seniorbusinessintelligenceconsultantInfo = new RepoItemInfo(this, "SeniorBusinessIntelligenceConsultant", ".//section[#'main']/header//h1[@innertext~'^Senior\\ Business\\ Intellige']", 30000, null, "92dc03ec-23e5-48a2-a10f-34a3de8d23a4");
+                _seniorbankingconsultantforsapseproInfo = new RepoItemInfo(this, "SeniorBankingConsultantForSAPSEPro", ".//section[#'main']/header//h1[@innertext~'^Senior\\ Banking\\ Consultant']", 30000, null, "ebefb3ef-8af4-4c2a-8e08-7ed20daa757f");
+                _httpswwwinkubitcommedia74506backInfo = new RepoItemInfo(this, "HttpsWwwInkubitComMedia74506Back", ".//section[#'main']/div[2]//img[@title='']", 30000, null, "32e03649-ca7d-4040-8e89-d48fa9ba1f14");
+                _juniormicrosoftdynamics365crmdeveloInfo = new RepoItemInfo(this, "JuniorMicrosoftDynamics365CRMDevelo", ".//section[#'main']/header//h1[@innertext~'Junior Microsoft Dynamics 365 CRM Developer']", 30000, null, "b238febf-0107-4c0a-b8e0-99e45fbe3e12");
+                _juniormicrosoftbusinessintelligencedInfo = new RepoItemInfo(this, "JuniorMicrosoftBusinessIntelligenceD", ".//section[#'main']/header//h1[@innertext~'^Junior\\ Microsoft\\ Business']", 30000, null, "81a55ebe-3e8a-41df-8c0d-26ceee52c987");
+                _livicon6Info = new RepoItemInfo(this, "Livicon6", ".//i[#'livicon-6']", 30000, null, "4a30de9d-1b45-4e85-a867-27c106d5db8b");
+                _juniormicrosoftaspnetfullstackdeveInfo = new RepoItemInfo(this, "JuniorMicrosoftASPNetFullStackDeve", ".//section[#'main']/header//h1[@innertext~'^Junior\\ Microsoft\\ ASP\\.Net\\ ']", 30000, null, "00ce2e8f-62d4-4fd4-90a5-12ff8723961f");
+                _juniorwebfrontenddeveloperInfo = new RepoItemInfo(this, "JuniorWebFrontendDeveloper", ".//section[#'main']/header//h1[@innertext~'^Junior\\ Web\\ Frontend\\ Devel']", 30000, null, "003c0207-dec1-434d-bf1b-40aa4cbd8fa9");
+                _seniormicrosoftsharepointdeveloperInfo = new RepoItemInfo(this, "SeniorMicrosoftSharePointDeveloper", ".//section[#'main']/header//h1[@innertext='Senior Microsoft SharePoint Developer']", 30000, null, "0434e79c-77c7-4c27-84eb-ad6814869e7c");
+                _administrativeassistanceInfo = new RepoItemInfo(this, "AdministrativeAssistance", ".//section[#'main']/header//h1[@innertext='Administrative Assistance']", 30000, null, "25cb811f-e662-498d-a9cf-246a317a4b20");
+                _h1tagjunioraccountmanagerInfo = new RepoItemInfo(this, "H1TagJuniorAccountManager", ".//section[#'main']/header//h1[@innertext='(Junior-) Account Manager']", 30000, null, "91c714c3-4bc2-4a93-8874-6d4f4eab9a4e");
+                _h1tagjuniorhrspecialistglobalrecrInfo = new RepoItemInfo(this, "H1TagJuniorHRSpecialistGlobalRecr", ".//section[#'main']/header//h1[@innertext~'^\\(Junior-\\)\\ HR\\ Specialist\\ G']", 30000, null, "491fcaf9-383a-4783-b7a9-2989025c77b8");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("6f968f1d-3e20-4082-b349-018af628285d")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("6f968f1d-3e20-4082-b349-018af628285d")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ManagingPartnerMicrosoftBusinessAppl item.
+            /// </summary>
+            [RepositoryItem("bb6baabd-a580-4d0c-bb22-582935775560")]
+            public virtual Ranorex.ATag ManagingPartnerMicrosoftBusinessAppl
+            {
+                get
+                {
+                    return _managingpartnermicrosoftbusinessapplInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ManagingPartnerMicrosoftBusinessAppl item info.
+            /// </summary>
+            [RepositoryItemInfo("bb6baabd-a580-4d0c-bb22-582935775560")]
+            public virtual RepoItemInfo ManagingPartnerMicrosoftBusinessApplInfo
+            {
+                get
+                {
+                    return _managingpartnermicrosoftbusinessapplInfo;
+                }
+            }
+
+            /// <summary>
+            /// The ManagingPartnerMicrosoftBusinessAppl1 item.
+            /// </summary>
+            [RepositoryItem("ecdecb1d-fbc6-4448-95de-9dcc66efcdf9")]
+            public virtual Ranorex.H1Tag ManagingPartnerMicrosoftBusinessAppl1
+            {
+                get
+                {
+                    return _managingpartnermicrosoftbusinessappl1Info.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ManagingPartnerMicrosoftBusinessAppl1 item info.
+            /// </summary>
+            [RepositoryItemInfo("ecdecb1d-fbc6-4448-95de-9dcc66efcdf9")]
+            public virtual RepoItemInfo ManagingPartnerMicrosoftBusinessAppl1Info
+            {
+                get
+                {
+                    return _managingpartnermicrosoftbusinessappl1Info;
+                }
+            }
+
+            /// <summary>
+            /// The DivTag item.
+            /// </summary>
+            [RepositoryItem("3c2763a3-4e54-419b-b189-9dbeea3b1b5f")]
+            public virtual Ranorex.DivTag DivTag
+            {
+                get
+                {
+                    return _divtagInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DivTag item info.
+            /// </summary>
+            [RepositoryItemInfo("3c2763a3-4e54-419b-b189-9dbeea3b1b5f")]
+            public virtual RepoItemInfo DivTagInfo
+            {
+                get
+                {
+                    return _divtagInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DownloadAsPDF item.
+            /// </summary>
+            [RepositoryItem("4ea2ec33-81de-48bf-a1f1-f108cb6b8de8")]
+            public virtual Ranorex.ATag DownloadAsPDF
+            {
+                get
+                {
+                    return _downloadaspdfInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DownloadAsPDF item info.
+            /// </summary>
+            [RepositoryItemInfo("4ea2ec33-81de-48bf-a1f1-f108cb6b8de8")]
+            public virtual RepoItemInfo DownloadAsPDFInfo
+            {
+                get
+                {
+                    return _downloadaspdfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SeniorMicrosoftDynamics365CRMConsul item.
+            /// </summary>
+            [RepositoryItem("ed18f102-3041-4d7f-b4e9-ed7a9d8eea9a")]
+            public virtual Ranorex.H1Tag SeniorMicrosoftDynamics365CRMConsul
+            {
+                get
+                {
+                    return _seniormicrosoftdynamics365crmconsulInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SeniorMicrosoftDynamics365CRMConsul item info.
+            /// </summary>
+            [RepositoryItemInfo("ed18f102-3041-4d7f-b4e9-ed7a9d8eea9a")]
+            public virtual RepoItemInfo SeniorMicrosoftDynamics365CRMConsulInfo
+            {
+                get
+                {
+                    return _seniormicrosoftdynamics365crmconsulInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SeniorBusinessIntelligenceConsultant item.
+            /// </summary>
+            [RepositoryItem("92dc03ec-23e5-48a2-a10f-34a3de8d23a4")]
+            public virtual Ranorex.H1Tag SeniorBusinessIntelligenceConsultant
+            {
+                get
+                {
+                    return _seniorbusinessintelligenceconsultantInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SeniorBusinessIntelligenceConsultant item info.
+            /// </summary>
+            [RepositoryItemInfo("92dc03ec-23e5-48a2-a10f-34a3de8d23a4")]
+            public virtual RepoItemInfo SeniorBusinessIntelligenceConsultantInfo
+            {
+                get
+                {
+                    return _seniorbusinessintelligenceconsultantInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SeniorBankingConsultantForSAPSEPro item.
+            /// </summary>
+            [RepositoryItem("ebefb3ef-8af4-4c2a-8e08-7ed20daa757f")]
+            public virtual Ranorex.H1Tag SeniorBankingConsultantForSAPSEPro
+            {
+                get
+                {
+                    return _seniorbankingconsultantforsapseproInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SeniorBankingConsultantForSAPSEPro item info.
+            /// </summary>
+            [RepositoryItemInfo("ebefb3ef-8af4-4c2a-8e08-7ed20daa757f")]
+            public virtual RepoItemInfo SeniorBankingConsultantForSAPSEProInfo
+            {
+                get
+                {
+                    return _seniorbankingconsultantforsapseproInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia74506Back item.
+            /// </summary>
+            [RepositoryItem("32e03649-ca7d-4040-8e89-d48fa9ba1f14")]
+            public virtual Ranorex.ImgTag HttpsWwwInkubitComMedia74506Back
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia74506backInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia74506Back item info.
+            /// </summary>
+            [RepositoryItemInfo("32e03649-ca7d-4040-8e89-d48fa9ba1f14")]
+            public virtual RepoItemInfo HttpsWwwInkubitComMedia74506BackInfo
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia74506backInfo;
+                }
+            }
+
+            /// <summary>
+            /// The JuniorMicrosoftDynamics365CRMDevelo item.
+            /// </summary>
+            [RepositoryItem("b238febf-0107-4c0a-b8e0-99e45fbe3e12")]
+            public virtual Ranorex.H1Tag JuniorMicrosoftDynamics365CRMDevelo
+            {
+                get
+                {
+                    return _juniormicrosoftdynamics365crmdeveloInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The JuniorMicrosoftDynamics365CRMDevelo item info.
+            /// </summary>
+            [RepositoryItemInfo("b238febf-0107-4c0a-b8e0-99e45fbe3e12")]
+            public virtual RepoItemInfo JuniorMicrosoftDynamics365CRMDeveloInfo
+            {
+                get
+                {
+                    return _juniormicrosoftdynamics365crmdeveloInfo;
+                }
+            }
+
+            /// <summary>
+            /// The JuniorMicrosoftBusinessIntelligenceD item.
+            /// </summary>
+            [RepositoryItem("81a55ebe-3e8a-41df-8c0d-26ceee52c987")]
+            public virtual Ranorex.H1Tag JuniorMicrosoftBusinessIntelligenceD
+            {
+                get
+                {
+                    return _juniormicrosoftbusinessintelligencedInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The JuniorMicrosoftBusinessIntelligenceD item info.
+            /// </summary>
+            [RepositoryItemInfo("81a55ebe-3e8a-41df-8c0d-26ceee52c987")]
+            public virtual RepoItemInfo JuniorMicrosoftBusinessIntelligenceDInfo
+            {
+                get
+                {
+                    return _juniormicrosoftbusinessintelligencedInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Livicon6 item.
+            /// </summary>
+            [RepositoryItem("4a30de9d-1b45-4e85-a867-27c106d5db8b")]
+            public virtual Ranorex.ITag Livicon6
+            {
+                get
+                {
+                    return _livicon6Info.CreateAdapter<Ranorex.ITag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Livicon6 item info.
+            /// </summary>
+            [RepositoryItemInfo("4a30de9d-1b45-4e85-a867-27c106d5db8b")]
+            public virtual RepoItemInfo Livicon6Info
+            {
+                get
+                {
+                    return _livicon6Info;
+                }
+            }
+
+            /// <summary>
+            /// The JuniorMicrosoftASPNetFullStackDeve item.
+            /// </summary>
+            [RepositoryItem("00ce2e8f-62d4-4fd4-90a5-12ff8723961f")]
+            public virtual Ranorex.H1Tag JuniorMicrosoftASPNetFullStackDeve
+            {
+                get
+                {
+                    return _juniormicrosoftaspnetfullstackdeveInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The JuniorMicrosoftASPNetFullStackDeve item info.
+            /// </summary>
+            [RepositoryItemInfo("00ce2e8f-62d4-4fd4-90a5-12ff8723961f")]
+            public virtual RepoItemInfo JuniorMicrosoftASPNetFullStackDeveInfo
+            {
+                get
+                {
+                    return _juniormicrosoftaspnetfullstackdeveInfo;
+                }
+            }
+
+            /// <summary>
+            /// The JuniorWebFrontendDeveloper item.
+            /// </summary>
+            [RepositoryItem("003c0207-dec1-434d-bf1b-40aa4cbd8fa9")]
+            public virtual Ranorex.H1Tag JuniorWebFrontendDeveloper
+            {
+                get
+                {
+                    return _juniorwebfrontenddeveloperInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The JuniorWebFrontendDeveloper item info.
+            /// </summary>
+            [RepositoryItemInfo("003c0207-dec1-434d-bf1b-40aa4cbd8fa9")]
+            public virtual RepoItemInfo JuniorWebFrontendDeveloperInfo
+            {
+                get
+                {
+                    return _juniorwebfrontenddeveloperInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SeniorMicrosoftSharePointDeveloper item.
+            /// </summary>
+            [RepositoryItem("0434e79c-77c7-4c27-84eb-ad6814869e7c")]
+            public virtual Ranorex.H1Tag SeniorMicrosoftSharePointDeveloper
+            {
+                get
+                {
+                    return _seniormicrosoftsharepointdeveloperInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SeniorMicrosoftSharePointDeveloper item info.
+            /// </summary>
+            [RepositoryItemInfo("0434e79c-77c7-4c27-84eb-ad6814869e7c")]
+            public virtual RepoItemInfo SeniorMicrosoftSharePointDeveloperInfo
+            {
+                get
+                {
+                    return _seniormicrosoftsharepointdeveloperInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AdministrativeAssistance item.
+            /// </summary>
+            [RepositoryItem("25cb811f-e662-498d-a9cf-246a317a4b20")]
+            public virtual Ranorex.H1Tag AdministrativeAssistance
+            {
+                get
+                {
+                    return _administrativeassistanceInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AdministrativeAssistance item info.
+            /// </summary>
+            [RepositoryItemInfo("25cb811f-e662-498d-a9cf-246a317a4b20")]
+            public virtual RepoItemInfo AdministrativeAssistanceInfo
+            {
+                get
+                {
+                    return _administrativeassistanceInfo;
+                }
+            }
+
+            /// <summary>
+            /// The H1TagJuniorAccountManager item.
+            /// </summary>
+            [RepositoryItem("91c714c3-4bc2-4a93-8874-6d4f4eab9a4e")]
+            public virtual Ranorex.H1Tag H1TagJuniorAccountManager
+            {
+                get
+                {
+                    return _h1tagjunioraccountmanagerInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The H1TagJuniorAccountManager item info.
+            /// </summary>
+            [RepositoryItemInfo("91c714c3-4bc2-4a93-8874-6d4f4eab9a4e")]
+            public virtual RepoItemInfo H1TagJuniorAccountManagerInfo
+            {
+                get
+                {
+                    return _h1tagjunioraccountmanagerInfo;
+                }
+            }
+
+            /// <summary>
+            /// The H1TagJuniorHRSpecialistGlobalRecr item.
+            /// </summary>
+            [RepositoryItem("491fcaf9-383a-4783-b7a9-2989025c77b8")]
+            public virtual Ranorex.H1Tag H1TagJuniorHRSpecialistGlobalRecr
+            {
+                get
+                {
+                    return _h1tagjuniorhrspecialistglobalrecrInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The H1TagJuniorHRSpecialistGlobalRecr item info.
+            /// </summary>
+            [RepositoryItemInfo("491fcaf9-383a-4783-b7a9-2989025c77b8")]
+            public virtual RepoItemInfo H1TagJuniorHRSpecialistGlobalRecrInfo
+            {
+                get
+                {
+                    return _h1tagjuniorhrspecialistglobalrecrInfo;
                 }
             }
         }

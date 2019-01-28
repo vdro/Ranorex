@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
-    <ProjectGuid>{F390850B-5158-4CBF-9DA5-78507E032CA3}</ProjectGuid>
+    <ProjectGuid>{F1B711CA-35A3-42A3-AC65-D6F156AC2840}</ProjectGuid>
     <TargetFrameworkProfile />
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
@@ -11,7 +11,6 @@
     <RanorexVersion>8.3</RanorexVersion>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
-    <projectdefaultrepository>339EB58D-6D78-4621-884F-96B51018D762</projectdefaultrepository>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -96,8 +95,8 @@
     <Reference Include="Ranorex.Plugin.Wpf">
       <Private>False</Private>
     </Reference>
-    <Reference Include="Ranorex.ReportToPDF, Version=1.0.14.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\Ranorex.ReportToPDF.1.0.15\lib\net40\Ranorex.ReportToPDF.exe</HintPath>
+    <Reference Include="Ranorex.ReportToPDF">
+      <HintPath>..\packages\Ranorex.ReportToPDF.1.0.14\lib\net40\Ranorex.ReportToPDF.exe</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -115,78 +114,49 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="LogIn.rxrec">
-      <BoundTo>339EB58D-6D78-4621-884F-96B51018D762</BoundTo>
-      <id>893a6b0e-d27f-4ff1-8881-1f52589978d5</id>
-      <recordtableid>e7dafe58-3b98-4b0f-855c-0b0cbac94357</recordtableid>
-    </None>
     <None Include="packages.config">
-      <id>c75e86fb-46e1-499d-afd9-916eaa87dd74</id>
-    </None>
-    <None Include="Ranorex Automation HelpersRepository.rximg">
-      <BoundTo>339EB58D-6D78-4621-884F-96B51018D762</BoundTo>
-      <DependentUpon>Ranorex Automation HelpersRepository.rxrep</DependentUpon>
-      <imageblob>true</imageblob>
-      <id>f87213dd-90eb-4efe-bc33-f0bf09832171</id>
-    </None>
-    <None Include="Ranorex Automation HelpersRepository.rxrep">
-      <id>339EB58D-6D78-4621-884F-96B51018D762</id>
-      <repoid>4b7094e5-a699-4972-b05c-3325a727a2ae</repoid>
-      <reporootid>a8e4f482-3ad7-4de1-b09a-2e420606ad1b</reporootid>
+      <id>03278518-cc83-4297-b97e-a59d9ec4fa09</id>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LogIn.cs">
-      <BoundTo>893a6b0e-d27f-4ff1-8881-1f52589978d5</BoundTo>
-      <DependentUpon>LogIn.rxrec</DependentUpon>
-      <RecorderCode>true</RecorderCode>
-      <id>4bad3044-c807-4f41-8901-221efb6c04d2</id>
-    </Compile>
-    <Compile Include="LogIn.UserCode.cs">
-      <BoundTo>893a6b0e-d27f-4ff1-8881-1f52589978d5</BoundTo>
-      <DependentUpon>LogIn.rxrec</DependentUpon>
-      <UserCode>true</UserCode>
-      <id>d7b6d5d0-b1c4-4ece-b068-0547ba957969</id>
-    </Compile>
     <Compile Include="Modules\CollectRetryErrorMessagesModule.cs">
-      <id>4b0f492c-f07f-41b4-8ede-f1b26c377f09</id>
+      <id>086d8a3d-4231-4170-bb53-7f35bd6a99f4</id>
     </Compile>
     <Compile Include="Modules\EmailModule.cs">
-      <id>3c4468c5-2258-4c9c-b6c4-b37245860857</id>
+      <id>61d53baa-8a40-4522-9759-7703d8af6ba5</id>
     </Compile>
     <Compile Include="Modules\ReportToPDFModule.cs">
-      <id>ca6a0506-772d-4327-8845-733df405f654</id>
-    </Compile>
-    <Compile Include="Ranorex Automation HelpersRepository.cs">
-      <BoundTo>339EB58D-6D78-4621-884F-96B51018D762</BoundTo>
-      <DependentUpon>Ranorex Automation HelpersRepository.rxrep</DependentUpon>
-      <RepositoryCode>true</RepositoryCode>
-      <id>186d458a-a157-4f0a-b6fb-19f1219c8cf2</id>
+      <id>3cc7b461-5054-4000-845b-64cfef06b781</id>
     </Compile>
     <Compile Include="UserCodeCollections\DragNDropLibrary.cs">
-      <id>265a858a-ebd1-4308-8910-27e9fe5792d7</id>
+      <id>cdfacfab-e314-4a44-9724-287aef96d772</id>
     </Compile>
     <Compile Include="UserCodeCollections\EmailLibrary.cs">
-      <id>03ef1e1b-af03-425e-ac6a-c9dd08c07ba8</id>
+      <id>48763f68-6f38-4234-93ea-c19ca2291c0c</id>
     </Compile>
     <Compile Include="UserCodeCollections\FileLibrary.cs">
-      <id>52560ca6-ee51-496e-a3f8-189c16441462</id>
+      <id>46beb1a9-2eff-461b-9fd0-013d46dccfed</id>
     </Compile>
     <Compile Include="UserCodeCollections\PopupWatcherLibrary.cs">
-      <id>243d52af-8599-4eb1-b8aa-2dbe66cdfbee</id>
+      <id>e8fe200e-04a8-42f2-8cd0-7291ebc244c7</id>
     </Compile>
     <Compile Include="UserCodeCollections\StringLibrary.cs">
-      <id>ac4ce563-3f38-4132-a07a-ebf555c63acd</id>
+      <id>f688d03e-caa6-41ba-a3dd-3202a9338639</id>
     </Compile>
     <Compile Include="UserCodeCollections\SystemLibrary.cs">
-      <id>47d25aee-77a4-4b95-8b39-50fa912ac1b1</id>
+      <id>808811da-f745-405e-afa2-fbbb9a1c93cd</id>
     </Compile>
     <Compile Include="UserCodeCollections\ValidationLibrary.cs">
-      <id>a8280ce3-1b42-457b-82d6-52d6f681e997</id>
+      <id>22644ce8-30fc-46aa-9a3f-460f71537f37</id>
     </Compile>
     <Compile Include="UserCodeCollections\WebLibrary.cs">
-      <id>9496d088-4506-49a6-ba46-155817052f60</id>
+      <id>008104dd-8fd2-4523-b771-b118cbe2d7e9</id>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ranorex Automation Helpers.cd">
+      <id>6e8f97cd-de73-4b6f-8ac3-a6be0a7f9dd2</id>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />

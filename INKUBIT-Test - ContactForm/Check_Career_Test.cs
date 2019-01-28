@@ -79,8 +79,8 @@ namespace INKUBIT_Test___ContactForm
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://test.inkubit.com/en-us/careers/' with browser 'Chrome' in normal mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://test.inkubit.com/en-us/careers/", "Chrome", "", false, false, false, false, false, true);
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.inkubit.com/en-us/careers/' with browser 'Chrome' in normal mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("https://www.inkubit.com/en-us/careers/", "Chrome", "", false, false, false, false, false, true);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(1));

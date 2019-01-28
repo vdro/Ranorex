@@ -2201,6 +2201,202 @@ RQMFQ5SFzvg957e1yebCX2U95BxDvOO0Ido+Q4+0L355ynxamTZnyM2/rf3voagf2nKwO/rr1QsA
 AAAASUVORK5CYII=
 			</icon>
 		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="6f968f1d-3e20-4082-b349-018af628285d"
+		isrooted="True"
+		name="HttpsWwwInkubitComEnUsCareers"
+		refpath="/dom[1]"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="bb6baabd-a580-4d0c-bb22-582935775560"
+			name="ManagingPartnerMicrosoftBusinessAppl"
+			refimgid="8cae380f-1d2a-430b-811a-7b32f42a9697"
+			refpath="/dom[1]//div[#'section_Management']/div/div/div[1]/h2/a[@innertext~'^Managing\ Partner\ Microsof']"
+			searchtimeout="30000ms">
+				/dom[1]//div[#'section_Management']/div/div/div[1]/?/?/a[@innertext~'^Managing\ Partner\ Microsof']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="ecdecb1d-fbc6-4448-95de-9dcc66efcdf9"
+			name="ManagingPartnerMicrosoftBusinessAppl1"
+			refimgid="959e467c-050c-468d-b014-5bb2345b6d39"
+			refpath="/dom[@domain='www.inkubit.com' and @caption='Managing Partner Microsoft Business Applications']//section[#'main']/header/div/div[1]/h1[@innertext='Managing Partner Microsoft Business Applications']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^Managing\ Partner\ Microsof']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="3c2763a3-4e54-419b-b189-9dbeea3b1b5f"
+			name="DivTag"
+			refimgid="66164677-f6db-40ea-8305-dd71736b95ee"
+			refpath="/dom[@domain='www.inkubit.com' and @caption~'^Managing\ Partner\ Microsof']//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']"
+			searchtimeout="30000ms">
+				/dom[1]//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="4ea2ec33-81de-48bf-a1f1-f108cb6b8de8"
+			name="DownloadAsPDF"
+			refimgid="ab66d5c8-a2fb-4254-96b5-5e4984138dc1"
+			refpath="/dom[@domain='www.inkubit.com' and @caption='Managing Partner Microsoft Business Applications']//div[#'flatbuttons']/a[@innertext='Download as PDF']"
+			searchtimeout="30000ms">
+				/dom[1]//div[#'flatbuttons']/a[@innertext='Download as PDF']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="ed18f102-3041-4d7f-b4e9-ed7a9d8eea9a"
+			name="SeniorMicrosoftDynamics365CRMConsul"
+			refimgid="337c211d-345f-4eaf-88f6-408e8047a837"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='Senior Microsoft Dynamics 365 CRM Consultant Technical and Functional']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^Senior\ Microsoft\ Dynamics']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="92dc03ec-23e5-48a2-a10f-34a3de8d23a4"
+			name="SeniorBusinessIntelligenceConsultant"
+			refimgid="8249d3e4-b749-4f20-8d62-0b63a270e2a6"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='Senior Business Intelligence Consultant for SAP SE Products']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^Senior\ Business\ Intellige']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="ebefb3ef-8af4-4c2a-8e08-7ed20daa757f"
+			name="SeniorBankingConsultantForSAPSEPro"
+			refimgid="e623b88c-3b51-439c-8e95-44570630dfe3"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='Senior Banking Consultant for SAP SE Products']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^Senior\ Banking\ Consultant']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="32e03649-ca7d-4040-8e89-d48fa9ba1f14"
+			name="HttpsWwwInkubitComMedia74506Back"
+			refimgid="c69b39f1-6427-442c-8c50-2faabaf76f4c"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/div[2]/div[1]/p/img[@title='']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/div[2]//img[@title='']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="b238febf-0107-4c0a-b8e0-99e45fbe3e12"
+			name="JuniorMicrosoftDynamics365CRMDevelo"
+			refimgid="9b0b868b-a4e8-497a-ae05-58dae9746a08"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'Junior Microsoft Dynamics 365 CRM Developer']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="81a55ebe-3e8a-41df-8c0d-26ceee52c987"
+			name="JuniorMicrosoftBusinessIntelligenceD"
+			refimgid="ceac7c66-32b5-4f7e-8ef4-f89120253859"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='Junior Microsoft Business Intelligence Developer']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^Junior\ Microsoft\ Business']
+			</item>
+			<item
+			addcaps="unknown,webelement,itag"
+			capname="itag"
+			id="4a30de9d-1b45-4e85-a867-27c106d5db8b"
+			name="Livicon6"
+			refimgid="c6633c3a-f1c6-47bf-98d9-9f25bccef300"
+			refpath="/dom[@domain='www.inkubit.com']//i[#'livicon-6']"
+			searchtimeout="30000ms">
+				/dom[1]//i[#'livicon-6']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="00ce2e8f-62d4-4fd4-90a5-12ff8723961f"
+			name="JuniorMicrosoftASPNetFullStackDeve"
+			refimgid="f0d4855e-97f8-4c1e-9cdf-694e8029e73b"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='Junior Microsoft ASP.Net Full-Stack Developer']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^Junior\ Microsoft\ ASP\.Net\ ']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="003c0207-dec1-434d-bf1b-40aa4cbd8fa9"
+			name="JuniorWebFrontendDeveloper"
+			refimgid="d00f729a-e5d7-4ce1-bdc6-65b420b4baab"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='Junior Web Frontend Developer']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^Junior\ Web\ Frontend\ Devel']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="0434e79c-77c7-4c27-84eb-ad6814869e7c"
+			name="SeniorMicrosoftSharePointDeveloper"
+			refimgid="6f7b6a9f-f55b-4ec3-a96a-708ef4129571"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext='Senior Microsoft SharePoint Developer']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="25cb811f-e662-498d-a9cf-246a317a4b20"
+			name="AdministrativeAssistance"
+			refimgid="54b88e52-64f2-4eb6-8b17-881a41316d61"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='Administrative Assistance']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext='Administrative Assistance']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="91c714c3-4bc2-4a93-8874-6d4f4eab9a4e"
+			name="H1TagJuniorAccountManager"
+			refimgid="f0148b08-d309-4200-84fd-b8aa57c6cb05"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='(Junior-) Account Manager']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext='(Junior-) Account Manager']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="491fcaf9-383a-4783-b7a9-2989025c77b8"
+			name="H1TagJuniorHRSpecialistGlobalRecr"
+			refimgid="bdabf8b1-519e-4184-90c9-0775d2c30850"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='(Junior-) HR Specialist Global Recruiting']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^\(Junior-\)\ HR\ Specialist\ G']
+			</item>
+			<basepath>
+				/dom[1]
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>
