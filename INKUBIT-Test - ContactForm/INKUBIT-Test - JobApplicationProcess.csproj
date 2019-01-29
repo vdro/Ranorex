@@ -304,6 +304,18 @@
       <UserCode>true</UserCode>
       <id>c2bf31ad-5a84-4ec1-8bf3-056fb5f037cb</id>
     </Compile>
+    <Compile Include="LeiterderMicrosoftBusinessApplicationsAbteilung.cs">
+      <BoundTo>79806aba-ec2e-494f-8cda-deb13d5c5a19</BoundTo>
+      <DependentUpon>LeiterderMicrosoftBusinessApplicationsAbteilung.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9ec3d2eb-7b61-4dbf-9b0f-c236471f1523</id>
+    </Compile>
+    <Compile Include="LeiterderMicrosoftBusinessApplicationsAbteilung.UserCode.cs">
+      <BoundTo>79806aba-ec2e-494f-8cda-deb13d5c5a19</BoundTo>
+      <DependentUpon>LeiterderMicrosoftBusinessApplicationsAbteilung.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2d2ccd85-3a56-4db0-8802-5418fd13362e</id>
+    </Compile>
     <Compile Include="Login.cs">
       <BoundTo>d9be0358-360e-4180-8dc1-e04f5b6eefe3</BoundTo>
       <DependentUpon>Login.rxrec</DependentUpon>
@@ -379,6 +391,18 @@
       <UserCode>true</UserCode>
       <id>4fc3a356-1c36-48aa-a5df-9fc31583b197</id>
     </Compile>
+    <Compile Include="SeniorConsultantHCMSystemsTechnicalFunctionalmf.cs">
+      <BoundTo>9f05c86b-aa1c-4722-9777-782e590e87d9</BoundTo>
+      <DependentUpon>SeniorConsultantHCMSystemsTechnicalFunctionalmf.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e9ba4cdf-bd79-4f15-b59d-f0f94b82b85a</id>
+    </Compile>
+    <Compile Include="SeniorConsultantHCMSystemsTechnicalFunctionalmf.UserCode.cs">
+      <BoundTo>9f05c86b-aa1c-4722-9777-782e590e87d9</BoundTo>
+      <DependentUpon>SeniorConsultantHCMSystemsTechnicalFunctionalmf.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5ae48ebe-5340-43d5-8913-5eb7c3cbbbee</id>
+    </Compile>
     <Compile Include="SeniorMicrosoftDynamics365CRMConsultantTechnicalandFunctional.cs">
       <BoundTo>23f72bb4-8a51-4fe0-bddd-5a50758fef2f</BoundTo>
       <DependentUpon>SeniorMicrosoftDynamics365CRMConsultantTechnicalandFunctional.rxrec</DependentUpon>
@@ -390,6 +414,18 @@
       <DependentUpon>SeniorMicrosoftDynamics365CRMConsultantTechnicalandFunctional.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>123e9a40-99f8-4c02-82db-8bac43d6ad20</id>
+    </Compile>
+    <Compile Include="SeniorMicrosoftDynamics365CRMConsultantTechnicalFunctionalmw.cs">
+      <BoundTo>188c94a1-dc56-4896-885e-0821c2597483</BoundTo>
+      <DependentUpon>SeniorMicrosoftDynamics365CRMConsultantTechnicalFunctionalmw.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3d494eac-953e-4b7a-ba0b-0a1f8d0ec853</id>
+    </Compile>
+    <Compile Include="SeniorMicrosoftDynamics365CRMConsultantTechnicalFunctionalmw.UserCode.cs">
+      <BoundTo>188c94a1-dc56-4896-885e-0821c2597483</BoundTo>
+      <DependentUpon>SeniorMicrosoftDynamics365CRMConsultantTechnicalFunctionalmw.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b0253c9d-76da-46c5-9fa7-c3d2dff3b1e4</id>
     </Compile>
     <Compile Include="SeniorMicrosoftDynamics365CRMDeveloper.cs">
       <BoundTo>2d40cde2-115b-4e2f-8a0e-fb8a6ffc1b8b</BoundTo>
@@ -501,6 +537,11 @@
       <id>673d055e-24d9-4f2c-9e1b-51983fd0b541</id>
       <recordtableid>aef84a13-3177-48f8-a4c4-9e26916ea3b5</recordtableid>
     </None>
+    <None Include="LeiterderMicrosoftBusinessApplicationsAbteilung.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>79806aba-ec2e-494f-8cda-deb13d5c5a19</id>
+      <recordtableid>3ca10470-9154-4f38-bd59-ce40ffa4f4f6</recordtableid>
+    </None>
     <None Include="Login.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>d9be0358-360e-4180-8dc1-e04f5b6eefe3</id>
@@ -531,10 +572,20 @@
       <id>e80322d2-6dd7-4e9c-9cb0-f18be5d77cca</id>
       <recordtableid>5ad03571-4cf4-4793-8703-1f42d56d1e44</recordtableid>
     </None>
+    <None Include="SeniorConsultantHCMSystemsTechnicalFunctionalmf.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>9f05c86b-aa1c-4722-9777-782e590e87d9</id>
+      <recordtableid>d8aab527-d1b3-4716-9725-2a8568f48042</recordtableid>
+    </None>
     <None Include="SeniorMicrosoftDynamics365CRMConsultantTechnicalandFunctional.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>23f72bb4-8a51-4fe0-bddd-5a50758fef2f</id>
       <recordtableid>f5a98193-833b-4212-86e7-96bd846c4d43</recordtableid>
+    </None>
+    <None Include="SeniorMicrosoftDynamics365CRMConsultantTechnicalFunctionalmw.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>188c94a1-dc56-4896-885e-0821c2597483</id>
+      <recordtableid>07a339f6-fe8a-4181-a983-4b1dc157fb2d</recordtableid>
     </None>
     <None Include="SeniorMicrosoftDynamics365CRMDeveloper.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>

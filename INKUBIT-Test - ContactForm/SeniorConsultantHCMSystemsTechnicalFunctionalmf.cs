@@ -24,29 +24,29 @@ namespace INKUBIT_Test___ContactForm
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The AdministrativeAssistance recording.
+    ///The SeniorConsultantHCMSystemsTechnicalFunctionalmf recording.
     /// </summary>
-    [TestModule("8478b8eb-defd-41dd-a29d-af2ffeaf7e82", ModuleType.Recording, 1)]
-    public partial class AdministrativeAssistance : ITestModule
+    [TestModule("d8aab527-d1b3-4716-9725-2a8568f48042", ModuleType.Recording, 1)]
+    public partial class SeniorConsultantHCMSystemsTechnicalFunctionalmf : ITestModule
     {
         /// <summary>
         /// Holds an instance of the INKUBIT_Test___ContactFormRepository repository.
         /// </summary>
         public static INKUBIT_Test___ContactFormRepository repo = INKUBIT_Test___ContactFormRepository.Instance;
 
-        static AdministrativeAssistance instance = new AdministrativeAssistance();
+        static SeniorConsultantHCMSystemsTechnicalFunctionalmf instance = new SeniorConsultantHCMSystemsTechnicalFunctionalmf();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public AdministrativeAssistance()
+        public SeniorConsultantHCMSystemsTechnicalFunctionalmf()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static AdministrativeAssistance Instance
+        public static SeniorConsultantHCMSystemsTechnicalFunctionalmf Instance
         {
             get { return instance; }
         }
@@ -79,20 +79,20 @@ namespace INKUBIT_Test___ContactForm
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.inkubit.com/en-us/careers/administration/administrative-assistance/' with browser 'Chrome' in normal mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://www.inkubit.com/en-us/careers/administration/administrative-assistance/", "Chrome", "", false, false, false, false, false, true);
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.inkubit.com/en-us/careers/consulting/senior-consultant-hcm-systems-technicalfunctional-mf/' with browser 'Chrome' in normal mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("https://www.inkubit.com/en-us/careers/consulting/senior-consultant-hcm-systems-technicalfunctional-mf/", "Chrome", "", false, false, false, false, false, true);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Administrative Assistance') on item 'HttpsWwwInkubitComEnUsCareers.AdministrativeAssistance'.", repo.HttpsWwwInkubitComEnUsCareers.AdministrativeAssistanceInfo, new RecordItemIndex(1));
-            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.AdministrativeAssistanceInfo, "InnerText", "Administrative Assistance");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='(Senior) Consultant HCM-Systems Technical/Functional (m/f)') on item 'HttpsWwwInkubitComEnUsCareers.H1TagSeniorConsultantHCMSystemsTec'.", repo.HttpsWwwInkubitComEnUsCareers.H1TagSeniorConsultantHCMSystemsTecInfo, new RecordItemIndex(1));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.H1TagSeniorConsultantHCMSystemsTecInfo, "InnerText", "(Senior) Consultant HCM-Systems Technical/Functional (m/f)");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagName='h1') on item 'HttpsWwwInkubitComEnUsCareers.AdministrativeAssistance'.", repo.HttpsWwwInkubitComEnUsCareers.AdministrativeAssistanceInfo, new RecordItemIndex(2));
-            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.AdministrativeAssistanceInfo, "TagName", "h1");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagName='h1') on item 'HttpsWwwInkubitComEnUsCareers.H1TagSeniorConsultantHCMSystemsTec'.", repo.HttpsWwwInkubitComEnUsCareers.H1TagSeniorConsultantHCMSystemsTecInfo, new RecordItemIndex(2));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.H1TagSeniorConsultantHCMSystemsTecInfo, "TagName", "h1");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='https://www.inkubit.com/media/74510/background.jpg') on item 'HttpsWwwInkubitComEnUsCareers.HttpsWwwInkubitComMedia74506Back'.", repo.HttpsWwwInkubitComEnUsCareers.HttpsWwwInkubitComMedia74506BackInfo, new RecordItemIndex(3));
-            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.HttpsWwwInkubitComMedia74506BackInfo, "Src", "https://www.inkubit.com/media/74510/background.jpg");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='https://www.inkubit.com/media/74530/background.jpg') on item 'HttpsWwwInkubitComEnUsCareers.HttpsWwwInkubitComMedia74506Back'.", repo.HttpsWwwInkubitComEnUsCareers.HttpsWwwInkubitComMedia74506BackInfo, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.HttpsWwwInkubitComMedia74506BackInfo, "Src", "https://www.inkubit.com/media/74530/background.jpg");
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                    Submit Application\n                                ') on item 'HttpsWwwInkubitComEnUsCareers.DivTag1'.", repo.HttpsWwwInkubitComEnUsCareers.DivTag1Info, new RecordItemIndex(4));
@@ -103,8 +103,8 @@ namespace INKUBIT_Test___ContactForm
             Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.DownloadAsPDFInfo, "InnerText", "Download as PDF");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Href='https://www.inkubit.com/media/74111/administrative-assistance.pdf') on item 'HttpsWwwInkubitComEnUsCareers.DownloadAsPDF'.", repo.HttpsWwwInkubitComEnUsCareers.DownloadAsPDFInfo, new RecordItemIndex(6));
-            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.DownloadAsPDFInfo, "Href", "https://www.inkubit.com/media/74111/administrative-assistance.pdf");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Href='https://www.inkubit.com/media/74132/senior-consultant-hcm-systems-technical-functional-english.pdf') on item 'HttpsWwwInkubitComEnUsCareers.DownloadAsPDF'.", repo.HttpsWwwInkubitComEnUsCareers.DownloadAsPDFInfo, new RecordItemIndex(6));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.DownloadAsPDFInfo, "Href", "https://www.inkubit.com/media/74132/senior-consultant-hcm-systems-technical-functional-english.pdf");
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HttpsWwwInkubitComEnUsCareers'.", repo.HttpsWwwInkubitComEnUsCareers.SelfInfo, new RecordItemIndex(7));

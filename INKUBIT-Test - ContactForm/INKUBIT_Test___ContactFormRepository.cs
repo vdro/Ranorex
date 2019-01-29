@@ -43,6 +43,7 @@ namespace INKUBIT_Test___ContactForm
         INKUBIT_Test___ContactFormRepositoryFolders.INKUBITMicrosoftDynamics365CRMCon1AppFolder _inkubitmicrosoftdynamics365crmcon1;
         INKUBIT_Test___ContactFormRepositoryFolders.SeniorSAPHCMConsultantGoogleChromAppFolder _seniorsaphcmconsultantgooglechrom;
         INKUBIT_Test___ContactFormRepositoryFolders.HttpsWwwInkubitComEnUsCareersAppFolder _httpswwwinkubitcomenuscareers;
+        INKUBIT_Test___ContactFormRepositoryFolders.LeiterDerMicrosoftBusinessApplicatioAppFolder _leiterdermicrosoftbusinessapplicatio;
 
         /// <summary>
         /// Gets the singleton class instance representing the INKUBIT_Test___ContactFormRepository element repository.
@@ -75,6 +76,7 @@ namespace INKUBIT_Test___ContactForm
             _inkubitmicrosoftdynamics365crmcon1 = new INKUBIT_Test___ContactFormRepositoryFolders.INKUBITMicrosoftDynamics365CRMCon1AppFolder(this);
             _seniorsaphcmconsultantgooglechrom = new INKUBIT_Test___ContactFormRepositoryFolders.SeniorSAPHCMConsultantGoogleChromAppFolder(this);
             _httpswwwinkubitcomenuscareers = new INKUBIT_Test___ContactFormRepositoryFolders.HttpsWwwInkubitComEnUsCareersAppFolder(this);
+            _leiterdermicrosoftbusinessapplicatio = new INKUBIT_Test___ContactFormRepositoryFolders.LeiterDerMicrosoftBusinessApplicatioAppFolder(this);
         }
 
 #region Variables
@@ -235,6 +237,15 @@ namespace INKUBIT_Test___ContactForm
         public virtual INKUBIT_Test___ContactFormRepositoryFolders.HttpsWwwInkubitComEnUsCareersAppFolder HttpsWwwInkubitComEnUsCareers
         {
             get { return _httpswwwinkubitcomenuscareers; }
+        }
+
+        /// <summary>
+        /// The LeiterDerMicrosoftBusinessApplicatio folder.
+        /// </summary>
+        [RepositoryFolder("2f405c44-89f9-4aca-916c-5d356682e7df")]
+        public virtual INKUBIT_Test___ContactFormRepositoryFolders.LeiterDerMicrosoftBusinessApplicatioAppFolder LeiterDerMicrosoftBusinessApplicatio
+        {
+            get { return _leiterdermicrosoftbusinessapplicatio; }
         }
     }
 
@@ -5576,6 +5587,10 @@ namespace INKUBIT_Test___ContactForm
             RepoItemInfo _administrativeassistanceInfo;
             RepoItemInfo _h1tagjunioraccountmanagerInfo;
             RepoItemInfo _h1tagjuniorhrspecialistglobalrecrInfo;
+            RepoItemInfo _h1tagseniorconsultanthcmsystemstecInfo;
+            RepoItemInfo _leiterdermicrosoftbusinessapplicatioInfo;
+            RepoItemInfo _divtag1Info;
+            RepoItemInfo _alspdfherunterladenInfo;
 
             /// <summary>
             /// Creates a new HttpsWwwInkubitComEnUsCareers  folder.
@@ -5590,7 +5605,7 @@ namespace INKUBIT_Test___ContactForm
                 _seniormicrosoftdynamics365crmconsulInfo = new RepoItemInfo(this, "SeniorMicrosoftDynamics365CRMConsul", ".//section[#'main']/header//h1[@innertext~'^Senior\\ Microsoft\\ Dynamics']", 30000, null, "ed18f102-3041-4d7f-b4e9-ed7a9d8eea9a");
                 _seniorbusinessintelligenceconsultantInfo = new RepoItemInfo(this, "SeniorBusinessIntelligenceConsultant", ".//section[#'main']/header//h1[@innertext~'^Senior\\ Business\\ Intellige']", 30000, null, "92dc03ec-23e5-48a2-a10f-34a3de8d23a4");
                 _seniorbankingconsultantforsapseproInfo = new RepoItemInfo(this, "SeniorBankingConsultantForSAPSEPro", ".//section[#'main']/header//h1[@innertext~'^Senior\\ Banking\\ Consultant']", 30000, null, "ebefb3ef-8af4-4c2a-8e08-7ed20daa757f");
-                _httpswwwinkubitcommedia74506backInfo = new RepoItemInfo(this, "HttpsWwwInkubitComMedia74506Back", ".//section[#'main']/div[2]//img[@title='']", 30000, null, "32e03649-ca7d-4040-8e89-d48fa9ba1f14");
+                _httpswwwinkubitcommedia74506backInfo = new RepoItemInfo(this, "HttpsWwwInkubitComMedia74506Back", ".//section[#'main']/div[2]//img", 30000, null, "32e03649-ca7d-4040-8e89-d48fa9ba1f14");
                 _juniormicrosoftdynamics365crmdeveloInfo = new RepoItemInfo(this, "JuniorMicrosoftDynamics365CRMDevelo", ".//section[#'main']/header//h1[@innertext~'Junior Microsoft Dynamics 365 CRM Developer']", 30000, null, "b238febf-0107-4c0a-b8e0-99e45fbe3e12");
                 _juniormicrosoftbusinessintelligencedInfo = new RepoItemInfo(this, "JuniorMicrosoftBusinessIntelligenceD", ".//section[#'main']/header//h1[@innertext~'^Junior\\ Microsoft\\ Business']", 30000, null, "81a55ebe-3e8a-41df-8c0d-26ceee52c987");
                 _livicon6Info = new RepoItemInfo(this, "Livicon6", ".//i[#'livicon-6']", 30000, null, "4a30de9d-1b45-4e85-a867-27c106d5db8b");
@@ -5600,6 +5615,10 @@ namespace INKUBIT_Test___ContactForm
                 _administrativeassistanceInfo = new RepoItemInfo(this, "AdministrativeAssistance", ".//section[#'main']/header//h1[@innertext='Administrative Assistance']", 30000, null, "25cb811f-e662-498d-a9cf-246a317a4b20");
                 _h1tagjunioraccountmanagerInfo = new RepoItemInfo(this, "H1TagJuniorAccountManager", ".//section[#'main']/header//h1[@innertext='(Junior-) Account Manager']", 30000, null, "91c714c3-4bc2-4a93-8874-6d4f4eab9a4e");
                 _h1tagjuniorhrspecialistglobalrecrInfo = new RepoItemInfo(this, "H1TagJuniorHRSpecialistGlobalRecr", ".//section[#'main']/header//h1[@innertext~'^\\(Junior-\\)\\ HR\\ Specialist\\ G']", 30000, null, "491fcaf9-383a-4783-b7a9-2989025c77b8");
+                _h1tagseniorconsultanthcmsystemstecInfo = new RepoItemInfo(this, "H1TagSeniorConsultantHCMSystemsTec", ".//section[#'main']/header//h1[@innertext~'^\\(Senior\\)\\ Consultant\\ HCM-S']", 30000, null, "04a1e7d8-1a63-4eb9-acab-74c4a4cf5c11");
+                _leiterdermicrosoftbusinessapplicatioInfo = new RepoItemInfo(this, "LeiterDerMicrosoftBusinessApplicatio", ".//section[#'main']/header//h1[@innertext~'^Leiter\\ der\\ Microsoft\\ Busi']", 30000, null, "dec5263a-2d72-49d9-9d5d-cf38c50f75ef");
+                _divtag1Info = new RepoItemInfo(this, "DivTag1", ".//div/div[@innertext~'^\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']", 30000, null, "3cf80d2d-aa77-4049-ab1c-344bcb21002d");
+                _alspdfherunterladenInfo = new RepoItemInfo(this, "AlsPDFHerunterladen", ".//div[#'flatbuttons']/a[@innertext='Als PDF herunterladen']", 30000, null, "af2e3842-0236-4ad3-8ad0-83c19eaf581c");
             }
 
             /// <summary>
@@ -6031,6 +6050,142 @@ namespace INKUBIT_Test___ContactForm
                 get
                 {
                     return _h1tagjuniorhrspecialistglobalrecrInfo;
+                }
+            }
+
+            /// <summary>
+            /// The H1TagSeniorConsultantHCMSystemsTec item.
+            /// </summary>
+            [RepositoryItem("04a1e7d8-1a63-4eb9-acab-74c4a4cf5c11")]
+            public virtual Ranorex.H1Tag H1TagSeniorConsultantHCMSystemsTec
+            {
+                get
+                {
+                    return _h1tagseniorconsultanthcmsystemstecInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The H1TagSeniorConsultantHCMSystemsTec item info.
+            /// </summary>
+            [RepositoryItemInfo("04a1e7d8-1a63-4eb9-acab-74c4a4cf5c11")]
+            public virtual RepoItemInfo H1TagSeniorConsultantHCMSystemsTecInfo
+            {
+                get
+                {
+                    return _h1tagseniorconsultanthcmsystemstecInfo;
+                }
+            }
+
+            /// <summary>
+            /// The LeiterDerMicrosoftBusinessApplicatio item.
+            /// </summary>
+            [RepositoryItem("dec5263a-2d72-49d9-9d5d-cf38c50f75ef")]
+            public virtual Ranorex.H1Tag LeiterDerMicrosoftBusinessApplicatio
+            {
+                get
+                {
+                    return _leiterdermicrosoftbusinessapplicatioInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LeiterDerMicrosoftBusinessApplicatio item info.
+            /// </summary>
+            [RepositoryItemInfo("dec5263a-2d72-49d9-9d5d-cf38c50f75ef")]
+            public virtual RepoItemInfo LeiterDerMicrosoftBusinessApplicatioInfo
+            {
+                get
+                {
+                    return _leiterdermicrosoftbusinessapplicatioInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DivTag1 item.
+            /// </summary>
+            [RepositoryItem("3cf80d2d-aa77-4049-ab1c-344bcb21002d")]
+            public virtual Ranorex.DivTag DivTag1
+            {
+                get
+                {
+                    return _divtag1Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DivTag1 item info.
+            /// </summary>
+            [RepositoryItemInfo("3cf80d2d-aa77-4049-ab1c-344bcb21002d")]
+            public virtual RepoItemInfo DivTag1Info
+            {
+                get
+                {
+                    return _divtag1Info;
+                }
+            }
+
+            /// <summary>
+            /// The AlsPDFHerunterladen item.
+            /// </summary>
+            [RepositoryItem("af2e3842-0236-4ad3-8ad0-83c19eaf581c")]
+            public virtual Ranorex.ATag AlsPDFHerunterladen
+            {
+                get
+                {
+                    return _alspdfherunterladenInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AlsPDFHerunterladen item info.
+            /// </summary>
+            [RepositoryItemInfo("af2e3842-0236-4ad3-8ad0-83c19eaf581c")]
+            public virtual RepoItemInfo AlsPDFHerunterladenInfo
+            {
+                get
+                {
+                    return _alspdfherunterladenInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The LeiterDerMicrosoftBusinessApplicatioAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("2f405c44-89f9-4aca-916c-5d356682e7df")]
+        public partial class LeiterDerMicrosoftBusinessApplicatioAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new LeiterDerMicrosoftBusinessApplicatio  folder.
+            /// </summary>
+            public LeiterDerMicrosoftBusinessApplicatioAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("LeiterDerMicrosoftBusinessApplicatio", "/dom[2]", parentFolder, 30000, null, false, "2f405c44-89f9-4aca-916c-5d356682e7df", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("2f405c44-89f9-4aca-916c-5d356682e7df")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("2f405c44-89f9-4aca-916c-5d356682e7df")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
                 }
             }
         }

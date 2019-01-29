@@ -8,6 +8,14 @@ rxversion="8.3">
 			name="Senior_Microsoft_Dynamics_365_CRM_Developer">
 			</smartfoldernode>
 			<smartfoldernode
+			id="01a7ce1b-5d9f-4bb0-802b-c75cf9359598"
+			name="PL">
+			</smartfoldernode>
+			<smartfoldernode
+			id="02ae14a8-8bb2-4a99-b6e9-4c4232b48479"
+			name="Junior_Microsoft_ASP.Net_Full-Stack_Developer_-_DE">
+			</smartfoldernode>
+			<smartfoldernode
 			id="03e901be-3a34-4bad-a71f-520a1fbb180b"
 			name="(Junior-)_Account_Manager">
 			</smartfoldernode>
@@ -126,12 +134,24 @@ rxversion="8.3">
 			ref="23c63966-d1bf-4547-a11f-16616ece9993"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="1f714f88-f18f-4d76-ae4e-1ac48fc4aecf"
+			name="Werkstudent_HR-Management_(m/w)">
+			</smartfoldernode>
+			<smartfoldernode
+			id="2a307131-00da-4c6a-b9c8-ab2c937f2896"
+			name="Werkstudenten_Consulting/Development_HCM-Systeme_(m/w)">
+			</smartfoldernode>
 			<testmodule
 			id="2a628d2a-aa90-4873-bf09-fd36128e403f"
 			name="JuniorMicrosoftASPNetFullStackDeveloper"
 			ref="73b845fa-60c3-4492-9a66-65eb9c12e6a0"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="2b07820c-6304-4092-a0ae-a034bcf54e93"
+			name="(Senior)_Consultant_HCM-Systems_Technical/Functional_(m/f)">
+			</smartfoldernode>
 			<smartfoldernode
 			id="2b1754c7-0e97-43ce-b827-7377c6c95813"
 			name="Junior_Microsoft_Dynamics_365_CRM_Developer">
@@ -156,6 +176,14 @@ rxversion="8.3">
 			ref="45d55875-8c1f-4c34-a84d-43b29797fbbc"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="497c6b80-ada1-4c29-9af6-95cb8609b35b"
+			name="SmartFolder121">
+			</smartfoldernode>
+			<smartfoldernode
+			id="4ff8c342-3315-4a7a-9052-c147bcb5441a"
+			name="DE">
+			</smartfoldernode>
 			<testmodule
 			id="50fb2a64-4855-43b0-ac22-47be385b82c4"
 			name="JuniorAccountManager"
@@ -169,6 +197,10 @@ rxversion="8.3">
 					<![CDATA[<p>Send an inquiry thru LandingPage,Check RefferenceNumber in CRM,Delete Record</p>]]>
 				</description>
 			</testcase>
+			<smartfoldernode
+			id="56f1402b-ff73-4429-bdbf-d1a93b9fe3fc"
+			name="(Senior)_Consultant_HCM-Systeme_Technical/Functional_(m/w)">
+			</smartfoldernode>
 			<testmodule
 			id="60bb9b3e-a139-45e3-b9d4-b7fd4a0f6b4a"
 			name="SeniorMicrosoftSharePointDeveloper"
@@ -214,6 +246,24 @@ rxversion="8.3">
 					</condition>
 				</conditiongroup>
 			</smartfoldernode>
+			<smartfoldernode
+			id="63e346c4-7d25-4460-aad3-00508c931f5c"
+			name="Senior_Microsoft_SharePoint_Developer_(m/w)">
+			</smartfoldernode>
+			<smartfoldernode
+			id="6479bd1a-2ffd-4926-a86e-4e2234bb230c"
+			name="SmartFolder111">
+			</smartfoldernode>
+			<smartfoldernode
+			id="6dff6627-b4e6-4146-b99c-a5bf94d88a24"
+			name="Werkstudent_Consulting/Development_Microsoft_Dynamics_365_CRM_(m/w)">
+			</smartfoldernode>
+			<testmodule
+			id="6f2040cc-effd-4ddc-82d9-603bc45bf51a"
+			name="LeiterderMicrosoftBusinessApplicationsAbteilung"
+			ref="3ca10470-9154-4f38-bd59-ce40ffa4f4f6"
+			type="Recording">
+			</testmodule>
 			<testcase
 			datasource="NewConnector"
 			id="76b0d54a-26c1-44fe-81c2-f524ff762b69"
@@ -224,8 +274,32 @@ rxversion="8.3">
 			name="Managing_Partner_Microsoft_Business_Applications">
 			</smartfoldernode>
 			<smartfoldernode
+			id="77d3cc10-6d53-4e2b-ad23-45e9bb695d42"
+			name="SmartFolder16">
+			</smartfoldernode>
+			<smartfoldernode
 			id="7c4751e8-e948-4945-8a49-aa3d9796955d"
 			name="(Junior-)_HR_Specialist_Global_Recruiting">
+			</smartfoldernode>
+			<testmodule
+			id="7f9ca6ea-d026-4d5b-8144-ccb8393ca956"
+			name="SeniorConsultantHCMSystemsTechnicalFunctionalmf"
+			ref="d8aab527-d1b3-4716-9725-2a8568f48042"
+			type="Recording">
+			</testmodule>
+			<smartfoldernode
+			id="820546de-a0e9-475a-ad52-7283904dd4c1"
+			name="Werkstudent_Consulting_SAP®_Business_Intelligence/Bank_Analyzer_(m/w)">
+			</smartfoldernode>
+			<testmodule
+			id="839a8e77-c25e-44f6-a138-e7a2d1e46f52"
+			name="SeniorMicrosoftDynamics365CRMConsultantTechnicalFunctionalmw"
+			ref="07a339f6-fe8a-4181-a983-4b1dc157fb2d"
+			type="Recording">
+			</testmodule>
+			<smartfoldernode
+			id="8464d734-be3d-480c-b226-a809ca775f5b"
+			name="SmartFolder141">
 			</smartfoldernode>
 			<testmodule
 			id="8ac8d425-de95-40c0-b35e-2db166ed7fa5"
@@ -319,12 +393,24 @@ rxversion="8.3">
 					</param>
 				</parameters>
 			</testcase>
+			<smartfoldernode
+			id="97bb2c8e-1a8f-4683-bdef-fbc5f6a61d0b"
+			name="Leiter_der_Microsoft_Business_Applications_Abteilung">
+			</smartfoldernode>
+			<smartfoldernode
+			id="97dbbda7-4064-4b4a-92ac-e73f82b64a2d"
+			name="Werkstudent_Sales_und_Business_Development_(m/w)">
+			</smartfoldernode>
 			<testmodule
 			id="9fd2c39c-f578-48b7-a67a-4dc6e7be2c53"
 			name="SeniorBusinessIntelligenceConsultantforSAPSEProducts"
 			ref="5ad03571-4cf4-4793-8703-1f42d56d1e44"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="a0e5ca83-3313-4852-9f76-d443030e418c"
+			name="Senior_Microsoft_Dynamics_365_CRM_Developer_(m/w)">
+			</smartfoldernode>
 			<testmodule
 			id="a29a42c0-0a8f-43f3-ae61-105229d56e2f"
 			name="Recording1"
@@ -332,8 +418,24 @@ rxversion="8.3">
 			type="Recording">
 			</testmodule>
 			<smartfoldernode
+			id="a327f8e7-be83-48a7-8538-8a71373665a7"
+			name="Junior_Microsoft_Dynamics_365_CRM_Developer_(m/w)">
+			</smartfoldernode>
+			<smartfoldernode
+			id="a8302359-9925-45b6-a951-3bfaf32de199"
+			name="Senior_Microsoft_Dynamics_365_CRM_Consultant_Technical_&amp;_Functional_(m/w)">
+			</smartfoldernode>
+			<smartfoldernode
+			id="a87ca2a4-c9ad-4ada-b716-9e44ace99bfe"
+			name="SmartFolder151">
+			</smartfoldernode>
+			<smartfoldernode
 			id="ab78d905-9b89-4ebe-b3a8-45ec30855d02"
 			name="Junior_Web_Frontend_Developer">
+			</smartfoldernode>
+			<smartfoldernode
+			id="adee5b88-0aef-4fe8-a7cd-17d29354cb40"
+			name="EN">
 			</smartfoldernode>
 			<testmodule
 			id="ae978d64-9343-4071-b8ff-bc944bcb2388"
@@ -358,6 +460,10 @@ rxversion="8.3">
 			reportwriteinterval="30000ms"
 			showinvisiblechars="True">
 			</testsuite>
+			<smartfoldernode
+			id="b34c46dd-69a5-4e3b-9bc4-7bf8da787379"
+			name="Werkstudenten_Marketing_and_Communications_(m/w)">
+			</smartfoldernode>
 			<testcase
 			id="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
 			name="INKUBIT_Test___JobApplicationProcess"
@@ -391,6 +497,10 @@ rxversion="8.3">
 			ref="8478b8eb-defd-41dd-a29d-af2ffeaf7e82"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="d3e59e98-b92a-459e-bd66-77dc177eb2fc"
+			name="Senior_Consultant_im_Bereich_Banking_für_Produkte_der_SAP_SE_(m/w)">
+			</smartfoldernode>
 			<testmodule
 			id="d6c8319e-4906-4a7d-ad08-725c4b3bcc5d"
 			name="ManagingPartnerMicrosoftBusinessApplications"
@@ -405,12 +515,20 @@ rxversion="8.3">
 			id="d8b0db27-4050-45b5-b7e4-68af9f217118"
 			name="Senior_Banking_Consultant_for_SAP_SE_Products">
 			</smartfoldernode>
+			<smartfoldernode
+			id="e0817b9f-8b73-4cae-9c51-c1b633004287"
+			name="Senior_Consultant_im_Bereich_Business_Intelligence_für_Produkte_der_SAP_SE_(m/w)">
+			</smartfoldernode>
 			<testmodule
 			id="e229068c-b521-43d5-8bc5-efc6f277387c"
 			name="JuniorMicrosoftDynamics365CRMDeveloper"
 			ref="6f4cf080-6a7f-4d70-931c-ed6d0b7cb0f2"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="e32004e0-244f-4060-ad81-25dc11e6fa11"
+			name="Werkstudent_Finance_und_Controlling_(m/w)">
+			</smartfoldernode>
 			<testcase
 			id="e331a302-98a6-4730-bb7d-d0bc9e8ca926"
 			name="Check_Careers_-_Test">
@@ -501,6 +619,10 @@ rxversion="8.3">
 			id="e896cb50-e9fe-44a3-8d30-0b0a4935b1cb"
 			name="Administrative_Assistance">
 			</smartfoldernode>
+			<smartfoldernode
+			id="ee7dabdd-c12a-4b85-b97e-aec6d8b7be7a"
+			name="SmartFolder131">
+			</smartfoldernode>
 			<testmodule
 			id="efb51f16-e680-4e8f-8650-aef2a1e4776b"
 			name="JuniorWebFrontendDeveloper"
@@ -527,9 +649,17 @@ rxversion="8.3">
 			id="f8859a98-44cc-4c98-b767-a08f28199950"
 			name="Check_JobAnnouncements_-_Prod">
 				<description>
-					<![CDATA[<p>Validate : PDF / H1 Tag / Submit&nbsp;Button</p><p><br></p>]]>
+					<![CDATA[<p>Validate :&nbsp;Big Image&nbsp;/ H1 Tag name&nbsp;/ PDF /&nbsp;Submit&nbsp;Button</p><br>]]>
 				</description>
 			</testcase>
+			<smartfoldernode
+			id="fd8b3fbf-8a40-493a-8663-24ab161b7c6f"
+			name="Junior_Microsoft_Dynamics_365_CRM_Consultant_Technical_&amp;_Functional_(m/w)">
+			</smartfoldernode>
+			<smartfoldernode
+			id="fe867e48-a124-4591-8cf0-0c58b95c6fca"
+			name="(Junior-)_Account_Manager_(m/w)">
+			</smartfoldernode>
 		</flatlistofchildren>
 		<childhierarchy>
 			<testsuite
@@ -606,108 +736,232 @@ rxversion="8.3">
 					id="f8859a98-44cc-4c98-b767-a08f28199950"
 					name="Check_JobAnnouncements_-_Prod">
 						<smartfoldernode
-						id="76e32daf-cd8f-4619-8a24-2ffbb15bced5"
-						name="Managing_Partner_Microsoft_Business_Applications">
-							<testmodule
-							id="d6c8319e-4906-4a7d-ad08-725c4b3bcc5d"
-							name="ManagingPartnerMicrosoftBusinessApplications">
-							</testmodule>
+						id="adee5b88-0aef-4fe8-a7cd-17d29354cb40"
+						name="EN">
+							<smartfoldernode
+							id="76e32daf-cd8f-4619-8a24-2ffbb15bced5"
+							name="Managing_Partner_Microsoft_Business_Applications">
+								<testmodule
+								id="d6c8319e-4906-4a7d-ad08-725c4b3bcc5d"
+								name="ManagingPartnerMicrosoftBusinessApplications">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="312770fa-3237-4ba3-a702-a0c6a9ee3145"
+							name="Senior_Microsoft_Dynamics_365_CRM_Consultant_Technical_and_Functional">
+								<testmodule
+								id="cb038236-38c1-4dbf-b92e-88e184528e3c"
+								name="SeniorMicrosoftDynamics365CRMConsultantTechnicalandFunctional">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="8c6d98f2-b2f3-4915-845a-83625349dd2d"
+							name="Senior_Business_Intelligence_Consultant_for_SAP_SE_Products">
+								<testmodule
+								id="9fd2c39c-f578-48b7-a67a-4dc6e7be2c53"
+								name="SeniorBusinessIntelligenceConsultantforSAPSEProducts">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="d8b0db27-4050-45b5-b7e4-68af9f217118"
+							name="Senior_Banking_Consultant_for_SAP_SE_Products">
+								<testmodule
+								id="c4d6b1d1-7599-4a98-a2f1-979dfd23ca7c"
+								name="SeniorBankingConsultantforSAPSEProducts">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="0022f891-015c-45cb-8293-b5db51aee67c"
+							name="Senior_Microsoft_Dynamics_365_CRM_Developer">
+								<testmodule
+								id="06c4be8a-09bc-435c-873d-6bc5d348bbe7"
+								name="SeniorMicrosoftDynamics365CRMDeveloper">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="2b1754c7-0e97-43ce-b827-7377c6c95813"
+							name="Junior_Microsoft_Dynamics_365_CRM_Developer">
+								<testmodule
+								id="e229068c-b521-43d5-8bc5-efc6f277387c"
+								name="JuniorMicrosoftDynamics365CRMDeveloper">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="d819017b-40fa-4577-aba1-66f94fc9b96d"
+							name="Junior_Microsoft_Business_Intelligence_Developer">
+								<testmodule
+								id="f1d10a33-a246-43c8-90fa-e228ad68c28f"
+								name="JuniorMicrosoftBusinessIntelligenceDeveloper">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="f7146c5c-33d8-4c2e-b701-21c6c6692575"
+							name="Junior_Microsoft_ASP.Net_Full-Stack_Developer">
+								<testmodule
+								id="2a628d2a-aa90-4873-bf09-fd36128e403f"
+								name="JuniorMicrosoftASPNetFullStackDeveloper">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="ab78d905-9b89-4ebe-b3a8-45ec30855d02"
+							name="Junior_Web_Frontend_Developer">
+								<testmodule
+								id="efb51f16-e680-4e8f-8650-aef2a1e4776b"
+								name="JuniorWebFrontendDeveloper">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="19281036-d7e2-44b3-ad55-963afc443751"
+							name="Senior_Microsoft_SharePoint_Developer">
+								<testmodule
+								id="60bb9b3e-a139-45e3-b9d4-b7fd4a0f6b4a"
+								name="SeniorMicrosoftSharePointDeveloper">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="03e901be-3a34-4bad-a71f-520a1fbb180b"
+							name="(Junior-)_Account_Manager">
+								<testmodule
+								id="50fb2a64-4855-43b0-ac22-47be385b82c4"
+								name="JuniorAccountManager">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="7c4751e8-e948-4945-8a49-aa3d9796955d"
+							name="(Junior-)_HR_Specialist_Global_Recruiting">
+								<testmodule
+								id="1e9c92d7-6523-4663-b115-a5e66fd1bab8"
+								name="JuniorHRSpecialistGlobalRecruiting">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="e896cb50-e9fe-44a3-8d30-0b0a4935b1cb"
+							name="Administrative_Assistance">
+								<testmodule
+								id="cf2acee3-fb6a-47df-a4a4-56f20ed909cc"
+								name="AdministrativeAssistance">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="2b07820c-6304-4092-a0ae-a034bcf54e93"
+							name="(Senior)_Consultant_HCM-Systems_Technical/Functional_(m/f)">
+								<testmodule
+								id="7f9ca6ea-d026-4d5b-8144-ccb8393ca956"
+								name="SeniorConsultantHCMSystemsTechnicalFunctionalmf">
+								</testmodule>
+							</smartfoldernode>
 						</smartfoldernode>
 						<smartfoldernode
-						id="312770fa-3237-4ba3-a702-a0c6a9ee3145"
-						name="Senior_Microsoft_Dynamics_365_CRM_Consultant_Technical_and_Functional">
-							<testmodule
-							id="cb038236-38c1-4dbf-b92e-88e184528e3c"
-							name="SeniorMicrosoftDynamics365CRMConsultantTechnicalandFunctional">
-							</testmodule>
+						id="4ff8c342-3315-4a7a-9052-c147bcb5441a"
+						name="DE">
+							<smartfoldernode
+							id="97bb2c8e-1a8f-4683-bdef-fbc5f6a61d0b"
+							name="Leiter_der_Microsoft_Business_Applications_Abteilung">
+								<testmodule
+								id="6f2040cc-effd-4ddc-82d9-603bc45bf51a"
+								name="LeiterderMicrosoftBusinessApplicationsAbteilung">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="a8302359-9925-45b6-a951-3bfaf32de199"
+							name="Senior_Microsoft_Dynamics_365_CRM_Consultant_Technical_&amp;_Functional_(m/w)">
+								<testmodule
+								id="839a8e77-c25e-44f6-a138-e7a2d1e46f52"
+								name="SeniorMicrosoftDynamics365CRMConsultantTechnicalFunctionalmw">
+								</testmodule>
+							</smartfoldernode>
+							<smartfoldernode
+							id="56f1402b-ff73-4429-bdbf-d1a93b9fe3fc"
+							name="(Senior)_Consultant_HCM-Systeme_Technical/Functional_(m/w)">
+							</smartfoldernode>
+							<smartfoldernode
+							id="e0817b9f-8b73-4cae-9c51-c1b633004287"
+							name="Senior_Consultant_im_Bereich_Business_Intelligence_für_Produkte_der_SAP_SE_(m/w)">
+							</smartfoldernode>
+							<smartfoldernode
+							id="d3e59e98-b92a-459e-bd66-77dc177eb2fc"
+							name="Senior_Consultant_im_Bereich_Banking_für_Produkte_der_SAP_SE_(m/w)">
+							</smartfoldernode>
+							<smartfoldernode
+							id="fd8b3fbf-8a40-493a-8663-24ab161b7c6f"
+							name="Junior_Microsoft_Dynamics_365_CRM_Consultant_Technical_&amp;_Functional_(m/w)">
+							</smartfoldernode>
+							<smartfoldernode
+							id="6dff6627-b4e6-4146-b99c-a5bf94d88a24"
+							name="Werkstudent_Consulting/Development_Microsoft_Dynamics_365_CRM_(m/w)">
+							</smartfoldernode>
+							<smartfoldernode
+							id="820546de-a0e9-475a-ad52-7283904dd4c1"
+							name="Werkstudent_Consulting_SAP®_Business_Intelligence/Bank_Analyzer_(m/w)">
+							</smartfoldernode>
+							<smartfoldernode
+							id="2a307131-00da-4c6a-b9c8-ab2c937f2896"
+							name="Werkstudenten_Consulting/Development_HCM-Systeme_(m/w)">
+							</smartfoldernode>
+							<smartfoldernode
+							id="a0e5ca83-3313-4852-9f76-d443030e418c"
+							name="Senior_Microsoft_Dynamics_365_CRM_Developer_(m/w)">
+							</smartfoldernode>
+							<smartfoldernode
+							id="02ae14a8-8bb2-4a99-b6e9-4c4232b48479"
+							name="Junior_Microsoft_ASP.Net_Full-Stack_Developer_-_DE">
+							</smartfoldernode>
+							<smartfoldernode
+							id="63e346c4-7d25-4460-aad3-00508c931f5c"
+							name="Senior_Microsoft_SharePoint_Developer_(m/w)">
+							</smartfoldernode>
+							<smartfoldernode
+							id="a327f8e7-be83-48a7-8538-8a71373665a7"
+							name="Junior_Microsoft_Dynamics_365_CRM_Developer_(m/w)">
+							</smartfoldernode>
+							<smartfoldernode
+							id="fe867e48-a124-4591-8cf0-0c58b95c6fca"
+							name="(Junior-)_Account_Manager_(m/w)">
+							</smartfoldernode>
+							<smartfoldernode
+							id="97dbbda7-4064-4b4a-92ac-e73f82b64a2d"
+							name="Werkstudent_Sales_und_Business_Development_(m/w)">
+							</smartfoldernode>
+							<smartfoldernode
+							id="1f714f88-f18f-4d76-ae4e-1ac48fc4aecf"
+							name="Werkstudent_HR-Management_(m/w)">
+							</smartfoldernode>
+							<smartfoldernode
+							id="b34c46dd-69a5-4e3b-9bc4-7bf8da787379"
+							name="Werkstudenten_Marketing_and_Communications_(m/w)">
+							</smartfoldernode>
+							<smartfoldernode
+							id="e32004e0-244f-4060-ad81-25dc11e6fa11"
+							name="Werkstudent_Finance_und_Controlling_(m/w)">
+							</smartfoldernode>
 						</smartfoldernode>
 						<smartfoldernode
-						id="8c6d98f2-b2f3-4915-845a-83625349dd2d"
-						name="Senior_Business_Intelligence_Consultant_for_SAP_SE_Products">
-							<testmodule
-							id="9fd2c39c-f578-48b7-a67a-4dc6e7be2c53"
-							name="SeniorBusinessIntelligenceConsultantforSAPSEProducts">
-							</testmodule>
-						</smartfoldernode>
-						<smartfoldernode
-						id="d8b0db27-4050-45b5-b7e4-68af9f217118"
-						name="Senior_Banking_Consultant_for_SAP_SE_Products">
-							<testmodule
-							id="c4d6b1d1-7599-4a98-a2f1-979dfd23ca7c"
-							name="SeniorBankingConsultantforSAPSEProducts">
-							</testmodule>
-						</smartfoldernode>
-						<smartfoldernode
-						id="0022f891-015c-45cb-8293-b5db51aee67c"
-						name="Senior_Microsoft_Dynamics_365_CRM_Developer">
-							<testmodule
-							id="06c4be8a-09bc-435c-873d-6bc5d348bbe7"
-							name="SeniorMicrosoftDynamics365CRMDeveloper">
-							</testmodule>
-						</smartfoldernode>
-						<smartfoldernode
-						id="2b1754c7-0e97-43ce-b827-7377c6c95813"
-						name="Junior_Microsoft_Dynamics_365_CRM_Developer">
-							<testmodule
-							id="e229068c-b521-43d5-8bc5-efc6f277387c"
-							name="JuniorMicrosoftDynamics365CRMDeveloper">
-							</testmodule>
-						</smartfoldernode>
-						<smartfoldernode
-						id="d819017b-40fa-4577-aba1-66f94fc9b96d"
-						name="Junior_Microsoft_Business_Intelligence_Developer">
-							<testmodule
-							id="f1d10a33-a246-43c8-90fa-e228ad68c28f"
-							name="JuniorMicrosoftBusinessIntelligenceDeveloper">
-							</testmodule>
-						</smartfoldernode>
-						<smartfoldernode
-						id="f7146c5c-33d8-4c2e-b701-21c6c6692575"
-						name="Junior_Microsoft_ASP.Net_Full-Stack_Developer">
-							<testmodule
-							id="2a628d2a-aa90-4873-bf09-fd36128e403f"
-							name="JuniorMicrosoftASPNetFullStackDeveloper">
-							</testmodule>
-						</smartfoldernode>
-						<smartfoldernode
-						id="ab78d905-9b89-4ebe-b3a8-45ec30855d02"
-						name="Junior_Web_Frontend_Developer">
-							<testmodule
-							id="efb51f16-e680-4e8f-8650-aef2a1e4776b"
-							name="JuniorWebFrontendDeveloper">
-							</testmodule>
-						</smartfoldernode>
-						<smartfoldernode
-						id="19281036-d7e2-44b3-ad55-963afc443751"
-						name="Senior_Microsoft_SharePoint_Developer">
-							<testmodule
-							id="60bb9b3e-a139-45e3-b9d4-b7fd4a0f6b4a"
-							name="SeniorMicrosoftSharePointDeveloper">
-							</testmodule>
-						</smartfoldernode>
-						<smartfoldernode
-						id="03e901be-3a34-4bad-a71f-520a1fbb180b"
-						name="(Junior-)_Account_Manager">
-							<testmodule
-							id="50fb2a64-4855-43b0-ac22-47be385b82c4"
-							name="JuniorAccountManager">
-							</testmodule>
-						</smartfoldernode>
-						<smartfoldernode
-						id="7c4751e8-e948-4945-8a49-aa3d9796955d"
-						name="(Junior-)_HR_Specialist_Global_Recruiting">
-							<testmodule
-							id="1e9c92d7-6523-4663-b115-a5e66fd1bab8"
-							name="JuniorHRSpecialistGlobalRecruiting">
-							</testmodule>
-						</smartfoldernode>
-						<smartfoldernode
-						id="e896cb50-e9fe-44a3-8d30-0b0a4935b1cb"
-						name="Administrative_Assistance">
-							<testmodule
-							id="cf2acee3-fb6a-47df-a4a4-56f20ed909cc"
-							name="AdministrativeAssistance">
-							</testmodule>
+						id="01a7ce1b-5d9f-4bb0-802b-c75cf9359598"
+						name="PL">
+							<smartfoldernode
+							id="77d3cc10-6d53-4e2b-ad23-45e9bb695d42"
+							name="SmartFolder16">
+							</smartfoldernode>
+							<smartfoldernode
+							id="6479bd1a-2ffd-4926-a86e-4e2234bb230c"
+							name="SmartFolder111">
+							</smartfoldernode>
+							<smartfoldernode
+							id="497c6b80-ada1-4c29-9af6-95cb8609b35b"
+							name="SmartFolder121">
+							</smartfoldernode>
+							<smartfoldernode
+							id="ee7dabdd-c12a-4b85-b97e-aec6d8b7be7a"
+							name="SmartFolder131">
+							</smartfoldernode>
+							<smartfoldernode
+							id="8464d734-be3d-480c-b226-a809ca775f5b"
+							name="SmartFolder141">
+							</smartfoldernode>
+							<smartfoldernode
+							id="a87ca2a4-c9ad-4ada-b716-9e44ace99bfe"
+							name="SmartFolder151">
+							</smartfoldernode>
 						</smartfoldernode>
 					</testcase>
 					<teardown
@@ -753,7 +1007,10 @@ rxversion="8.3">
 			id="0022f891-015c-45cb-8293-b5db51aee67c">
 			</testcontainer>
 			<testcontainer
-			id="03e901be-3a34-4bad-a71f-520a1fbb180b">
+			id="01a7ce1b-5d9f-4bb0-802b-c75cf9359598">
+			</testcontainer>
+			<testcontainer
+			id="02ae14a8-8bb2-4a99-b6e9-4c4232b48479">
 			</testcontainer>
 			<testcontainer
 			id="0aed5587-a869-4a3e-99ed-2531cee8d19e">
@@ -762,16 +1019,43 @@ rxversion="8.3">
 			id="19281036-d7e2-44b3-ad55-963afc443751">
 			</testcontainer>
 			<testcontainer
+			id="1f714f88-f18f-4d76-ae4e-1ac48fc4aecf">
+			</testcontainer>
+			<testcontainer
+			id="2a307131-00da-4c6a-b9c8-ab2c937f2896">
+			</testcontainer>
+			<testcontainer
+			id="2b07820c-6304-4092-a0ae-a034bcf54e93">
+			</testcontainer>
+			<testcontainer
 			id="2b1754c7-0e97-43ce-b827-7377c6c95813">
 			</testcontainer>
 			<testcontainer
 			id="312770fa-3237-4ba3-a702-a0c6a9ee3145">
 			</testcontainer>
 			<testcontainer
+			id="497c6b80-ada1-4c29-9af6-95cb8609b35b">
+			</testcontainer>
+			<testcontainer
+			id="4ff8c342-3315-4a7a-9052-c147bcb5441a">
+			</testcontainer>
+			<testcontainer
 			id="51c28c9a-71fc-49bf-8528-c5bc00b5f7b4">
 			</testcontainer>
 			<testcontainer
+			id="56f1402b-ff73-4429-bdbf-d1a93b9fe3fc">
+			</testcontainer>
+			<testcontainer
 			id="60f72d0b-b4e9-42be-8bba-98a8ae6e4f9e">
+			</testcontainer>
+			<testcontainer
+			id="63e346c4-7d25-4460-aad3-00508c931f5c">
+			</testcontainer>
+			<testcontainer
+			id="6479bd1a-2ffd-4926-a86e-4e2234bb230c">
+			</testcontainer>
+			<testcontainer
+			id="6dff6627-b4e6-4146-b99c-a5bf94d88a24">
 			</testcontainer>
 			<testcontainer
 			id="76b0d54a-26c1-44fe-81c2-f524ff762b69">
@@ -780,13 +1064,46 @@ rxversion="8.3">
 			id="76e32daf-cd8f-4619-8a24-2ffbb15bced5">
 			</testcontainer>
 			<testcontainer
+			id="77d3cc10-6d53-4e2b-ad23-45e9bb695d42">
+			</testcontainer>
+			<testcontainer
+			id="820546de-a0e9-475a-ad52-7283904dd4c1">
+			</testcontainer>
+			<testcontainer
+			id="8464d734-be3d-480c-b226-a809ca775f5b">
+			</testcontainer>
+			<testcontainer
 			id="8c6d98f2-b2f3-4915-845a-83625349dd2d">
 			</testcontainer>
 			<testcontainer
 			id="8ca6a342-9a95-4a43-881f-4ca5f2afd29f">
 			</testcontainer>
 			<testcontainer
+			id="97bb2c8e-1a8f-4683-bdef-fbc5f6a61d0b">
+			</testcontainer>
+			<testcontainer
+			id="97dbbda7-4064-4b4a-92ac-e73f82b64a2d">
+			</testcontainer>
+			<testcontainer
+			id="a0e5ca83-3313-4852-9f76-d443030e418c">
+			</testcontainer>
+			<testcontainer
+			id="a327f8e7-be83-48a7-8538-8a71373665a7">
+			</testcontainer>
+			<testcontainer
+			id="a8302359-9925-45b6-a951-3bfaf32de199">
+			</testcontainer>
+			<testcontainer
+			id="a87ca2a4-c9ad-4ada-b716-9e44ace99bfe">
+			</testcontainer>
+			<testcontainer
 			id="ab78d905-9b89-4ebe-b3a8-45ec30855d02">
+			</testcontainer>
+			<testcontainer
+			id="adee5b88-0aef-4fe8-a7cd-17d29354cb40">
+			</testcontainer>
+			<testcontainer
+			id="b34c46dd-69a5-4e3b-9bc4-7bf8da787379">
 			</testcontainer>
 			<testcontainer
 			id="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58">
@@ -795,10 +1112,19 @@ rxversion="8.3">
 			id="bbbc54d2-b065-4c7e-98a4-55eeb49b0c4b">
 			</testcontainer>
 			<testcontainer
+			id="d3e59e98-b92a-459e-bd66-77dc177eb2fc">
+			</testcontainer>
+			<testcontainer
 			id="d819017b-40fa-4577-aba1-66f94fc9b96d">
 			</testcontainer>
 			<testcontainer
 			id="d8b0db27-4050-45b5-b7e4-68af9f217118">
+			</testcontainer>
+			<testcontainer
+			id="e0817b9f-8b73-4cae-9c51-c1b633004287">
+			</testcontainer>
+			<testcontainer
+			id="e32004e0-244f-4060-ad81-25dc11e6fa11">
 			</testcontainer>
 			<testcontainer
 			id="e331a302-98a6-4730-bb7d-d0bc9e8ca926">
@@ -810,10 +1136,19 @@ rxversion="8.3">
 			id="e896cb50-e9fe-44a3-8d30-0b0a4935b1cb">
 			</testcontainer>
 			<testcontainer
+			id="ee7dabdd-c12a-4b85-b97e-aec6d8b7be7a">
+			</testcontainer>
+			<testcontainer
 			id="f7146c5c-33d8-4c2e-b701-21c6c6692575">
 			</testcontainer>
 			<testcontainer
 			id="f8859a98-44cc-4c98-b767-a08f28199950">
+			</testcontainer>
+			<testcontainer
+			id="fd8b3fbf-8a40-493a-8663-24ab161b7c6f">
+			</testcontainer>
+			<testcontainer
+			id="fe867e48-a124-4591-8cf0-0c58b95c6fca">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

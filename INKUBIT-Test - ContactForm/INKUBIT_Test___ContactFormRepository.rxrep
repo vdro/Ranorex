@@ -2286,9 +2286,8 @@ AAAASUVORK5CYII=
 			id="32e03649-ca7d-4040-8e89-d48fa9ba1f14"
 			name="HttpsWwwInkubitComMedia74506Back"
 			refimgid="c69b39f1-6427-442c-8c50-2faabaf76f4c"
-			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/div[2]/div[1]/p/img[@title='']"
 			searchtimeout="30000ms">
-				/dom[1]//section[#'main']/div[2]//img[@title='']
+				/dom[1]//section[#'main']/div[2]//img
 			</item>
 			<item
 			addcaps="unknown,webelement,h1tag"
@@ -2378,8 +2377,73 @@ AAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/dom[1]//section[#'main']/header//h1[@innertext~'^\(Junior-\)\ HR\ Specialist\ G']
 			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="04a1e7d8-1a63-4eb9-acab-74c4a4cf5c11"
+			name="H1TagSeniorConsultantHCMSystemsTec"
+			refimgid="b27692fd-65e5-4f2e-922d-9a444f9c2fa7"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='(Senior) Consultant HCM-Systems Technical/Functional (m/f)']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^\(Senior\)\ Consultant\ HCM-S']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="dec5263a-2d72-49d9-9d5d-cf38c50f75ef"
+			name="LeiterDerMicrosoftBusinessApplicatio"
+			refimgid="9bb93d80-8124-478c-8d20-9d0f7f7239c1"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^Leiter\ der\ Microsoft\ Busi']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="3cf80d2d-aa77-4049-ab1c-344bcb21002d"
+			name="DivTag1"
+			refimgid="88e78cde-3951-4ab7-a2c8-51bd34cc1f2b"
+			searchtimeout="30000ms">
+				/dom[1]//div/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="af2e3842-0236-4ad3-8ad0-83c19eaf581c"
+			name="AlsPDFHerunterladen"
+			refimgid="134f7c73-f7a4-4d10-9e3b-0169b7ca14d4"
+			searchtimeout="30000ms">
+				/dom[1]//div[#'flatbuttons']/a[@innertext='Als PDF herunterladen']
+			</item>
 			<basepath>
 				/dom[1]
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="2f405c44-89f9-4aca-916c-5d356682e7df"
+		isrooted="True"
+		name="LeiterDerMicrosoftBusinessApplicatio"
+		refpath="/dom[2]"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[2]
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
