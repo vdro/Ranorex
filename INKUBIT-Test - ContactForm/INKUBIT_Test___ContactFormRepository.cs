@@ -44,6 +44,10 @@ namespace INKUBIT_Test___ContactForm
         INKUBIT_Test___ContactFormRepositoryFolders.SeniorSAPHCMConsultantGoogleChromAppFolder _seniorsaphcmconsultantgooglechrom;
         INKUBIT_Test___ContactFormRepositoryFolders.HttpsWwwInkubitComEnUsCareersAppFolder _httpswwwinkubitcomenuscareers;
         INKUBIT_Test___ContactFormRepositoryFolders.LeiterDerMicrosoftBusinessApplicatioAppFolder _leiterdermicrosoftbusinessapplicatio;
+        INKUBIT_Test___ContactFormRepositoryFolders.SeniorMicrosoftDynamics365DeveloperAppFolder _seniormicrosoftdynamics365developer;
+        INKUBIT_Test___ContactFormRepositoryFolders.SeniorMicrosoftDynamics365Developer1AppFolder _seniormicrosoftdynamics365developer1;
+        INKUBIT_Test___ContactFormRepositoryFolders.SeniorMicrosoftDynamics365Developer2AppFolder _seniormicrosoftdynamics365developer2;
+        INKUBIT_Test___ContactFormRepositoryFolders.JuniorMicrosoftBusinessIntelligenceDAppFolder _juniormicrosoftbusinessintelligenced;
 
         /// <summary>
         /// Gets the singleton class instance representing the INKUBIT_Test___ContactFormRepository element repository.
@@ -77,6 +81,10 @@ namespace INKUBIT_Test___ContactForm
             _seniorsaphcmconsultantgooglechrom = new INKUBIT_Test___ContactFormRepositoryFolders.SeniorSAPHCMConsultantGoogleChromAppFolder(this);
             _httpswwwinkubitcomenuscareers = new INKUBIT_Test___ContactFormRepositoryFolders.HttpsWwwInkubitComEnUsCareersAppFolder(this);
             _leiterdermicrosoftbusinessapplicatio = new INKUBIT_Test___ContactFormRepositoryFolders.LeiterDerMicrosoftBusinessApplicatioAppFolder(this);
+            _seniormicrosoftdynamics365developer = new INKUBIT_Test___ContactFormRepositoryFolders.SeniorMicrosoftDynamics365DeveloperAppFolder(this);
+            _seniormicrosoftdynamics365developer1 = new INKUBIT_Test___ContactFormRepositoryFolders.SeniorMicrosoftDynamics365Developer1AppFolder(this);
+            _seniormicrosoftdynamics365developer2 = new INKUBIT_Test___ContactFormRepositoryFolders.SeniorMicrosoftDynamics365Developer2AppFolder(this);
+            _juniormicrosoftbusinessintelligenced = new INKUBIT_Test___ContactFormRepositoryFolders.JuniorMicrosoftBusinessIntelligenceDAppFolder(this);
         }
 
 #region Variables
@@ -246,6 +254,42 @@ namespace INKUBIT_Test___ContactForm
         public virtual INKUBIT_Test___ContactFormRepositoryFolders.LeiterDerMicrosoftBusinessApplicatioAppFolder LeiterDerMicrosoftBusinessApplicatio
         {
             get { return _leiterdermicrosoftbusinessapplicatio; }
+        }
+
+        /// <summary>
+        /// The SeniorMicrosoftDynamics365Developer folder.
+        /// </summary>
+        [RepositoryFolder("bdf516ac-a9a3-478f-b46a-ee926a8ea34a")]
+        public virtual INKUBIT_Test___ContactFormRepositoryFolders.SeniorMicrosoftDynamics365DeveloperAppFolder SeniorMicrosoftDynamics365Developer
+        {
+            get { return _seniormicrosoftdynamics365developer; }
+        }
+
+        /// <summary>
+        /// The SeniorMicrosoftDynamics365Developer1 folder.
+        /// </summary>
+        [RepositoryFolder("d52315cc-2cdd-446b-a9ca-9477c2881b8f")]
+        public virtual INKUBIT_Test___ContactFormRepositoryFolders.SeniorMicrosoftDynamics365Developer1AppFolder SeniorMicrosoftDynamics365Developer1
+        {
+            get { return _seniormicrosoftdynamics365developer1; }
+        }
+
+        /// <summary>
+        /// The SeniorMicrosoftDynamics365Developer2 folder.
+        /// </summary>
+        [RepositoryFolder("045e4366-6fba-43d0-a1a0-8995b34245de")]
+        public virtual INKUBIT_Test___ContactFormRepositoryFolders.SeniorMicrosoftDynamics365Developer2AppFolder SeniorMicrosoftDynamics365Developer2
+        {
+            get { return _seniormicrosoftdynamics365developer2; }
+        }
+
+        /// <summary>
+        /// The JuniorMicrosoftBusinessIntelligenceD folder.
+        /// </summary>
+        [RepositoryFolder("fb4bd0c3-eeaa-434a-b064-1a82a14b53ad")]
+        public virtual INKUBIT_Test___ContactFormRepositoryFolders.JuniorMicrosoftBusinessIntelligenceDAppFolder JuniorMicrosoftBusinessIntelligenceD
+        {
+            get { return _juniormicrosoftbusinessintelligenced; }
         }
     }
 
@@ -5591,6 +5635,14 @@ namespace INKUBIT_Test___ContactForm
             RepoItemInfo _leiterdermicrosoftbusinessapplicatioInfo;
             RepoItemInfo _divtag1Info;
             RepoItemInfo _alspdfherunterladenInfo;
+            RepoItemInfo _seniorconsultantimbereichbusinessinInfo;
+            RepoItemInfo _juniormicrosoftdynamics365crmconsulInfo;
+            RepoItemInfo _werkstudentconsultingdevelopmentmicroInfo;
+            RepoItemInfo _werkstudentconsultingsaprbusinessintInfo;
+            RepoItemInfo _seniormicrosoftdynamics365crmdevelo1Info;
+            RepoItemInfo _werkstudentenconsultingdevelopmenthcmInfo;
+            RepoItemInfo _httpswwwinkubitcommedia74518backInfo;
+            RepoItemInfo _seniormicrosoftdynamics365crmdeveloInfo;
 
             /// <summary>
             /// Creates a new HttpsWwwInkubitComEnUsCareers  folder.
@@ -5602,23 +5654,31 @@ namespace INKUBIT_Test___ContactForm
                 _managingpartnermicrosoftbusinessappl1Info = new RepoItemInfo(this, "ManagingPartnerMicrosoftBusinessAppl1", ".//section[#'main']/header//h1[@innertext~'^Managing\\ Partner\\ Microsof']", 30000, null, "ecdecb1d-fbc6-4448-95de-9dcc66efcdf9");
                 _divtagInfo = new RepoItemInfo(this, "DivTag", ".//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']", 30000, null, "3c2763a3-4e54-419b-b189-9dbeea3b1b5f");
                 _downloadaspdfInfo = new RepoItemInfo(this, "DownloadAsPDF", ".//div[#'flatbuttons']/a[@innertext='Download as PDF']", 30000, null, "4ea2ec33-81de-48bf-a1f1-f108cb6b8de8");
-                _seniormicrosoftdynamics365crmconsulInfo = new RepoItemInfo(this, "SeniorMicrosoftDynamics365CRMConsul", ".//section[#'main']/header//h1[@innertext~'^Senior\\ Microsoft\\ Dynamics']", 30000, null, "ed18f102-3041-4d7f-b4e9-ed7a9d8eea9a");
+                _seniormicrosoftdynamics365crmconsulInfo = new RepoItemInfo(this, "SeniorMicrosoftDynamics365CRMConsul", ".//section/header//h1[@innertext='Senior Microsoft Dynamics 365 CRM Consultant Technical & Functional (m/w)']", 30000, null, "ed18f102-3041-4d7f-b4e9-ed7a9d8eea9a");
                 _seniorbusinessintelligenceconsultantInfo = new RepoItemInfo(this, "SeniorBusinessIntelligenceConsultant", ".//section[#'main']/header//h1[@innertext~'^Senior\\ Business\\ Intellige']", 30000, null, "92dc03ec-23e5-48a2-a10f-34a3de8d23a4");
                 _seniorbankingconsultantforsapseproInfo = new RepoItemInfo(this, "SeniorBankingConsultantForSAPSEPro", ".//section[#'main']/header//h1[@innertext~'^Senior\\ Banking\\ Consultant']", 30000, null, "ebefb3ef-8af4-4c2a-8e08-7ed20daa757f");
                 _httpswwwinkubitcommedia74506backInfo = new RepoItemInfo(this, "HttpsWwwInkubitComMedia74506Back", ".//section[#'main']/div[2]//img", 30000, null, "32e03649-ca7d-4040-8e89-d48fa9ba1f14");
                 _juniormicrosoftdynamics365crmdeveloInfo = new RepoItemInfo(this, "JuniorMicrosoftDynamics365CRMDevelo", ".//section[#'main']/header//h1[@innertext~'Junior Microsoft Dynamics 365 CRM Developer']", 30000, null, "b238febf-0107-4c0a-b8e0-99e45fbe3e12");
                 _juniormicrosoftbusinessintelligencedInfo = new RepoItemInfo(this, "JuniorMicrosoftBusinessIntelligenceD", ".//section[#'main']/header//h1[@innertext~'^Junior\\ Microsoft\\ Business']", 30000, null, "81a55ebe-3e8a-41df-8c0d-26ceee52c987");
                 _livicon6Info = new RepoItemInfo(this, "Livicon6", ".//i[#'livicon-6']", 30000, null, "4a30de9d-1b45-4e85-a867-27c106d5db8b");
-                _juniormicrosoftaspnetfullstackdeveInfo = new RepoItemInfo(this, "JuniorMicrosoftASPNetFullStackDeve", ".//section[#'main']/header//h1[@innertext~'^Junior\\ Microsoft\\ ASP\\.Net\\ ']", 30000, null, "00ce2e8f-62d4-4fd4-90a5-12ff8723961f");
+                _juniormicrosoftaspnetfullstackdeveInfo = new RepoItemInfo(this, "JuniorMicrosoftASPNetFullStackDeve", ".//section[#'main']/header//h1[@innertext~'Junior Microsoft ASP.Net Full-Stack Developer']", 30000, null, "00ce2e8f-62d4-4fd4-90a5-12ff8723961f");
                 _juniorwebfrontenddeveloperInfo = new RepoItemInfo(this, "JuniorWebFrontendDeveloper", ".//section[#'main']/header//h1[@innertext~'^Junior\\ Web\\ Frontend\\ Devel']", 30000, null, "003c0207-dec1-434d-bf1b-40aa4cbd8fa9");
                 _seniormicrosoftsharepointdeveloperInfo = new RepoItemInfo(this, "SeniorMicrosoftSharePointDeveloper", ".//section[#'main']/header//h1[@innertext='Senior Microsoft SharePoint Developer']", 30000, null, "0434e79c-77c7-4c27-84eb-ad6814869e7c");
                 _administrativeassistanceInfo = new RepoItemInfo(this, "AdministrativeAssistance", ".//section[#'main']/header//h1[@innertext='Administrative Assistance']", 30000, null, "25cb811f-e662-498d-a9cf-246a317a4b20");
                 _h1tagjunioraccountmanagerInfo = new RepoItemInfo(this, "H1TagJuniorAccountManager", ".//section[#'main']/header//h1[@innertext='(Junior-) Account Manager']", 30000, null, "91c714c3-4bc2-4a93-8874-6d4f4eab9a4e");
                 _h1tagjuniorhrspecialistglobalrecrInfo = new RepoItemInfo(this, "H1TagJuniorHRSpecialistGlobalRecr", ".//section[#'main']/header//h1[@innertext~'^\\(Junior-\\)\\ HR\\ Specialist\\ G']", 30000, null, "491fcaf9-383a-4783-b7a9-2989025c77b8");
                 _h1tagseniorconsultanthcmsystemstecInfo = new RepoItemInfo(this, "H1TagSeniorConsultantHCMSystemsTec", ".//section[#'main']/header//h1[@innertext~'^\\(Senior\\)\\ Consultant\\ HCM-S']", 30000, null, "04a1e7d8-1a63-4eb9-acab-74c4a4cf5c11");
-                _leiterdermicrosoftbusinessapplicatioInfo = new RepoItemInfo(this, "LeiterDerMicrosoftBusinessApplicatio", ".//section[#'main']/header//h1[@innertext~'^Leiter\\ der\\ Microsoft\\ Busi']", 30000, null, "dec5263a-2d72-49d9-9d5d-cf38c50f75ef");
+                _leiterdermicrosoftbusinessapplicatioInfo = new RepoItemInfo(this, "LeiterDerMicrosoftBusinessApplicatio", ".//section[#'main']/header//h1[@innertext~'Leiter der Microsoft Business Applications Abteilung']", 30000, null, "dec5263a-2d72-49d9-9d5d-cf38c50f75ef");
                 _divtag1Info = new RepoItemInfo(this, "DivTag1", ".//div/div[@innertext~'^\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']", 30000, null, "3cf80d2d-aa77-4049-ab1c-344bcb21002d");
                 _alspdfherunterladenInfo = new RepoItemInfo(this, "AlsPDFHerunterladen", ".//div[#'flatbuttons']/a[@innertext='Als PDF herunterladen']", 30000, null, "af2e3842-0236-4ad3-8ad0-83c19eaf581c");
+                _seniorconsultantimbereichbusinessinInfo = new RepoItemInfo(this, "SeniorConsultantImBereichBusinessIn", ".//section[#'main']/header//h1[@innertext~'^Senior\\ Consultant\\ im\\ Bere']", 30000, null, "6ac72318-94fb-4de6-8cf6-d188d78b210f");
+                _juniormicrosoftdynamics365crmconsulInfo = new RepoItemInfo(this, "JuniorMicrosoftDynamics365CRMConsul", ".//section[#'main']/header//h1[@innertext~'^Junior\\ Microsoft\\ Dynamics']", 30000, null, "5e929ce6-5c4d-4676-991b-fae8f7ce44b6");
+                _werkstudentconsultingdevelopmentmicroInfo = new RepoItemInfo(this, "WerkstudentConsultingDevelopmentMicro", ".//section[#'main']/header//h1[@innertext~'^Werkstudent\\ Consulting/De']", 30000, null, "42b86104-c14e-439e-baf1-90efb7e0227b");
+                _werkstudentconsultingsaprbusinessintInfo = new RepoItemInfo(this, "WerkstudentConsultingSAPRBusinessInt", ".//section[#'main']/header//h1[@innertext~'^Werkstudent\\ Consulting\\ SA']", 30000, null, "d75f123e-7e1b-4c40-9a23-88708c65bd97");
+                _seniormicrosoftdynamics365crmdevelo1Info = new RepoItemInfo(this, "SeniorMicrosoftDynamics365CRMDevelo1", ".//section[#'main']/header//h1[@innertext~'^Senior\\ Microsoft\\ Dynamics']", 30000, null, "08c83a16-0e82-42bf-81c0-737d148f6bad");
+                _werkstudentenconsultingdevelopmenthcmInfo = new RepoItemInfo(this, "WerkstudentenConsultingDevelopmentHCM", ".//section[#'main']/header//h1[@innertext~'^Werkstudenten\\ Consulting/']", 30000, null, "80102c0e-9438-48c9-8e4f-28346410ef75");
+                _httpswwwinkubitcommedia74518backInfo = new RepoItemInfo(this, "HttpsWwwInkubitComMedia74518Back", ".//section[#'main']/div[2]//img[@title='']", 30000, null, "13e673a3-5bf6-4eeb-87ee-57cf5e57edd9");
+                _seniormicrosoftdynamics365crmdeveloInfo = new RepoItemInfo(this, "SeniorMicrosoftDynamics365CRMDevelo", ".//section[#'main']/header//h1[@innertext='Senior Microsoft Dynamics 365 CRM Developer (m/w)']", 30000, null, "497e8296-a8df-4ba6-beaf-4a3e468f73a6");
             }
 
             /// <summary>
@@ -6148,6 +6208,198 @@ namespace INKUBIT_Test___ContactForm
                     return _alspdfherunterladenInfo;
                 }
             }
+
+            /// <summary>
+            /// The SeniorConsultantImBereichBusinessIn item.
+            /// </summary>
+            [RepositoryItem("6ac72318-94fb-4de6-8cf6-d188d78b210f")]
+            public virtual Ranorex.H1Tag SeniorConsultantImBereichBusinessIn
+            {
+                get
+                {
+                    return _seniorconsultantimbereichbusinessinInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SeniorConsultantImBereichBusinessIn item info.
+            /// </summary>
+            [RepositoryItemInfo("6ac72318-94fb-4de6-8cf6-d188d78b210f")]
+            public virtual RepoItemInfo SeniorConsultantImBereichBusinessInInfo
+            {
+                get
+                {
+                    return _seniorconsultantimbereichbusinessinInfo;
+                }
+            }
+
+            /// <summary>
+            /// The JuniorMicrosoftDynamics365CRMConsul item.
+            /// </summary>
+            [RepositoryItem("5e929ce6-5c4d-4676-991b-fae8f7ce44b6")]
+            public virtual Ranorex.H1Tag JuniorMicrosoftDynamics365CRMConsul
+            {
+                get
+                {
+                    return _juniormicrosoftdynamics365crmconsulInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The JuniorMicrosoftDynamics365CRMConsul item info.
+            /// </summary>
+            [RepositoryItemInfo("5e929ce6-5c4d-4676-991b-fae8f7ce44b6")]
+            public virtual RepoItemInfo JuniorMicrosoftDynamics365CRMConsulInfo
+            {
+                get
+                {
+                    return _juniormicrosoftdynamics365crmconsulInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WerkstudentConsultingDevelopmentMicro item.
+            /// </summary>
+            [RepositoryItem("42b86104-c14e-439e-baf1-90efb7e0227b")]
+            public virtual Ranorex.H1Tag WerkstudentConsultingDevelopmentMicro
+            {
+                get
+                {
+                    return _werkstudentconsultingdevelopmentmicroInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WerkstudentConsultingDevelopmentMicro item info.
+            /// </summary>
+            [RepositoryItemInfo("42b86104-c14e-439e-baf1-90efb7e0227b")]
+            public virtual RepoItemInfo WerkstudentConsultingDevelopmentMicroInfo
+            {
+                get
+                {
+                    return _werkstudentconsultingdevelopmentmicroInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WerkstudentConsultingSAPRBusinessInt item.
+            /// </summary>
+            [RepositoryItem("d75f123e-7e1b-4c40-9a23-88708c65bd97")]
+            public virtual Ranorex.H1Tag WerkstudentConsultingSAPRBusinessInt
+            {
+                get
+                {
+                    return _werkstudentconsultingsaprbusinessintInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WerkstudentConsultingSAPRBusinessInt item info.
+            /// </summary>
+            [RepositoryItemInfo("d75f123e-7e1b-4c40-9a23-88708c65bd97")]
+            public virtual RepoItemInfo WerkstudentConsultingSAPRBusinessIntInfo
+            {
+                get
+                {
+                    return _werkstudentconsultingsaprbusinessintInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SeniorMicrosoftDynamics365CRMDevelo1 item.
+            /// </summary>
+            [RepositoryItem("08c83a16-0e82-42bf-81c0-737d148f6bad")]
+            public virtual Ranorex.H1Tag SeniorMicrosoftDynamics365CRMDevelo1
+            {
+                get
+                {
+                    return _seniormicrosoftdynamics365crmdevelo1Info.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SeniorMicrosoftDynamics365CRMDevelo1 item info.
+            /// </summary>
+            [RepositoryItemInfo("08c83a16-0e82-42bf-81c0-737d148f6bad")]
+            public virtual RepoItemInfo SeniorMicrosoftDynamics365CRMDevelo1Info
+            {
+                get
+                {
+                    return _seniormicrosoftdynamics365crmdevelo1Info;
+                }
+            }
+
+            /// <summary>
+            /// The WerkstudentenConsultingDevelopmentHCM item.
+            /// </summary>
+            [RepositoryItem("80102c0e-9438-48c9-8e4f-28346410ef75")]
+            public virtual Ranorex.H1Tag WerkstudentenConsultingDevelopmentHCM
+            {
+                get
+                {
+                    return _werkstudentenconsultingdevelopmenthcmInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WerkstudentenConsultingDevelopmentHCM item info.
+            /// </summary>
+            [RepositoryItemInfo("80102c0e-9438-48c9-8e4f-28346410ef75")]
+            public virtual RepoItemInfo WerkstudentenConsultingDevelopmentHCMInfo
+            {
+                get
+                {
+                    return _werkstudentenconsultingdevelopmenthcmInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia74518Back item.
+            /// </summary>
+            [RepositoryItem("13e673a3-5bf6-4eeb-87ee-57cf5e57edd9")]
+            public virtual Ranorex.ImgTag HttpsWwwInkubitComMedia74518Back
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia74518backInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia74518Back item info.
+            /// </summary>
+            [RepositoryItemInfo("13e673a3-5bf6-4eeb-87ee-57cf5e57edd9")]
+            public virtual RepoItemInfo HttpsWwwInkubitComMedia74518BackInfo
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia74518backInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SeniorMicrosoftDynamics365CRMDevelo item.
+            /// </summary>
+            [RepositoryItem("497e8296-a8df-4ba6-beaf-4a3e468f73a6")]
+            public virtual Ranorex.H1Tag SeniorMicrosoftDynamics365CRMDevelo
+            {
+                get
+                {
+                    return _seniormicrosoftdynamics365crmdeveloInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SeniorMicrosoftDynamics365CRMDevelo item info.
+            /// </summary>
+            [RepositoryItemInfo("497e8296-a8df-4ba6-beaf-4a3e468f73a6")]
+            public virtual RepoItemInfo SeniorMicrosoftDynamics365CRMDeveloInfo
+            {
+                get
+                {
+                    return _seniormicrosoftdynamics365crmdeveloInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -6156,6 +6408,7 @@ namespace INKUBIT_Test___ContactForm
         [RepositoryFolder("2f405c44-89f9-4aca-916c-5d356682e7df")]
         public partial class LeiterDerMicrosoftBusinessApplicatioAppFolder : RepoGenBaseFolder
         {
+            RepoItemInfo _juniormicrosoftaspnetfullstackdeveInfo;
 
             /// <summary>
             /// Creates a new LeiterDerMicrosoftBusinessApplicatio  folder.
@@ -6163,6 +6416,7 @@ namespace INKUBIT_Test___ContactForm
             public LeiterDerMicrosoftBusinessApplicatioAppFolder(RepoGenBaseFolder parentFolder) :
                     base("LeiterDerMicrosoftBusinessApplicatio", "/dom[2]", parentFolder, 30000, null, false, "2f405c44-89f9-4aca-916c-5d356682e7df", "")
             {
+                _juniormicrosoftaspnetfullstackdeveInfo = new RepoItemInfo(this, "JuniorMicrosoftASPNetFullStackDeve", ".//section[#'main']/header//h1[@innertext~'^Junior\\ Microsoft\\ ASP\\.Net\\ ']", 30000, null, "eef847f9-3724-4430-aaa9-df1d195a399d");
             }
 
             /// <summary>
@@ -6186,6 +6440,372 @@ namespace INKUBIT_Test___ContactForm
                 get
                 {
                     return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The JuniorMicrosoftASPNetFullStackDeve item.
+            /// </summary>
+            [RepositoryItem("eef847f9-3724-4430-aaa9-df1d195a399d")]
+            public virtual Ranorex.H1Tag JuniorMicrosoftASPNetFullStackDeve
+            {
+                get
+                {
+                    return _juniormicrosoftaspnetfullstackdeveInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The JuniorMicrosoftASPNetFullStackDeve item info.
+            /// </summary>
+            [RepositoryItemInfo("eef847f9-3724-4430-aaa9-df1d195a399d")]
+            public virtual RepoItemInfo JuniorMicrosoftASPNetFullStackDeveInfo
+            {
+                get
+                {
+                    return _juniormicrosoftaspnetfullstackdeveInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The SeniorMicrosoftDynamics365DeveloperAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("bdf516ac-a9a3-478f-b46a-ee926a8ea34a")]
+        public partial class SeniorMicrosoftDynamics365DeveloperAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new SeniorMicrosoftDynamics365Developer  folder.
+            /// </summary>
+            public SeniorMicrosoftDynamics365DeveloperAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("SeniorMicrosoftDynamics365Developer", "/dom[6]", parentFolder, 30000, null, false, "bdf516ac-a9a3-478f-b46a-ee926a8ea34a", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("bdf516ac-a9a3-478f-b46a-ee926a8ea34a")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("bdf516ac-a9a3-478f-b46a-ee926a8ea34a")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The SeniorMicrosoftDynamics365Developer1AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("d52315cc-2cdd-446b-a9ca-9477c2881b8f")]
+        public partial class SeniorMicrosoftDynamics365Developer1AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _divtagInfo;
+            RepoItemInfo _alspdfherunterladenInfo;
+
+            /// <summary>
+            /// Creates a new SeniorMicrosoftDynamics365Developer1  folder.
+            /// </summary>
+            public SeniorMicrosoftDynamics365Developer1AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("SeniorMicrosoftDynamics365Developer1", "/dom[8]", parentFolder, 30000, null, false, "d52315cc-2cdd-446b-a9ca-9477c2881b8f", "")
+            {
+                _divtagInfo = new RepoItemInfo(this, "DivTag", ".//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']", 30000, null, "8caf21b6-8eaf-4cae-90d2-0695dfc1317e");
+                _alspdfherunterladenInfo = new RepoItemInfo(this, "AlsPDFHerunterladen", ".//div[#'flatbuttons']/a[@innertext='Als PDF herunterladen']", 30000, null, "26984bd5-731c-4206-a076-66656ee4795f");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("d52315cc-2cdd-446b-a9ca-9477c2881b8f")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("d52315cc-2cdd-446b-a9ca-9477c2881b8f")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DivTag item.
+            /// </summary>
+            [RepositoryItem("8caf21b6-8eaf-4cae-90d2-0695dfc1317e")]
+            public virtual Ranorex.DivTag DivTag
+            {
+                get
+                {
+                    return _divtagInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DivTag item info.
+            /// </summary>
+            [RepositoryItemInfo("8caf21b6-8eaf-4cae-90d2-0695dfc1317e")]
+            public virtual RepoItemInfo DivTagInfo
+            {
+                get
+                {
+                    return _divtagInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AlsPDFHerunterladen item.
+            /// </summary>
+            [RepositoryItem("26984bd5-731c-4206-a076-66656ee4795f")]
+            public virtual Ranorex.ATag AlsPDFHerunterladen
+            {
+                get
+                {
+                    return _alspdfherunterladenInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AlsPDFHerunterladen item info.
+            /// </summary>
+            [RepositoryItemInfo("26984bd5-731c-4206-a076-66656ee4795f")]
+            public virtual RepoItemInfo AlsPDFHerunterladenInfo
+            {
+                get
+                {
+                    return _alspdfherunterladenInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The SeniorMicrosoftDynamics365Developer2AppFolder folder.
+        /// </summary>
+        [RepositoryFolder("045e4366-6fba-43d0-a1a0-8995b34245de")]
+        public partial class SeniorMicrosoftDynamics365Developer2AppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _seniormicrosoftdynamics365crmdeveloInfo;
+            RepoItemInfo _httpswwwinkubitcommedia74518backInfo;
+            RepoItemInfo _divtagInfo;
+            RepoItemInfo _alspdfherunterladenInfo;
+
+            /// <summary>
+            /// Creates a new SeniorMicrosoftDynamics365Developer2  folder.
+            /// </summary>
+            public SeniorMicrosoftDynamics365Developer2AppFolder(RepoGenBaseFolder parentFolder) :
+                    base("SeniorMicrosoftDynamics365Developer2", "/dom[10]", parentFolder, 30000, null, false, "045e4366-6fba-43d0-a1a0-8995b34245de", "")
+            {
+                _seniormicrosoftdynamics365crmdeveloInfo = new RepoItemInfo(this, "SeniorMicrosoftDynamics365CRMDevelo", ".//section[#'main']/header//h1[@innertext~'^Senior\\ Microsoft\\ Dynamics']", 30000, null, "8996574d-c45a-4e62-a25a-c92bcdca1de0");
+                _httpswwwinkubitcommedia74518backInfo = new RepoItemInfo(this, "HttpsWwwInkubitComMedia74518Back", ".//section[#'main']/div[2]//img[@title='']", 30000, null, "76058cc2-2ef9-4560-adfd-c896b191d822");
+                _divtagInfo = new RepoItemInfo(this, "DivTag", ".//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']", 30000, null, "b1aef0be-8f33-4c25-8896-869667f2fea6");
+                _alspdfherunterladenInfo = new RepoItemInfo(this, "AlsPDFHerunterladen", ".//div[#'flatbuttons']/a[@innertext='Als PDF herunterladen']", 30000, null, "75a1f40d-c4c0-418d-986b-0c22d43416d2");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("045e4366-6fba-43d0-a1a0-8995b34245de")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("045e4366-6fba-43d0-a1a0-8995b34245de")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SeniorMicrosoftDynamics365CRMDevelo item.
+            /// </summary>
+            [RepositoryItem("8996574d-c45a-4e62-a25a-c92bcdca1de0")]
+            public virtual Ranorex.H1Tag SeniorMicrosoftDynamics365CRMDevelo
+            {
+                get
+                {
+                    return _seniormicrosoftdynamics365crmdeveloInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SeniorMicrosoftDynamics365CRMDevelo item info.
+            /// </summary>
+            [RepositoryItemInfo("8996574d-c45a-4e62-a25a-c92bcdca1de0")]
+            public virtual RepoItemInfo SeniorMicrosoftDynamics365CRMDeveloInfo
+            {
+                get
+                {
+                    return _seniormicrosoftdynamics365crmdeveloInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia74518Back item.
+            /// </summary>
+            [RepositoryItem("76058cc2-2ef9-4560-adfd-c896b191d822")]
+            public virtual Ranorex.ImgTag HttpsWwwInkubitComMedia74518Back
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia74518backInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia74518Back item info.
+            /// </summary>
+            [RepositoryItemInfo("76058cc2-2ef9-4560-adfd-c896b191d822")]
+            public virtual RepoItemInfo HttpsWwwInkubitComMedia74518BackInfo
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia74518backInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DivTag item.
+            /// </summary>
+            [RepositoryItem("b1aef0be-8f33-4c25-8896-869667f2fea6")]
+            public virtual Ranorex.DivTag DivTag
+            {
+                get
+                {
+                    return _divtagInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DivTag item info.
+            /// </summary>
+            [RepositoryItemInfo("b1aef0be-8f33-4c25-8896-869667f2fea6")]
+            public virtual RepoItemInfo DivTagInfo
+            {
+                get
+                {
+                    return _divtagInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AlsPDFHerunterladen item.
+            /// </summary>
+            [RepositoryItem("75a1f40d-c4c0-418d-986b-0c22d43416d2")]
+            public virtual Ranorex.ATag AlsPDFHerunterladen
+            {
+                get
+                {
+                    return _alspdfherunterladenInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AlsPDFHerunterladen item info.
+            /// </summary>
+            [RepositoryItemInfo("75a1f40d-c4c0-418d-986b-0c22d43416d2")]
+            public virtual RepoItemInfo AlsPDFHerunterladenInfo
+            {
+                get
+                {
+                    return _alspdfherunterladenInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The JuniorMicrosoftBusinessIntelligenceDAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("fb4bd0c3-eeaa-434a-b064-1a82a14b53ad")]
+        public partial class JuniorMicrosoftBusinessIntelligenceDAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _httpswwwinkubitcommedia74637backInfo;
+
+            /// <summary>
+            /// Creates a new JuniorMicrosoftBusinessIntelligenceD  folder.
+            /// </summary>
+            public JuniorMicrosoftBusinessIntelligenceDAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("JuniorMicrosoftBusinessIntelligenceD", "/dom[7]", parentFolder, 30000, null, false, "fb4bd0c3-eeaa-434a-b064-1a82a14b53ad", "")
+            {
+                _httpswwwinkubitcommedia74637backInfo = new RepoItemInfo(this, "HttpsWwwInkubitComMedia74637Back", ".//section[#'main']/div[2]//img[@title='']", 30000, null, "59b2dfa7-cd50-4da6-8545-ce17b3e415a7");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("fb4bd0c3-eeaa-434a-b064-1a82a14b53ad")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("fb4bd0c3-eeaa-434a-b064-1a82a14b53ad")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia74637Back item.
+            /// </summary>
+            [RepositoryItem("59b2dfa7-cd50-4da6-8545-ce17b3e415a7")]
+            public virtual Ranorex.ImgTag HttpsWwwInkubitComMedia74637Back
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia74637backInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia74637Back item info.
+            /// </summary>
+            [RepositoryItemInfo("59b2dfa7-cd50-4da6-8545-ce17b3e415a7")]
+            public virtual RepoItemInfo HttpsWwwInkubitComMedia74637BackInfo
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia74637backInfo;
                 }
             }
         }
