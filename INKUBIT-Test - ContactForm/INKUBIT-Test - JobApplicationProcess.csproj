@@ -535,6 +535,18 @@
       <UserCode>true</UserCode>
       <id>4cb2683b-0bc5-4c56-bd40-3baeb461192e</id>
     </Compile>
+    <Compile Include="SeniorMicrosoftSharePointDevelopermw.cs">
+      <BoundTo>b2500467-47a5-4ff3-bada-469190930278</BoundTo>
+      <DependentUpon>SeniorMicrosoftSharePointDevelopermw.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0572e73c-53ca-4188-8247-a72153358337</id>
+    </Compile>
+    <Compile Include="SeniorMicrosoftSharePointDevelopermw.UserCode.cs">
+      <BoundTo>b2500467-47a5-4ff3-bada-469190930278</BoundTo>
+      <DependentUpon>SeniorMicrosoftSharePointDevelopermw.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8d4f626a-08eb-4ff7-bbe9-134c6f46695c</id>
+    </Compile>
     <Compile Include="WerkstudentConsultingDevelopmentMicrosoftDynamics365CRMmw.cs">
       <BoundTo>6c19970c-0cd2-440a-928f-2a1c81924261</BoundTo>
       <DependentUpon>WerkstudentConsultingDevelopmentMicrosoftDynamics365CRMmw.rxrec</DependentUpon>
@@ -751,6 +763,11 @@
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>32d0eec5-79ad-4553-a704-771382281ace</id>
       <recordtableid>9dfb4d6a-1b8d-41ba-ac37-9465c095181a</recordtableid>
+    </None>
+    <None Include="SeniorMicrosoftSharePointDevelopermw.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>b2500467-47a5-4ff3-bada-469190930278</id>
+      <recordtableid>3e8ba616-e13c-4b5d-af9c-26bdec70b454</recordtableid>
     </None>
     <None Include="WerkstudentConsultingDevelopmentMicrosoftDynamics365CRMmw.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>

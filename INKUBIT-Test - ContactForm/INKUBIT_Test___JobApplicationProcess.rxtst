@@ -200,6 +200,12 @@ rxversion="8.3">
 			ref="45d55875-8c1f-4c34-a84d-43b29797fbbc"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="454edc13-e88e-4673-976a-c92114d322c5"
+			name="SeniorMicrosoftSharePointDevelopermw"
+			ref="3e8ba616-e13c-4b5d-af9c-26bdec70b454"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="497c6b80-ada1-4c29-9af6-95cb8609b35b"
 			name="SmartFolder121">
@@ -999,6 +1005,10 @@ rxversion="8.3">
 							<smartfoldernode
 							id="63e346c4-7d25-4460-aad3-00508c931f5c"
 							name="Senior_Microsoft_SharePoint_Developer_(m/w)">
+								<testmodule
+								id="454edc13-e88e-4673-976a-c92114d322c5"
+								name="SeniorMicrosoftSharePointDevelopermw">
+								</testmodule>
 							</smartfoldernode>
 							<smartfoldernode
 							id="a327f8e7-be83-48a7-8538-8a71373665a7"
@@ -1109,9 +1119,6 @@ rxversion="8.3">
 			id="19281036-d7e2-44b3-ad55-963afc443751">
 			</testcontainer>
 			<testcontainer
-			id="1f714f88-f18f-4d76-ae4e-1ac48fc4aecf">
-			</testcontainer>
-			<testcontainer
 			id="2a307131-00da-4c6a-b9c8-ab2c937f2896">
 			</testcontainer>
 			<testcontainer
@@ -1172,13 +1179,7 @@ rxversion="8.3">
 			id="97bb2c8e-1a8f-4683-bdef-fbc5f6a61d0b">
 			</testcontainer>
 			<testcontainer
-			id="97dbbda7-4064-4b4a-92ac-e73f82b64a2d">
-			</testcontainer>
-			<testcontainer
 			id="a0e5ca83-3313-4852-9f76-d443030e418c">
-			</testcontainer>
-			<testcontainer
-			id="a327f8e7-be83-48a7-8538-8a71373665a7">
 			</testcontainer>
 			<testcontainer
 			id="a8302359-9925-45b6-a951-3bfaf32de199">
@@ -1191,9 +1192,6 @@ rxversion="8.3">
 			</testcontainer>
 			<testcontainer
 			id="adee5b88-0aef-4fe8-a7cd-17d29354cb40">
-			</testcontainer>
-			<testcontainer
-			id="b34c46dd-69a5-4e3b-9bc4-7bf8da787379">
 			</testcontainer>
 			<testcontainer
 			id="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58">
@@ -1212,9 +1210,6 @@ rxversion="8.3">
 			</testcontainer>
 			<testcontainer
 			id="e0817b9f-8b73-4cae-9c51-c1b633004287">
-			</testcontainer>
-			<testcontainer
-			id="e32004e0-244f-4060-ad81-25dc11e6fa11">
 			</testcontainer>
 			<testcontainer
 			id="e331a302-98a6-4730-bb7d-d0bc9e8ca926">
@@ -1236,9 +1231,6 @@ rxversion="8.3">
 			</testcontainer>
 			<testcontainer
 			id="fd8b3fbf-8a40-493a-8663-24ab161b7c6f">
-			</testcontainer>
-			<testcontainer
-			id="fe867e48-a124-4591-8cf0-0c58b95c6fca">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

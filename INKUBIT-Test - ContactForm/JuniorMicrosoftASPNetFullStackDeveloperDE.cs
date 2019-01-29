@@ -83,28 +83,28 @@ namespace INKUBIT_Test___ContactForm
             Host.Current.OpenBrowser("https://www.inkubit.com/de-de/karriere/development/junior-microsoft-aspnet-full-stack-developer/", "Chrome", "", false, false, false, false, false, true);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Junior Microsoft ASP.Net Full-Stack Developer') on item 'LeiterDerMicrosoftBusinessApplicatio.JuniorMicrosoftASPNetFullStackDeve'.", repo.LeiterDerMicrosoftBusinessApplicatio.JuniorMicrosoftASPNetFullStackDeveInfo, new RecordItemIndex(1));
-            Validate.AttributeEqual(repo.LeiterDerMicrosoftBusinessApplicatio.JuniorMicrosoftASPNetFullStackDeveInfo, "InnerText", "Junior Microsoft ASP.Net Full-Stack Developer");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Junior Microsoft ASP.Net Full-Stack Developer') on item 'HttpsWwwInkubitComEnUsCareers.JuniorMicrosoftASPNetFullStackDeve1'.", repo.HttpsWwwInkubitComEnUsCareers.JuniorMicrosoftASPNetFullStackDeve1Info, new RecordItemIndex(1));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.JuniorMicrosoftASPNetFullStackDeve1Info, "InnerText", "Junior Microsoft ASP.Net Full-Stack Developer");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagName='h1') on item 'LeiterDerMicrosoftBusinessApplicatio.JuniorMicrosoftASPNetFullStackDeve'.", repo.LeiterDerMicrosoftBusinessApplicatio.JuniorMicrosoftASPNetFullStackDeveInfo, new RecordItemIndex(2));
-            Validate.AttributeEqual(repo.LeiterDerMicrosoftBusinessApplicatio.JuniorMicrosoftASPNetFullStackDeveInfo, "TagName", "h1");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagName='h1') on item 'HttpsWwwInkubitComEnUsCareers.JuniorMicrosoftASPNetFullStackDeve1'.", repo.HttpsWwwInkubitComEnUsCareers.JuniorMicrosoftASPNetFullStackDeve1Info, new RecordItemIndex(2));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.JuniorMicrosoftASPNetFullStackDeve1Info, "TagName", "h1");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='https://www.inkubit.com/media/74637/background.jpg') on item 'JuniorMicrosoftBusinessIntelligenceD.HttpsWwwInkubitComMedia74637Back'.", repo.JuniorMicrosoftBusinessIntelligenceD.HttpsWwwInkubitComMedia74637BackInfo, new RecordItemIndex(3));
-            Validate.AttributeEqual(repo.JuniorMicrosoftBusinessIntelligenceD.HttpsWwwInkubitComMedia74637BackInfo, "Src", "https://www.inkubit.com/media/74637/background.jpg");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='https://www.inkubit.com/media/74637/background.jpg') on item 'HttpsWwwInkubitComEnUsCareers.HttpsWwwInkubitComMedia74637Back'.", repo.HttpsWwwInkubitComEnUsCareers.HttpsWwwInkubitComMedia74637BackInfo, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.HttpsWwwInkubitComMedia74637BackInfo, "Src", "https://www.inkubit.com/media/74637/background.jpg");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                    Bewerbung einreichen\n                                ') on item 'SeniorMicrosoftDynamics365Developer1.DivTag'.", repo.SeniorMicrosoftDynamics365Developer1.DivTagInfo, new RecordItemIndex(4));
-            Validate.AttributeEqual(repo.SeniorMicrosoftDynamics365Developer1.DivTagInfo, "InnerText", "\n                                    Bewerbung einreichen\n                                ");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                    Bewerbung einreichen\n                                ') on item 'HttpsWwwInkubitComEnUsCareers.DivTag4'.", repo.HttpsWwwInkubitComEnUsCareers.DivTag4Info, new RecordItemIndex(4));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.DivTag4Info, "InnerText", "\n                                    Bewerbung einreichen\n                                ");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Als PDF herunterladen') on item 'SeniorMicrosoftDynamics365Developer1.AlsPDFHerunterladen'.", repo.SeniorMicrosoftDynamics365Developer1.AlsPDFHerunterladenInfo, new RecordItemIndex(5));
-            Validate.AttributeEqual(repo.SeniorMicrosoftDynamics365Developer1.AlsPDFHerunterladenInfo, "InnerText", "Als PDF herunterladen");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Als PDF herunterladen') on item 'HttpsWwwInkubitComEnUsCareers.AlsPDFHerunterladen3'.", repo.HttpsWwwInkubitComEnUsCareers.AlsPDFHerunterladen3Info, new RecordItemIndex(5));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.AlsPDFHerunterladen3Info, "InnerText", "Als PDF herunterladen");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Href='https://www.inkubit.com/media/74639/junior-microsoft-aspnet-full-stac-developer-de.pdf') on item 'SeniorMicrosoftDynamics365Developer1.AlsPDFHerunterladen'.", repo.SeniorMicrosoftDynamics365Developer1.AlsPDFHerunterladenInfo, new RecordItemIndex(6));
-            Validate.AttributeEqual(repo.SeniorMicrosoftDynamics365Developer1.AlsPDFHerunterladenInfo, "Href", "https://www.inkubit.com/media/74639/junior-microsoft-aspnet-full-stac-developer-de.pdf");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Href='https://www.inkubit.com/media/74639/junior-microsoft-aspnet-full-stac-developer-de.pdf') on item 'HttpsWwwInkubitComEnUsCareers.AlsPDFHerunterladen3'.", repo.HttpsWwwInkubitComEnUsCareers.AlsPDFHerunterladen3Info, new RecordItemIndex(6));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.AlsPDFHerunterladen3Info, "Href", "https://www.inkubit.com/media/74639/junior-microsoft-aspnet-full-stac-developer-de.pdf");
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HttpsWwwInkubitComEnUsCareers'.", repo.HttpsWwwInkubitComEnUsCareers.SelfInfo, new RecordItemIndex(7));

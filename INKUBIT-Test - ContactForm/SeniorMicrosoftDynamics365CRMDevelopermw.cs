@@ -83,28 +83,28 @@ namespace INKUBIT_Test___ContactForm
             Host.Current.OpenBrowser("https://www.inkubit.com/de-de/karriere/development/senior-microsoft-dynamics-365-crm-developer-mw/", "Chrome", "", false, false, false, false, false, true);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Senior Microsoft Dynamics 365 CRM Developer (m/w)') on item 'SeniorMicrosoftDynamics365Developer2.SeniorMicrosoftDynamics365CRMDevelo'.", repo.SeniorMicrosoftDynamics365Developer2.SeniorMicrosoftDynamics365CRMDeveloInfo, new RecordItemIndex(1));
-            Validate.AttributeEqual(repo.SeniorMicrosoftDynamics365Developer2.SeniorMicrosoftDynamics365CRMDeveloInfo, "InnerText", "Senior Microsoft Dynamics 365 CRM Developer (m/w)");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Senior Microsoft Dynamics 365 CRM Developer (m/w)') on item 'HttpsWwwInkubitComEnUsCareers.SeniorMicrosoftDynamics365CRMDevelo2'.", repo.HttpsWwwInkubitComEnUsCareers.SeniorMicrosoftDynamics365CRMDevelo2Info, new RecordItemIndex(1));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.SeniorMicrosoftDynamics365CRMDevelo2Info, "InnerText", "Senior Microsoft Dynamics 365 CRM Developer (m/w)");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagName='h1') on item 'SeniorMicrosoftDynamics365Developer2.SeniorMicrosoftDynamics365CRMDevelo'.", repo.SeniorMicrosoftDynamics365Developer2.SeniorMicrosoftDynamics365CRMDeveloInfo, new RecordItemIndex(2));
-            Validate.AttributeEqual(repo.SeniorMicrosoftDynamics365Developer2.SeniorMicrosoftDynamics365CRMDeveloInfo, "TagName", "h1");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagName='h1') on item 'HttpsWwwInkubitComEnUsCareers.SeniorMicrosoftDynamics365CRMDevelo2'.", repo.HttpsWwwInkubitComEnUsCareers.SeniorMicrosoftDynamics365CRMDevelo2Info, new RecordItemIndex(2));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.SeniorMicrosoftDynamics365CRMDevelo2Info, "TagName", "h1");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='https://www.inkubit.com/media/74518/background.jpg') on item 'SeniorMicrosoftDynamics365Developer2.HttpsWwwInkubitComMedia74518Back'.", repo.SeniorMicrosoftDynamics365Developer2.HttpsWwwInkubitComMedia74518BackInfo, new RecordItemIndex(3));
-            Validate.AttributeEqual(repo.SeniorMicrosoftDynamics365Developer2.HttpsWwwInkubitComMedia74518BackInfo, "Src", "https://www.inkubit.com/media/74518/background.jpg");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='https://www.inkubit.com/media/74518/background.jpg') on item 'HttpsWwwInkubitComEnUsCareers.HttpsWwwInkubitComMedia74518Back1'.", repo.HttpsWwwInkubitComEnUsCareers.HttpsWwwInkubitComMedia74518Back1Info, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.HttpsWwwInkubitComMedia74518Back1Info, "Src", "https://www.inkubit.com/media/74518/background.jpg");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                    Bewerbung einreichen\n                                ') on item 'SeniorMicrosoftDynamics365Developer2.DivTag'.", repo.SeniorMicrosoftDynamics365Developer2.DivTagInfo, new RecordItemIndex(4));
-            Validate.AttributeEqual(repo.SeniorMicrosoftDynamics365Developer2.DivTagInfo, "InnerText", "\n                                    Bewerbung einreichen\n                                ");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                    Bewerbung einreichen\n                                ') on item 'HttpsWwwInkubitComEnUsCareers.DivTag2'.", repo.HttpsWwwInkubitComEnUsCareers.DivTag2Info, new RecordItemIndex(4));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.DivTag2Info, "InnerText", "\n                                    Bewerbung einreichen\n                                ");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Als PDF herunterladen') on item 'SeniorMicrosoftDynamics365Developer2.AlsPDFHerunterladen'.", repo.SeniorMicrosoftDynamics365Developer2.AlsPDFHerunterladenInfo, new RecordItemIndex(5));
-            Validate.AttributeEqual(repo.SeniorMicrosoftDynamics365Developer2.AlsPDFHerunterladenInfo, "InnerText", "Als PDF herunterladen");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Als PDF herunterladen') on item 'HttpsWwwInkubitComEnUsCareers.AlsPDFHerunterladen1'.", repo.HttpsWwwInkubitComEnUsCareers.AlsPDFHerunterladen1Info, new RecordItemIndex(5));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.AlsPDFHerunterladen1Info, "InnerText", "Als PDF herunterladen");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Href='https://www.inkubit.com/media/74640/senior-microsoft-dynamics-365-developer-deutsch.pdf') on item 'SeniorMicrosoftDynamics365Developer2.AlsPDFHerunterladen'.", repo.SeniorMicrosoftDynamics365Developer2.AlsPDFHerunterladenInfo, new RecordItemIndex(6));
-            Validate.AttributeEqual(repo.SeniorMicrosoftDynamics365Developer2.AlsPDFHerunterladenInfo, "Href", "https://www.inkubit.com/media/74640/senior-microsoft-dynamics-365-developer-deutsch.pdf");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Href='https://www.inkubit.com/media/74640/senior-microsoft-dynamics-365-developer-deutsch.pdf') on item 'HttpsWwwInkubitComEnUsCareers.AlsPDFHerunterladen1'.", repo.HttpsWwwInkubitComEnUsCareers.AlsPDFHerunterladen1Info, new RecordItemIndex(6));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.AlsPDFHerunterladen1Info, "Href", "https://www.inkubit.com/media/74640/senior-microsoft-dynamics-365-developer-deutsch.pdf");
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HttpsWwwInkubitComEnUsCareers'.", repo.HttpsWwwInkubitComEnUsCareers.SelfInfo, new RecordItemIndex(7));
