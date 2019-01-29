@@ -121,12 +121,6 @@ rxversion="8.3">
 				</databinding>
 			</testmodule>
 			<testmodule
-			id="1d9a4a9c-c806-439b-9eac-9cf6ee89c4a0"
-			name="EmailModule"
-			ref="d8198cc7-82f5-46b2-81e7-3ed789544877"
-			type="UserCode">
-			</testmodule>
-			<testmodule
 			id="1e9c92d7-6523-4663-b115-a5e66fd1bab8"
 			name="JuniorHRSpecialistGlobalRecruiting"
 			ref="23c63966-d1bf-4547-a11f-16616ece9993"
@@ -220,12 +214,6 @@ rxversion="8.3">
 					</condition>
 				</conditiongroup>
 			</smartfoldernode>
-			<testmodule
-			id="6be09a01-7005-4ea7-886a-e6f4dc9b6966"
-			name="CollectRetryErrorMessagesModule"
-			ref="e4e50bbc-20f8-461f-b39a-863b6f69de89"
-			type="UserCode">
-			</testmodule>
 			<testcase
 			datasource="NewConnector"
 			id="76b0d54a-26c1-44fe-81c2-f524ff762b69"
@@ -725,14 +713,6 @@ rxversion="8.3">
 					<teardown
 					id="2e8f1877-b1d2-4838-8332-82ad88e923cb"
 					name="teardown">
-						<testmodule
-						id="1d9a4a9c-c806-439b-9eac-9cf6ee89c4a0"
-						name="EmailModule">
-						</testmodule>
-						<testmodule
-						id="6be09a01-7005-4ea7-886a-e6f4dc9b6966"
-						name="CollectRetryErrorMessagesModule">
-						</testmodule>
 					</teardown>
 				</testcase>
 			</testsuite>

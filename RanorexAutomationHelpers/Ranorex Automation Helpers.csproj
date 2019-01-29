@@ -95,9 +95,6 @@
     <Reference Include="Ranorex.Plugin.Wpf">
       <Private>False</Private>
     </Reference>
-    <Reference Include="Ranorex.ReportToPDF">
-      <HintPath>..\packages\Ranorex.ReportToPDF.1.0.14\lib\net40\Ranorex.ReportToPDF.exe</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -112,46 +109,6 @@
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config">
-      <id>03278518-cc83-4297-b97e-a59d9ec4fa09</id>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Modules\CollectRetryErrorMessagesModule.cs">
-      <id>086d8a3d-4231-4170-bb53-7f35bd6a99f4</id>
-    </Compile>
-    <Compile Include="Modules\EmailModule.cs">
-      <id>61d53baa-8a40-4522-9759-7703d8af6ba5</id>
-    </Compile>
-    <Compile Include="Modules\ReportToPDFModule.cs">
-      <id>3cc7b461-5054-4000-845b-64cfef06b781</id>
-    </Compile>
-    <Compile Include="UserCodeCollections\DragNDropLibrary.cs">
-      <id>cdfacfab-e314-4a44-9724-287aef96d772</id>
-    </Compile>
-    <Compile Include="UserCodeCollections\EmailLibrary.cs">
-      <id>48763f68-6f38-4234-93ea-c19ca2291c0c</id>
-    </Compile>
-    <Compile Include="UserCodeCollections\FileLibrary.cs">
-      <id>46beb1a9-2eff-461b-9fd0-013d46dccfed</id>
-    </Compile>
-    <Compile Include="UserCodeCollections\PopupWatcherLibrary.cs">
-      <id>e8fe200e-04a8-42f2-8cd0-7291ebc244c7</id>
-    </Compile>
-    <Compile Include="UserCodeCollections\StringLibrary.cs">
-      <id>f688d03e-caa6-41ba-a3dd-3202a9338639</id>
-    </Compile>
-    <Compile Include="UserCodeCollections\SystemLibrary.cs">
-      <id>808811da-f745-405e-afa2-fbbb9a1c93cd</id>
-    </Compile>
-    <Compile Include="UserCodeCollections\ValidationLibrary.cs">
-      <id>22644ce8-30fc-46aa-9a3f-460f71537f37</id>
-    </Compile>
-    <Compile Include="UserCodeCollections\WebLibrary.cs">
-      <id>008104dd-8fd2-4523-b771-b118cbe2d7e9</id>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Ranorex Automation Helpers.cd">
