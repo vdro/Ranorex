@@ -780,9 +780,6 @@ rxversion="8.3">
 			id="76e32daf-cd8f-4619-8a24-2ffbb15bced5">
 			</testcontainer>
 			<testcontainer
-			id="7c4751e8-e948-4945-8a49-aa3d9796955d">
-			</testcontainer>
-			<testcontainer
 			id="8c6d98f2-b2f3-4915-845a-83625349dd2d">
 			</testcontainer>
 			<testcontainer
@@ -821,11 +818,5 @@ rxversion="8.3">
 		</testconfiguration>
 	</testconfigurations>
 	<references>
-		<reference>
-			Ranorex Automation Helpers.dll
-		</reference>
-		<reference>
-			Ranorex.PDF.exe
-		</reference>
 	</references>
 </testsuitedoc>
