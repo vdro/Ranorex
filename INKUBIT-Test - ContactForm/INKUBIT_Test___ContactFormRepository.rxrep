@@ -2257,7 +2257,7 @@ AAAASUVORK5CYII=
 			name="SeniorMicrosoftDynamics365CRMConsul"
 			refimgid="337c211d-345f-4eaf-88f6-408e8047a837"
 			searchtimeout="30000ms">
-				/dom[1]//section/header//h1[@innertext='Senior Microsoft Dynamics 365 CRM Consultant Technical &amp; Functional (m/w)']
+				/dom[1]//section[#'main']/header//h1[@innertext~'^Senior\ Microsoft\ Dynamics']
 			</item>
 			<item
 			addcaps="unknown,webelement,h1tag"
@@ -2265,9 +2265,8 @@ AAAASUVORK5CYII=
 			id="92dc03ec-23e5-48a2-a10f-34a3de8d23a4"
 			name="SeniorBusinessIntelligenceConsultant"
 			refimgid="8249d3e4-b749-4f20-8d62-0b63a270e2a6"
-			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='Senior Business Intelligence Consultant for SAP SE Products']"
 			searchtimeout="30000ms">
-				/dom[1]//section[#'main']/header//h1[@innertext~'^Senior\ Business\ Intellige']
+				/dom[1]//section[#'main']/header//h1[@innertext~'Senior Business Intelligence Consultant for SAP SE Products']
 			</item>
 			<item
 			addcaps="unknown,webelement,h1tag"
@@ -2275,7 +2274,6 @@ AAAASUVORK5CYII=
 			id="ebefb3ef-8af4-4c2a-8e08-7ed20daa757f"
 			name="SeniorBankingConsultantForSAPSEPro"
 			refimgid="e623b88c-3b51-439c-8e95-44570630dfe3"
-			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='Senior Banking Consultant for SAP SE Products']"
 			searchtimeout="30000ms">
 				/dom[1]//section[#'main']/header//h1[@innertext~'^Senior\ Banking\ Consultant']
 			</item>
@@ -2596,6 +2594,45 @@ AAAASUVORK5CYII=
 			refimgid="f73a5acd-17fa-479a-9502-6118f336a5c5"
 			searchtimeout="30000ms">
 				/dom[1]//div[#'flatbuttons']/a[@innertext='Als PDF herunterladen']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="72de164f-ba4b-47d1-b269-23ca94120228"
+			name="WerkstudentSalesUndBusinessDevelopme"
+			refimgid="586d6efa-4b8e-45ce-92e2-8e4ae116b423"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext='Werkstudent Sales und Business Development (m/w)']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="a235c849-fba2-4484-9c6b-d8f6eb86595c"
+			name="WerkstudentHRManagementMW"
+			refimgid="9504e4ec-fc08-4330-8163-95713b7bfed7"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='Werkstudent HR-Management (m/w)']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^Werkstudent\ HR-Management']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="2ff432da-b67b-4d5c-bc37-3b5be14bf796"
+			name="WerkstudentenMarketingAndCommunicatio"
+			refimgid="b2e58cb6-5e06-48fa-9e5e-1e08cdb0f235"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='Werkstudenten Marketing and Communications (m/w)']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^Werkstudenten\ Marketing\ a']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="99b9fbe0-0727-446d-8e18-43f22600380a"
+			name="WerkstudentFinanceUndControllingMW"
+			refimgid="3bfdb5a3-a2b1-450f-b40a-9d551a57c77b"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='Werkstudent Finance und Controlling (m/w)']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^Werkstudent\ Finance\ und\ C']
 			</item>
 			<basepath>
 				/dom[1]

@@ -5655,6 +5655,10 @@ namespace INKUBIT_Test___ContactForm
             RepoItemInfo _alspdfherunterladen2Info;
             RepoItemInfo _divtag4Info;
             RepoItemInfo _alspdfherunterladen3Info;
+            RepoItemInfo _werkstudentsalesundbusinessdevelopmeInfo;
+            RepoItemInfo _werkstudenthrmanagementmwInfo;
+            RepoItemInfo _werkstudentenmarketingandcommunicatioInfo;
+            RepoItemInfo _werkstudentfinanceundcontrollingmwInfo;
 
             /// <summary>
             /// Creates a new HttpsWwwInkubitComEnUsCareers  folder.
@@ -5666,8 +5670,8 @@ namespace INKUBIT_Test___ContactForm
                 _managingpartnermicrosoftbusinessappl1Info = new RepoItemInfo(this, "ManagingPartnerMicrosoftBusinessAppl1", ".//section[#'main']/header//h1[@innertext~'^Managing\\ Partner\\ Microsof']", 30000, null, "ecdecb1d-fbc6-4448-95de-9dcc66efcdf9");
                 _divtagInfo = new RepoItemInfo(this, "DivTag", ".//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']", 30000, null, "3c2763a3-4e54-419b-b189-9dbeea3b1b5f");
                 _downloadaspdfInfo = new RepoItemInfo(this, "DownloadAsPDF", ".//div[#'flatbuttons']/a[@innertext='Download as PDF']", 30000, null, "4ea2ec33-81de-48bf-a1f1-f108cb6b8de8");
-                _seniormicrosoftdynamics365crmconsulInfo = new RepoItemInfo(this, "SeniorMicrosoftDynamics365CRMConsul", ".//section/header//h1[@innertext='Senior Microsoft Dynamics 365 CRM Consultant Technical & Functional (m/w)']", 30000, null, "ed18f102-3041-4d7f-b4e9-ed7a9d8eea9a");
-                _seniorbusinessintelligenceconsultantInfo = new RepoItemInfo(this, "SeniorBusinessIntelligenceConsultant", ".//section[#'main']/header//h1[@innertext~'^Senior\\ Business\\ Intellige']", 30000, null, "92dc03ec-23e5-48a2-a10f-34a3de8d23a4");
+                _seniormicrosoftdynamics365crmconsulInfo = new RepoItemInfo(this, "SeniorMicrosoftDynamics365CRMConsul", ".//section[#'main']/header//h1[@innertext~'^Senior\\ Microsoft\\ Dynamics']", 30000, null, "ed18f102-3041-4d7f-b4e9-ed7a9d8eea9a");
+                _seniorbusinessintelligenceconsultantInfo = new RepoItemInfo(this, "SeniorBusinessIntelligenceConsultant", ".//section[#'main']/header//h1[@innertext~'Senior Business Intelligence Consultant for SAP SE Products']", 30000, null, "92dc03ec-23e5-48a2-a10f-34a3de8d23a4");
                 _seniorbankingconsultantforsapseproInfo = new RepoItemInfo(this, "SeniorBankingConsultantForSAPSEPro", ".//section[#'main']/header//h1[@innertext~'^Senior\\ Banking\\ Consultant']", 30000, null, "ebefb3ef-8af4-4c2a-8e08-7ed20daa757f");
                 _httpswwwinkubitcommedia74506backInfo = new RepoItemInfo(this, "HttpsWwwInkubitComMedia74506Back", ".//section[#'main']/div[2]//img", 30000, null, "32e03649-ca7d-4040-8e89-d48fa9ba1f14");
                 _juniormicrosoftdynamics365crmdeveloInfo = new RepoItemInfo(this, "JuniorMicrosoftDynamics365CRMDevelo", ".//section[#'main']/header//h1[@innertext~'Junior Microsoft Dynamics 365 CRM Developer']", 30000, null, "b238febf-0107-4c0a-b8e0-99e45fbe3e12");
@@ -5703,6 +5707,10 @@ namespace INKUBIT_Test___ContactForm
                 _alspdfherunterladen2Info = new RepoItemInfo(this, "AlsPDFHerunterladen2", ".//div[#'flatbuttons']/a[@innertext='Als PDF herunterladen']", 30000, null, "a2603f43-117e-485c-9904-138ee5eb0ff8");
                 _divtag4Info = new RepoItemInfo(this, "DivTag4", ".//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']", 30000, null, "8caf21b6-8eaf-4cae-90d2-0695dfc1317e");
                 _alspdfherunterladen3Info = new RepoItemInfo(this, "AlsPDFHerunterladen3", ".//div[#'flatbuttons']/a[@innertext='Als PDF herunterladen']", 30000, null, "26984bd5-731c-4206-a076-66656ee4795f");
+                _werkstudentsalesundbusinessdevelopmeInfo = new RepoItemInfo(this, "WerkstudentSalesUndBusinessDevelopme", ".//section[#'main']/header//h1[@innertext='Werkstudent Sales und Business Development (m/w)']", 30000, null, "72de164f-ba4b-47d1-b269-23ca94120228");
+                _werkstudenthrmanagementmwInfo = new RepoItemInfo(this, "WerkstudentHRManagementMW", ".//section[#'main']/header//h1[@innertext~'^Werkstudent\\ HR-Management']", 30000, null, "a235c849-fba2-4484-9c6b-d8f6eb86595c");
+                _werkstudentenmarketingandcommunicatioInfo = new RepoItemInfo(this, "WerkstudentenMarketingAndCommunicatio", ".//section[#'main']/header//h1[@innertext~'^Werkstudenten\\ Marketing\\ a']", 30000, null, "2ff432da-b67b-4d5c-bc37-3b5be14bf796");
+                _werkstudentfinanceundcontrollingmwInfo = new RepoItemInfo(this, "WerkstudentFinanceUndControllingMW", ".//section[#'main']/header//h1[@innertext~'^Werkstudent\\ Finance\\ und\\ C']", 30000, null, "99b9fbe0-0727-446d-8e18-43f22600380a");
             }
 
             /// <summary>
@@ -6710,6 +6718,102 @@ namespace INKUBIT_Test___ContactForm
                 get
                 {
                     return _alspdfherunterladen3Info;
+                }
+            }
+
+            /// <summary>
+            /// The WerkstudentSalesUndBusinessDevelopme item.
+            /// </summary>
+            [RepositoryItem("72de164f-ba4b-47d1-b269-23ca94120228")]
+            public virtual Ranorex.H1Tag WerkstudentSalesUndBusinessDevelopme
+            {
+                get
+                {
+                    return _werkstudentsalesundbusinessdevelopmeInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WerkstudentSalesUndBusinessDevelopme item info.
+            /// </summary>
+            [RepositoryItemInfo("72de164f-ba4b-47d1-b269-23ca94120228")]
+            public virtual RepoItemInfo WerkstudentSalesUndBusinessDevelopmeInfo
+            {
+                get
+                {
+                    return _werkstudentsalesundbusinessdevelopmeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WerkstudentHRManagementMW item.
+            /// </summary>
+            [RepositoryItem("a235c849-fba2-4484-9c6b-d8f6eb86595c")]
+            public virtual Ranorex.H1Tag WerkstudentHRManagementMW
+            {
+                get
+                {
+                    return _werkstudenthrmanagementmwInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WerkstudentHRManagementMW item info.
+            /// </summary>
+            [RepositoryItemInfo("a235c849-fba2-4484-9c6b-d8f6eb86595c")]
+            public virtual RepoItemInfo WerkstudentHRManagementMWInfo
+            {
+                get
+                {
+                    return _werkstudenthrmanagementmwInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WerkstudentenMarketingAndCommunicatio item.
+            /// </summary>
+            [RepositoryItem("2ff432da-b67b-4d5c-bc37-3b5be14bf796")]
+            public virtual Ranorex.H1Tag WerkstudentenMarketingAndCommunicatio
+            {
+                get
+                {
+                    return _werkstudentenmarketingandcommunicatioInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WerkstudentenMarketingAndCommunicatio item info.
+            /// </summary>
+            [RepositoryItemInfo("2ff432da-b67b-4d5c-bc37-3b5be14bf796")]
+            public virtual RepoItemInfo WerkstudentenMarketingAndCommunicatioInfo
+            {
+                get
+                {
+                    return _werkstudentenmarketingandcommunicatioInfo;
+                }
+            }
+
+            /// <summary>
+            /// The WerkstudentFinanceUndControllingMW item.
+            /// </summary>
+            [RepositoryItem("99b9fbe0-0727-446d-8e18-43f22600380a")]
+            public virtual Ranorex.H1Tag WerkstudentFinanceUndControllingMW
+            {
+                get
+                {
+                    return _werkstudentfinanceundcontrollingmwInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The WerkstudentFinanceUndControllingMW item info.
+            /// </summary>
+            [RepositoryItemInfo("99b9fbe0-0727-446d-8e18-43f22600380a")]
+            public virtual RepoItemInfo WerkstudentFinanceUndControllingMWInfo
+            {
+                get
+                {
+                    return _werkstudentfinanceundcontrollingmwInfo;
                 }
             }
         }

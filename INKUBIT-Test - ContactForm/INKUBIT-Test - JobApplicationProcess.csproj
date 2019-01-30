@@ -316,6 +316,18 @@
       <UserCode>true</UserCode>
       <id>753bdbd3-63a9-497d-abe9-559cf114d83c</id>
     </Compile>
+    <Compile Include="JuniorMicrosoftDynamics365CRMDevelopermw.cs">
+      <BoundTo>355c3298-ba04-4e9b-8a7c-58c97ab7587c</BoundTo>
+      <DependentUpon>JuniorMicrosoftDynamics365CRMDevelopermw.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>09dea439-d21c-4f76-a296-7b7ba054e9e1</id>
+    </Compile>
+    <Compile Include="JuniorMicrosoftDynamics365CRMDevelopermw.UserCode.cs">
+      <BoundTo>355c3298-ba04-4e9b-8a7c-58c97ab7587c</BoundTo>
+      <DependentUpon>JuniorMicrosoftDynamics365CRMDevelopermw.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f0b6362d-cac8-4a12-9639-b3050d086e88</id>
+    </Compile>
     <Compile Include="JuniorWebFrontendDeveloper.cs">
       <BoundTo>a5e0ccd3-f061-464b-90b7-bd8ba983f033</BoundTo>
       <DependentUpon>JuniorWebFrontendDeveloper.rxrec</DependentUpon>
@@ -583,6 +595,54 @@
       <UserCode>true</UserCode>
       <id>c154dd05-8da0-4364-b10b-ba9a6991a4d6</id>
     </Compile>
+    <Compile Include="WerkstudentenMarketingandCommunicationsmw.cs">
+      <BoundTo>ac2768d8-69e6-4a4a-b4be-4a69af0e9ea8</BoundTo>
+      <DependentUpon>WerkstudentenMarketingandCommunicationsmw.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9a9e28f3-29b6-4a7d-9095-ae2eba736ab6</id>
+    </Compile>
+    <Compile Include="WerkstudentenMarketingandCommunicationsmw.UserCode.cs">
+      <BoundTo>ac2768d8-69e6-4a4a-b4be-4a69af0e9ea8</BoundTo>
+      <DependentUpon>WerkstudentenMarketingandCommunicationsmw.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f4bbaefd-d290-4815-bdbf-dba09e94e491</id>
+    </Compile>
+    <Compile Include="WerkstudentFinanceundControllingmw.cs">
+      <BoundTo>0802e9ba-be51-49ef-83f2-cccd7176d1b0</BoundTo>
+      <DependentUpon>WerkstudentFinanceundControllingmw.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b2a04aa8-fb21-4628-96d0-fa57a199b3d8</id>
+    </Compile>
+    <Compile Include="WerkstudentFinanceundControllingmw.UserCode.cs">
+      <BoundTo>0802e9ba-be51-49ef-83f2-cccd7176d1b0</BoundTo>
+      <DependentUpon>WerkstudentFinanceundControllingmw.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>86d61ef8-127f-429e-9489-6556785532a9</id>
+    </Compile>
+    <Compile Include="WerkstudentHRManagementmw.cs">
+      <BoundTo>51766859-2a61-4a2f-b391-b3217a2c592a</BoundTo>
+      <DependentUpon>WerkstudentHRManagementmw.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>218b5067-1245-446c-81f5-a863614a27c2</id>
+    </Compile>
+    <Compile Include="WerkstudentHRManagementmw.UserCode.cs">
+      <BoundTo>51766859-2a61-4a2f-b391-b3217a2c592a</BoundTo>
+      <DependentUpon>WerkstudentHRManagementmw.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>485c3ea8-67cc-42f0-aeee-3f9f626ff7f8</id>
+    </Compile>
+    <Compile Include="WerkstudentSalesundBusinessDevelopmentmw.cs">
+      <BoundTo>250b16b0-3eb5-4e0f-b6f6-181d0f60cd56</BoundTo>
+      <DependentUpon>WerkstudentSalesundBusinessDevelopmentmw.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>57c335e8-b7fc-452e-b01c-7b3070bf4d6d</id>
+    </Compile>
+    <Compile Include="WerkstudentSalesundBusinessDevelopmentmw.UserCode.cs">
+      <BoundTo>250b16b0-3eb5-4e0f-b6f6-181d0f60cd56</BoundTo>
+      <DependentUpon>WerkstudentSalesundBusinessDevelopmentmw.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bb1e1dd4-e897-4491-9b07-69a2e0c4d6b6</id>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="AdministrativeAssistance.rxrec">
@@ -673,6 +733,11 @@
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>482aa55d-27fa-424a-82b5-909942b47b17</id>
       <recordtableid>6f4cf080-6a7f-4d70-931c-ed6d0b7cb0f2</recordtableid>
+    </None>
+    <None Include="JuniorMicrosoftDynamics365CRMDevelopermw.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>355c3298-ba04-4e9b-8a7c-58c97ab7587c</id>
+      <recordtableid>ae0dc901-8241-4a8f-9220-bff5540964f3</recordtableid>
     </None>
     <None Include="JuniorWebFrontendDeveloper.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
@@ -783,6 +848,26 @@
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>aeaaaf16-058c-4a56-adba-86d25b479d3d</id>
       <recordtableid>434cd226-0768-42b8-b9b0-84e7ccad97ab</recordtableid>
+    </None>
+    <None Include="WerkstudentenMarketingandCommunicationsmw.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>ac2768d8-69e6-4a4a-b4be-4a69af0e9ea8</id>
+      <recordtableid>c2f31b01-c35a-4288-9f47-9e207b420ff4</recordtableid>
+    </None>
+    <None Include="WerkstudentFinanceundControllingmw.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>0802e9ba-be51-49ef-83f2-cccd7176d1b0</id>
+      <recordtableid>643d38e7-6b35-4299-b3f4-289bc7fad1ec</recordtableid>
+    </None>
+    <None Include="WerkstudentHRManagementmw.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>51766859-2a61-4a2f-b391-b3217a2c592a</id>
+      <recordtableid>4beefbc8-9b73-41a9-b700-92aaa84818d8</recordtableid>
+    </None>
+    <None Include="WerkstudentSalesundBusinessDevelopmentmw.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>250b16b0-3eb5-4e0f-b6f6-181d0f60cd56</id>
+      <recordtableid>c8fe06f3-12e3-483f-95e3-509bb4466ce3</recordtableid>
     </None>
   </ItemGroup>
   <ItemGroup>
