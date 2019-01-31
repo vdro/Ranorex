@@ -1288,6 +1288,24 @@ igYUUUUAJRRRQIWiiigYUUUUAFFFFAj/2Q==
 				https://www.inkubit.com/media/74791/werkstudent-finance-und-controlling-m-w.pdf
 			</matchvalue>
 		</validationitem>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="100ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="0adce9b7-c030-4dea-8428-a9d4034a796e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6f968f1d-3e20-4082-b349-018af628285d"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/dom[1]
+				</path>
+			</info>
+		</closeapprecorditem>
 	</recorditems>
 	<repository
 	id="22bd918a-87d1-49b0-9324-84f32d6382bb"

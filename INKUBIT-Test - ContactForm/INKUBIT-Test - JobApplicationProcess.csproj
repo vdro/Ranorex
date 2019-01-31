@@ -139,6 +139,18 @@
       <UserCode>true</UserCode>
       <id>7689f5e2-ab30-4410-86eb-ac44ec21d0ff</id>
     </Compile>
+    <Compile Include="AdministrativeAssistancePL.cs">
+      <BoundTo>b4a32486-c1fc-4626-a5c3-7654e7994a22</BoundTo>
+      <DependentUpon>AdministrativeAssistancePL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f29a08d3-9c14-4163-8add-125665286948</id>
+    </Compile>
+    <Compile Include="AdministrativeAssistancePL.UserCode.cs">
+      <BoundTo>b4a32486-c1fc-4626-a5c3-7654e7994a22</BoundTo>
+      <DependentUpon>AdministrativeAssistancePL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9d265f2e-2da5-46a7-89a3-9772ddfd4b1d</id>
+    </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>3ea663b8-5b8e-47ce-a828-374038f82b54</id>
     </Compile>
@@ -280,6 +292,18 @@
       <UserCode>true</UserCode>
       <id>81fb6524-fffc-4f5a-9b68-2eea2132bd65</id>
     </Compile>
+    <Compile Include="JuniorMicrosoftASPNetFullStackDeveloperPL.cs">
+      <BoundTo>95dfdd45-c205-4549-aca6-d6f5f0aff227</BoundTo>
+      <DependentUpon>JuniorMicrosoftASPNetFullStackDeveloperPL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>af4ef8ee-51ac-4bf5-8b9b-c1d51bb4765c</id>
+    </Compile>
+    <Compile Include="JuniorMicrosoftASPNetFullStackDeveloperPL.UserCode.cs">
+      <BoundTo>95dfdd45-c205-4549-aca6-d6f5f0aff227</BoundTo>
+      <DependentUpon>JuniorMicrosoftASPNetFullStackDeveloperPL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>01d7c9a1-ebf9-47c7-b4ac-9e3332368cb7</id>
+    </Compile>
     <Compile Include="JuniorMicrosoftBusinessIntelligenceDeveloper.cs">
       <BoundTo>2299f261-e761-46f2-9c79-3b1af8ea94ca</BoundTo>
       <DependentUpon>JuniorMicrosoftBusinessIntelligenceDeveloper.rxrec</DependentUpon>
@@ -291,6 +315,18 @@
       <DependentUpon>JuniorMicrosoftBusinessIntelligenceDeveloper.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>afc28f8b-6d9a-4e1b-b4cb-eb6ea008a4af</id>
+    </Compile>
+    <Compile Include="JuniorMicrosoftBusinessIntelligenceDeveloperPL.cs">
+      <BoundTo>b6b4ebae-1d7a-486a-9b84-2a9787be0d0c</BoundTo>
+      <DependentUpon>JuniorMicrosoftBusinessIntelligenceDeveloperPL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2336b823-85b0-4e5c-9c84-8fe71a016aed</id>
+    </Compile>
+    <Compile Include="JuniorMicrosoftBusinessIntelligenceDeveloperPL.UserCode.cs">
+      <BoundTo>b6b4ebae-1d7a-486a-9b84-2a9787be0d0c</BoundTo>
+      <DependentUpon>JuniorMicrosoftBusinessIntelligenceDeveloperPL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6bc3fa03-2991-4979-89fb-6bc2a4230cf8</id>
     </Compile>
     <Compile Include="JuniorMicrosoftDynamics365CRMConsultantTechnicalFunctionalmw.cs">
       <BoundTo>08c85664-061b-42b4-80e7-42d2135769c3</BoundTo>
@@ -328,6 +364,18 @@
       <UserCode>true</UserCode>
       <id>f0b6362d-cac8-4a12-9639-b3050d086e88</id>
     </Compile>
+    <Compile Include="JuniorMicrosoftDynamics365CRMDeveloperPL.cs">
+      <BoundTo>fb1c673f-2dae-4b8b-9620-1cf7294be07f</BoundTo>
+      <DependentUpon>JuniorMicrosoftDynamics365CRMDeveloperPL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a717d7a4-9303-4976-9288-a1725cf276c4</id>
+    </Compile>
+    <Compile Include="JuniorMicrosoftDynamics365CRMDeveloperPL.UserCode.cs">
+      <BoundTo>fb1c673f-2dae-4b8b-9620-1cf7294be07f</BoundTo>
+      <DependentUpon>JuniorMicrosoftDynamics365CRMDeveloperPL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>657386bc-1aab-4e72-ab02-70d2971d354e</id>
+    </Compile>
     <Compile Include="JuniorWebFrontendDeveloper.cs">
       <BoundTo>a5e0ccd3-f061-464b-90b7-bd8ba983f033</BoundTo>
       <DependentUpon>JuniorWebFrontendDeveloper.rxrec</DependentUpon>
@@ -339,6 +387,18 @@
       <DependentUpon>JuniorWebFrontendDeveloper.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>92d978d9-93f8-4c63-bfb9-7fd9caddf6c0</id>
+    </Compile>
+    <Compile Include="JuniorWebFrontendDeveloperPL.cs">
+      <BoundTo>f6570776-2fcb-40b5-a2ac-a79b42dd5779</BoundTo>
+      <DependentUpon>JuniorWebFrontendDeveloperPL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ef1bd6a9-0e2b-409f-843e-bf0b989b2aec</id>
+    </Compile>
+    <Compile Include="JuniorWebFrontendDeveloperPL.UserCode.cs">
+      <BoundTo>f6570776-2fcb-40b5-a2ac-a79b42dd5779</BoundTo>
+      <DependentUpon>JuniorWebFrontendDeveloperPL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6f420609-5275-4546-bad2-0d60f1619b45</id>
     </Compile>
     <Compile Include="LandingPage.cs">
       <BoundTo>673d055e-24d9-4f2c-9e1b-51983fd0b541</BoundTo>
@@ -388,6 +448,18 @@
       <UserCode>true</UserCode>
       <id>1d7952e5-ed96-4f8e-b313-4e43597d4c35</id>
     </Compile>
+    <Compile Include="ManagingPartnerMicrosoftBusinessApplicationsPL.cs">
+      <BoundTo>3ec23b38-3268-4a96-9fc6-67a8aced6827</BoundTo>
+      <DependentUpon>ManagingPartnerMicrosoftBusinessApplicationsPL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5695b593-0199-430c-8274-35eefb03411d</id>
+    </Compile>
+    <Compile Include="ManagingPartnerMicrosoftBusinessApplicationsPL.UserCode.cs">
+      <BoundTo>3ec23b38-3268-4a96-9fc6-67a8aced6827</BoundTo>
+      <DependentUpon>ManagingPartnerMicrosoftBusinessApplicationsPL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d295e294-e971-48ae-967d-6a574c7a00a0</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>69641c36-2997-4c00-833e-e13abc6049bf</id>
     </Compile>
@@ -427,6 +499,18 @@
       <UserCode>true</UserCode>
       <id>124abe7b-4905-417a-a92e-2a711f184122</id>
     </Compile>
+    <Compile Include="SeniorBankingConsultantforSAPSEProductsPL.cs">
+      <BoundTo>5090b466-f5bd-46bb-8f10-484ca2d08e03</BoundTo>
+      <DependentUpon>SeniorBankingConsultantforSAPSEProductsPL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5fa2151d-808d-4b51-ae99-96701cc1a233</id>
+    </Compile>
+    <Compile Include="SeniorBankingConsultantforSAPSEProductsPL.UserCode.cs">
+      <BoundTo>5090b466-f5bd-46bb-8f10-484ca2d08e03</BoundTo>
+      <DependentUpon>SeniorBankingConsultantforSAPSEProductsPL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fbb30b26-1cc0-4fa1-a626-83e4141d2b3e</id>
+    </Compile>
     <Compile Include="SeniorBusinessIntelligenceConsultantforSAPSEProducts.cs">
       <BoundTo>e80322d2-6dd7-4e9c-9cb0-f18be5d77cca</BoundTo>
       <DependentUpon>SeniorBusinessIntelligenceConsultantforSAPSEProducts.rxrec</DependentUpon>
@@ -438,6 +522,18 @@
       <DependentUpon>SeniorBusinessIntelligenceConsultantforSAPSEProducts.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>4fc3a356-1c36-48aa-a5df-9fc31583b197</id>
+    </Compile>
+    <Compile Include="SeniorBusinessIntelligenceConsultantforSAPSEProductsPL.cs">
+      <BoundTo>fd3010d0-fc7a-4f66-8be5-ff5008762137</BoundTo>
+      <DependentUpon>SeniorBusinessIntelligenceConsultantforSAPSEProductsPL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e553f87e-09ae-4c27-bd39-87b08bb07e9f</id>
+    </Compile>
+    <Compile Include="SeniorBusinessIntelligenceConsultantforSAPSEProductsPL.UserCode.cs">
+      <BoundTo>fd3010d0-fc7a-4f66-8be5-ff5008762137</BoundTo>
+      <DependentUpon>SeniorBusinessIntelligenceConsultantforSAPSEProductsPL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>390af5e7-fbe5-4bf7-89c9-d4b02ef76c1a</id>
     </Compile>
     <Compile Include="SeniorConsultantHCMSystemeTechnicalFunctionalmw.cs">
       <BoundTo>70a834dc-2cea-4a05-9fe5-32962d93ae33</BoundTo>
@@ -462,6 +558,18 @@
       <DependentUpon>SeniorConsultantHCMSystemsTechnicalFunctionalmf.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>5ae48ebe-5340-43d5-8913-5eb7c3cbbbee</id>
+    </Compile>
+    <Compile Include="SeniorConsultantHCMSystemsTechnicalFunctionalmfPL.cs">
+      <BoundTo>5a2579f5-f136-4753-b488-18a6a296d4c0</BoundTo>
+      <DependentUpon>SeniorConsultantHCMSystemsTechnicalFunctionalmfPL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3a5e838b-2c1e-4422-8044-09d41b6b66cb</id>
+    </Compile>
+    <Compile Include="SeniorConsultantHCMSystemsTechnicalFunctionalmfPL.UserCode.cs">
+      <BoundTo>5a2579f5-f136-4753-b488-18a6a296d4c0</BoundTo>
+      <DependentUpon>SeniorConsultantHCMSystemsTechnicalFunctionalmfPL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1980f8ae-da0e-4a7e-bbc2-3661b5c89f42</id>
     </Compile>
     <Compile Include="SeniorConsultantimBereichBankingfuerProduktederSAPSEmw.cs">
       <BoundTo>7c2bdd65-8192-4ae5-9504-723fb7b2ced8</BoundTo>
@@ -499,6 +607,18 @@
       <UserCode>true</UserCode>
       <id>123e9a40-99f8-4c02-82db-8bac43d6ad20</id>
     </Compile>
+    <Compile Include="SeniorMicrosoftDynamics365CRMConsultantTechnicalandFunctionalPL.cs">
+      <BoundTo>8888b388-7ae4-41f3-a602-b40ba6613f15</BoundTo>
+      <DependentUpon>SeniorMicrosoftDynamics365CRMConsultantTechnicalandFunctionalPL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8212e77c-479b-45ae-8560-e2d3f46cafac</id>
+    </Compile>
+    <Compile Include="SeniorMicrosoftDynamics365CRMConsultantTechnicalandFunctionalPL.UserCode.cs">
+      <BoundTo>8888b388-7ae4-41f3-a602-b40ba6613f15</BoundTo>
+      <DependentUpon>SeniorMicrosoftDynamics365CRMConsultantTechnicalandFunctionalPL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c4fc419e-f33d-4e79-8983-cbc93ddbcef9</id>
+    </Compile>
     <Compile Include="SeniorMicrosoftDynamics365CRMConsultantTechnicalFunctionalmw.cs">
       <BoundTo>188c94a1-dc56-4896-885e-0821c2597483</BoundTo>
       <DependentUpon>SeniorMicrosoftDynamics365CRMConsultantTechnicalFunctionalmw.rxrec</DependentUpon>
@@ -535,6 +655,18 @@
       <UserCode>true</UserCode>
       <id>9063b380-f019-4fcf-a2b6-c9b060ceeed9</id>
     </Compile>
+    <Compile Include="SeniorMicrosoftDynamics365CRMDeveloperPL.cs">
+      <BoundTo>303aa4a2-a79d-4244-99c2-7cd1dda29900</BoundTo>
+      <DependentUpon>SeniorMicrosoftDynamics365CRMDeveloperPL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>304988c3-81a6-410d-b328-871f208a208b</id>
+    </Compile>
+    <Compile Include="SeniorMicrosoftDynamics365CRMDeveloperPL.UserCode.cs">
+      <BoundTo>303aa4a2-a79d-4244-99c2-7cd1dda29900</BoundTo>
+      <DependentUpon>SeniorMicrosoftDynamics365CRMDeveloperPL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ff8d6224-cd26-4bae-934b-785dc44dc5b7</id>
+    </Compile>
     <Compile Include="SeniorMicrosoftSharePointDeveloper.cs">
       <BoundTo>32d0eec5-79ad-4553-a704-771382281ace</BoundTo>
       <DependentUpon>SeniorMicrosoftSharePointDeveloper.rxrec</DependentUpon>
@@ -558,6 +690,18 @@
       <DependentUpon>SeniorMicrosoftSharePointDevelopermw.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>8d4f626a-08eb-4ff7-bbe9-134c6f46695c</id>
+    </Compile>
+    <Compile Include="SeniorMicrosoftSharePointDeveloperPL.cs">
+      <BoundTo>f5d7def5-c997-4b8e-a5f1-c9f8b017e452</BoundTo>
+      <DependentUpon>SeniorMicrosoftSharePointDeveloperPL.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6e0378b3-3c22-4f0b-94c5-6f6bddcf4004</id>
+    </Compile>
+    <Compile Include="SeniorMicrosoftSharePointDeveloperPL.UserCode.cs">
+      <BoundTo>f5d7def5-c997-4b8e-a5f1-c9f8b017e452</BoundTo>
+      <DependentUpon>SeniorMicrosoftSharePointDeveloperPL.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>cb9db511-7fab-454e-9901-c83b9a759f17</id>
     </Compile>
     <Compile Include="WerkstudentConsultingDevelopmentMicrosoftDynamics365CRMmw.cs">
       <BoundTo>6c19970c-0cd2-440a-928f-2a1c81924261</BoundTo>
@@ -650,6 +794,11 @@
       <id>8c3c792e-fe8d-4419-986c-7ae4d98600d8</id>
       <recordtableid>8478b8eb-defd-41dd-a29d-af2ffeaf7e82</recordtableid>
     </None>
+    <None Include="AdministrativeAssistancePL.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>b4a32486-c1fc-4626-a5c3-7654e7994a22</id>
+      <recordtableid>f1fef342-1389-4437-ba74-ce783b8b3b43</recordtableid>
+    </None>
     <None Include="app.config">
       <id>3e12d392-f3c8-4b31-b0e8-dad85ac98662</id>
     </None>
@@ -719,10 +868,20 @@
       <id>a03192b8-99de-430a-8f3a-1dfebb784966</id>
       <recordtableid>a4c7f0eb-75ae-4ec5-a77b-1825f7d1865b</recordtableid>
     </None>
+    <None Include="JuniorMicrosoftASPNetFullStackDeveloperPL.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>95dfdd45-c205-4549-aca6-d6f5f0aff227</id>
+      <recordtableid>abab2d58-bc33-4dde-9d28-475976107e10</recordtableid>
+    </None>
     <None Include="JuniorMicrosoftBusinessIntelligenceDeveloper.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>2299f261-e761-46f2-9c79-3b1af8ea94ca</id>
       <recordtableid>8cf3d073-8518-4e74-87b7-2d24a5bdd659</recordtableid>
+    </None>
+    <None Include="JuniorMicrosoftBusinessIntelligenceDeveloperPL.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>b6b4ebae-1d7a-486a-9b84-2a9787be0d0c</id>
+      <recordtableid>314d2b00-df94-43ba-8527-0389b9ab9cef</recordtableid>
     </None>
     <None Include="JuniorMicrosoftDynamics365CRMConsultantTechnicalFunctionalmw.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
@@ -739,10 +898,20 @@
       <id>355c3298-ba04-4e9b-8a7c-58c97ab7587c</id>
       <recordtableid>ae0dc901-8241-4a8f-9220-bff5540964f3</recordtableid>
     </None>
+    <None Include="JuniorMicrosoftDynamics365CRMDeveloperPL.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>fb1c673f-2dae-4b8b-9620-1cf7294be07f</id>
+      <recordtableid>19074acb-0c9a-4250-bbfe-512957c85599</recordtableid>
+    </None>
     <None Include="JuniorWebFrontendDeveloper.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>a5e0ccd3-f061-464b-90b7-bd8ba983f033</id>
       <recordtableid>e600c119-8a4b-4be4-a3a5-c4fbc359dae6</recordtableid>
+    </None>
+    <None Include="JuniorWebFrontendDeveloperPL.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>f6570776-2fcb-40b5-a2ac-a79b42dd5779</id>
+      <recordtableid>17a26983-e378-4cca-bd5c-23811876d69d</recordtableid>
     </None>
     <None Include="LandingPage.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
@@ -764,6 +933,11 @@
       <id>baa1b728-2f87-4d8d-b6e4-073b982236ef</id>
       <recordtableid>8c5b6942-111a-442f-bac2-a4708e9eddd9</recordtableid>
     </None>
+    <None Include="ManagingPartnerMicrosoftBusinessApplicationsPL.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>3ec23b38-3268-4a96-9fc6-67a8aced6827</id>
+      <recordtableid>fb5cd3d8-c1b1-4415-85bb-86f118f75858</recordtableid>
+    </None>
     <None Include="Recording1.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>545ca89e-7b5c-4d2f-aac0-137196f0df79</id>
@@ -779,10 +953,20 @@
       <id>4bfed792-9f4e-43a2-861c-930d80227be4</id>
       <recordtableid>9acbd419-2ae9-429b-8a19-986035d54018</recordtableid>
     </None>
+    <None Include="SeniorBankingConsultantforSAPSEProductsPL.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>5090b466-f5bd-46bb-8f10-484ca2d08e03</id>
+      <recordtableid>919a4160-6834-4ed4-b43a-0a7242900894</recordtableid>
+    </None>
     <None Include="SeniorBusinessIntelligenceConsultantforSAPSEProducts.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>e80322d2-6dd7-4e9c-9cb0-f18be5d77cca</id>
       <recordtableid>5ad03571-4cf4-4793-8703-1f42d56d1e44</recordtableid>
+    </None>
+    <None Include="SeniorBusinessIntelligenceConsultantforSAPSEProductsPL.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>fd3010d0-fc7a-4f66-8be5-ff5008762137</id>
+      <recordtableid>7c6c3b1e-6f13-4f53-9a8c-ef07adb94f50</recordtableid>
     </None>
     <None Include="SeniorConsultantHCMSystemeTechnicalFunctionalmw.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
@@ -793,6 +977,11 @@
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>9f05c86b-aa1c-4722-9777-782e590e87d9</id>
       <recordtableid>d8aab527-d1b3-4716-9725-2a8568f48042</recordtableid>
+    </None>
+    <None Include="SeniorConsultantHCMSystemsTechnicalFunctionalmfPL.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>5a2579f5-f136-4753-b488-18a6a296d4c0</id>
+      <recordtableid>33986687-75fc-487d-a4af-ce288e4774b4</recordtableid>
     </None>
     <None Include="SeniorConsultantimBereichBankingfürProduktederSAPSEmw.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
@@ -809,6 +998,11 @@
       <id>23f72bb4-8a51-4fe0-bddd-5a50758fef2f</id>
       <recordtableid>f5a98193-833b-4212-86e7-96bd846c4d43</recordtableid>
     </None>
+    <None Include="SeniorMicrosoftDynamics365CRMConsultantTechnicalandFunctionalPL.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>8888b388-7ae4-41f3-a602-b40ba6613f15</id>
+      <recordtableid>39fd8937-fa7e-468d-b97d-d8edd1a62e66</recordtableid>
+    </None>
     <None Include="SeniorMicrosoftDynamics365CRMConsultantTechnicalFunctionalmw.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>188c94a1-dc56-4896-885e-0821c2597483</id>
@@ -824,6 +1018,11 @@
       <id>f2f73965-3f80-4094-a87b-9fe8a2753459</id>
       <recordtableid>99b433d7-9d8b-49ed-bded-e1c2f19458f4</recordtableid>
     </None>
+    <None Include="SeniorMicrosoftDynamics365CRMDeveloperPL.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>303aa4a2-a79d-4244-99c2-7cd1dda29900</id>
+      <recordtableid>6bf31514-4b9a-479c-b48e-ec8bed60b811</recordtableid>
+    </None>
     <None Include="SeniorMicrosoftSharePointDeveloper.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>32d0eec5-79ad-4553-a704-771382281ace</id>
@@ -833,6 +1032,11 @@
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>b2500467-47a5-4ff3-bada-469190930278</id>
       <recordtableid>3e8ba616-e13c-4b5d-af9c-26bdec70b454</recordtableid>
+    </None>
+    <None Include="SeniorMicrosoftSharePointDeveloperPL.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>f5d7def5-c997-4b8e-a5f1-c9f8b017e452</id>
+      <recordtableid>d89675e5-7282-4215-bd08-c2f52d97f1c9</recordtableid>
     </None>
     <None Include="WerkstudentConsultingDevelopmentMicrosoftDynamics365CRMmw.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>

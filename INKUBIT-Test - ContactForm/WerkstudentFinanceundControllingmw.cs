@@ -107,6 +107,10 @@ namespace INKUBIT_Test___ContactForm
             Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.AlsPDFHerunterladen3Info, "Href", "https://www.inkubit.com/media/74791/werkstudent-finance-und-controlling-m-w.pdf");
             Delay.Milliseconds(100);
             
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HttpsWwwInkubitComEnUsCareers'.", repo.HttpsWwwInkubitComEnUsCareers.SelfInfo, new RecordItemIndex(7));
+            Host.Current.CloseApplication(repo.HttpsWwwInkubitComEnUsCareers.Self, 100);
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

@@ -446,9 +446,8 @@ AAAASUVORK5CYII=
 			id="00bc670c-c38c-4c08-ae11-599f982508c9"
 			name="InputEmail"
 			refimgid="3c6a1b41-b948-47c2-bb0f-06f0097b39e2"
-			refpath="/dom[@domain='test.inkubit.com']//input[#'InputEmail']"
 			searchtimeout="30000ms">
-				/dom[@domain='test.inkubit.com']//input[#'InputEmail']
+				/dom[@domain='test.inkubit.com']//input[#'EmailAddress']
 			</item>
 			<item
 			addcaps="unknown,webelement,textareatag"
@@ -456,19 +455,17 @@ AAAASUVORK5CYII=
 			id="0381fd33-6c55-41dc-b65a-19cb647e9d0f"
 			name="InputMessage"
 			refimgid="46f6d82b-4f96-4ae1-aefe-b8c563df94cc"
-			refpath="/dom[@domain='test.inkubit.com']//textarea[#'InputMessage']"
 			searchtimeout="30000ms">
-				/dom[@domain='test.inkubit.com']//textarea[#'InputMessage']
+				/dom[@domain='test.inkubit.com']//textarea[#'Message']
 			</item>
 			<item
 			addcaps="unknown,webelement,btag"
-			capname="btag"
+			capname="button"
 			id="888c2c1b-2cbc-4c4f-baed-bd15508afbf8"
 			name="SEND"
 			refimgid="a0c90aad-606d-4d96-ac86-e2a2bcb41337"
-			refpath="/dom[@domain='test.inkubit.com']//button[#'ButtonContactForm']/b[@innertext='SEND']"
 			searchtimeout="30000ms">
-				/dom[@domain='test.inkubit.com']//button[#'ButtonContactForm']/b[@innertext='SEND']
+				/dom[@domain='test.inkubit.com']//form[#'form0']/?/?/button[@innertext='SEND']
 			</item>
 			<item
 			addcaps="unknown,webelement,spantag"
@@ -2634,6 +2631,15 @@ AAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/dom[1]//section[#'main']/header//h1[@innertext~'^Werkstudent\ Finance\ und\ C']
 			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="012d3c4e-8239-4576-b0d1-d13ab31a5c7a"
+			name="PobierzJakoPDF"
+			refimgid="bdfc270f-e39c-4c50-b2d7-d4ccaa2f13d8"
+			searchtimeout="30000ms">
+				/dom[1]//div[#'flatbuttons']/a[@innertext='Pobierz jako PDF']
+			</item>
 			<basepath>
 				/dom[1]
 			</basepath>
@@ -2662,6 +2668,36 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		refpath="/dom[2]"
 		searchtimeout="30000ms"
 		usecache="False">
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="457886ce-4061-4b19-a09c-4c9f45bfcd1a"
+			name="HttpsWwwInkubitComMedia74499Back"
+			refimgid="5deda39a-d80c-4848-b983-8a811f509bd8"
+			refpath="/dom[2]//section[#'main']/div[2]/div[1]/p/img[@title='']"
+			searchtimeout="30000ms">
+				/dom[2]//section[#'main']/div[2]//img[@title='']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="3e8a9a19-69f2-4a18-9126-57255f711eff"
+			name="DivTag"
+			refimgid="ebcc957c-d42b-4c8b-a959-22dc2e895b07"
+			refpath="/dom[2]//div[#'jobApplicationSubmitToggleBtn']/div[@innertext='                                    Prześlij aplikację                                ']"
+			searchtimeout="30000ms">
+				/dom[2]//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="fe925165-b425-4169-a0b5-fb797bda3bf3"
+			name="PobierzJakoPDF"
+			refimgid="e1810c64-4a66-4902-9bbf-a0a59c2e1c95"
+			refpath="/dom[2]//div[#'flatbuttons']/a[@innertext='Pobierz jako PDF']"
+			searchtimeout="30000ms">
+				/dom[2]//div[#'flatbuttons']/a[@innertext='Pobierz jako PDF']
+			</item>
 			<basepath>
 				/dom[2]
 			</basepath>

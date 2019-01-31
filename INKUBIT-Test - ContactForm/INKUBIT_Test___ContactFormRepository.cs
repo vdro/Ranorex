@@ -752,9 +752,9 @@ namespace INKUBIT_Test___ContactForm
                 _contactInfo = new RepoItemInfo(this, "Contact", "body/div[5]/div[1]/?/?/header/div/div/div/div[2]//nav/ul/li[6]/a[@innertext='Contact']", 30000, null, "5cc18c17-943e-4c34-9f62-ecbf3683fe7b");
                 _firstname1Info = new RepoItemInfo(this, "FirstName1", ".//input[#'FirstName']", 30000, null, "645c61b7-c9f6-4f2b-8b7f-afe674f59b36");
                 _lastname1Info = new RepoItemInfo(this, "LastName1", ".//input[#'LastName']", 30000, null, "17225465-6cd9-4812-ab23-caecf5cbcb00");
-                _inputemailInfo = new RepoItemInfo(this, "InputEmail", ".//input[#'InputEmail']", 30000, null, "00bc670c-c38c-4c08-ae11-599f982508c9");
-                _inputmessageInfo = new RepoItemInfo(this, "InputMessage", ".//textarea[#'InputMessage']", 30000, null, "0381fd33-6c55-41dc-b65a-19cb647e9d0f");
-                _sendInfo = new RepoItemInfo(this, "SEND", ".//button[#'ButtonContactForm']/b[@innertext='SEND']", 30000, null, "888c2c1b-2cbc-4c4f-baed-bd15508afbf8");
+                _inputemailInfo = new RepoItemInfo(this, "InputEmail", ".//input[#'EmailAddress']", 30000, null, "00bc670c-c38c-4c08-ae11-599f982508c9");
+                _inputmessageInfo = new RepoItemInfo(this, "InputMessage", ".//textarea[#'Message']", 30000, null, "0381fd33-6c55-41dc-b65a-19cb647e9d0f");
+                _sendInfo = new RepoItemInfo(this, "SEND", ".//form[#'form0']/?/?/button[@innertext='SEND']", 30000, null, "888c2c1b-2cbc-4c4f-baed-bd15508afbf8");
                 _thankyouforyourmessagewewillcontInfo = new RepoItemInfo(this, "ThankYouForYourMessageWeWillCont", ".//tag[#'canvas-for-livicon-3']/tag[4]", 30000, null, "6b96bb39-e0d6-4d0c-bb1f-74522586c578");
                 _path1Info = new RepoItemInfo(this, "Path1", ".//tag[#'canvas-for-livicon-3']", 30000, null, "dcacee35-fc46-42a4-9baa-9c7aef1154d3");
                 _inputphoneInfo = new RepoItemInfo(this, "InputPhone", ".//input[#'InputPhone']", 30000, null, "f54657d6-13cd-425c-b35f-916eda14ff87");
@@ -1248,11 +1248,11 @@ namespace INKUBIT_Test___ContactForm
             /// The SEND item.
             /// </summary>
             [RepositoryItem("888c2c1b-2cbc-4c4f-baed-bd15508afbf8")]
-            public virtual Ranorex.BTag SEND
+            public virtual Ranorex.Button SEND
             {
                 get
                 {
-                    return _sendInfo.CreateAdapter<Ranorex.BTag>(true);
+                    return _sendInfo.CreateAdapter<Ranorex.Button>(true);
                 }
             }
 
@@ -5659,6 +5659,7 @@ namespace INKUBIT_Test___ContactForm
             RepoItemInfo _werkstudenthrmanagementmwInfo;
             RepoItemInfo _werkstudentenmarketingandcommunicatioInfo;
             RepoItemInfo _werkstudentfinanceundcontrollingmwInfo;
+            RepoItemInfo _pobierzjakopdfInfo;
 
             /// <summary>
             /// Creates a new HttpsWwwInkubitComEnUsCareers  folder.
@@ -5711,6 +5712,7 @@ namespace INKUBIT_Test___ContactForm
                 _werkstudenthrmanagementmwInfo = new RepoItemInfo(this, "WerkstudentHRManagementMW", ".//section[#'main']/header//h1[@innertext~'^Werkstudent\\ HR-Management']", 30000, null, "a235c849-fba2-4484-9c6b-d8f6eb86595c");
                 _werkstudentenmarketingandcommunicatioInfo = new RepoItemInfo(this, "WerkstudentenMarketingAndCommunicatio", ".//section[#'main']/header//h1[@innertext~'^Werkstudenten\\ Marketing\\ a']", 30000, null, "2ff432da-b67b-4d5c-bc37-3b5be14bf796");
                 _werkstudentfinanceundcontrollingmwInfo = new RepoItemInfo(this, "WerkstudentFinanceUndControllingMW", ".//section[#'main']/header//h1[@innertext~'^Werkstudent\\ Finance\\ und\\ C']", 30000, null, "99b9fbe0-0727-446d-8e18-43f22600380a");
+                _pobierzjakopdfInfo = new RepoItemInfo(this, "PobierzJakoPDF", ".//div[#'flatbuttons']/a[@innertext='Pobierz jako PDF']", 30000, null, "012d3c4e-8239-4576-b0d1-d13ab31a5c7a");
             }
 
             /// <summary>
@@ -6816,6 +6818,30 @@ namespace INKUBIT_Test___ContactForm
                     return _werkstudentfinanceundcontrollingmwInfo;
                 }
             }
+
+            /// <summary>
+            /// The PobierzJakoPDF item.
+            /// </summary>
+            [RepositoryItem("012d3c4e-8239-4576-b0d1-d13ab31a5c7a")]
+            public virtual Ranorex.ATag PobierzJakoPDF
+            {
+                get
+                {
+                    return _pobierzjakopdfInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PobierzJakoPDF item info.
+            /// </summary>
+            [RepositoryItemInfo("012d3c4e-8239-4576-b0d1-d13ab31a5c7a")]
+            public virtual RepoItemInfo PobierzJakoPDFInfo
+            {
+                get
+                {
+                    return _pobierzjakopdfInfo;
+                }
+            }
         }
 
         /// <summary>
@@ -6824,6 +6850,9 @@ namespace INKUBIT_Test___ContactForm
         [RepositoryFolder("2f405c44-89f9-4aca-916c-5d356682e7df")]
         public partial class LeiterDerMicrosoftBusinessApplicatioAppFolder : RepoGenBaseFolder
         {
+            RepoItemInfo _httpswwwinkubitcommedia74499backInfo;
+            RepoItemInfo _divtagInfo;
+            RepoItemInfo _pobierzjakopdfInfo;
 
             /// <summary>
             /// Creates a new LeiterDerMicrosoftBusinessApplicatio  folder.
@@ -6831,6 +6860,9 @@ namespace INKUBIT_Test___ContactForm
             public LeiterDerMicrosoftBusinessApplicatioAppFolder(RepoGenBaseFolder parentFolder) :
                     base("LeiterDerMicrosoftBusinessApplicatio", "/dom[2]", parentFolder, 30000, null, false, "2f405c44-89f9-4aca-916c-5d356682e7df", "")
             {
+                _httpswwwinkubitcommedia74499backInfo = new RepoItemInfo(this, "HttpsWwwInkubitComMedia74499Back", ".//section[#'main']/div[2]//img[@title='']", 30000, null, "457886ce-4061-4b19-a09c-4c9f45bfcd1a");
+                _divtagInfo = new RepoItemInfo(this, "DivTag", ".//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']", 30000, null, "3e8a9a19-69f2-4a18-9126-57255f711eff");
+                _pobierzjakopdfInfo = new RepoItemInfo(this, "PobierzJakoPDF", ".//div[#'flatbuttons']/a[@innertext='Pobierz jako PDF']", 30000, null, "fe925165-b425-4169-a0b5-fb797bda3bf3");
             }
 
             /// <summary>
@@ -6854,6 +6886,78 @@ namespace INKUBIT_Test___ContactForm
                 get
                 {
                     return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia74499Back item.
+            /// </summary>
+            [RepositoryItem("457886ce-4061-4b19-a09c-4c9f45bfcd1a")]
+            public virtual Ranorex.ImgTag HttpsWwwInkubitComMedia74499Back
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia74499backInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia74499Back item info.
+            /// </summary>
+            [RepositoryItemInfo("457886ce-4061-4b19-a09c-4c9f45bfcd1a")]
+            public virtual RepoItemInfo HttpsWwwInkubitComMedia74499BackInfo
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia74499backInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DivTag item.
+            /// </summary>
+            [RepositoryItem("3e8a9a19-69f2-4a18-9126-57255f711eff")]
+            public virtual Ranorex.DivTag DivTag
+            {
+                get
+                {
+                    return _divtagInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DivTag item info.
+            /// </summary>
+            [RepositoryItemInfo("3e8a9a19-69f2-4a18-9126-57255f711eff")]
+            public virtual RepoItemInfo DivTagInfo
+            {
+                get
+                {
+                    return _divtagInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PobierzJakoPDF item.
+            /// </summary>
+            [RepositoryItem("fe925165-b425-4169-a0b5-fb797bda3bf3")]
+            public virtual Ranorex.ATag PobierzJakoPDF
+            {
+                get
+                {
+                    return _pobierzjakopdfInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PobierzJakoPDF item info.
+            /// </summary>
+            [RepositoryItemInfo("fe925165-b425-4169-a0b5-fb797bda3bf3")]
+            public virtual RepoItemInfo PobierzJakoPDFInfo
+            {
+                get
+                {
+                    return _pobierzjakopdfInfo;
                 }
             }
         }
