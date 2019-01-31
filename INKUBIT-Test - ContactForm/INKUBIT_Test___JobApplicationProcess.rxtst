@@ -129,9 +129,18 @@ rxversion="8.3">
 			ref="33986687-75fc-487d-a4af-ce288e4774b4"
 			type="Recording">
 			</testmodule>
+			<testmodule
+			id="13d2fb85-6371-4b07-9fd2-6139d27fec51"
+			name="PowerBIallaroundMicrosoftDynamics365"
+			ref="1cf75c84-82c3-4139-9662-f84390bf36e2"
+			type="Recording">
+			</testmodule>
 			<testcase
 			id="13d3df3a-64b8-4239-8920-266dbbf23b28"
 			name="Check_Multilingunal_References_In_Blog_Area">
+				<description>
+					<![CDATA[<p>Check if Multilingual&nbsp;is set correctly&nbsp;forBlog Posts : Created 1/31/2019</p><p><br></p>]]>
+				</description>
 			</testcase>
 			<testmodule
 			id="141ffba8-ec75-43b2-816f-eae293e04292"
@@ -140,9 +149,19 @@ rxversion="8.3">
 			type="Recording">
 			</testmodule>
 			<smartfoldernode
+			id="17522f5d-e263-4ce7-8643-e3043d414ec2"
+			name="Power_BI_all_around_Microsoft_Dynamics_365">
+			</smartfoldernode>
+			<smartfoldernode
 			id="19281036-d7e2-44b3-ad55-963afc443751"
 			name="Senior_Microsoft_SharePoint_Developer">
 			</smartfoldernode>
+			<testmodule
+			id="1c870bd2-8237-4e4b-af85-f089add266cf"
+			name="ThebenefitsofvirtualentitiesinMicrosoftDynamics365"
+			ref="8d16ca71-c7ad-4e1f-bcb1-0ef1e0d02fd3"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="1cb800c2-1473-488e-9c46-a52bcad50f97"
 			name="CreateNewsletterRegistration"
@@ -160,6 +179,10 @@ rxversion="8.3">
 					</var>
 				</databinding>
 			</testmodule>
+			<smartfoldernode
+			id="1e0d63a1-53e3-47ff-b2a0-b9302c966f12"
+			name="Preview_-_Microsoft_Dynamics_365_AI_for_Customer_Service">
+			</smartfoldernode>
 			<testmodule
 			id="1e219bba-6ad5-4f76-9691-b5043835f168"
 			name="SeniorConsultantimBereichBankingfuerProduktederSAPSEmw"
@@ -226,12 +249,20 @@ rxversion="8.3">
 			ref="7caa4df4-0b04-4e47-b3d5-5a8d8bf153ca"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="39c910d2-7e8f-4308-b791-c75b5dfe8ba2"
+			name="The_License_Guide_for_Microsoft_Dynamics_365">
+			</smartfoldernode>
 			<testmodule
 			id="40111e77-bcb7-4b34-9ec9-d815848a5827"
 			name="CheckRecordInCRM"
 			ref="45d55875-8c1f-4c34-a84d-43b29797fbbc"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="402f158a-42ff-4047-95f9-2d0d736b95f0"
+			name="The_benefits_of_virtual_entities_in_Microsoft_Dynamics_365">
+			</smartfoldernode>
 			<testmodule
 			id="454edc13-e88e-4673-976a-c92114d322c5"
 			name="SeniorMicrosoftSharePointDevelopermw"
@@ -369,6 +400,12 @@ rxversion="8.3">
 			id="77d3cc10-6d53-4e2b-ad23-45e9bb695d42"
 			name="Managing_Partner_Microsoft_Business_ApplicationsPL">
 			</smartfoldernode>
+			<testmodule
+			id="7894dcaf-1ce3-4197-80f1-f6d81724d12d"
+			name="PreviewMicrosoftDynamics365AIforCustomerService"
+			ref="15d189ce-a071-4ad7-9e93-bac8d0d9882b"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="7c4751e8-e948-4945-8a49-aa3d9796955d"
 			name="(Junior-)_HR_Specialist_Global_Recruiting">
@@ -606,6 +643,12 @@ rxversion="8.3">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="befcb4ad-b366-4c23-92ba-a319fac1030c"
+			name="TheLicenseGuideforMicrosoftDynamics365"
+			ref="c269ee76-4e37-4e74-a720-076c6de5b04a"
+			type="Recording">
+			</testmodule>
+			<testmodule
 			id="bfb2299f-5abd-4254-9dbf-42ddc8d4a03d"
 			name="SeniorConsultantHCMSystemeTechnicalFunctionalmw"
 			ref="9b2683ec-3a75-4e39-a8b1-0b7305358d02"
@@ -647,6 +690,12 @@ rxversion="8.3">
 			id="d8b0db27-4050-45b5-b7e4-68af9f217118"
 			name="Senior_Banking_Consultant_for_SAP_SE_Products">
 			</smartfoldernode>
+			<testmodule
+			id="d9dc8f7c-331e-438d-a15c-4cfff1d19e69"
+			name="SAPandMicrosoftPowerBIThePossibilities"
+			ref="fd1fdb32-3fa7-44a5-ba4b-80a385b60afe"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="da55f989-b641-4b97-89c9-d50b6c410d68"
 			name="Junior_Web_Frontend_DeveloperPL">
@@ -845,6 +894,10 @@ rxversion="8.3">
 			<smartfoldernode
 			id="fd8b3fbf-8a40-493a-8663-24ab161b7c6f"
 			name="Junior_Microsoft_Dynamics_365_CRM_Consultant_Technical_&amp;_Functional_(m/w)">
+			</smartfoldernode>
+			<smartfoldernode
+			id="ff7b85dd-22f5-4337-a157-2f2634deebc1"
+			name="SAP®_and_Microsoft_Power_BI_-_The_Possibilities">
 			</smartfoldernode>
 		</flatlistofchildren>
 		<childhierarchy>
@@ -1281,6 +1334,46 @@ rxversion="8.3">
 					<testcase
 					id="13d3df3a-64b8-4239-8920-266dbbf23b28"
 					name="Check_Multilingunal_References_In_Blog_Area">
+						<smartfoldernode
+						id="1e0d63a1-53e3-47ff-b2a0-b9302c966f12"
+						name="Preview_-_Microsoft_Dynamics_365_AI_for_Customer_Service">
+							<testmodule
+							id="7894dcaf-1ce3-4197-80f1-f6d81724d12d"
+							name="PreviewMicrosoftDynamics365AIforCustomerService">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="39c910d2-7e8f-4308-b791-c75b5dfe8ba2"
+						name="The_License_Guide_for_Microsoft_Dynamics_365">
+							<testmodule
+							id="befcb4ad-b366-4c23-92ba-a319fac1030c"
+							name="TheLicenseGuideforMicrosoftDynamics365">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="17522f5d-e263-4ce7-8643-e3043d414ec2"
+						name="Power_BI_all_around_Microsoft_Dynamics_365">
+							<testmodule
+							id="13d2fb85-6371-4b07-9fd2-6139d27fec51"
+							name="PowerBIallaroundMicrosoftDynamics365">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="ff7b85dd-22f5-4337-a157-2f2634deebc1"
+						name="SAP®_and_Microsoft_Power_BI_-_The_Possibilities">
+							<testmodule
+							id="d9dc8f7c-331e-438d-a15c-4cfff1d19e69"
+							name="SAPandMicrosoftPowerBIThePossibilities">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="402f158a-42ff-4047-95f9-2d0d736b95f0"
+						name="The_benefits_of_virtual_entities_in_Microsoft_Dynamics_365">
+							<testmodule
+							id="1c870bd2-8237-4e4b-af85-f089add266cf"
+							name="ThebenefitsofvirtualentitiesinMicrosoftDynamics365">
+							</testmodule>
+						</smartfoldernode>
 					</testcase>
 					<teardown
 					id="2e8f1877-b1d2-4838-8332-82ad88e923cb"
@@ -1340,7 +1433,13 @@ rxversion="8.3">
 			id="13d3df3a-64b8-4239-8920-266dbbf23b28">
 			</testcontainer>
 			<testcontainer
+			id="17522f5d-e263-4ce7-8643-e3043d414ec2">
+			</testcontainer>
+			<testcontainer
 			id="19281036-d7e2-44b3-ad55-963afc443751">
+			</testcontainer>
+			<testcontainer
+			id="1e0d63a1-53e3-47ff-b2a0-b9302c966f12">
 			</testcontainer>
 			<testcontainer
 			id="1f714f88-f18f-4d76-ae4e-1ac48fc4aecf">
@@ -1356,6 +1455,12 @@ rxversion="8.3">
 			</testcontainer>
 			<testcontainer
 			id="312770fa-3237-4ba3-a702-a0c6a9ee3145">
+			</testcontainer>
+			<testcontainer
+			id="39c910d2-7e8f-4308-b791-c75b5dfe8ba2">
+			</testcontainer>
+			<testcontainer
+			id="402f158a-42ff-4047-95f9-2d0d736b95f0">
 			</testcontainer>
 			<testcontainer
 			id="497c6b80-ada1-4c29-9af6-95cb8609b35b">
@@ -1436,9 +1541,6 @@ rxversion="8.3">
 			id="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58">
 			</testcontainer>
 			<testcontainer
-			id="bbbc54d2-b065-4c7e-98a4-55eeb49b0c4b">
-			</testcontainer>
-			<testcontainer
 			id="d3e59e98-b92a-459e-bd66-77dc177eb2fc">
 			</testcontainer>
 			<testcontainer
@@ -1458,9 +1560,6 @@ rxversion="8.3">
 			</testcontainer>
 			<testcontainer
 			id="e32004e0-244f-4060-ad81-25dc11e6fa11">
-			</testcontainer>
-			<testcontainer
-			id="e331a302-98a6-4730-bb7d-d0bc9e8ca926">
 			</testcontainer>
 			<testcontainer
 			id="e3e0756b-b6dc-4a3a-8756-342654e56b37">
@@ -1485,6 +1584,9 @@ rxversion="8.3">
 			</testcontainer>
 			<testcontainer
 			id="fd8b3fbf-8a40-493a-8663-24ab161b7c6f">
+			</testcontainer>
+			<testcontainer
+			id="ff7b85dd-22f5-4337-a157-2f2634deebc1">
 			</testcontainer>
 		</testconfiguration>
 	</testconfigurations>

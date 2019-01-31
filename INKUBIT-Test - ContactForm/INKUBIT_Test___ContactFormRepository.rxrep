@@ -2640,6 +2640,270 @@ AAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/dom[1]//div[#'flatbuttons']/a[@innertext='Pobierz jako PDF']
 			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="6f366b74-1ab2-4ea9-a16b-1ffa871ca729"
+			name="PreviewMicrosoftDynamics365AIFor"
+			refimgid="703aa853-dd9f-4e73-a31b-0a6678cdbae0"
+			refpath="/dom[@domain='www.inkubit.com' and @caption='Preview - Microsoft Dynamics 365 AI for Customer Service']//section[#'main']/header/div/div[1]/h1[@innertext='Preview - Microsoft Dynamics 365 AI for Customer Service']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^Preview\ -\ Microsoft\ Dynam']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="c2301c0f-e830-46eb-b7b3-2a52d5f85a64"
+			name="MicrosoftProvidesAPreviewEnvironment"
+			refimgid="1b782031-0445-47b2-ac4f-37b2e354f96b"
+			refpath="/dom[@domain='www.inkubit.com' and @caption='Preview - Microsoft Dynamics 365 AI for Customer Service']//section[#'main']/div/div/div[1]/article/div[1]/p[@innertext~'^Microsoft\ provides\ a\ preview\ environment\ for\ \ AI\ for\ Customer\ Service\.\ Especially\ for\ this\ purpose,\ Microsoft\ has\ created\ an \ for\ requesting\ this\ preview\ environment\. The\ requirement\ for\ testing\ the\ environment\ is\ an\ e-mail\ address\ that\ is\ linked\ to\ a\ Microsof']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']//article/div[1]/p[@innertext~'^Microsoft\ provides\ a\ prev']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="aa33441b-2133-4ecd-b0bf-501db2e0d11b"
+			name="HttpsWwwInkubitComAssetsFrontend"
+			refimgid="825df2a0-3567-4197-94f2-f59fb686147c"
+			refpath="/dom[@domain='www.inkubit.com' and @caption~'^Preview\ -\ Microsoft\ Dynam']//a[#'submenu']/img[@src='https://www.inkubit.com/Assets/frontend/media/en-us-flag.png']"
+			searchtimeout="30000ms">
+				/dom[1]//a[#'submenu']/img[@src='https://www.inkubit.com/Assets/frontend/media/en-us-flag.png']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="32042830-d57f-4ea2-884f-86cece289381"
+			name="HttpsWwwInkubitComAssetsFrontend1"
+			refimgid="669bb2c1-07d3-44ad-9fec-7fe088d721e4"
+			refpath="/dom[@domain='www.inkubit.com' and @caption~'^Preview\ -\ Microsoft\ Dynam']//ul[#'drop']/li[1]/a/img[@alt='']"
+			searchtimeout="30000ms">
+				/dom[1]//ul[#'drop']//img[@alt='']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="c4e48f6d-7475-4cf8-9e89-df12273c3542"
+			name="MicrosoftStelltFuerInteressentenEine"
+			refimgid="6892f231-c7e7-41d4-a4a5-80f101e45a4f"
+			refpath="/dom[@domain='www.inkubit.com' and @caption='Preview - Microsoft Dynamics 365 AI for Customer Service']//section[#'main']/div/div/div[1]/article/div[1]/p[@innertext~'^Microsoft\ stellt\ für\ Interessenten\ eine\ Preview-Umgebung\ für\ \ AI\ for\ Customer\ Service\ zur\ Verfügung\.\ Microsoft\ hat\ speziell\ hierfür\ eine\ eigene \ erstellt,\ auf\ der\ die\ Preview-Umgebung\ angefordert\ werden\ kann\.\ Voraussetzung\ um\ die\ Umgebung\ zu\ testen\ ist\ eine\ E-']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']//article/div[1]/p[@innertext~'^Microsoft\ stellt\ f&#252;r\ Inte']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="df1da7a3-b4a2-4e25-a8be-2267a16e5add"
+			name="Submenu"
+			refimgid="576bded7-761b-4d5b-b29a-587e76f56fc5"
+			refpath="/dom[@domain='www.inkubit.com' and @caption~'^Preview\ -\ Microsoft\ Dynam']//a[#'submenu']"
+			searchtimeout="30000ms">
+				/dom[1]//a[#'submenu']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="e9973b12-3613-4d75-a0f9-f4ebfa163281"
+			name="HttpsWwwInkubitComAssetsFrontend2"
+			refimgid="7197f31e-9fd5-4645-b6a5-c3d27471a08b"
+			refpath="/dom[@domain='www.inkubit.com' and @caption~'^Preview\ -\ Microsoft\ Dynam']//ul[#'drop']/li[2]/a/img[@alt='']"
+			searchtimeout="30000ms">
+				/dom[1]//ul[#'drop']//img[@src='https://www.inkubit.com/Assets/frontend/media/en-us-flag.png']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="9319af49-e61c-4370-9e63-0948ee98bfc7"
+			name="LicensingForMicrosoftDynamics365Pro"
+			refimgid="7fc0c18d-874d-4e00-9106-af35b940e647"
+			refpath="/dom[@domain='www.inkubit.com' and @caption~'^The\ License\ Guide\ for\ Mic']//section[#'main']/div/div/div[1]/article/div[1]/p[@innertext~'^Licensing\ for\ Microsoft\ D']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']//article/div[1]/p[@innertext~'^Licensing\ for\ Microsoft\ D']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="4f8a0eef-d5f8-4a12-9a19-411f7df268f8"
+			name="TheLicenseGuideForMicrosoftDynamics"
+			refimgid="10690b07-c47c-487a-b392-70a741c9cc3e"
+			refpath="/dom[@domain='www.inkubit.com' and @caption='The License Guide for Microsoft Dynamics 365']//section[#'main']/header/div/div[1]/h1[@innertext='The License Guide for Microsoft Dynamics 365']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^The\ License\ Guide\ for\ Mic']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="87dbdf6c-9ee9-471f-a743-3cc9663228c2"
+			name="DieLizenzierungFuerMicrosoftDynamics"
+			refimgid="a2e7c1db-bfea-48d7-9bd0-5f5d87f89e0e"
+			refpath="/dom[@domain='www.inkubit.com' and @caption='Der Guide für Microsoft Dynamics 365 Lizenzen']//section[#'main']/div/div/div[1]/article/div[1]/p[@innertext~'^Die\ Lizenzierung\ für\ Microsoft\ Dynamics\ 365\ Produkte\ kann\ für\ viele\ zu\ Beginn\ sehr\ verwirrend\ sein\.\ Zumal\ Microsoft\ Dynamics\ 365\ eine\ vielzahl\ von\ verschiedenen\ Applikationen\ unter\ einer\ einheitlichen\ Bezeichnung\ sammelt\.\ Grob\ aufteilen\ könnte\ man\ die\ Applikat']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']//article/div[1]/p[@innertext~'^Die\ Lizenzierung\ f&#252;r\ Micr']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="1caf2f91-e10b-4fb9-a0be-ea086fd3ee4e"
+			name="DerGuideFuerMicrosoftDynamics365Li"
+			refimgid="cd17dc98-5701-4399-a380-ee9c5224743e"
+			refpath="/dom[@domain='www.inkubit.com' and @caption='Der Guide für Microsoft Dynamics 365 Lizenzen']//section[#'main']/header/div/div[1]/h1[@innertext='Der Guide für Microsoft Dynamics 365 Lizenzen']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^Der\ Guide\ f&#252;r\ Microsoft\ D']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="a622380e-45b1-4370-b896-6b6e5786659f"
+			name="InThePastFewYearsThereHaveBeenN"
+			refimgid="72a98270-cab9-4f26-8b47-c3a3bf92855e"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/div/div/div[1]/article/div[1]/p[@innertext~'^In\ the\ past\ few\ years,\ there\ have\ been\ no\ real\ changes\ in\ the\ diagram\ solution\ until\ Microsoft\ Dynamics\ CRM\ 2016\ was\ introduced\.\ With\ Power\ BI,\ on\ the\ other\ hand,\ we\ have\ now\ the\ possibility\ to\ draw\ data\ from\ hundreds\ of\ sources\ and\ visualize\ them\ for\ users\ in']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']//article/div[1]/p[@innertext~'^In\ the\ past\ few\ years,\ th']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="3e039066-f051-44ed-ab8c-61d3d5e281e5"
+			name="PowerBIAllAroundMicrosoftDynamics3"
+			refimgid="b7c81b08-4487-4245-ab1c-a820a9c8643d"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='Power BI all around Microsoft Dynamics 365']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^Power\ BI\ all\ around\ Micro']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="45f63028-30da-498b-95ba-c815d6539fda"
+			name="InDenLetztenJahrenGabEsInDerHaus"
+			refimgid="7e8cc902-dbea-4993-bd35-f8bc352965c0"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/div/div/div[1]/article/div[1]/p[@innertext~'^In\ den\ letzten\ Jahren\ gab\ es\ in\ der\ hauseigenen\ Diagramm\ Lösung\ bis\ Microsoft\ \ nur\ wenige\ Änderungen\.\ Mit\ Power\ BI\ hingegen\ besteht\ jetzt\ die\ Möglichkeit\ Daten\ aus\ hunderten\ von\ Quellen\ zu\ ziehen\ und\ auf\ den\ Nutzer\ maßgeschneidert\ zu\ visualisieren\.\ Für\ Office\ ']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']//article/div[1]/p[@innertext~'^In\ den\ letzten\ Jahren\ gab']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="f20edcc1-942f-456a-87d7-7253ef7a17f0"
+			name="HttpsWwwInkubitComMedia74499Back1"
+			refimgid="f30385c2-94f6-45eb-9f1f-3c093480ef1d"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/div[2]//img[@title='']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="2dceb7aa-f538-410a-9398-2b7a2dd9f19e"
+			name="DivTag6"
+			refimgid="e7c1f509-3d31-4604-9e61-c601e3c6a2da"
+			searchtimeout="30000ms">
+				/dom[1]//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="7d9b92b8-c13f-4b02-9fff-707e86469f64"
+			name="PobierzJakoPDF2"
+			refimgid="51d5dc5e-1abb-4a2e-b635-dd47d45e1364"
+			searchtimeout="30000ms">
+				/dom[1]//div[#'flatbuttons']/a[@innertext='Pobierz jako PDF']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="4ed7ee03-e578-43cb-a147-53f6e29974a2"
+			name="SAPRProductsAreOneOfTheMostImport"
+			refimgid="bbe1a70c-7a3e-4890-ab78-1c54892e80d5"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/div/div/div[1]/article/div[1]/p[@innertext='SAP® products are one of the most important data sources for corporations. The connectivity between Power BI and SAP® is a long-awaited feature by a lot of companies, that for example want to have more details about transactions that were made in the past.']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']//article/div[1]/p[@innertext~'^SAP&#174;\ products\ are\ one\ of\ ']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="29ffecd9-5f73-41bf-add1-f6d32af93b1a"
+			name="SAPRAndMicrosoftPowerBIThePossib"
+			refimgid="d462ea53-a2fc-4fde-8d0b-b041ba4f36c1"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='SAP® and Microsoft Power BI - The Possibilities']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^SAP&#174;\ and\ Microsoft\ Power\ ']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="f0ccba4c-5da9-47eb-a308-c602e5e4b2c9"
+			name="SAPRProdukteGehoerenZuDenWichtigste"
+			refimgid="b3f76988-399d-4d2b-a552-168bf1745438"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/div/div/div[1]/article/div[1]/p[@innertext~'^SAP®\ Produkte\ gehören\ zu\ den\ wichtigsten\ Datenquellen\ für\ Großunternehmen\.\ Die \ Konnektivität\ zwischen\ Power\ BI\ und\ SAP®\ ist\ schon\ ein\ seit\ langem\ ein\ gewünschtes\ Feature\ von\ zahlreichen\ Unternehmen,\ die\ beispielsweise\ tiefere\ Einsichten\ in\ die\ Investitionen\ h']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']//article/div[1]/p[@innertext~'^SAP&#174;\ Produkte\ geh&#246;ren\ zu\ ']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="5ae2c7ec-c022-4125-a6e5-b0816c6400e6"
+			name="HttpsWwwInkubitComAssetsFrontend3"
+			refimgid="0b60ed99-ff62-48a0-97b1-830bcc9e9d08"
+			refpath="/dom[@domain='www.inkubit.com']//a[#'submenu']/img[@src='https://www.inkubit.com/Assets/frontend/media/de-de-flag.png']"
+			searchtimeout="30000ms">
+				/dom[1]//a[#'submenu']/img[@src='https://www.inkubit.com/Assets/frontend/media/de-de-flag.png']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="6810662e-559d-4b16-af32-9fccc03fd611"
+			name="MicrosoftContinuesToSucceedInUnlock"
+			refimgid="f9db24bc-ef97-43b0-a20d-6c1e8af0ffec"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/div/div/div[1]/article/div[1]/p[@innertext~'^Microsoft\ continues\ to\ succeed\ in\ unlocking\ parts\ of\ what\ used\ to\ be\ a\ developer-only\ world\ for\ less-advanced\ consultants\.\ would\ be\ a\ great\ example\ of\ how\ to\ simplify\ developer\ work\.\ With\ the\ virtual\ entity\ released\ since\ version\ 9\.0,\ it\ is\ now\ possible\ to\ fur']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']//article/div[1]/p[@innertext~'^Microsoft\ continues\ to\ su']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="6209685e-d557-4d58-ac3c-5a3c8d1aa22e"
+			name="TheBenefitsOfVirtualEntitiesInMicr"
+			refimgid="eee23301-706e-4202-a2d7-0f03035e8de8"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='The benefits of virtual entities in Microsoft Dynamics 365']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^The\ benefits\ of\ virtual\ e']
+			</item>
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="99626736-7f0c-47eb-8b77-5200f23ef377"
+			name="MicrosoftSchafftEsWeiterhinMitErfol"
+			refimgid="40d21574-e500-444b-958b-a66598ace1ee"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/div/div/div[1]/article/div[1]/p[@innertext~'^Microsoft\ schafft\ es\ weiterhin\ mit\ Erfolg\ Teile\ der\ früher\ nur\ für\ Entwickler\ erreichbaren\ Welt\ für\ weniger\ technisch\ begabte\ Consultants\ freizuschalten\.\ wäre\ hier\ ein\ hervorragendes\ Bespiel\ wie\ man\ die\ Entwicklerarbeit\ vereinfachen\ kann\.\ Mit\ der\ seit\ der\ Vers']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']//article/div[1]/p[@innertext~'^Microsoft\ schafft\ es\ weit']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="457886ce-4061-4b19-a09c-4c9f45bfcd1a"
+			name="HttpsWwwInkubitComMedia74499Back"
+			refimgid="5deda39a-d80c-4848-b983-8a811f509bd8"
+			searchtimeout="30000ms">
+				/dom[1]/dom[2]//section[#'main']/div[2]//img[@title='']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="fe925165-b425-4169-a0b5-fb797bda3bf3"
+			name="PobierzJakoPDF1"
+			refimgid="e1810c64-4a66-4902-9bbf-a0a59c2e1c95"
+			searchtimeout="30000ms">
+				/dom[1]//div[#'flatbuttons']/a[@innertext='Pobierz jako PDF']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="3e8a9a19-69f2-4a18-9126-57255f711eff"
+			name="DivTag5"
+			refimgid="ebcc957c-d42b-4c8b-a959-22dc2e895b07"
+			searchtimeout="30000ms">
+				/dom[1]//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']
+			</item>
 			<basepath>
 				/dom[1]
 			</basepath>
@@ -2668,36 +2932,6 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		refpath="/dom[2]"
 		searchtimeout="30000ms"
 		usecache="False">
-			<item
-			addcaps="unknown,webelement,imgtag"
-			capname="imgtag"
-			id="457886ce-4061-4b19-a09c-4c9f45bfcd1a"
-			name="HttpsWwwInkubitComMedia74499Back"
-			refimgid="5deda39a-d80c-4848-b983-8a811f509bd8"
-			refpath="/dom[2]//section[#'main']/div[2]/div[1]/p/img[@title='']"
-			searchtimeout="30000ms">
-				/dom[2]//section[#'main']/div[2]//img[@title='']
-			</item>
-			<item
-			addcaps="unknown,webelement,divtag"
-			capname="divtag"
-			id="3e8a9a19-69f2-4a18-9126-57255f711eff"
-			name="DivTag"
-			refimgid="ebcc957c-d42b-4c8b-a959-22dc2e895b07"
-			refpath="/dom[2]//div[#'jobApplicationSubmitToggleBtn']/div[@innertext='                                    Prześlij aplikację                                ']"
-			searchtimeout="30000ms">
-				/dom[2]//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']
-			</item>
-			<item
-			addcaps="unknown,webelement,atag"
-			capname="atag"
-			id="fe925165-b425-4169-a0b5-fb797bda3bf3"
-			name="PobierzJakoPDF"
-			refimgid="e1810c64-4a66-4902-9bbf-a0a59c2e1c95"
-			refpath="/dom[2]//div[#'flatbuttons']/a[@innertext='Pobierz jako PDF']"
-			searchtimeout="30000ms">
-				/dom[2]//div[#'flatbuttons']/a[@innertext='Pobierz jako PDF']
-			</item>
 			<basepath>
 				/dom[2]
 			</basepath>

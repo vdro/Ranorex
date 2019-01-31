@@ -5660,6 +5660,33 @@ namespace INKUBIT_Test___ContactForm
             RepoItemInfo _werkstudentenmarketingandcommunicatioInfo;
             RepoItemInfo _werkstudentfinanceundcontrollingmwInfo;
             RepoItemInfo _pobierzjakopdfInfo;
+            RepoItemInfo _previewmicrosoftdynamics365aiforInfo;
+            RepoItemInfo _microsoftprovidesapreviewenvironmentInfo;
+            RepoItemInfo _httpswwwinkubitcomassetsfrontendInfo;
+            RepoItemInfo _httpswwwinkubitcomassetsfrontend1Info;
+            RepoItemInfo _microsoftstelltfuerinteressenteneineInfo;
+            RepoItemInfo _submenuInfo;
+            RepoItemInfo _httpswwwinkubitcomassetsfrontend2Info;
+            RepoItemInfo _licensingformicrosoftdynamics365proInfo;
+            RepoItemInfo _thelicenseguideformicrosoftdynamicsInfo;
+            RepoItemInfo _dielizenzierungfuermicrosoftdynamicsInfo;
+            RepoItemInfo _derguidefuermicrosoftdynamics365liInfo;
+            RepoItemInfo _inthepastfewyearstherehavebeennInfo;
+            RepoItemInfo _powerbiallaroundmicrosoftdynamics3Info;
+            RepoItemInfo _indenletztenjahrengabesinderhausInfo;
+            RepoItemInfo _httpswwwinkubitcommedia74499back1Info;
+            RepoItemInfo _divtag6Info;
+            RepoItemInfo _pobierzjakopdf2Info;
+            RepoItemInfo _saprproductsareoneofthemostimportInfo;
+            RepoItemInfo _saprandmicrosoftpowerbithepossibInfo;
+            RepoItemInfo _saprproduktegehoerenzudenwichtigsteInfo;
+            RepoItemInfo _httpswwwinkubitcomassetsfrontend3Info;
+            RepoItemInfo _microsoftcontinuestosucceedinunlockInfo;
+            RepoItemInfo _thebenefitsofvirtualentitiesinmicrInfo;
+            RepoItemInfo _microsoftschafftesweiterhinmiterfolInfo;
+            RepoItemInfo _httpswwwinkubitcommedia74499backInfo;
+            RepoItemInfo _pobierzjakopdf1Info;
+            RepoItemInfo _divtag5Info;
 
             /// <summary>
             /// Creates a new HttpsWwwInkubitComEnUsCareers  folder.
@@ -5713,6 +5740,33 @@ namespace INKUBIT_Test___ContactForm
                 _werkstudentenmarketingandcommunicatioInfo = new RepoItemInfo(this, "WerkstudentenMarketingAndCommunicatio", ".//section[#'main']/header//h1[@innertext~'^Werkstudenten\\ Marketing\\ a']", 30000, null, "2ff432da-b67b-4d5c-bc37-3b5be14bf796");
                 _werkstudentfinanceundcontrollingmwInfo = new RepoItemInfo(this, "WerkstudentFinanceUndControllingMW", ".//section[#'main']/header//h1[@innertext~'^Werkstudent\\ Finance\\ und\\ C']", 30000, null, "99b9fbe0-0727-446d-8e18-43f22600380a");
                 _pobierzjakopdfInfo = new RepoItemInfo(this, "PobierzJakoPDF", ".//div[#'flatbuttons']/a[@innertext='Pobierz jako PDF']", 30000, null, "012d3c4e-8239-4576-b0d1-d13ab31a5c7a");
+                _previewmicrosoftdynamics365aiforInfo = new RepoItemInfo(this, "PreviewMicrosoftDynamics365AIFor", ".//section[#'main']/header//h1[@innertext~'^Preview\\ -\\ Microsoft\\ Dynam']", 30000, null, "6f366b74-1ab2-4ea9-a16b-1ffa871ca729");
+                _microsoftprovidesapreviewenvironmentInfo = new RepoItemInfo(this, "MicrosoftProvidesAPreviewEnvironment", ".//section[#'main']//article/div[1]/p[@innertext~'^Microsoft\\ provides\\ a\\ prev']", 30000, null, "c2301c0f-e830-46eb-b7b3-2a52d5f85a64");
+                _httpswwwinkubitcomassetsfrontendInfo = new RepoItemInfo(this, "HttpsWwwInkubitComAssetsFrontend", ".//a[#'submenu']/img[@src='https://www.inkubit.com/Assets/frontend/media/en-us-flag.png']", 30000, null, "aa33441b-2133-4ecd-b0bf-501db2e0d11b");
+                _httpswwwinkubitcomassetsfrontend1Info = new RepoItemInfo(this, "HttpsWwwInkubitComAssetsFrontend1", ".//ul[#'drop']//img[@alt='']", 30000, null, "32042830-d57f-4ea2-884f-86cece289381");
+                _microsoftstelltfuerinteressenteneineInfo = new RepoItemInfo(this, "MicrosoftStelltFuerInteressentenEine", ".//section[#'main']//article/div[1]/p[@innertext~'^Microsoft\\ stellt\\ für\\ Inte']", 30000, null, "c4e48f6d-7475-4cf8-9e89-df12273c3542");
+                _submenuInfo = new RepoItemInfo(this, "Submenu", ".//a[#'submenu']", 30000, null, "df1da7a3-b4a2-4e25-a8be-2267a16e5add");
+                _httpswwwinkubitcomassetsfrontend2Info = new RepoItemInfo(this, "HttpsWwwInkubitComAssetsFrontend2", ".//ul[#'drop']//img[@src='https://www.inkubit.com/Assets/frontend/media/en-us-flag.png']", 30000, null, "e9973b12-3613-4d75-a0f9-f4ebfa163281");
+                _licensingformicrosoftdynamics365proInfo = new RepoItemInfo(this, "LicensingForMicrosoftDynamics365Pro", ".//section[#'main']//article/div[1]/p[@innertext~'^Licensing\\ for\\ Microsoft\\ D']", 30000, null, "9319af49-e61c-4370-9e63-0948ee98bfc7");
+                _thelicenseguideformicrosoftdynamicsInfo = new RepoItemInfo(this, "TheLicenseGuideForMicrosoftDynamics", ".//section[#'main']/header//h1[@innertext~'^The\\ License\\ Guide\\ for\\ Mic']", 30000, null, "4f8a0eef-d5f8-4a12-9a19-411f7df268f8");
+                _dielizenzierungfuermicrosoftdynamicsInfo = new RepoItemInfo(this, "DieLizenzierungFuerMicrosoftDynamics", ".//section[#'main']//article/div[1]/p[@innertext~'^Die\\ Lizenzierung\\ für\\ Micr']", 30000, null, "87dbdf6c-9ee9-471f-a743-3cc9663228c2");
+                _derguidefuermicrosoftdynamics365liInfo = new RepoItemInfo(this, "DerGuideFuerMicrosoftDynamics365Li", ".//section[#'main']/header//h1[@innertext~'^Der\\ Guide\\ für\\ Microsoft\\ D']", 30000, null, "1caf2f91-e10b-4fb9-a0be-ea086fd3ee4e");
+                _inthepastfewyearstherehavebeennInfo = new RepoItemInfo(this, "InThePastFewYearsThereHaveBeenN", ".//section[#'main']//article/div[1]/p[@innertext~'^In\\ the\\ past\\ few\\ years,\\ th']", 30000, null, "a622380e-45b1-4370-b896-6b6e5786659f");
+                _powerbiallaroundmicrosoftdynamics3Info = new RepoItemInfo(this, "PowerBIAllAroundMicrosoftDynamics3", ".//section[#'main']/header//h1[@innertext~'^Power\\ BI\\ all\\ around\\ Micro']", 30000, null, "3e039066-f051-44ed-ab8c-61d3d5e281e5");
+                _indenletztenjahrengabesinderhausInfo = new RepoItemInfo(this, "InDenLetztenJahrenGabEsInDerHaus", ".//section[#'main']//article/div[1]/p[@innertext~'^In\\ den\\ letzten\\ Jahren\\ gab']", 30000, null, "45f63028-30da-498b-95ba-c815d6539fda");
+                _httpswwwinkubitcommedia74499back1Info = new RepoItemInfo(this, "HttpsWwwInkubitComMedia74499Back1", ".//section[#'main']/div[2]//img[@title='']", 30000, null, "f20edcc1-942f-456a-87d7-7253ef7a17f0");
+                _divtag6Info = new RepoItemInfo(this, "DivTag6", ".//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']", 30000, null, "2dceb7aa-f538-410a-9398-2b7a2dd9f19e");
+                _pobierzjakopdf2Info = new RepoItemInfo(this, "PobierzJakoPDF2", ".//div[#'flatbuttons']/a[@innertext='Pobierz jako PDF']", 30000, null, "7d9b92b8-c13f-4b02-9fff-707e86469f64");
+                _saprproductsareoneofthemostimportInfo = new RepoItemInfo(this, "SAPRProductsAreOneOfTheMostImport", ".//section[#'main']//article/div[1]/p[@innertext~'^SAP®\\ products\\ are\\ one\\ of\\ ']", 30000, null, "4ed7ee03-e578-43cb-a147-53f6e29974a2");
+                _saprandmicrosoftpowerbithepossibInfo = new RepoItemInfo(this, "SAPRAndMicrosoftPowerBIThePossib", ".//section[#'main']/header//h1[@innertext~'^SAP®\\ and\\ Microsoft\\ Power\\ ']", 30000, null, "29ffecd9-5f73-41bf-add1-f6d32af93b1a");
+                _saprproduktegehoerenzudenwichtigsteInfo = new RepoItemInfo(this, "SAPRProdukteGehoerenZuDenWichtigste", ".//section[#'main']//article/div[1]/p[@innertext~'^SAP®\\ Produkte\\ gehören\\ zu\\ ']", 30000, null, "f0ccba4c-5da9-47eb-a308-c602e5e4b2c9");
+                _httpswwwinkubitcomassetsfrontend3Info = new RepoItemInfo(this, "HttpsWwwInkubitComAssetsFrontend3", ".//a[#'submenu']/img[@src='https://www.inkubit.com/Assets/frontend/media/de-de-flag.png']", 30000, null, "5ae2c7ec-c022-4125-a6e5-b0816c6400e6");
+                _microsoftcontinuestosucceedinunlockInfo = new RepoItemInfo(this, "MicrosoftContinuesToSucceedInUnlock", ".//section[#'main']//article/div[1]/p[@innertext~'^Microsoft\\ continues\\ to\\ su']", 30000, null, "6810662e-559d-4b16-af32-9fccc03fd611");
+                _thebenefitsofvirtualentitiesinmicrInfo = new RepoItemInfo(this, "TheBenefitsOfVirtualEntitiesInMicr", ".//section[#'main']/header//h1[@innertext~'^The\\ benefits\\ of\\ virtual\\ e']", 30000, null, "6209685e-d557-4d58-ac3c-5a3c8d1aa22e");
+                _microsoftschafftesweiterhinmiterfolInfo = new RepoItemInfo(this, "MicrosoftSchafftEsWeiterhinMitErfol", ".//section[#'main']//article/div[1]/p[@innertext~'^Microsoft\\ schafft\\ es\\ weit']", 30000, null, "99626736-7f0c-47eb-8b77-5200f23ef377");
+                _httpswwwinkubitcommedia74499backInfo = new RepoItemInfo(this, "HttpsWwwInkubitComMedia74499Back", "dom[2]//section[#'main']/div[2]//img[@title='']", 30000, null, "457886ce-4061-4b19-a09c-4c9f45bfcd1a");
+                _pobierzjakopdf1Info = new RepoItemInfo(this, "PobierzJakoPDF1", ".//div[#'flatbuttons']/a[@innertext='Pobierz jako PDF']", 30000, null, "fe925165-b425-4169-a0b5-fb797bda3bf3");
+                _divtag5Info = new RepoItemInfo(this, "DivTag5", ".//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']", 30000, null, "3e8a9a19-69f2-4a18-9126-57255f711eff");
             }
 
             /// <summary>
@@ -6842,50 +6896,580 @@ namespace INKUBIT_Test___ContactForm
                     return _pobierzjakopdfInfo;
                 }
             }
-        }
-
-        /// <summary>
-        /// The LeiterDerMicrosoftBusinessApplicatioAppFolder folder.
-        /// </summary>
-        [RepositoryFolder("2f405c44-89f9-4aca-916c-5d356682e7df")]
-        public partial class LeiterDerMicrosoftBusinessApplicatioAppFolder : RepoGenBaseFolder
-        {
-            RepoItemInfo _httpswwwinkubitcommedia74499backInfo;
-            RepoItemInfo _divtagInfo;
-            RepoItemInfo _pobierzjakopdfInfo;
 
             /// <summary>
-            /// Creates a new LeiterDerMicrosoftBusinessApplicatio  folder.
+            /// The PreviewMicrosoftDynamics365AIFor item.
             /// </summary>
-            public LeiterDerMicrosoftBusinessApplicatioAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("LeiterDerMicrosoftBusinessApplicatio", "/dom[2]", parentFolder, 30000, null, false, "2f405c44-89f9-4aca-916c-5d356682e7df", "")
-            {
-                _httpswwwinkubitcommedia74499backInfo = new RepoItemInfo(this, "HttpsWwwInkubitComMedia74499Back", ".//section[#'main']/div[2]//img[@title='']", 30000, null, "457886ce-4061-4b19-a09c-4c9f45bfcd1a");
-                _divtagInfo = new RepoItemInfo(this, "DivTag", ".//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']", 30000, null, "3e8a9a19-69f2-4a18-9126-57255f711eff");
-                _pobierzjakopdfInfo = new RepoItemInfo(this, "PobierzJakoPDF", ".//div[#'flatbuttons']/a[@innertext='Pobierz jako PDF']", 30000, null, "fe925165-b425-4169-a0b5-fb797bda3bf3");
-            }
-
-            /// <summary>
-            /// The Self item.
-            /// </summary>
-            [RepositoryItem("2f405c44-89f9-4aca-916c-5d356682e7df")]
-            public virtual Ranorex.WebDocument Self
+            [RepositoryItem("6f366b74-1ab2-4ea9-a16b-1ffa871ca729")]
+            public virtual Ranorex.H1Tag PreviewMicrosoftDynamics365AIFor
             {
                 get
                 {
-                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                    return _previewmicrosoftdynamics365aiforInfo.CreateAdapter<Ranorex.H1Tag>(true);
                 }
             }
 
             /// <summary>
-            /// The Self item info.
+            /// The PreviewMicrosoftDynamics365AIFor item info.
             /// </summary>
-            [RepositoryItemInfo("2f405c44-89f9-4aca-916c-5d356682e7df")]
-            public virtual RepoItemInfo SelfInfo
+            [RepositoryItemInfo("6f366b74-1ab2-4ea9-a16b-1ffa871ca729")]
+            public virtual RepoItemInfo PreviewMicrosoftDynamics365AIForInfo
             {
                 get
                 {
-                    return _selfInfo;
+                    return _previewmicrosoftdynamics365aiforInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MicrosoftProvidesAPreviewEnvironment item.
+            /// </summary>
+            [RepositoryItem("c2301c0f-e830-46eb-b7b3-2a52d5f85a64")]
+            public virtual Ranorex.PTag MicrosoftProvidesAPreviewEnvironment
+            {
+                get
+                {
+                    return _microsoftprovidesapreviewenvironmentInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MicrosoftProvidesAPreviewEnvironment item info.
+            /// </summary>
+            [RepositoryItemInfo("c2301c0f-e830-46eb-b7b3-2a52d5f85a64")]
+            public virtual RepoItemInfo MicrosoftProvidesAPreviewEnvironmentInfo
+            {
+                get
+                {
+                    return _microsoftprovidesapreviewenvironmentInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComAssetsFrontend item.
+            /// </summary>
+            [RepositoryItem("aa33441b-2133-4ecd-b0bf-501db2e0d11b")]
+            public virtual Ranorex.ImgTag HttpsWwwInkubitComAssetsFrontend
+            {
+                get
+                {
+                    return _httpswwwinkubitcomassetsfrontendInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComAssetsFrontend item info.
+            /// </summary>
+            [RepositoryItemInfo("aa33441b-2133-4ecd-b0bf-501db2e0d11b")]
+            public virtual RepoItemInfo HttpsWwwInkubitComAssetsFrontendInfo
+            {
+                get
+                {
+                    return _httpswwwinkubitcomassetsfrontendInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComAssetsFrontend1 item.
+            /// </summary>
+            [RepositoryItem("32042830-d57f-4ea2-884f-86cece289381")]
+            public virtual Ranorex.ImgTag HttpsWwwInkubitComAssetsFrontend1
+            {
+                get
+                {
+                    return _httpswwwinkubitcomassetsfrontend1Info.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComAssetsFrontend1 item info.
+            /// </summary>
+            [RepositoryItemInfo("32042830-d57f-4ea2-884f-86cece289381")]
+            public virtual RepoItemInfo HttpsWwwInkubitComAssetsFrontend1Info
+            {
+                get
+                {
+                    return _httpswwwinkubitcomassetsfrontend1Info;
+                }
+            }
+
+            /// <summary>
+            /// The MicrosoftStelltFuerInteressentenEine item.
+            /// </summary>
+            [RepositoryItem("c4e48f6d-7475-4cf8-9e89-df12273c3542")]
+            public virtual Ranorex.PTag MicrosoftStelltFuerInteressentenEine
+            {
+                get
+                {
+                    return _microsoftstelltfuerinteressenteneineInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MicrosoftStelltFuerInteressentenEine item info.
+            /// </summary>
+            [RepositoryItemInfo("c4e48f6d-7475-4cf8-9e89-df12273c3542")]
+            public virtual RepoItemInfo MicrosoftStelltFuerInteressentenEineInfo
+            {
+                get
+                {
+                    return _microsoftstelltfuerinteressenteneineInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Submenu item.
+            /// </summary>
+            [RepositoryItem("df1da7a3-b4a2-4e25-a8be-2267a16e5add")]
+            public virtual Ranorex.ATag Submenu
+            {
+                get
+                {
+                    return _submenuInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Submenu item info.
+            /// </summary>
+            [RepositoryItemInfo("df1da7a3-b4a2-4e25-a8be-2267a16e5add")]
+            public virtual RepoItemInfo SubmenuInfo
+            {
+                get
+                {
+                    return _submenuInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComAssetsFrontend2 item.
+            /// </summary>
+            [RepositoryItem("e9973b12-3613-4d75-a0f9-f4ebfa163281")]
+            public virtual Ranorex.ImgTag HttpsWwwInkubitComAssetsFrontend2
+            {
+                get
+                {
+                    return _httpswwwinkubitcomassetsfrontend2Info.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComAssetsFrontend2 item info.
+            /// </summary>
+            [RepositoryItemInfo("e9973b12-3613-4d75-a0f9-f4ebfa163281")]
+            public virtual RepoItemInfo HttpsWwwInkubitComAssetsFrontend2Info
+            {
+                get
+                {
+                    return _httpswwwinkubitcomassetsfrontend2Info;
+                }
+            }
+
+            /// <summary>
+            /// The LicensingForMicrosoftDynamics365Pro item.
+            /// </summary>
+            [RepositoryItem("9319af49-e61c-4370-9e63-0948ee98bfc7")]
+            public virtual Ranorex.PTag LicensingForMicrosoftDynamics365Pro
+            {
+                get
+                {
+                    return _licensingformicrosoftdynamics365proInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The LicensingForMicrosoftDynamics365Pro item info.
+            /// </summary>
+            [RepositoryItemInfo("9319af49-e61c-4370-9e63-0948ee98bfc7")]
+            public virtual RepoItemInfo LicensingForMicrosoftDynamics365ProInfo
+            {
+                get
+                {
+                    return _licensingformicrosoftdynamics365proInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TheLicenseGuideForMicrosoftDynamics item.
+            /// </summary>
+            [RepositoryItem("4f8a0eef-d5f8-4a12-9a19-411f7df268f8")]
+            public virtual Ranorex.H1Tag TheLicenseGuideForMicrosoftDynamics
+            {
+                get
+                {
+                    return _thelicenseguideformicrosoftdynamicsInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TheLicenseGuideForMicrosoftDynamics item info.
+            /// </summary>
+            [RepositoryItemInfo("4f8a0eef-d5f8-4a12-9a19-411f7df268f8")]
+            public virtual RepoItemInfo TheLicenseGuideForMicrosoftDynamicsInfo
+            {
+                get
+                {
+                    return _thelicenseguideformicrosoftdynamicsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DieLizenzierungFuerMicrosoftDynamics item.
+            /// </summary>
+            [RepositoryItem("87dbdf6c-9ee9-471f-a743-3cc9663228c2")]
+            public virtual Ranorex.PTag DieLizenzierungFuerMicrosoftDynamics
+            {
+                get
+                {
+                    return _dielizenzierungfuermicrosoftdynamicsInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DieLizenzierungFuerMicrosoftDynamics item info.
+            /// </summary>
+            [RepositoryItemInfo("87dbdf6c-9ee9-471f-a743-3cc9663228c2")]
+            public virtual RepoItemInfo DieLizenzierungFuerMicrosoftDynamicsInfo
+            {
+                get
+                {
+                    return _dielizenzierungfuermicrosoftdynamicsInfo;
+                }
+            }
+
+            /// <summary>
+            /// The DerGuideFuerMicrosoftDynamics365Li item.
+            /// </summary>
+            [RepositoryItem("1caf2f91-e10b-4fb9-a0be-ea086fd3ee4e")]
+            public virtual Ranorex.H1Tag DerGuideFuerMicrosoftDynamics365Li
+            {
+                get
+                {
+                    return _derguidefuermicrosoftdynamics365liInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DerGuideFuerMicrosoftDynamics365Li item info.
+            /// </summary>
+            [RepositoryItemInfo("1caf2f91-e10b-4fb9-a0be-ea086fd3ee4e")]
+            public virtual RepoItemInfo DerGuideFuerMicrosoftDynamics365LiInfo
+            {
+                get
+                {
+                    return _derguidefuermicrosoftdynamics365liInfo;
+                }
+            }
+
+            /// <summary>
+            /// The InThePastFewYearsThereHaveBeenN item.
+            /// </summary>
+            [RepositoryItem("a622380e-45b1-4370-b896-6b6e5786659f")]
+            public virtual Ranorex.PTag InThePastFewYearsThereHaveBeenN
+            {
+                get
+                {
+                    return _inthepastfewyearstherehavebeennInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The InThePastFewYearsThereHaveBeenN item info.
+            /// </summary>
+            [RepositoryItemInfo("a622380e-45b1-4370-b896-6b6e5786659f")]
+            public virtual RepoItemInfo InThePastFewYearsThereHaveBeenNInfo
+            {
+                get
+                {
+                    return _inthepastfewyearstherehavebeennInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PowerBIAllAroundMicrosoftDynamics3 item.
+            /// </summary>
+            [RepositoryItem("3e039066-f051-44ed-ab8c-61d3d5e281e5")]
+            public virtual Ranorex.H1Tag PowerBIAllAroundMicrosoftDynamics3
+            {
+                get
+                {
+                    return _powerbiallaroundmicrosoftdynamics3Info.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PowerBIAllAroundMicrosoftDynamics3 item info.
+            /// </summary>
+            [RepositoryItemInfo("3e039066-f051-44ed-ab8c-61d3d5e281e5")]
+            public virtual RepoItemInfo PowerBIAllAroundMicrosoftDynamics3Info
+            {
+                get
+                {
+                    return _powerbiallaroundmicrosoftdynamics3Info;
+                }
+            }
+
+            /// <summary>
+            /// The InDenLetztenJahrenGabEsInDerHaus item.
+            /// </summary>
+            [RepositoryItem("45f63028-30da-498b-95ba-c815d6539fda")]
+            public virtual Ranorex.PTag InDenLetztenJahrenGabEsInDerHaus
+            {
+                get
+                {
+                    return _indenletztenjahrengabesinderhausInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The InDenLetztenJahrenGabEsInDerHaus item info.
+            /// </summary>
+            [RepositoryItemInfo("45f63028-30da-498b-95ba-c815d6539fda")]
+            public virtual RepoItemInfo InDenLetztenJahrenGabEsInDerHausInfo
+            {
+                get
+                {
+                    return _indenletztenjahrengabesinderhausInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia74499Back1 item.
+            /// </summary>
+            [RepositoryItem("f20edcc1-942f-456a-87d7-7253ef7a17f0")]
+            public virtual Ranorex.ImgTag HttpsWwwInkubitComMedia74499Back1
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia74499back1Info.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia74499Back1 item info.
+            /// </summary>
+            [RepositoryItemInfo("f20edcc1-942f-456a-87d7-7253ef7a17f0")]
+            public virtual RepoItemInfo HttpsWwwInkubitComMedia74499Back1Info
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia74499back1Info;
+                }
+            }
+
+            /// <summary>
+            /// The DivTag6 item.
+            /// </summary>
+            [RepositoryItem("2dceb7aa-f538-410a-9398-2b7a2dd9f19e")]
+            public virtual Ranorex.DivTag DivTag6
+            {
+                get
+                {
+                    return _divtag6Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DivTag6 item info.
+            /// </summary>
+            [RepositoryItemInfo("2dceb7aa-f538-410a-9398-2b7a2dd9f19e")]
+            public virtual RepoItemInfo DivTag6Info
+            {
+                get
+                {
+                    return _divtag6Info;
+                }
+            }
+
+            /// <summary>
+            /// The PobierzJakoPDF2 item.
+            /// </summary>
+            [RepositoryItem("7d9b92b8-c13f-4b02-9fff-707e86469f64")]
+            public virtual Ranorex.ATag PobierzJakoPDF2
+            {
+                get
+                {
+                    return _pobierzjakopdf2Info.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PobierzJakoPDF2 item info.
+            /// </summary>
+            [RepositoryItemInfo("7d9b92b8-c13f-4b02-9fff-707e86469f64")]
+            public virtual RepoItemInfo PobierzJakoPDF2Info
+            {
+                get
+                {
+                    return _pobierzjakopdf2Info;
+                }
+            }
+
+            /// <summary>
+            /// The SAPRProductsAreOneOfTheMostImport item.
+            /// </summary>
+            [RepositoryItem("4ed7ee03-e578-43cb-a147-53f6e29974a2")]
+            public virtual Ranorex.PTag SAPRProductsAreOneOfTheMostImport
+            {
+                get
+                {
+                    return _saprproductsareoneofthemostimportInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SAPRProductsAreOneOfTheMostImport item info.
+            /// </summary>
+            [RepositoryItemInfo("4ed7ee03-e578-43cb-a147-53f6e29974a2")]
+            public virtual RepoItemInfo SAPRProductsAreOneOfTheMostImportInfo
+            {
+                get
+                {
+                    return _saprproductsareoneofthemostimportInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SAPRAndMicrosoftPowerBIThePossib item.
+            /// </summary>
+            [RepositoryItem("29ffecd9-5f73-41bf-add1-f6d32af93b1a")]
+            public virtual Ranorex.H1Tag SAPRAndMicrosoftPowerBIThePossib
+            {
+                get
+                {
+                    return _saprandmicrosoftpowerbithepossibInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SAPRAndMicrosoftPowerBIThePossib item info.
+            /// </summary>
+            [RepositoryItemInfo("29ffecd9-5f73-41bf-add1-f6d32af93b1a")]
+            public virtual RepoItemInfo SAPRAndMicrosoftPowerBIThePossibInfo
+            {
+                get
+                {
+                    return _saprandmicrosoftpowerbithepossibInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SAPRProdukteGehoerenZuDenWichtigste item.
+            /// </summary>
+            [RepositoryItem("f0ccba4c-5da9-47eb-a308-c602e5e4b2c9")]
+            public virtual Ranorex.PTag SAPRProdukteGehoerenZuDenWichtigste
+            {
+                get
+                {
+                    return _saprproduktegehoerenzudenwichtigsteInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SAPRProdukteGehoerenZuDenWichtigste item info.
+            /// </summary>
+            [RepositoryItemInfo("f0ccba4c-5da9-47eb-a308-c602e5e4b2c9")]
+            public virtual RepoItemInfo SAPRProdukteGehoerenZuDenWichtigsteInfo
+            {
+                get
+                {
+                    return _saprproduktegehoerenzudenwichtigsteInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComAssetsFrontend3 item.
+            /// </summary>
+            [RepositoryItem("5ae2c7ec-c022-4125-a6e5-b0816c6400e6")]
+            public virtual Ranorex.ImgTag HttpsWwwInkubitComAssetsFrontend3
+            {
+                get
+                {
+                    return _httpswwwinkubitcomassetsfrontend3Info.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComAssetsFrontend3 item info.
+            /// </summary>
+            [RepositoryItemInfo("5ae2c7ec-c022-4125-a6e5-b0816c6400e6")]
+            public virtual RepoItemInfo HttpsWwwInkubitComAssetsFrontend3Info
+            {
+                get
+                {
+                    return _httpswwwinkubitcomassetsfrontend3Info;
+                }
+            }
+
+            /// <summary>
+            /// The MicrosoftContinuesToSucceedInUnlock item.
+            /// </summary>
+            [RepositoryItem("6810662e-559d-4b16-af32-9fccc03fd611")]
+            public virtual Ranorex.PTag MicrosoftContinuesToSucceedInUnlock
+            {
+                get
+                {
+                    return _microsoftcontinuestosucceedinunlockInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MicrosoftContinuesToSucceedInUnlock item info.
+            /// </summary>
+            [RepositoryItemInfo("6810662e-559d-4b16-af32-9fccc03fd611")]
+            public virtual RepoItemInfo MicrosoftContinuesToSucceedInUnlockInfo
+            {
+                get
+                {
+                    return _microsoftcontinuestosucceedinunlockInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TheBenefitsOfVirtualEntitiesInMicr item.
+            /// </summary>
+            [RepositoryItem("6209685e-d557-4d58-ac3c-5a3c8d1aa22e")]
+            public virtual Ranorex.H1Tag TheBenefitsOfVirtualEntitiesInMicr
+            {
+                get
+                {
+                    return _thebenefitsofvirtualentitiesinmicrInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TheBenefitsOfVirtualEntitiesInMicr item info.
+            /// </summary>
+            [RepositoryItemInfo("6209685e-d557-4d58-ac3c-5a3c8d1aa22e")]
+            public virtual RepoItemInfo TheBenefitsOfVirtualEntitiesInMicrInfo
+            {
+                get
+                {
+                    return _thebenefitsofvirtualentitiesinmicrInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MicrosoftSchafftEsWeiterhinMitErfol item.
+            /// </summary>
+            [RepositoryItem("99626736-7f0c-47eb-8b77-5200f23ef377")]
+            public virtual Ranorex.PTag MicrosoftSchafftEsWeiterhinMitErfol
+            {
+                get
+                {
+                    return _microsoftschafftesweiterhinmiterfolInfo.CreateAdapter<Ranorex.PTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MicrosoftSchafftEsWeiterhinMitErfol item info.
+            /// </summary>
+            [RepositoryItemInfo("99626736-7f0c-47eb-8b77-5200f23ef377")]
+            public virtual RepoItemInfo MicrosoftSchafftEsWeiterhinMitErfolInfo
+            {
+                get
+                {
+                    return _microsoftschafftesweiterhinmiterfolInfo;
                 }
             }
 
@@ -6914,50 +7498,90 @@ namespace INKUBIT_Test___ContactForm
             }
 
             /// <summary>
-            /// The DivTag item.
-            /// </summary>
-            [RepositoryItem("3e8a9a19-69f2-4a18-9126-57255f711eff")]
-            public virtual Ranorex.DivTag DivTag
-            {
-                get
-                {
-                    return _divtagInfo.CreateAdapter<Ranorex.DivTag>(true);
-                }
-            }
-
-            /// <summary>
-            /// The DivTag item info.
-            /// </summary>
-            [RepositoryItemInfo("3e8a9a19-69f2-4a18-9126-57255f711eff")]
-            public virtual RepoItemInfo DivTagInfo
-            {
-                get
-                {
-                    return _divtagInfo;
-                }
-            }
-
-            /// <summary>
-            /// The PobierzJakoPDF item.
+            /// The PobierzJakoPDF1 item.
             /// </summary>
             [RepositoryItem("fe925165-b425-4169-a0b5-fb797bda3bf3")]
-            public virtual Ranorex.ATag PobierzJakoPDF
+            public virtual Ranorex.ATag PobierzJakoPDF1
             {
                 get
                 {
-                    return _pobierzjakopdfInfo.CreateAdapter<Ranorex.ATag>(true);
+                    return _pobierzjakopdf1Info.CreateAdapter<Ranorex.ATag>(true);
                 }
             }
 
             /// <summary>
-            /// The PobierzJakoPDF item info.
+            /// The PobierzJakoPDF1 item info.
             /// </summary>
             [RepositoryItemInfo("fe925165-b425-4169-a0b5-fb797bda3bf3")]
-            public virtual RepoItemInfo PobierzJakoPDFInfo
+            public virtual RepoItemInfo PobierzJakoPDF1Info
             {
                 get
                 {
-                    return _pobierzjakopdfInfo;
+                    return _pobierzjakopdf1Info;
+                }
+            }
+
+            /// <summary>
+            /// The DivTag5 item.
+            /// </summary>
+            [RepositoryItem("3e8a9a19-69f2-4a18-9126-57255f711eff")]
+            public virtual Ranorex.DivTag DivTag5
+            {
+                get
+                {
+                    return _divtag5Info.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DivTag5 item info.
+            /// </summary>
+            [RepositoryItemInfo("3e8a9a19-69f2-4a18-9126-57255f711eff")]
+            public virtual RepoItemInfo DivTag5Info
+            {
+                get
+                {
+                    return _divtag5Info;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The LeiterDerMicrosoftBusinessApplicatioAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("2f405c44-89f9-4aca-916c-5d356682e7df")]
+        public partial class LeiterDerMicrosoftBusinessApplicatioAppFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new LeiterDerMicrosoftBusinessApplicatio  folder.
+            /// </summary>
+            public LeiterDerMicrosoftBusinessApplicatioAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("LeiterDerMicrosoftBusinessApplicatio", "/dom[2]", parentFolder, 30000, null, false, "2f405c44-89f9-4aca-916c-5d356682e7df", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("2f405c44-89f9-4aca-916c-5d356682e7df")]
+            public virtual Ranorex.WebDocument Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WebDocument>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("2f405c44-89f9-4aca-916c-5d356682e7df")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
                 }
             }
         }

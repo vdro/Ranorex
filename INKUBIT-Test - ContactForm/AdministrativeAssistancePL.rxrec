@@ -54,13 +54,13 @@ rxversion="8.3">
 		duration="100ms"
 		enabled="True"
 		optional="False"
-		searchpropertyid="45110023-02c9-4f88-97c7-fc64eafec2a9">
+		searchpropertyid="2b881273-248b-4f4a-b707-9720ba3e6eda">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="457886ce-4061-4b19-a09c-4c9f45bfcd1a"
+			id="f20edcc1-942f-456a-87d7-7253ef7a17f0"
 			sourcename="ElementTree">
 				<element
 				capabilities="webelement, imgtag"
@@ -152,7 +152,7 @@ rxversion="8.3">
 				</path>
 			</info>
 			<helperscreenshot
-			guid="6a758789-5621-41b1-89ba-c6581cb42458">
+			guid="f249a17a-8535-449c-80cf-085d4cd07c1a">
 				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAFMAfQDASIA
@@ -393,7 +393,7 @@ RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//Z
 		duration="100ms"
 		enabled="True"
 		optional="False"
-		searchpropertyid="e76a953b-7353-42ae-ace7-766fce1417a6">
+		searchpropertyid="6197eb6a-dbcd-42ef-915b-52a1e8ad5760">
 			<comment>
 			</comment>
 			<bindings>
@@ -445,7 +445,7 @@ RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//Z
 				</path>
 			</info>
 			<helperscreenshot
-			guid="dd6707ac-3532-4256-9136-f7b772830ee9">
+			guid="f8a89e31-be01-48fa-9153-b0e01d3a721e">
 				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAH0AfQDASIA
@@ -708,7 +708,7 @@ opsSJSAID/vUxeSM0UUhiuMOwHQGprcDg+/9KKKTASOJXbBz1pjKFn2joDRRTGabOQ4HrUc0rLgA
 		duration="100ms"
 		enabled="True"
 		optional="False"
-		searchpropertyid="507115b8-f592-4c6d-9fc1-56b9c47b0616">
+		searchpropertyid="eb22994a-3ce6-4d69-ae05-50b2b1bf00e8">
 			<comment>
 			</comment>
 			<bindings>
@@ -771,13 +771,13 @@ opsSJSAID/vUxeSM0UUhiuMOwHQGprcDg+/9KKKTASOJXbBz1pjKFn2joDRRTGabOQ4HrUc0rLgA
 		duration="100ms"
 		enabled="True"
 		optional="False"
-		searchpropertyid="bd8da4d7-38e3-4bf3-b414-3641cb79ab65">
+		searchpropertyid="dfdd37c7-e22c-4049-a56e-b6653da25d61">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="3e8a9a19-69f2-4a18-9126-57255f711eff"
+			id="2dceb7aa-f538-410a-9398-2b7a2dd9f19e"
 			sourcename="ElementTree">
 				<element
 				capabilities="webelement, divtag"
@@ -824,7 +824,7 @@ opsSJSAID/vUxeSM0UUhiuMOwHQGprcDg+/9KKKTASOJXbBz1pjKFn2joDRRTGabOQ4HrUc0rLgA
 				</path>
 			</info>
 			<helperscreenshot
-			guid="78b7737f-7722-476a-87a0-052677f3a07c">
+			guid="e8a0fd6a-1fc4-4cc3-877c-79133a242868">
 				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAF/ASIDASIA
@@ -969,13 +969,13 @@ KKKACiiigAooooAKKKKACiiigQUUUUDCiiigApKWigQUUUUAFFFFAz//2Q==
 		duration="100ms"
 		enabled="True"
 		optional="False"
-		searchpropertyid="d626d860-b89c-4164-95bb-1f83569aa3e3">
+		searchpropertyid="7b17ae75-9aa5-4c49-97d8-d7a50cbc43a0">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="fe925165-b425-4169-a0b5-fb797bda3bf3"
+			id="7d9b92b8-c13f-4b02-9fff-707e86469f64"
 			sourcename="ElementTree">
 				<element
 				capabilities="webelement, atag"
@@ -1031,7 +1031,7 @@ KKKACiiigAooooAKKKKACiiigQUUUUDCiiigApKWigQUUUUAFFFFAz//2Q==
 				</path>
 			</info>
 			<helperscreenshot
-			guid="f31efc8a-e448-4bb3-a9bc-897dce215cda">
+			guid="636bd568-979e-47c8-9e04-3f524d32e824">
 				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
 YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
 qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAE+ASIDASIA
@@ -1167,13 +1167,13 @@ AUUUUCCiiigYUUUUAFFFFAgooooAKKKKBn//2Q==
 		duration="100ms"
 		enabled="True"
 		optional="False"
-		searchpropertyid="0b510aba-be69-4c72-b006-0b2116f66e92">
+		searchpropertyid="34ceba0f-a197-44cc-b249-6c79ddc0c42a">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 			<info
-			id="fe925165-b425-4169-a0b5-fb797bda3bf3"
+			id="7d9b92b8-c13f-4b02-9fff-707e86469f64"
 			sourcename="ElementTree">
 				<element
 				capabilities="webelement, atag"
@@ -1246,10 +1246,10 @@ AUUUUCCiiigYUUUUAFFFFAgooooAKKKKBn//2Q==
 			<bindings>
 			</bindings>
 			<info
-			id="2f405c44-89f9-4aca-916c-5d356682e7df"
+			id="6f968f1d-3e20-4082-b349-018af628285d"
 			sourcename="ItemRecorderEditor">
 				<path>
-					/dom[2]
+					/dom[1]
 				</path>
 			</info>
 		</closeapprecorditem>

@@ -460,6 +460,30 @@
       <UserCode>true</UserCode>
       <id>d295e294-e971-48ae-967d-6a574c7a00a0</id>
     </Compile>
+    <Compile Include="PowerBIallaroundMicrosoftDynamics365.cs">
+      <BoundTo>2ca7eac7-54f1-431b-a567-3dc5f09735d6</BoundTo>
+      <DependentUpon>PowerBIallaroundMicrosoftDynamics365.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b68c7973-a705-478d-9b39-7db172115d5f</id>
+    </Compile>
+    <Compile Include="PowerBIallaroundMicrosoftDynamics365.UserCode.cs">
+      <BoundTo>2ca7eac7-54f1-431b-a567-3dc5f09735d6</BoundTo>
+      <DependentUpon>PowerBIallaroundMicrosoftDynamics365.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>019d75da-7dc6-4afc-9617-7ecb21f3aba9</id>
+    </Compile>
+    <Compile Include="PreviewMicrosoftDynamics365AIforCustomerService.cs">
+      <BoundTo>066e9919-4316-42cc-ba23-93f464479988</BoundTo>
+      <DependentUpon>PreviewMicrosoftDynamics365AIforCustomerService.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bdafe61f-1625-49c8-843e-e8d5b8fbcf20</id>
+    </Compile>
+    <Compile Include="PreviewMicrosoftDynamics365AIforCustomerService.UserCode.cs">
+      <BoundTo>066e9919-4316-42cc-ba23-93f464479988</BoundTo>
+      <DependentUpon>PreviewMicrosoftDynamics365AIforCustomerService.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>34776d1a-6239-4a13-a07f-7806e38fa6aa</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>69641c36-2997-4c00-833e-e13abc6049bf</id>
     </Compile>
@@ -486,6 +510,18 @@
       <DependentUpon>Recording2.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>d1541c4a-1a38-4064-9329-029aa58e48da</id>
+    </Compile>
+    <Compile Include="SAPandMicrosoftPowerBIThePossibilities.cs">
+      <BoundTo>01f8c116-0aaf-4d6a-ba07-daa8e9d6745d</BoundTo>
+      <DependentUpon>SAPandMicrosoftPowerBIThePossibilities.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>996c3398-9e2a-49cc-bdf2-1e32922392b4</id>
+    </Compile>
+    <Compile Include="SAPandMicrosoftPowerBIThePossibilities.UserCode.cs">
+      <BoundTo>01f8c116-0aaf-4d6a-ba07-daa8e9d6745d</BoundTo>
+      <DependentUpon>SAPandMicrosoftPowerBIThePossibilities.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0c5e0042-0a2a-46de-a546-42154b042df7</id>
     </Compile>
     <Compile Include="SeniorBankingConsultantforSAPSEProducts.cs">
       <BoundTo>4bfed792-9f4e-43a2-861c-930d80227be4</BoundTo>
@@ -702,6 +738,30 @@
       <DependentUpon>SeniorMicrosoftSharePointDeveloperPL.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>cb9db511-7fab-454e-9901-c83b9a759f17</id>
+    </Compile>
+    <Compile Include="ThebenefitsofvirtualentitiesinMicrosoftDynamics365.cs">
+      <BoundTo>15be916d-9d7c-4dbb-b1d1-df7d302c309c</BoundTo>
+      <DependentUpon>ThebenefitsofvirtualentitiesinMicrosoftDynamics365.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>93cb771c-dc0b-479c-b547-83135928dfd4</id>
+    </Compile>
+    <Compile Include="ThebenefitsofvirtualentitiesinMicrosoftDynamics365.UserCode.cs">
+      <BoundTo>15be916d-9d7c-4dbb-b1d1-df7d302c309c</BoundTo>
+      <DependentUpon>ThebenefitsofvirtualentitiesinMicrosoftDynamics365.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9415955c-0438-42fc-a528-487242638e2d</id>
+    </Compile>
+    <Compile Include="TheLicenseGuideforMicrosoftDynamics365.cs">
+      <BoundTo>a06e7f42-00ed-4b4d-8182-963c45b2d543</BoundTo>
+      <DependentUpon>TheLicenseGuideforMicrosoftDynamics365.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3bcc64ca-9c28-4654-9c12-a54c9f29e91d</id>
+    </Compile>
+    <Compile Include="TheLicenseGuideforMicrosoftDynamics365.UserCode.cs">
+      <BoundTo>a06e7f42-00ed-4b4d-8182-963c45b2d543</BoundTo>
+      <DependentUpon>TheLicenseGuideforMicrosoftDynamics365.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0ab826aa-3828-4dc4-87d8-3056faf4f197</id>
     </Compile>
     <Compile Include="WerkstudentConsultingDevelopmentMicrosoftDynamics365CRMmw.cs">
       <BoundTo>6c19970c-0cd2-440a-928f-2a1c81924261</BoundTo>
@@ -938,6 +998,16 @@
       <id>3ec23b38-3268-4a96-9fc6-67a8aced6827</id>
       <recordtableid>fb5cd3d8-c1b1-4415-85bb-86f118f75858</recordtableid>
     </None>
+    <None Include="PowerBIallaroundMicrosoftDynamics365.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>2ca7eac7-54f1-431b-a567-3dc5f09735d6</id>
+      <recordtableid>1cf75c84-82c3-4139-9662-f84390bf36e2</recordtableid>
+    </None>
+    <None Include="PreviewMicrosoftDynamics365AIforCustomerService.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>066e9919-4316-42cc-ba23-93f464479988</id>
+      <recordtableid>15d189ce-a071-4ad7-9e93-bac8d0d9882b</recordtableid>
+    </None>
     <None Include="Recording1.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>545ca89e-7b5c-4d2f-aac0-137196f0df79</id>
@@ -947,6 +1017,11 @@
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>35656c36-1ae7-4aff-9dfd-67528763947c</id>
       <recordtableid>463bbf85-ef2d-4b50-8e46-99213aad4c96</recordtableid>
+    </None>
+    <None Include="SAPandMicrosoftPowerBIThePossibilities.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>01f8c116-0aaf-4d6a-ba07-daa8e9d6745d</id>
+      <recordtableid>fd1fdb32-3fa7-44a5-ba4b-80a385b60afe</recordtableid>
     </None>
     <None Include="SeniorBankingConsultantforSAPSEProducts.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
@@ -1037,6 +1112,16 @@
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>f5d7def5-c997-4b8e-a5f1-c9f8b017e452</id>
       <recordtableid>d89675e5-7282-4215-bd08-c2f52d97f1c9</recordtableid>
+    </None>
+    <None Include="ThebenefitsofvirtualentitiesinMicrosoftDynamics365.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>15be916d-9d7c-4dbb-b1d1-df7d302c309c</id>
+      <recordtableid>8d16ca71-c7ad-4e1f-bcb1-0ef1e0d02fd3</recordtableid>
+    </None>
+    <None Include="TheLicenseGuideforMicrosoftDynamics365.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>a06e7f42-00ed-4b4d-8182-963c45b2d543</id>
+      <recordtableid>c269ee76-4e37-4e74-a720-076c6de5b04a</recordtableid>
     </None>
     <None Include="WerkstudentConsultingDevelopmentMicrosoftDynamics365CRMmw.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>

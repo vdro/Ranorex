@@ -83,8 +83,8 @@ namespace INKUBIT_Test___ContactForm
             Host.Current.OpenBrowser("https://www.inkubit.com/pl-pl/kariera/administracja/administrative-assistance/", "Chrome", "", false, false, false, false, false, true);
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='https://www.inkubit.com/media/74499/background.jpg') on item 'LeiterDerMicrosoftBusinessApplicatio.HttpsWwwInkubitComMedia74499Back'.", repo.LeiterDerMicrosoftBusinessApplicatio.HttpsWwwInkubitComMedia74499BackInfo, new RecordItemIndex(1));
-            Validate.AttributeEqual(repo.LeiterDerMicrosoftBusinessApplicatio.HttpsWwwInkubitComMedia74499BackInfo, "Src", "https://www.inkubit.com/media/74499/background.jpg");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Src='https://www.inkubit.com/media/74499/background.jpg') on item 'HttpsWwwInkubitComEnUsCareers.HttpsWwwInkubitComMedia74499Back1'.", repo.HttpsWwwInkubitComEnUsCareers.HttpsWwwInkubitComMedia74499Back1Info, new RecordItemIndex(1));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.HttpsWwwInkubitComMedia74499Back1Info, "Src", "https://www.inkubit.com/media/74499/background.jpg");
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Administrative Assistance') on item 'HttpsWwwInkubitComEnUsCareers.AdministrativeAssistance'.", repo.HttpsWwwInkubitComEnUsCareers.AdministrativeAssistanceInfo, new RecordItemIndex(2));
@@ -95,20 +95,20 @@ namespace INKUBIT_Test___ContactForm
             Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.AdministrativeAssistanceInfo, "TagName", "h1");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                    Prześlij aplikację\n                                ') on item 'LeiterDerMicrosoftBusinessApplicatio.DivTag'.", repo.LeiterDerMicrosoftBusinessApplicatio.DivTagInfo, new RecordItemIndex(4));
-            Validate.AttributeEqual(repo.LeiterDerMicrosoftBusinessApplicatio.DivTagInfo, "InnerText", "\n                                    Prześlij aplikację\n                                ");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                    Prześlij aplikację\n                                ') on item 'HttpsWwwInkubitComEnUsCareers.DivTag6'.", repo.HttpsWwwInkubitComEnUsCareers.DivTag6Info, new RecordItemIndex(4));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.DivTag6Info, "InnerText", "\n                                    Prześlij aplikację\n                                ");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Pobierz jako PDF') on item 'LeiterDerMicrosoftBusinessApplicatio.PobierzJakoPDF'.", repo.LeiterDerMicrosoftBusinessApplicatio.PobierzJakoPDFInfo, new RecordItemIndex(5));
-            Validate.AttributeEqual(repo.LeiterDerMicrosoftBusinessApplicatio.PobierzJakoPDFInfo, "InnerText", "Pobierz jako PDF");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Pobierz jako PDF') on item 'HttpsWwwInkubitComEnUsCareers.PobierzJakoPDF2'.", repo.HttpsWwwInkubitComEnUsCareers.PobierzJakoPDF2Info, new RecordItemIndex(5));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.PobierzJakoPDF2Info, "InnerText", "Pobierz jako PDF");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Href='https://www.inkubit.com/media/74112/administrative-assistance.pdf') on item 'LeiterDerMicrosoftBusinessApplicatio.PobierzJakoPDF'.", repo.LeiterDerMicrosoftBusinessApplicatio.PobierzJakoPDFInfo, new RecordItemIndex(6));
-            Validate.AttributeEqual(repo.LeiterDerMicrosoftBusinessApplicatio.PobierzJakoPDFInfo, "Href", "https://www.inkubit.com/media/74112/administrative-assistance.pdf");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Href='https://www.inkubit.com/media/74112/administrative-assistance.pdf') on item 'HttpsWwwInkubitComEnUsCareers.PobierzJakoPDF2'.", repo.HttpsWwwInkubitComEnUsCareers.PobierzJakoPDF2Info, new RecordItemIndex(6));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.PobierzJakoPDF2Info, "Href", "https://www.inkubit.com/media/74112/administrative-assistance.pdf");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'LeiterDerMicrosoftBusinessApplicatio'.", repo.LeiterDerMicrosoftBusinessApplicatio.SelfInfo, new RecordItemIndex(7));
-            Host.Current.CloseApplication(repo.LeiterDerMicrosoftBusinessApplicatio.Self, 100);
+            Report.Log(ReportLevel.Info, "Application", "Closing application containing item 'HttpsWwwInkubitComEnUsCareers'.", repo.HttpsWwwInkubitComEnUsCareers.SelfInfo, new RecordItemIndex(7));
+            Host.Current.CloseApplication(repo.HttpsWwwInkubitComEnUsCareers.Self, 100);
             Delay.Milliseconds(0);
             
         }
