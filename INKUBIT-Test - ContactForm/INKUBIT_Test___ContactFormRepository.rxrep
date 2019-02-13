@@ -2904,6 +2904,35 @@ AAAASUVORK5CYII=
 			searchtimeout="30000ms">
 				/dom[1]//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']
 			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="d33ef561-3e11-4b87-95ec-aafaf2fa6c69"
+			name="AccountManagerMFSolutionSales"
+			refimgid="914e2e0e-4475-486c-a671-4357c5a6721e"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='Account Manager (m/f) – Solution Sales']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^Account\ Manager\ \(m/f\)\ &#8211;\ S']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="a8678c68-874e-4d75-8a0e-80b612196e19"
+			name="AccountManagerMWSolutionSales"
+			refimgid="c61506ba-3d89-4978-94bd-7bf12d49dd5d"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext~'^Account\ Manager\ \(m/w\)\ &#8211;\ S']
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="e7b2cf85-43aa-415c-be31-f4a197abf1a0"
+			name="HRBusinessPartnerMW"
+			refimgid="85f130d3-dd12-4a1c-a2f9-a7fca9cf471e"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/header/div/div[1]/h1[@innertext='HR Business Partner (m/w)']"
+			searchtimeout="30000ms">
+				/dom[1]//section[#'main']/header//h1[@innertext='HR Business Partner (m/w)']
+			</item>
 			<basepath>
 				/dom[1]
 			</basepath>

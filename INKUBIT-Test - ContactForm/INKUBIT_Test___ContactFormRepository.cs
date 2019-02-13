@@ -5687,6 +5687,9 @@ namespace INKUBIT_Test___ContactForm
             RepoItemInfo _httpswwwinkubitcommedia74499backInfo;
             RepoItemInfo _pobierzjakopdf1Info;
             RepoItemInfo _divtag5Info;
+            RepoItemInfo _accountmanagermfsolutionsalesInfo;
+            RepoItemInfo _accountmanagermwsolutionsalesInfo;
+            RepoItemInfo _hrbusinesspartnermwInfo;
 
             /// <summary>
             /// Creates a new HttpsWwwInkubitComEnUsCareers  folder.
@@ -5767,6 +5770,9 @@ namespace INKUBIT_Test___ContactForm
                 _httpswwwinkubitcommedia74499backInfo = new RepoItemInfo(this, "HttpsWwwInkubitComMedia74499Back", "dom[2]//section[#'main']/div[2]//img[@title='']", 30000, null, "457886ce-4061-4b19-a09c-4c9f45bfcd1a");
                 _pobierzjakopdf1Info = new RepoItemInfo(this, "PobierzJakoPDF1", ".//div[#'flatbuttons']/a[@innertext='Pobierz jako PDF']", 30000, null, "fe925165-b425-4169-a0b5-fb797bda3bf3");
                 _divtag5Info = new RepoItemInfo(this, "DivTag5", ".//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']", 30000, null, "3e8a9a19-69f2-4a18-9126-57255f711eff");
+                _accountmanagermfsolutionsalesInfo = new RepoItemInfo(this, "AccountManagerMFSolutionSales", ".//section[#'main']/header//h1[@innertext~'^Account\\ Manager\\ \\(m/f\\)\\ –\\ S']", 30000, null, "d33ef561-3e11-4b87-95ec-aafaf2fa6c69");
+                _accountmanagermwsolutionsalesInfo = new RepoItemInfo(this, "AccountManagerMWSolutionSales", ".//section[#'main']/header//h1[@innertext~'^Account\\ Manager\\ \\(m/w\\)\\ –\\ S']", 30000, null, "a8678c68-874e-4d75-8a0e-80b612196e19");
+                _hrbusinesspartnermwInfo = new RepoItemInfo(this, "HRBusinessPartnerMW", ".//section[#'main']/header//h1[@innertext='HR Business Partner (m/w)']", 30000, null, "e7b2cf85-43aa-415c-be31-f4a197abf1a0");
             }
 
             /// <summary>
@@ -7542,6 +7548,78 @@ namespace INKUBIT_Test___ContactForm
                 get
                 {
                     return _divtag5Info;
+                }
+            }
+
+            /// <summary>
+            /// The AccountManagerMFSolutionSales item.
+            /// </summary>
+            [RepositoryItem("d33ef561-3e11-4b87-95ec-aafaf2fa6c69")]
+            public virtual Ranorex.H1Tag AccountManagerMFSolutionSales
+            {
+                get
+                {
+                    return _accountmanagermfsolutionsalesInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AccountManagerMFSolutionSales item info.
+            /// </summary>
+            [RepositoryItemInfo("d33ef561-3e11-4b87-95ec-aafaf2fa6c69")]
+            public virtual RepoItemInfo AccountManagerMFSolutionSalesInfo
+            {
+                get
+                {
+                    return _accountmanagermfsolutionsalesInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AccountManagerMWSolutionSales item.
+            /// </summary>
+            [RepositoryItem("a8678c68-874e-4d75-8a0e-80b612196e19")]
+            public virtual Ranorex.H1Tag AccountManagerMWSolutionSales
+            {
+                get
+                {
+                    return _accountmanagermwsolutionsalesInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AccountManagerMWSolutionSales item info.
+            /// </summary>
+            [RepositoryItemInfo("a8678c68-874e-4d75-8a0e-80b612196e19")]
+            public virtual RepoItemInfo AccountManagerMWSolutionSalesInfo
+            {
+                get
+                {
+                    return _accountmanagermwsolutionsalesInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HRBusinessPartnerMW item.
+            /// </summary>
+            [RepositoryItem("e7b2cf85-43aa-415c-be31-f4a197abf1a0")]
+            public virtual Ranorex.H1Tag HRBusinessPartnerMW
+            {
+                get
+                {
+                    return _hrbusinesspartnermwInfo.CreateAdapter<Ranorex.H1Tag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HRBusinessPartnerMW item info.
+            /// </summary>
+            [RepositoryItemInfo("e7b2cf85-43aa-415c-be31-f4a197abf1a0")]
+            public virtual RepoItemInfo HRBusinessPartnerMWInfo
+            {
+                get
+                {
+                    return _hrbusinesspartnermwInfo;
                 }
             }
         }

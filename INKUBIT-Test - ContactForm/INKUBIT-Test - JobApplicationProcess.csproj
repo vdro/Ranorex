@@ -127,6 +127,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountManagermfSolutionSales.cs">
+      <BoundTo>442ea1e4-5c5f-402b-acae-446e206ae56f</BoundTo>
+      <DependentUpon>AccountManagermfSolutionSales.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>09e837cd-03a2-4425-ad18-68dc27c9a00d</id>
+    </Compile>
+    <Compile Include="AccountManagermfSolutionSales.UserCode.cs">
+      <BoundTo>442ea1e4-5c5f-402b-acae-446e206ae56f</BoundTo>
+      <DependentUpon>AccountManagermfSolutionSales.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9e65b9fa-212d-4bd9-885a-e1921fd4c8da</id>
+    </Compile>
+    <Compile Include="AccountManagermwSolutionSales.cs">
+      <BoundTo>62f5e133-f694-4dc1-9715-4f9e2f3bfa80</BoundTo>
+      <DependentUpon>AccountManagermwSolutionSales.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>369770e6-db53-450e-85a9-e532e72d0b0d</id>
+    </Compile>
+    <Compile Include="AccountManagermwSolutionSales.UserCode.cs">
+      <BoundTo>62f5e133-f694-4dc1-9715-4f9e2f3bfa80</BoundTo>
+      <DependentUpon>AccountManagermwSolutionSales.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eed6a22a-1fe2-40b8-8faa-0988df7f3811</id>
+    </Compile>
     <Compile Include="AdministrativeAssistance.cs">
       <BoundTo>8c3c792e-fe8d-4419-986c-7ae4d98600d8</BoundTo>
       <DependentUpon>AdministrativeAssistance.rxrec</DependentUpon>
@@ -225,6 +249,18 @@
       <DependentUpon>CreateNewsletterRegistration.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>ece60239-c498-4bca-929c-a370c5d8a0ec</id>
+    </Compile>
+    <Compile Include="HRBusinessPartnermw.cs">
+      <BoundTo>dc2a5398-3fb9-4ae7-aba3-d6e7a74a1991</BoundTo>
+      <DependentUpon>HRBusinessPartnermw.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>954cd4ec-75af-46de-b674-76926fc663b1</id>
+    </Compile>
+    <Compile Include="HRBusinessPartnermw.UserCode.cs">
+      <BoundTo>dc2a5398-3fb9-4ae7-aba3-d6e7a74a1991</BoundTo>
+      <DependentUpon>HRBusinessPartnermw.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>12855a9c-976b-4035-ab07-914b0f087817</id>
     </Compile>
     <Compile Include="httpswwwinkubitcomdedekarriereconsultingseniorconsultantimbereichbankingfuerproduktedersapsemw.cs">
       <BoundTo>eda5109b-5976-489d-88c1-9db6d7530e8d</BoundTo>
@@ -849,6 +885,16 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="AccountManagermfSolutionSales.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>442ea1e4-5c5f-402b-acae-446e206ae56f</id>
+      <recordtableid>8ccb25db-f91e-402a-b772-193fe1798981</recordtableid>
+    </None>
+    <None Include="AccountManagermwSolutionSales.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>62f5e133-f694-4dc1-9715-4f9e2f3bfa80</id>
+      <recordtableid>079d6912-3f62-4f41-b7f9-7aacfd11bf12</recordtableid>
+    </None>
     <None Include="AdministrativeAssistance.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>8c3c792e-fe8d-4419-986c-7ae4d98600d8</id>
@@ -891,6 +937,11 @@
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>78ad782b-6677-4b97-bafa-76a816dee0fe</id>
       <recordtableid>42604412-5c56-4df5-a5b9-847b17facf40</recordtableid>
+    </None>
+    <None Include="HRBusinessPartnermw.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>dc2a5398-3fb9-4ae7-aba3-d6e7a74a1991</id>
+      <recordtableid>5f345eaf-219a-4124-9ae6-90da16c242a5</recordtableid>
     </None>
     <None Include="httpswwwinkubitcomdedekarriereconsultingseniorconsultantimbereichbankingfuerproduktedersapsemw.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
