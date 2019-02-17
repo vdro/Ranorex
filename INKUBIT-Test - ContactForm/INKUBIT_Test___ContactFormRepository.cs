@@ -5614,6 +5614,10 @@ namespace INKUBIT_Test___ContactForm
         [RepositoryFolder("6f968f1d-3e20-4082-b349-018af628285d")]
         public partial class HttpsWwwInkubitComEnUsCareersAppFolder : RepoGenBaseFolder
         {
+            INKUBIT_Test___ContactFormRepositoryFolders.SomeDivTagFolder _somedivtag;
+            INKUBIT_Test___ContactFormRepositoryFolders.SomeUlTagFolder _someultag;
+            INKUBIT_Test___ContactFormRepositoryFolders.RowSidebarFolder _rowsidebar;
+            INKUBIT_Test___ContactFormRepositoryFolders.Revslider696Folder _revslider696;
             RepoItemInfo _managingpartnermicrosoftbusinessapplInfo;
             RepoItemInfo _managingpartnermicrosoftbusinessappl1Info;
             RepoItemInfo _divtagInfo;
@@ -5690,6 +5694,8 @@ namespace INKUBIT_Test___ContactForm
             RepoItemInfo _accountmanagermfsolutionsalesInfo;
             RepoItemInfo _accountmanagermwsolutionsalesInfo;
             RepoItemInfo _hrbusinesspartnermwInfo;
+            RepoItemInfo _emailmesessageInfo;
+            RepoItemInfo _tpbgimgdefaultimgInfo;
 
             /// <summary>
             /// Creates a new HttpsWwwInkubitComEnUsCareers  folder.
@@ -5697,6 +5703,10 @@ namespace INKUBIT_Test___ContactForm
             public HttpsWwwInkubitComEnUsCareersAppFolder(RepoGenBaseFolder parentFolder) :
                     base("HttpsWwwInkubitComEnUsCareers", "/dom[1]", parentFolder, 30000, null, false, "6f968f1d-3e20-4082-b349-018af628285d", "")
             {
+                _somedivtag = new INKUBIT_Test___ContactFormRepositoryFolders.SomeDivTagFolder(this);
+                _someultag = new INKUBIT_Test___ContactFormRepositoryFolders.SomeUlTagFolder(this);
+                _rowsidebar = new INKUBIT_Test___ContactFormRepositoryFolders.RowSidebarFolder(this);
+                _revslider696 = new INKUBIT_Test___ContactFormRepositoryFolders.Revslider696Folder(this);
                 _managingpartnermicrosoftbusinessapplInfo = new RepoItemInfo(this, "ManagingPartnerMicrosoftBusinessAppl", ".//div[#'section_Management']/div/div/div[1]/?/?/a[@innertext~'^Managing\\ Partner\\ Microsof']", 30000, null, "bb6baabd-a580-4d0c-bb22-582935775560");
                 _managingpartnermicrosoftbusinessappl1Info = new RepoItemInfo(this, "ManagingPartnerMicrosoftBusinessAppl1", ".//section[#'main']/header//h1[@innertext~'^Managing\\ Partner\\ Microsof']", 30000, null, "ecdecb1d-fbc6-4448-95de-9dcc66efcdf9");
                 _divtagInfo = new RepoItemInfo(this, "DivTag", ".//div[#'jobApplicationSubmitToggleBtn']/div[@innertext~'^\\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ \\ ']", 30000, null, "3c2763a3-4e54-419b-b189-9dbeea3b1b5f");
@@ -5773,6 +5783,8 @@ namespace INKUBIT_Test___ContactForm
                 _accountmanagermfsolutionsalesInfo = new RepoItemInfo(this, "AccountManagerMFSolutionSales", ".//section[#'main']/header//h1[@innertext~'^Account\\ Manager\\ \\(m/f\\)\\ –\\ S']", 30000, null, "d33ef561-3e11-4b87-95ec-aafaf2fa6c69");
                 _accountmanagermwsolutionsalesInfo = new RepoItemInfo(this, "AccountManagerMWSolutionSales", ".//section[#'main']/header//h1[@innertext~'^Account\\ Manager\\ \\(m/w\\)\\ –\\ S']", 30000, null, "a8678c68-874e-4d75-8a0e-80b612196e19");
                 _hrbusinesspartnermwInfo = new RepoItemInfo(this, "HRBusinessPartnerMW", ".//section[#'main']/header//h1[@innertext='HR Business Partner (m/w)']", 30000, null, "e7b2cf85-43aa-415c-be31-f4a197abf1a0");
+                _emailmesessageInfo = new RepoItemInfo(this, "EmailMesessage", ".//footer[#'footer']/div[2]/div/div/div[3]/a[@href~'^javascript:linkTo_UnCrypt']/img[@alt='Email mesessage']", 30000, null, "c0580f12-ab85-4bfd-9904-71784fdfb5bf");
+                _tpbgimgdefaultimgInfo = new RepoItemInfo(this, "TpBgimgDefaultimg", ".//div[#'revslider-696']/ul/li[3]/div[2]/div", 30000, null, "a8d2aef5-d94b-42a3-b302-bdd348a504b1");
             }
 
             /// <summary>
@@ -7620,6 +7632,770 @@ namespace INKUBIT_Test___ContactForm
                 get
                 {
                     return _hrbusinesspartnermwInfo;
+                }
+            }
+
+            /// <summary>
+            /// The EmailMesessage item.
+            /// </summary>
+            [RepositoryItem("c0580f12-ab85-4bfd-9904-71784fdfb5bf")]
+            public virtual Ranorex.ImgTag EmailMesessage
+            {
+                get
+                {
+                    return _emailmesessageInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The EmailMesessage item info.
+            /// </summary>
+            [RepositoryItemInfo("c0580f12-ab85-4bfd-9904-71784fdfb5bf")]
+            public virtual RepoItemInfo EmailMesessageInfo
+            {
+                get
+                {
+                    return _emailmesessageInfo;
+                }
+            }
+
+            /// <summary>
+            /// The TpBgimgDefaultimg item.
+            /// </summary>
+            [RepositoryItem("a8d2aef5-d94b-42a3-b302-bdd348a504b1")]
+            public virtual Ranorex.DivTag TpBgimgDefaultimg
+            {
+                get
+                {
+                    return _tpbgimgdefaultimgInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The TpBgimgDefaultimg item info.
+            /// </summary>
+            [RepositoryItemInfo("a8d2aef5-d94b-42a3-b302-bdd348a504b1")]
+            public virtual RepoItemInfo TpBgimgDefaultimgInfo
+            {
+                get
+                {
+                    return _tpbgimgdefaultimgInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SomeDivTag folder.
+            /// </summary>
+            [RepositoryFolder("b3f8c00f-d4bf-4893-8fb9-5afa9953b42c")]
+            public virtual INKUBIT_Test___ContactFormRepositoryFolders.SomeDivTagFolder SomeDivTag
+            {
+                get { return _somedivtag; }
+            }
+
+            /// <summary>
+            /// The SomeUlTag folder.
+            /// </summary>
+            [RepositoryFolder("ce7b8638-e550-4e6c-ae28-b9be5295ef4c")]
+            public virtual INKUBIT_Test___ContactFormRepositoryFolders.SomeUlTagFolder SomeUlTag
+            {
+                get { return _someultag; }
+            }
+
+            /// <summary>
+            /// The RowSidebar folder.
+            /// </summary>
+            [RepositoryFolder("11607904-04ac-4541-9c3b-b78d60414fea")]
+            public virtual INKUBIT_Test___ContactFormRepositoryFolders.RowSidebarFolder RowSidebar
+            {
+                get { return _rowsidebar; }
+            }
+
+            /// <summary>
+            /// The Revslider696 folder.
+            /// </summary>
+            [RepositoryFolder("5fc6c029-fbcf-4d4c-bf0f-ec3a5b3ad868")]
+            public virtual INKUBIT_Test___ContactFormRepositoryFolders.Revslider696Folder Revslider696
+            {
+                get { return _revslider696; }
+            }
+        }
+
+        /// <summary>
+        /// The SomeDivTagFolder folder.
+        /// </summary>
+        [RepositoryFolder("b3f8c00f-d4bf-4893-8fb9-5afa9953b42c")]
+        public partial class SomeDivTagFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _httpswwwinkubitcommedia45350inkuInfo;
+            RepoItemInfo _homeInfo;
+            RepoItemInfo _aboutinkubitInfo;
+            RepoItemInfo _solutionsservicesInfo;
+            RepoItemInfo _blogInfo;
+            RepoItemInfo _customersInfo;
+            RepoItemInfo _contactInfo;
+
+            /// <summary>
+            /// Creates a new SomeDivTag  folder.
+            /// </summary>
+            public SomeDivTagFolder(RepoGenBaseFolder parentFolder) :
+                    base("SomeDivTag", "body/div[5]/div[1]/?/?/header/div/div/div", parentFolder, 30000, null, false, "b3f8c00f-d4bf-4893-8fb9-5afa9953b42c", "")
+            {
+                _httpswwwinkubitcommedia45350inkuInfo = new RepoItemInfo(this, "HttpsWwwInkubitComMedia45350Inku", "div[1]/?/?/a[@href~'^https://www\\.inkubit\\.com/e']/img[@alt='']", 30000, null, "68b28ca3-8c14-43a5-a69f-0eb19f51a79a");
+                _homeInfo = new RepoItemInfo(this, "Home", "div[2]//nav/ul/li[1]/a[@innertext='Home']", 30000, null, "64c97230-7c93-40e9-86c8-4c28df4762af");
+                _aboutinkubitInfo = new RepoItemInfo(this, "AboutINKUBIT", "div[2]//nav/ul/li[2]/a[@innertext='About INKUBIT']", 30000, null, "732682af-f4bc-435a-91a9-eedbad571c97");
+                _solutionsservicesInfo = new RepoItemInfo(this, "SolutionsServices", "div[2]//nav/ul/li[3]/a[@innertext='Solutions & Services']", 30000, null, "0863b03d-9385-4636-beac-ee663d44032d");
+                _blogInfo = new RepoItemInfo(this, "Blog", "div[2]//nav/ul/li[4]/a[@innertext='Blog']", 30000, null, "192f8dc6-98f4-4480-819f-cee08ae35f62");
+                _customersInfo = new RepoItemInfo(this, "Customers", "div[2]//nav/ul/li[5]/a[@innertext='Customers']", 30000, null, "0ca8a1fa-1420-481a-a325-c321df31a8e2");
+                _contactInfo = new RepoItemInfo(this, "Contact", "div[2]//nav/ul/li[6]/a[@innertext='Contact']", 30000, null, "95b824f6-244d-4921-9e78-ee25a12a3bf4");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("b3f8c00f-d4bf-4893-8fb9-5afa9953b42c")]
+            public virtual Ranorex.DivTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("b3f8c00f-d4bf-4893-8fb9-5afa9953b42c")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia45350Inku item.
+            /// </summary>
+            [RepositoryItem("68b28ca3-8c14-43a5-a69f-0eb19f51a79a")]
+            public virtual Ranorex.ImgTag HttpsWwwInkubitComMedia45350Inku
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia45350inkuInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia45350Inku item info.
+            /// </summary>
+            [RepositoryItemInfo("68b28ca3-8c14-43a5-a69f-0eb19f51a79a")]
+            public virtual RepoItemInfo HttpsWwwInkubitComMedia45350InkuInfo
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia45350inkuInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Home item.
+            /// </summary>
+            [RepositoryItem("64c97230-7c93-40e9-86c8-4c28df4762af")]
+            public virtual Ranorex.ATag Home
+            {
+                get
+                {
+                    return _homeInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Home item info.
+            /// </summary>
+            [RepositoryItemInfo("64c97230-7c93-40e9-86c8-4c28df4762af")]
+            public virtual RepoItemInfo HomeInfo
+            {
+                get
+                {
+                    return _homeInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AboutINKUBIT item.
+            /// </summary>
+            [RepositoryItem("732682af-f4bc-435a-91a9-eedbad571c97")]
+            public virtual Ranorex.ATag AboutINKUBIT
+            {
+                get
+                {
+                    return _aboutinkubitInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AboutINKUBIT item info.
+            /// </summary>
+            [RepositoryItemInfo("732682af-f4bc-435a-91a9-eedbad571c97")]
+            public virtual RepoItemInfo AboutINKUBITInfo
+            {
+                get
+                {
+                    return _aboutinkubitInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SolutionsServices item.
+            /// </summary>
+            [RepositoryItem("0863b03d-9385-4636-beac-ee663d44032d")]
+            public virtual Ranorex.ATag SolutionsServices
+            {
+                get
+                {
+                    return _solutionsservicesInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SolutionsServices item info.
+            /// </summary>
+            [RepositoryItemInfo("0863b03d-9385-4636-beac-ee663d44032d")]
+            public virtual RepoItemInfo SolutionsServicesInfo
+            {
+                get
+                {
+                    return _solutionsservicesInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Blog item.
+            /// </summary>
+            [RepositoryItem("192f8dc6-98f4-4480-819f-cee08ae35f62")]
+            public virtual Ranorex.ATag Blog
+            {
+                get
+                {
+                    return _blogInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Blog item info.
+            /// </summary>
+            [RepositoryItemInfo("192f8dc6-98f4-4480-819f-cee08ae35f62")]
+            public virtual RepoItemInfo BlogInfo
+            {
+                get
+                {
+                    return _blogInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Customers item.
+            /// </summary>
+            [RepositoryItem("0ca8a1fa-1420-481a-a325-c321df31a8e2")]
+            public virtual Ranorex.ATag Customers
+            {
+                get
+                {
+                    return _customersInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Customers item info.
+            /// </summary>
+            [RepositoryItemInfo("0ca8a1fa-1420-481a-a325-c321df31a8e2")]
+            public virtual RepoItemInfo CustomersInfo
+            {
+                get
+                {
+                    return _customersInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Contact item.
+            /// </summary>
+            [RepositoryItem("95b824f6-244d-4921-9e78-ee25a12a3bf4")]
+            public virtual Ranorex.ATag Contact
+            {
+                get
+                {
+                    return _contactInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Contact item info.
+            /// </summary>
+            [RepositoryItemInfo("95b824f6-244d-4921-9e78-ee25a12a3bf4")]
+            public virtual RepoItemInfo ContactInfo
+            {
+                get
+                {
+                    return _contactInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The SomeUlTagFolder folder.
+        /// </summary>
+        [RepositoryFolder("ce7b8638-e550-4e6c-ae28-b9be5295ef4c")]
+        public partial class SomeUlTagFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _httpswwwinkubitcommedia74145logoInfo;
+            RepoItemInfo _httpswwwinkubitcommedia75028try3Info;
+            RepoItemInfo _httpswwwinkubitcommedia74152logoInfo;
+
+            /// <summary>
+            /// Creates a new SomeUlTag  folder.
+            /// </summary>
+            public SomeUlTagFolder(RepoGenBaseFolder parentFolder) :
+                    base("SomeUlTag", ".//footer[#'footer']//nav/ul", parentFolder, 30000, null, false, "ce7b8638-e550-4e6c-ae28-b9be5295ef4c", "")
+            {
+                _httpswwwinkubitcommedia74145logoInfo = new RepoItemInfo(this, "HttpsWwwInkubitComMedia74145Logo", "li[1]/img[@src='https://www.inkubit.com/media/74145/logo_inkubit.png']", 30000, null, "deb2eb4e-0773-4d87-b625-3f5f9e918d2d");
+                _httpswwwinkubitcommedia75028try3Info = new RepoItemInfo(this, "HttpsWwwInkubitComMedia75028Try3", "li[2]/img[@src='https://www.inkubit.com/media/75028/try3.png']", 30000, null, "fb39ac84-26c4-41a7-bdce-b20d2bd604c0");
+                _httpswwwinkubitcommedia74152logoInfo = new RepoItemInfo(this, "HttpsWwwInkubitComMedia74152Logo", "li[3]/img[@src='https://www.inkubit.com/media/74152/logo2.png']", 30000, null, "d8b48812-0da1-4c68-8f21-16d5647150df");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("ce7b8638-e550-4e6c-ae28-b9be5295ef4c")]
+            public virtual Ranorex.UlTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.UlTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("ce7b8638-e550-4e6c-ae28-b9be5295ef4c")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia74145Logo item.
+            /// </summary>
+            [RepositoryItem("deb2eb4e-0773-4d87-b625-3f5f9e918d2d")]
+            public virtual Ranorex.ImgTag HttpsWwwInkubitComMedia74145Logo
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia74145logoInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia74145Logo item info.
+            /// </summary>
+            [RepositoryItemInfo("deb2eb4e-0773-4d87-b625-3f5f9e918d2d")]
+            public virtual RepoItemInfo HttpsWwwInkubitComMedia74145LogoInfo
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia74145logoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia75028Try3 item.
+            /// </summary>
+            [RepositoryItem("fb39ac84-26c4-41a7-bdce-b20d2bd604c0")]
+            public virtual Ranorex.ImgTag HttpsWwwInkubitComMedia75028Try3
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia75028try3Info.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia75028Try3 item info.
+            /// </summary>
+            [RepositoryItemInfo("fb39ac84-26c4-41a7-bdce-b20d2bd604c0")]
+            public virtual RepoItemInfo HttpsWwwInkubitComMedia75028Try3Info
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia75028try3Info;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia74152Logo item.
+            /// </summary>
+            [RepositoryItem("d8b48812-0da1-4c68-8f21-16d5647150df")]
+            public virtual Ranorex.ImgTag HttpsWwwInkubitComMedia74152Logo
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia74152logoInfo.CreateAdapter<Ranorex.ImgTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInkubitComMedia74152Logo item info.
+            /// </summary>
+            [RepositoryItemInfo("d8b48812-0da1-4c68-8f21-16d5647150df")]
+            public virtual RepoItemInfo HttpsWwwInkubitComMedia74152LogoInfo
+            {
+                get
+                {
+                    return _httpswwwinkubitcommedia74152logoInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The RowSidebarFolder folder.
+        /// </summary>
+        [RepositoryFolder("11607904-04ac-4541-9c3b-b78d60414fea")]
+        public partial class RowSidebarFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _httptwittercominkubitInfo;
+            RepoItemInfo _httpwwwfacebookcominkubitInfo;
+            RepoItemInfo _httpswwwinstagramcominkubitInfo;
+            RepoItemInfo _httpswwwkununucomdeinkubitInfo;
+            RepoItemInfo _httpswwwlinkedincomcompanyinkubitInfo;
+            RepoItemInfo _httpswwwxingcomcompaniesinkubitInfo;
+
+            /// <summary>
+            /// Creates a new RowSidebar  folder.
+            /// </summary>
+            public RowSidebarFolder(RepoGenBaseFolder parentFolder) :
+                    base("RowSidebar", ".//footer[#'footer']/div[1]/div/div", parentFolder, 30000, null, false, "11607904-04ac-4541-9c3b-b78d60414fea", "")
+            {
+                _httptwittercominkubitInfo = new RepoItemInfo(this, "HttpTwitterComInkubit", "aside[2]/a[@href~'^http://twitter\\.com/inkubi']", 30000, null, "3178e433-7a52-4cba-a07b-e33a12ad3660");
+                _httpwwwfacebookcominkubitInfo = new RepoItemInfo(this, "HttpWwwFacebookComInkubit", "aside[2]/a[@href~'^http://www\\.facebook\\.com/i']", 30000, null, "852d77ed-8643-40c1-baa9-7b9e2f4520c5");
+                _httpswwwinstagramcominkubitInfo = new RepoItemInfo(this, "HttpsWwwInstagramComInkubit", "aside[2]/a[@href~'^https://www\\.instagram\\.com']", 30000, null, "0023516d-25ea-4ffb-bd96-89851e6ce226");
+                _httpswwwkununucomdeinkubitInfo = new RepoItemInfo(this, "HttpsWwwKununuComDeInkubit", "aside[2]/a[@href~'^https://www\\.kununu\\.com/de']", 30000, null, "5801e54a-f7ff-4b29-869f-22f83b5ebbde");
+                _httpswwwlinkedincomcompanyinkubitInfo = new RepoItemInfo(this, "HttpsWwwLinkedinComCompanyInkubit", "aside[2]/a[@href~'^https://www\\.linkedin\\.com/']", 30000, null, "fe1da1c0-4aed-4c03-8302-dd750e280870");
+                _httpswwwxingcomcompaniesinkubitInfo = new RepoItemInfo(this, "HttpsWwwXingComCompaniesInkubit", "aside[2]/a[@href~'^https://www\\.xing\\.com/comp']", 30000, null, "51a24eb0-bde0-408f-9d62-12680b396ffb");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("11607904-04ac-4541-9c3b-b78d60414fea")]
+            public virtual Ranorex.DivTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("11607904-04ac-4541-9c3b-b78d60414fea")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpTwitterComInkubit item.
+            /// </summary>
+            [RepositoryItem("3178e433-7a52-4cba-a07b-e33a12ad3660")]
+            public virtual Ranorex.ATag HttpTwitterComInkubit
+            {
+                get
+                {
+                    return _httptwittercominkubitInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpTwitterComInkubit item info.
+            /// </summary>
+            [RepositoryItemInfo("3178e433-7a52-4cba-a07b-e33a12ad3660")]
+            public virtual RepoItemInfo HttpTwitterComInkubitInfo
+            {
+                get
+                {
+                    return _httptwittercominkubitInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpWwwFacebookComInkubit item.
+            /// </summary>
+            [RepositoryItem("852d77ed-8643-40c1-baa9-7b9e2f4520c5")]
+            public virtual Ranorex.ATag HttpWwwFacebookComInkubit
+            {
+                get
+                {
+                    return _httpwwwfacebookcominkubitInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpWwwFacebookComInkubit item info.
+            /// </summary>
+            [RepositoryItemInfo("852d77ed-8643-40c1-baa9-7b9e2f4520c5")]
+            public virtual RepoItemInfo HttpWwwFacebookComInkubitInfo
+            {
+                get
+                {
+                    return _httpwwwfacebookcominkubitInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInstagramComInkubit item.
+            /// </summary>
+            [RepositoryItem("0023516d-25ea-4ffb-bd96-89851e6ce226")]
+            public virtual Ranorex.ATag HttpsWwwInstagramComInkubit
+            {
+                get
+                {
+                    return _httpswwwinstagramcominkubitInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwInstagramComInkubit item info.
+            /// </summary>
+            [RepositoryItemInfo("0023516d-25ea-4ffb-bd96-89851e6ce226")]
+            public virtual RepoItemInfo HttpsWwwInstagramComInkubitInfo
+            {
+                get
+                {
+                    return _httpswwwinstagramcominkubitInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwKununuComDeInkubit item.
+            /// </summary>
+            [RepositoryItem("5801e54a-f7ff-4b29-869f-22f83b5ebbde")]
+            public virtual Ranorex.ATag HttpsWwwKununuComDeInkubit
+            {
+                get
+                {
+                    return _httpswwwkununucomdeinkubitInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwKununuComDeInkubit item info.
+            /// </summary>
+            [RepositoryItemInfo("5801e54a-f7ff-4b29-869f-22f83b5ebbde")]
+            public virtual RepoItemInfo HttpsWwwKununuComDeInkubitInfo
+            {
+                get
+                {
+                    return _httpswwwkununucomdeinkubitInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwLinkedinComCompanyInkubit item.
+            /// </summary>
+            [RepositoryItem("fe1da1c0-4aed-4c03-8302-dd750e280870")]
+            public virtual Ranorex.ATag HttpsWwwLinkedinComCompanyInkubit
+            {
+                get
+                {
+                    return _httpswwwlinkedincomcompanyinkubitInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwLinkedinComCompanyInkubit item info.
+            /// </summary>
+            [RepositoryItemInfo("fe1da1c0-4aed-4c03-8302-dd750e280870")]
+            public virtual RepoItemInfo HttpsWwwLinkedinComCompanyInkubitInfo
+            {
+                get
+                {
+                    return _httpswwwlinkedincomcompanyinkubitInfo;
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwXingComCompaniesInkubit item.
+            /// </summary>
+            [RepositoryItem("51a24eb0-bde0-408f-9d62-12680b396ffb")]
+            public virtual Ranorex.ATag HttpsWwwXingComCompaniesInkubit
+            {
+                get
+                {
+                    return _httpswwwxingcomcompaniesinkubitInfo.CreateAdapter<Ranorex.ATag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The HttpsWwwXingComCompaniesInkubit item info.
+            /// </summary>
+            [RepositoryItemInfo("51a24eb0-bde0-408f-9d62-12680b396ffb")]
+            public virtual RepoItemInfo HttpsWwwXingComCompaniesInkubitInfo
+            {
+                get
+                {
+                    return _httpswwwxingcomcompaniesinkubitInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The Revslider696Folder folder.
+        /// </summary>
+        [RepositoryFolder("5fc6c029-fbcf-4d4c-bf0f-ec3a5b3ad868")]
+        public partial class Revslider696Folder : RepoGenBaseFolder
+        {
+            RepoItemInfo _microsoftdynamics365offershighperfoInfo;
+            RepoItemInfo _azureisacomprehensivesetofcloudseInfo;
+            RepoItemInfo _sharepointisanintegrateddocumentmanInfo;
+            RepoItemInfo _useavariateyoftoolswithintheofficInfo;
+
+            /// <summary>
+            /// Creates a new Revslider696  folder.
+            /// </summary>
+            public Revslider696Folder(RepoGenBaseFolder parentFolder) :
+                    base("Revslider696", "body/div[5]/div[1]/div/div[2]/div[1]/div[1]/div", parentFolder, 30000, null, false, "5fc6c029-fbcf-4d4c-bf0f-ec3a5b3ad868", "")
+            {
+                _microsoftdynamics365offershighperfoInfo = new RepoItemInfo(this, "MicrosoftDynamics365OffersHighPerfo", "a[1]/div[@innertext~'^Microsoft\\ Dynamics\\ 365\\ of']", 30000, null, "6da9bcd1-65ff-404d-8ce8-56d65643f4b7");
+                _azureisacomprehensivesetofcloudseInfo = new RepoItemInfo(this, "AzureIsAComprehensiveSetOfCloudSe", "a[2]/div[@innertext~'^Azure\\ is\\ a\\ comprehensive\\ ']", 30000, null, "0f987b6b-3a3a-4881-a112-f20edcdaca91");
+                _sharepointisanintegrateddocumentmanInfo = new RepoItemInfo(this, "SharePointIsAnIntegratedDocumentMan", "a[3]/div[@innertext~'^SharePoint\\ is\\ an\\ integrat']", 30000, null, "62a422b1-d6a8-40a9-9d98-2c4b2b52d51e");
+                _useavariateyoftoolswithintheofficInfo = new RepoItemInfo(this, "UseAVariateyOfToolsWithinTheOffic", "a[4]/div[@innertext~'^Use\\ a\\ variatey\\ of\\ tools\\ w']", 30000, null, "f7a15342-737d-4116-b36e-0f3b50280e32");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("5fc6c029-fbcf-4d4c-bf0f-ec3a5b3ad868")]
+            public virtual Ranorex.DivTag Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("5fc6c029-fbcf-4d4c-bf0f-ec3a5b3ad868")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The MicrosoftDynamics365OffersHighPerfo item.
+            /// </summary>
+            [RepositoryItem("6da9bcd1-65ff-404d-8ce8-56d65643f4b7")]
+            public virtual Ranorex.DivTag MicrosoftDynamics365OffersHighPerfo
+            {
+                get
+                {
+                    return _microsoftdynamics365offershighperfoInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The MicrosoftDynamics365OffersHighPerfo item info.
+            /// </summary>
+            [RepositoryItemInfo("6da9bcd1-65ff-404d-8ce8-56d65643f4b7")]
+            public virtual RepoItemInfo MicrosoftDynamics365OffersHighPerfoInfo
+            {
+                get
+                {
+                    return _microsoftdynamics365offershighperfoInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AzureIsAComprehensiveSetOfCloudSe item.
+            /// </summary>
+            [RepositoryItem("0f987b6b-3a3a-4881-a112-f20edcdaca91")]
+            public virtual Ranorex.DivTag AzureIsAComprehensiveSetOfCloudSe
+            {
+                get
+                {
+                    return _azureisacomprehensivesetofcloudseInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AzureIsAComprehensiveSetOfCloudSe item info.
+            /// </summary>
+            [RepositoryItemInfo("0f987b6b-3a3a-4881-a112-f20edcdaca91")]
+            public virtual RepoItemInfo AzureIsAComprehensiveSetOfCloudSeInfo
+            {
+                get
+                {
+                    return _azureisacomprehensivesetofcloudseInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SharePointIsAnIntegratedDocumentMan item.
+            /// </summary>
+            [RepositoryItem("62a422b1-d6a8-40a9-9d98-2c4b2b52d51e")]
+            public virtual Ranorex.DivTag SharePointIsAnIntegratedDocumentMan
+            {
+                get
+                {
+                    return _sharepointisanintegrateddocumentmanInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SharePointIsAnIntegratedDocumentMan item info.
+            /// </summary>
+            [RepositoryItemInfo("62a422b1-d6a8-40a9-9d98-2c4b2b52d51e")]
+            public virtual RepoItemInfo SharePointIsAnIntegratedDocumentManInfo
+            {
+                get
+                {
+                    return _sharepointisanintegrateddocumentmanInfo;
+                }
+            }
+
+            /// <summary>
+            /// The UseAVariateyOfToolsWithinTheOffic item.
+            /// </summary>
+            [RepositoryItem("f7a15342-737d-4116-b36e-0f3b50280e32")]
+            public virtual Ranorex.DivTag UseAVariateyOfToolsWithinTheOffic
+            {
+                get
+                {
+                    return _useavariateyoftoolswithintheofficInfo.CreateAdapter<Ranorex.DivTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UseAVariateyOfToolsWithinTheOffic item info.
+            /// </summary>
+            [RepositoryItemInfo("f7a15342-737d-4116-b36e-0f3b50280e32")]
+            public virtual RepoItemInfo UseAVariateyOfToolsWithinTheOfficInfo
+            {
+                get
+                {
+                    return _useavariateyoftoolswithintheofficInfo;
                 }
             }
         }

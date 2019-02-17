@@ -250,6 +250,18 @@
       <UserCode>true</UserCode>
       <id>ece60239-c498-4bca-929c-a370c5d8a0ec</id>
     </Compile>
+    <Compile Include="en_website.cs">
+      <BoundTo>d05a4332-7b71-4079-8a4b-01b7f3ebf236</BoundTo>
+      <DependentUpon>en_website.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>12155193-479a-4ad7-a2d2-a9a6cc0a1830</id>
+    </Compile>
+    <Compile Include="en_website.UserCode.cs">
+      <BoundTo>d05a4332-7b71-4079-8a4b-01b7f3ebf236</BoundTo>
+      <DependentUpon>en_website.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>85d8fd33-e4d0-4c54-9b52-b6979cfa7e09</id>
+    </Compile>
     <Compile Include="HRBusinessPartnermw.cs">
       <BoundTo>dc2a5398-3fb9-4ae7-aba3-d6e7a74a1991</BoundTo>
       <DependentUpon>HRBusinessPartnermw.rxrec</DependentUpon>
@@ -938,6 +950,11 @@
       <id>78ad782b-6677-4b97-bafa-76a816dee0fe</id>
       <recordtableid>42604412-5c56-4df5-a5b9-847b17facf40</recordtableid>
     </None>
+    <None Include="en_website.rxrec">
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
+      <id>d05a4332-7b71-4079-8a4b-01b7f3ebf236</id>
+      <recordtableid>c1aa053e-d7dd-4371-be64-36e5d4770c26</recordtableid>
+    </None>
     <None Include="HRBusinessPartnermw.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>dc2a5398-3fb9-4ae7-aba3-d6e7a74a1991</id>
@@ -1170,9 +1187,9 @@
       <recordtableid>8d16ca71-c7ad-4e1f-bcb1-0ef1e0d02fd3</recordtableid>
     </None>
     <None Include="TheLicenseGuideforMicrosoftDynamics365.rxrec">
-      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
       <id>a06e7f42-00ed-4b4d-8182-963c45b2d543</id>
       <recordtableid>c269ee76-4e37-4e74-a720-076c6de5b04a</recordtableid>
+      <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
     </None>
     <None Include="WerkstudentConsultingDevelopmentMicrosoftDynamics365CRMmw.rxrec">
       <BoundTo>66b3f6d7-805d-4356-8cad-4e30bb943425</BoundTo>
