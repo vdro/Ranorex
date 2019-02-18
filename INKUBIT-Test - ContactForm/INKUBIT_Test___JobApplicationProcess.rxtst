@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <testsuitedoc
 rxversion="8.3">
 	<testsuiteentryhierarchy>
@@ -152,6 +152,12 @@ rxversion="8.3">
 			id="17522f5d-e263-4ce7-8643-e3043d414ec2"
 			name="Power_BI_all_around_Microsoft_Dynamics_365">
 			</smartfoldernode>
+			<testmodule
+			id="191f06d5-773c-46eb-8cec-c344e1badbf6"
+			name="en_website"
+			ref="c1aa053e-d7dd-4371-be64-36e5d4770c26"
+			type="Recording">
+			</testmodule>
 			<smartfoldernode
 			id="19281036-d7e2-44b3-ad55-963afc443751"
 			name="Senior_Microsoft_SharePoint_Developer">
@@ -300,6 +306,10 @@ rxversion="8.3">
 					<![CDATA[<p>Send an inquiry thru LandingPage,Check RefferenceNumber in CRM,Delete Record</p>]]>
 				</description>
 			</testcase>
+			<smartfoldernode
+			id="55eab21d-1ce4-47bc-ae2e-5be9200dac16"
+			name="Website_EN">
+			</smartfoldernode>
 			<smartfoldernode
 			id="56f1402b-ff73-4429-bdbf-d1a93b9fe3fc"
 			name="(Senior)_Consultant_HCM-Systeme_Technical/Functional_(m/w)">
@@ -597,6 +607,10 @@ rxversion="8.3">
 			name="Senior_Microsoft_Dynamics_365_CRM_DeveloperPL">
 			</smartfoldernode>
 			<smartfoldernode
+			id="aa5f4684-5468-46a1-ac1f-80e229beb3c3"
+			name="Website_DE">
+			</smartfoldernode>
+			<smartfoldernode
 			id="ab78d905-9b89-4ebe-b3a8-45ec30855d02"
 			name="Junior_Web_Frontend_Developer">
 			</smartfoldernode>
@@ -670,6 +684,10 @@ rxversion="8.3">
 			ref="9b2683ec-3a75-4e39-a8b1-0b7305358d02"
 			type="Recording">
 			</testmodule>
+			<smartfoldernode
+			id="c333fd3b-e772-4124-8d46-a2925ebea194"
+			name="Website_PL">
+			</smartfoldernode>
 			<testmodule
 			id="c4d6b1d1-7599-4a98-a2f1-979dfd23ca7c"
 			name="SeniorBankingConsultantforSAPSEProducts"
@@ -886,6 +904,10 @@ rxversion="8.3">
 			ref="8cf3d073-8518-4e74-87b7-2d24a5bdd659"
 			type="Recording">
 			</testmodule>
+			<testcase
+			id="f4888753-bf96-4ff1-9314-d7d2b0183f15"
+			name="MainWebPageValidation">
+			</testcase>
 			<testmodule
 			id="f4ca4753-2f5f-4cb1-bb4c-e1cabb2a3d60"
 			name="JuniorMicrosoftDynamics365CRMDevelopermw"
@@ -1429,6 +1451,26 @@ rxversion="8.3">
 							</testmodule>
 						</smartfoldernode>
 					</testcase>
+					<testcase
+					id="f4888753-bf96-4ff1-9314-d7d2b0183f15"
+					name="MainWebPageValidation">
+						<smartfoldernode
+						id="55eab21d-1ce4-47bc-ae2e-5be9200dac16"
+						name="Website_EN">
+							<testmodule
+							id="191f06d5-773c-46eb-8cec-c344e1badbf6"
+							name="en_website">
+							</testmodule>
+						</smartfoldernode>
+						<smartfoldernode
+						id="aa5f4684-5468-46a1-ac1f-80e229beb3c3"
+						name="Website_DE">
+						</smartfoldernode>
+						<smartfoldernode
+						id="c333fd3b-e772-4124-8d46-a2925ebea194"
+						name="Website_PL">
+						</smartfoldernode>
+					</testcase>
 					<teardown
 					id="2e8f1877-b1d2-4838-8332-82ad88e923cb"
 					name="teardown">
@@ -1523,6 +1565,9 @@ rxversion="8.3">
 			id="4ff8c342-3315-4a7a-9052-c147bcb5441a">
 			</testcontainer>
 			<testcontainer
+			id="55eab21d-1ce4-47bc-ae2e-5be9200dac16">
+			</testcontainer>
+			<testcontainer
 			id="56f1402b-ff73-4429-bdbf-d1a93b9fe3fc">
 			</testcontainer>
 			<testcontainer
@@ -1535,12 +1580,6 @@ rxversion="8.3">
 			id="6dff6627-b4e6-4146-b99c-a5bf94d88a24">
 			</testcontainer>
 			<testcontainer
-			id="76e32daf-cd8f-4619-8a24-2ffbb15bced5">
-			</testcontainer>
-			<testcontainer
-			id="77d3cc10-6d53-4e2b-ad23-45e9bb695d42">
-			</testcontainer>
-			<testcontainer
 			id="820546de-a0e9-475a-ad52-7283904dd4c1">
 			</testcontainer>
 			<testcontainer
@@ -1548,9 +1587,6 @@ rxversion="8.3">
 			</testcontainer>
 			<testcontainer
 			id="8c6d98f2-b2f3-4915-845a-83625349dd2d">
-			</testcontainer>
-			<testcontainer
-			id="97bb2c8e-1a8f-4683-bdef-fbc5f6a61d0b">
 			</testcontainer>
 			<testcontainer
 			id="97dbbda7-4064-4b4a-92ac-e73f82b64a2d">
@@ -1571,6 +1607,9 @@ rxversion="8.3">
 			id="a87ca2a4-c9ad-4ada-b716-9e44ace99bfe">
 			</testcontainer>
 			<testcontainer
+			id="aa5f4684-5468-46a1-ac1f-80e229beb3c3">
+			</testcontainer>
+			<testcontainer
 			id="ab78d905-9b89-4ebe-b3a8-45ec30855d02">
 			</testcontainer>
 			<testcontainer
@@ -1581,6 +1620,9 @@ rxversion="8.3">
 			</testcontainer>
 			<testcontainer
 			id="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58">
+			</testcontainer>
+			<testcontainer
+			id="c333fd3b-e772-4124-8d46-a2925ebea194">
 			</testcontainer>
 			<testcontainer
 			id="cd19e8d5-bb40-43cf-b4e0-152f73d61be5">
@@ -1620,6 +1662,9 @@ rxversion="8.3">
 			</testcontainer>
 			<testcontainer
 			id="ee7dabdd-c12a-4b85-b97e-aec6d8b7be7a">
+			</testcontainer>
+			<testcontainer
+			id="f4888753-bf96-4ff1-9314-d7d2b0183f15">
 			</testcontainer>
 			<testcontainer
 			id="f7146c5c-33d8-4c2e-b701-21c6c6692575">
