@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INKUBIT-Test - JobApplicationProcess", "INKUBIT-Test - ContactForm\INKUBIT-Test - JobApplicationProcess.csproj", "{6C4E63C9-FE0E-404A-949D-B14B5FCD7724}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranorex Automation Helpers", "RanorexAutomationHelpers\Ranorex Automation Helpers.csproj", "{6EDACF07-CCAF-4CD2-8E60-BD6D4AD24DAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,5 +21,9 @@ Global
 		{6C4E63C9-FE0E-404A-949D-B14B5FCD7724}.Debug|x86.ActiveCfg = Debug|x86
 		{6C4E63C9-FE0E-404A-949D-B14B5FCD7724}.Release|x86.Build.0 = Release|x86
 		{6C4E63C9-FE0E-404A-949D-B14B5FCD7724}.Release|x86.ActiveCfg = Release|x86
+		{6EDACF07-CCAF-4CD2-8E60-BD6D4AD24DAA}.Debug|x86.Build.0 = Debug|x86
+		{6EDACF07-CCAF-4CD2-8E60-BD6D4AD24DAA}.Debug|x86.ActiveCfg = Debug|x86
+		{6EDACF07-CCAF-4CD2-8E60-BD6D4AD24DAA}.Release|x86.Build.0 = Release|x86
+		{6EDACF07-CCAF-4CD2-8E60-BD6D4AD24DAA}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal
