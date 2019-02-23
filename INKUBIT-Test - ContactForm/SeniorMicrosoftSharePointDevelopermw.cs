@@ -87,8 +87,8 @@ namespace INKUBIT_Test___ContactForm
             Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.HttpsWwwInkubitComMedia74671BackInfo, "Src", "https://www.inkubit.com/media/74671/background.jpg");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                    Bewerbung einreichen\n                                ') on item 'HttpsWwwInkubitComEnUsCareers.DivTag3'.", repo.HttpsWwwInkubitComEnUsCareers.DivTag3Info, new RecordItemIndex(2));
-            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.DivTag3Info, "InnerText", "\n                                    Bewerbung einreichen\n                                ");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                    Bewerbung einreichen\r\n                                ') on item 'HttpsWwwInkubitComEnUsCareers.DivTag3'.", repo.HttpsWwwInkubitComEnUsCareers.DivTag3Info, new RecordItemIndex(2));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.DivTag3Info, "InnerText", "\n                                    Bewerbung einreichen\r\n                                ");
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Als PDF herunterladen') on item 'HttpsWwwInkubitComEnUsCareers.AlsPDFHerunterladen2'.", repo.HttpsWwwInkubitComEnUsCareers.AlsPDFHerunterladen2Info, new RecordItemIndex(3));

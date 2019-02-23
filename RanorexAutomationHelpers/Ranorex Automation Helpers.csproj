@@ -95,9 +95,6 @@
     <Reference Include="Ranorex.Plugin.Wpf">
       <Private>False</Private>
     </Reference>
-    <Reference Include="Ranorex.ReportToPDF, Version=1.0.14.0, Culture=neutral, PublicKeyToken=null">
-      <HintPath>..\packages\Ranorex.ReportToPDF.1.0.15\lib\net40\Ranorex.ReportToPDF.exe</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -112,46 +109,6 @@
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config">
-      <id>3073ed41-1abc-415f-b1fe-4e825cec079c</id>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Modules\CollectRetryErrorMessagesModule.cs">
-      <id>17f157cb-41e2-4140-af1d-6cda826fe7b9</id>
-    </Compile>
-    <Compile Include="Modules\EmailModule.cs">
-      <id>ac2b93da-63cf-4bd0-83e2-1c60df57fa65</id>
-    </Compile>
-    <Compile Include="Modules\ReportToPDFModule.cs">
-      <id>235fc5aa-5248-4b66-8637-1073df1ffaf3</id>
-    </Compile>
-    <Compile Include="UserCodeCollections\DragNDropLibrary.cs">
-      <id>ba120ad6-554c-46d7-b09c-e17cc70bb2ea</id>
-    </Compile>
-    <Compile Include="UserCodeCollections\EmailLibrary.cs">
-      <id>013959a4-7dbf-4f7d-b43c-1a206b4eab2d</id>
-    </Compile>
-    <Compile Include="UserCodeCollections\FileLibrary.cs">
-      <id>8e72ed24-5ebe-44a0-aa89-88a7a9d7864d</id>
-    </Compile>
-    <Compile Include="UserCodeCollections\PopupWatcherLibrary.cs">
-      <id>19630838-f13f-4e1c-afa2-68d26a4f314c</id>
-    </Compile>
-    <Compile Include="UserCodeCollections\StringLibrary.cs">
-      <id>38eca46e-34cb-4d67-ac8e-58b6b995fdd3</id>
-    </Compile>
-    <Compile Include="UserCodeCollections\SystemLibrary.cs">
-      <id>7c8a9a41-7f98-4de3-b083-3fa096a425bb</id>
-    </Compile>
-    <Compile Include="UserCodeCollections\ValidationLibrary.cs">
-      <id>eacaf8a6-24df-4e5f-a063-684d04ee5a75</id>
-    </Compile>
-    <Compile Include="UserCodeCollections\WebLibrary.cs">
-      <id>76e8dd33-c8f4-4769-b90c-2087b1e39e3f</id>
-    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />

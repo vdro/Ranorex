@@ -95,8 +95,8 @@ namespace INKUBIT_Test___ContactForm
             Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.SeniorBusinessIntelligenceConsultantInfo, "TagName", "h1");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                    Prześlij aplikację\n                                ') on item 'HttpsWwwInkubitComEnUsCareers.DivTag4'.", repo.HttpsWwwInkubitComEnUsCareers.DivTag4Info, new RecordItemIndex(4));
-            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.DivTag4Info, "InnerText", "\n                                    Prześlij aplikację\n                                ");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                    Prześlij aplikację\r\n                                ') on item 'HttpsWwwInkubitComEnUsCareers.DivTag4'.", repo.HttpsWwwInkubitComEnUsCareers.DivTag4Info, new RecordItemIndex(4));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.DivTag4Info, "InnerText", "\n                                    Prześlij aplikację\r\n                                ");
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Pobierz jako PDF') on item 'HttpsWwwInkubitComEnUsCareers.PobierzJakoPDF'.", repo.HttpsWwwInkubitComEnUsCareers.PobierzJakoPDFInfo, new RecordItemIndex(5));

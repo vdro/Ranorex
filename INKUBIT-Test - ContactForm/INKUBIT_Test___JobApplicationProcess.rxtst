@@ -655,6 +655,28 @@ rxversion="8.3">
 			id="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
 			name="INKUBIT_Test___JobApplicationProcess"
 			reportlevel="Info;20">
+				<parameters>
+					<param
+					name="PdfName"
+					value="Ranorex">
+					</param>
+					<param
+					name="PdfDirectoryPath"
+					value="">
+					</param>
+					<param
+					name="Xml"
+					value="">
+					</param>
+					<param
+					name="Details"
+					value="">
+					</param>
+					<param
+					name="DeleteRanorexReport"
+					value="true">
+					</param>
+				</parameters>
 			</testcase>
 			<testcase
 			id="bbbc54d2-b065-4c7e-98a4-55eeb49b0c4b"
@@ -1607,9 +1629,6 @@ rxversion="8.3">
 			id="a87ca2a4-c9ad-4ada-b716-9e44ace99bfe">
 			</testcontainer>
 			<testcontainer
-			id="aa5f4684-5468-46a1-ac1f-80e229beb3c3">
-			</testcontainer>
-			<testcontainer
 			id="ab78d905-9b89-4ebe-b3a8-45ec30855d02">
 			</testcontainer>
 			<testcontainer
@@ -1620,9 +1639,6 @@ rxversion="8.3">
 			</testcontainer>
 			<testcontainer
 			id="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58">
-			</testcontainer>
-			<testcontainer
-			id="c333fd3b-e772-4124-8d46-a2925ebea194">
 			</testcontainer>
 			<testcontainer
 			id="cd19e8d5-bb40-43cf-b4e0-152f73d61be5">
@@ -1681,8 +1697,5 @@ rxversion="8.3">
 		</testconfiguration>
 	</testconfigurations>
 	<references>
-		<reference>
-			Ranorex Automation Helpers.dll
-		</reference>
 	</references>
 </testsuitedoc>
