@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INKUBIT-Test - JobApplicati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranorex Automation Helpers", "RanorexAutomationHelpers\Ranorex Automation Helpers.csproj", "{9AEC4018-F232-485C-B49E-2FC6855C9A6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{16EA2708-9DC5-412C-AE7C-4A6D1DD47480}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test3", "test3\test3.csproj", "{8757174E-86BE-4DDB-BE87-8FC920FD6414}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +27,9 @@ Global
 		{9AEC4018-F232-485C-B49E-2FC6855C9A6D}.Debug|x86.ActiveCfg = Debug|x86
 		{9AEC4018-F232-485C-B49E-2FC6855C9A6D}.Release|x86.Build.0 = Release|x86
 		{9AEC4018-F232-485C-B49E-2FC6855C9A6D}.Release|x86.ActiveCfg = Release|x86
-		{16EA2708-9DC5-412C-AE7C-4A6D1DD47480}.Debug|x86.Build.0 = Debug|x86
-		{16EA2708-9DC5-412C-AE7C-4A6D1DD47480}.Debug|x86.ActiveCfg = Debug|x86
-		{16EA2708-9DC5-412C-AE7C-4A6D1DD47480}.Release|x86.Build.0 = Release|x86
-		{16EA2708-9DC5-412C-AE7C-4A6D1DD47480}.Release|x86.ActiveCfg = Release|x86
+		{8757174E-86BE-4DDB-BE87-8FC920FD6414}.Debug|x86.Build.0 = Debug|x86
+		{8757174E-86BE-4DDB-BE87-8FC920FD6414}.Debug|x86.ActiveCfg = Debug|x86
+		{8757174E-86BE-4DDB-BE87-8FC920FD6414}.Release|x86.Build.0 = Release|x86
+		{8757174E-86BE-4DDB-BE87-8FC920FD6414}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal

@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
-    <ProjectGuid>{16EA2708-9DC5-412C-AE7C-4A6D1DD47480}</ProjectGuid>
+    <ProjectGuid>{AC81FE52-A701-488B-97DB-DC0D350C33FC}</ProjectGuid>
     <TargetFrameworkProfile />
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <OutputType>Library</OutputType>
-    <RootNamespace>test</RootNamespace>
-    <AssemblyName>test</AssemblyName>
+    <RootNamespace>test2</RootNamespace>
+    <AssemblyName>test2</AssemblyName>
     <RanorexVersion>8.3</RanorexVersion>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
-    <projectdefaultrepository>404ca89a-0442-49ce-b919-ae006e62b276</projectdefaultrepository>
+    <projectdefaultrepository>143ee7ef-9d0d-497e-88c3-81b0e9b06d6a</projectdefaultrepository>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -113,49 +113,49 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs">
-      <id>619d0c03-9a74-43ba-a642-82c43c5dd360</id>
+      <id>0663adbb-de38-48bc-8478-b750d41aa533</id>
     </Compile>
     <Compile Include="Recording1.cs">
-      <BoundTo>4e812bfa-8c1d-403e-9536-219df96b63c8</BoundTo>
+      <BoundTo>ba56e60c-f31e-4b1b-9bf6-2077afc10c43</BoundTo>
       <DependentUpon>Recording1.rxrec</DependentUpon>
       <RecorderCode>true</RecorderCode>
-      <id>90ef344f-c3b8-4fc4-9456-96cf19a6cc3f</id>
+      <id>a4e9fcdd-7763-4f3a-b046-126658e0d864</id>
     </Compile>
     <Compile Include="Recording1.UserCode.cs">
-      <BoundTo>4e812bfa-8c1d-403e-9536-219df96b63c8</BoundTo>
+      <BoundTo>ba56e60c-f31e-4b1b-9bf6-2077afc10c43</BoundTo>
       <DependentUpon>Recording1.rxrec</DependentUpon>
       <UserCode>true</UserCode>
-      <id>619e6f55-87fe-4c5f-ac22-297dfde765bd</id>
+      <id>951f6cb4-adeb-4670-99db-07b1a763e208</id>
     </Compile>
-    <Compile Include="testRepository.cs">
-      <BoundTo>404ca89a-0442-49ce-b919-ae006e62b276</BoundTo>
-      <DependentUpon>testRepository.rxrep</DependentUpon>
+    <Compile Include="test2Repository.cs">
+      <BoundTo>143ee7ef-9d0d-497e-88c3-81b0e9b06d6a</BoundTo>
+      <DependentUpon>test2Repository.rxrep</DependentUpon>
       <RepositoryCode>true</RepositoryCode>
-      <id>a8c573df-9b86-4fc0-ac77-ad2d7befcf1f</id>
+      <id>ba4d9103-dea1-40c8-aaa4-c7c5f7ea9df3</id>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Recording1.rxrec">
-      <BoundTo>404ca89a-0442-49ce-b919-ae006e62b276</BoundTo>
-      <id>4e812bfa-8c1d-403e-9536-219df96b63c8</id>
-      <recordtableid>b99229a6-cf52-4dbd-80a2-bcaaabd65585</recordtableid>
+      <BoundTo>143ee7ef-9d0d-497e-88c3-81b0e9b06d6a</BoundTo>
+      <id>ba56e60c-f31e-4b1b-9bf6-2077afc10c43</id>
+      <recordtableid>0d859bbf-3d29-4901-9258-62c38eca7218</recordtableid>
     </None>
-    <None Include="testRepository.rximg">
-      <BoundTo>404ca89a-0442-49ce-b919-ae006e62b276</BoundTo>
-      <DependentUpon>testRepository.rxrep</DependentUpon>
+    <None Include="test2Repository.rximg">
+      <BoundTo>143ee7ef-9d0d-497e-88c3-81b0e9b06d6a</BoundTo>
+      <DependentUpon>test2Repository.rxrep</DependentUpon>
       <imageblob>true</imageblob>
-      <id>a7c1f26e-5348-41ef-8ab1-60352eb179b1</id>
+      <id>4bf3e520-2065-4f0d-ba41-50b4015fd422</id>
     </None>
-    <None Include="testRepository.rxrep">
-      <id>404ca89a-0442-49ce-b919-ae006e62b276</id>
-      <repoid>65fb7b08-2f27-49e0-aa7e-d6a32210ce3b</repoid>
-      <reporootid>518c3ed4-6b26-41e8-978e-0b5b921ca662</reporootid>
+    <None Include="test2Repository.rxrep">
+      <id>143ee7ef-9d0d-497e-88c3-81b0e9b06d6a</id>
+      <repoid>51452dd8-3886-4429-b23f-f57072c8d21c</repoid>
+      <reporootid>cfbf26c1-a683-4a11-a758-6ec84567665f</reporootid>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="test.rxtmg">
+    <Content Include="test2.rxtmg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>b6149307-46be-4cf2-a026-6429027aef3e</id>
+      <id>07016787-48ca-4b5d-be9c-0128dba83e14</id>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

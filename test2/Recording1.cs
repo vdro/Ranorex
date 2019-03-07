@@ -20,33 +20,33 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace test
+namespace test2
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The Ok recording.
+    ///The Recording1 recording.
     /// </summary>
-    [TestModule("18623344-7c21-4196-b0e6-e9d628f89212", ModuleType.Recording, 1)]
-    public partial class Ok : ITestModule
+    [TestModule("0d859bbf-3d29-4901-9258-62c38eca7218", ModuleType.Recording, 1)]
+    public partial class Recording1 : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the testRepository repository.
+        /// Holds an instance of the test2Repository repository.
         /// </summary>
-        public static testRepository repo = testRepository.Instance;
+        public static test2Repository repo = test2Repository.Instance;
 
-        static Ok instance = new Ok();
+        static Recording1 instance = new Recording1();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public Ok()
+        public Recording1()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static Ok Instance
+        public static Recording1 Instance
         {
             get { return instance; }
         }
@@ -79,18 +79,6 @@ namespace test
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.inkubit.com/en-us/' with browser 'Chrome' in normal mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://www.inkubit.com/en-us/", "Chrome", "", false, false, false, false, false, true);
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'INKUBITMicrosoftDynamics365CRMCon.Content' at 411;1.", repo.INKUBITMicrosoftDynamics365CRMCon.ContentInfo, new RecordItemIndex(1));
-            repo.INKUBITMicrosoftDynamics365CRMCon.Content.Click("411;1");
-            Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'INKUBITMicrosoftDynamics365CRMCon.Main' at 683;9.", repo.INKUBITMicrosoftDynamics365CRMCon.MainInfo, new RecordItemIndex(2));
-            repo.INKUBITMicrosoftDynamics365CRMCon.Main.Click("683;9");
-            Delay.Milliseconds(200);
-            
         }
 
 #region Image Feature Data
