@@ -95,8 +95,8 @@ namespace INKUBIT_Test___ContactForm
             Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.AccountManagerMFSolutionSalesInfo, "TagName", "h1");
             Delay.Milliseconds(100);
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                    Submit Application\r\n                                ') on item 'HttpsWwwInkubitComEnUsCareers.DivTag5'.", repo.HttpsWwwInkubitComEnUsCareers.DivTag5Info, new RecordItemIndex(4));
-            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.DivTag5Info, "InnerText", "\n                                    Submit Application\r\n                                ");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                    Submit Application\n                                ') on item 'HttpsWwwInkubitComEnUsCareers.DivTag5'.", repo.HttpsWwwInkubitComEnUsCareers.DivTag5Info, new RecordItemIndex(4));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.DivTag5Info, "InnerText", "\n                                    Submit Application\n                                ");
             Delay.Milliseconds(100);
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Download as PDF') on item 'HttpsWwwInkubitComEnUsCareers.DownloadAsPDF'.", repo.HttpsWwwInkubitComEnUsCareers.DownloadAsPDFInfo, new RecordItemIndex(5));

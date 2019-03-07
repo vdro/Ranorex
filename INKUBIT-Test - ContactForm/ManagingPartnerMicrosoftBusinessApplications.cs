@@ -88,8 +88,8 @@ namespace INKUBIT_Test___ContactForm
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (TagName='h1') on item 'HttpsWwwInkubitComEnUsCareers.ManagingPartnerMicrosoftBusinessAppl1'.", repo.HttpsWwwInkubitComEnUsCareers.ManagingPartnerMicrosoftBusinessAppl1Info, new RecordItemIndex(2));
             Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.ManagingPartnerMicrosoftBusinessAppl1Info, "TagName", "h1");
             
-            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                    Submit Application\r\n                                ') on item 'HttpsWwwInkubitComEnUsCareers.DivTag'.", repo.HttpsWwwInkubitComEnUsCareers.DivTagInfo, new RecordItemIndex(3));
-            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.DivTagInfo, "InnerText", "\n                                    Submit Application\r\n                                ");
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='\n                                    Submit Application\n                                ') on item 'HttpsWwwInkubitComEnUsCareers.DivTag'.", repo.HttpsWwwInkubitComEnUsCareers.DivTagInfo, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.DivTagInfo, "InnerText", "\n                                    Submit Application\n                                ");
             
             Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Download as PDF') on item 'HttpsWwwInkubitComEnUsCareers.DownloadAsPDF'.", repo.HttpsWwwInkubitComEnUsCareers.DownloadAsPDFInfo, new RecordItemIndex(4));
             Validate.AttributeEqual(repo.HttpsWwwInkubitComEnUsCareers.DownloadAsPDFInfo, "InnerText", "Download as PDF");

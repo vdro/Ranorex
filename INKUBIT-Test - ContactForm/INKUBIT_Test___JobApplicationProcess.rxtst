@@ -130,6 +130,44 @@ rxversion="8.3">
 			type="Recording">
 			</testmodule>
 			<testmodule
+			id="13a473ed-b1aa-48fa-aa98-b44c97865363"
+			name="ReportToPDFModule"
+			ref="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="PdfName"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="1d09c6b5-db7a-4ed0-a13c-ee2add5d3d37"
+					variablename="PdfName">
+					</var>
+					<var
+					dataname="PdfDirectoryPath"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="536f8a69-f246-4f2b-ae9e-1f62babb2ba9"
+					variablename="PdfDirectoryPath">
+					</var>
+					<var
+					dataname="Xml"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="c15f25ea-9409-4e1a-b76e-cd208bae6c56"
+					variablename="Xml">
+					</var>
+					<var
+					dataname="Details"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="b9993b89-d8cb-45fe-829b-42b0f8dd8a00"
+					variablename="Details">
+					</var>
+					<var
+					dataname="DeleteRanorexReport"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="7f788c18-962c-41ab-b591-9c3122512c5e"
+					variablename="DeleteRanorexReport">
+					</var>
+				</databinding>
+			</testmodule>
+			<testmodule
 			id="13d2fb85-6371-4b07-9fd2-6139d27fec51"
 			name="PowerBIallaroundMicrosoftDynamics365"
 			ref="1cf75c84-82c3-4139-9662-f84390bf36e2"
@@ -674,7 +712,63 @@ rxversion="8.3">
 					</param>
 					<param
 					name="DeleteRanorexReport"
+					value="false">
+					</param>
+					<param
+					name="Subject"
+					value="Ranorex">
+					</param>
+					<param
+					name="Body"
+					value="ranorex">
+					</param>
+					<param
+					name="To"
+					value="tomasz.faldrowicz@inkubit.com">
+					</param>
+					<param
+					name="From"
+					value="ranorex.studio@gmail.com">
+					</param>
+					<param
+					name="ServerHostname"
+					value="smtp.gmail.com">
+					</param>
+					<param
+					name="ServerPort"
+					value="587">
+					</param>
+					<param
+					name="UseSSL"
 					value="true">
+					</param>
+					<param
+					name="Username"
+					value="ranorex.studio">
+					</param>
+					<param
+					name="Password"
+					value="Ranorex132">
+					</param>
+					<param
+					name="SendEmailOnFailure"
+					value="true">
+					</param>
+					<param
+					name="SendEmailOnSuccess"
+					value="true">
+					</param>
+					<param
+					name="SendZippedReportOnComplete"
+					value="false">
+					</param>
+					<param
+					name="SendPdfReportOnComplete"
+					value="true">
+					</param>
+					<param
+					name="PdfReportCustomStylesheet"
+					value="false">
 					</param>
 				</parameters>
 			</testcase>
@@ -898,6 +992,98 @@ rxversion="8.3">
 			id="e8b8f009-3942-4aa3-bf4a-81d3fe27de78"
 			name="Senior_Microsoft_SharePoint_DeveloperPL">
 			</smartfoldernode>
+			<testmodule
+			id="ed0c8670-a879-48ee-bf79-fbd781e8f0d2"
+			name="EmailModule"
+			ref="d8198cc7-82f5-46b2-81e7-3ed789544877"
+			type="UserCode">
+				<databinding>
+					<var
+					dataname="Subject"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="279773ef-ef45-414a-a555-48cb80bfc115"
+					variablename="Subject">
+					</var>
+					<var
+					dataname="Body"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="ef2dc4ee-14a8-483f-92ad-f2c6bd6d67db"
+					variablename="Body">
+					</var>
+					<var
+					dataname="To"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="12fd536f-980f-4e5a-a921-acaf0c6247e5"
+					variablename="To">
+					</var>
+					<var
+					dataname="From"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="718a0466-d3a5-4d93-93a0-91ccd5f1a19e"
+					variablename="From">
+					</var>
+					<var
+					dataname="ServerHostname"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="2436c39d-0705-4ec3-85fb-5e9835a1ab18"
+					variablename="ServerHostname">
+					</var>
+					<var
+					dataname="ServerPort"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="e255daf0-00ef-4b39-a594-273d574839a1"
+					variablename="ServerPort">
+					</var>
+					<var
+					dataname="UseSSL"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="c898ee67-ee7f-4258-ab69-d855b0d92274"
+					variablename="UseSSL">
+					</var>
+					<var
+					dataname="Username"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="38abb172-e49e-4d92-a24f-145709bdd7e3"
+					variablename="Username">
+					</var>
+					<var
+					dataname="Password"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="b97a0c41-28c8-44ed-b089-a8ca4b6af9d7"
+					variablename="Password">
+					</var>
+					<var
+					dataname="SendEmailOnFailure"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="07580bd9-744c-4666-83a6-ba22c0c8d909"
+					variablename="SendEmailOnFailure">
+					</var>
+					<var
+					dataname="SendEmailOnSuccess"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="670a378a-e239-43e7-8325-c216fd11f190"
+					variablename="SendEmailOnSuccess">
+					</var>
+					<var
+					dataname="SendZippedReportOnComplete"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="154c39b9-9dd8-4f75-934e-973ef4c5de5b"
+					variablename="SendZippedReportOnComplete">
+					</var>
+					<var
+					dataname="SendPdfReportOnComplete"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="7038d9db-9189-4fe3-9fb3-13f3cacde5a0"
+					variablename="SendPdfReportOnComplete">
+					</var>
+					<var
+					dataname="PdfReportCustomStylesheet"
+					datasourceid="b80c2ebb-8e97-45d9-aca3-0d318b9e3c58"
+					variableid="b56d72a4-8257-4ec5-a054-455d9094b56a"
+					variablename="PdfReportCustomStylesheet">
+					</var>
+				</databinding>
+			</testmodule>
 			<smartfoldernode
 			id="ee7dabdd-c12a-4b85-b97e-aec6d8b7be7a"
 			name="Senior_Business_Intelligence_Consultant_for_SAP_SE_ProductsPL">
@@ -1496,6 +1682,14 @@ rxversion="8.3">
 					<teardown
 					id="2e8f1877-b1d2-4838-8332-82ad88e923cb"
 					name="teardown">
+						<testmodule
+						id="13a473ed-b1aa-48fa-aa98-b44c97865363"
+						name="ReportToPDFModule">
+						</testmodule>
+						<testmodule
+						id="ed0c8670-a879-48ee-bf79-fbd781e8f0d2"
+						name="EmailModule">
+						</testmodule>
 					</teardown>
 				</testcase>
 			</testsuite>
@@ -1697,5 +1891,8 @@ rxversion="8.3">
 		</testconfiguration>
 	</testconfigurations>
 	<references>
+		<reference>
+			Ranorex Automation Helpers.dll
+		</reference>
 	</references>
 </testsuitedoc>

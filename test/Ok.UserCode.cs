@@ -20,9 +20,9 @@ using Ranorex.Core;
 using Ranorex.Core.Repository;
 using Ranorex.Core.Testing;
 
-namespace Ranorex_Automation_Helpers
+namespace test
 {
-    public partial class LogIn
+    public partial class Ok
     {
         /// <summary>
         /// This method gets called right after the recording has been started.

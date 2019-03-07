@@ -1,0 +1,89 @@
+﻿<repository
+id="65fb7b08-2f27-49e0-aa7e-d6a32210ce3b"
+name="testRepository"
+rxversion="8.3">
+	<codegen
+	classname="testRepository"
+	namespace="test">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="518c3ed4-6b26-41e8-978e-0b5b921ca662"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="0c7eeb3f-3c6d-4058-ab70-3e837820c198"
+		isrooted="True"
+		name="INKUBITMicrosoftDynamics365CRMCon"
+		refpath="/dom[@domain='www.inkubit.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,ptag"
+			capname="ptag"
+			id="4cd9cf8a-3761-47b7-81e2-d22b6217989a"
+			name="MakeUseOfTheReportingFunctionsAnd"
+			refimgid="c59ab1e9-6ea5-4a00-a63a-14e1bbbb90dc"
+			refpath="/dom[@domain='www.inkubit.com']//div[#'revslider-235']/ul/li[2]/div[1]/div/div[2]/div/div/div/p[@innertext~'^Make\ use\ of\ the\ reporting']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.inkubit.com']//div[#'revslider-235']/ul/li[2]/div[1]//p[@innertext~'^Make\ use\ of\ the\ reporting']
+			</item>
+			<item
+			addcaps="unknown,webelement,articletag"
+			capname="articletag"
+			id="a0609589-c39d-43a5-9f53-7f25ad7695a3"
+			name="Content"
+			refimgid="bd887b35-41dc-4ac1-981d-eccfff4f9935"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/article"
+			searchtimeout="30000ms">
+				/dom[@domain='www.inkubit.com']//section[#'main']/article
+			</item>
+			<item
+			addcaps="unknown,webelement,h2tag"
+			capname="h2tag"
+			id="b38d23f4-1f64-4dc6-a734-275acc5ae562"
+			name="Blog"
+			refimgid="b77dd217-abd1-401f-bd31-53fc188b61dd"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']/article/div/div/div/div/h2[@innertext='Blog']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.inkubit.com']//section[#'main']/article/div/div/div/div/h2[@innertext='Blog']
+			</item>
+			<item
+			addcaps="unknown,webelement,sectiontag"
+			capname="sectiontag"
+			id="b00651c1-015f-43ff-b0a9-048255f0ffc3"
+			name="Main"
+			refimgid="46de9716-67a4-4ddd-969a-bbcfda6dcd47"
+			refpath="/dom[@domain='www.inkubit.com']//section[#'main']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.inkubit.com']//section[#'main']
+			</item>
+			<basepath>
+				/dom[@domain='www.inkubit.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

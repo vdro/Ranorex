@@ -20,33 +20,33 @@ using Ranorex.Core;
 using Ranorex.Core.Testing;
 using Ranorex.Core.Repository;
 
-namespace Ranorex_Automation_Helpers
+namespace test
 {
 #pragma warning disable 0436 //(CS0436) The type 'type' in 'assembly' conflicts with the imported type 'type2' in 'assembly'. Using the type defined in 'assembly'.
     /// <summary>
-    ///The LogIn recording.
+    ///The Ok recording.
     /// </summary>
-    [TestModule("e7dafe58-3b98-4b0f-855c-0b0cbac94357", ModuleType.Recording, 1)]
-    public partial class LogIn : ITestModule
+    [TestModule("18623344-7c21-4196-b0e6-e9d628f89212", ModuleType.Recording, 1)]
+    public partial class Ok : ITestModule
     {
         /// <summary>
-        /// Holds an instance of the Ranorex_Automation_HelpersRepository repository.
+        /// Holds an instance of the testRepository repository.
         /// </summary>
-        public static Ranorex_Automation_HelpersRepository repo = Ranorex_Automation_HelpersRepository.Instance;
+        public static testRepository repo = testRepository.Instance;
 
-        static LogIn instance = new LogIn();
+        static Ok instance = new Ok();
 
         /// <summary>
         /// Constructs a new instance.
         /// </summary>
-        public LogIn()
+        public Ok()
         {
         }
 
         /// <summary>
         /// Gets a static instance of this recording.
         /// </summary>
-        public static LogIn Instance
+        public static Ok Instance
         {
             get { return instance; }
         }
@@ -73,14 +73,23 @@ namespace Ranorex_Automation_Helpers
         [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 0;
-            Keyboard.DefaultKeyPressTime = 20;
-            Delay.SpeedFactor = 0.00;
+            Mouse.DefaultMoveTime = 300;
+            Keyboard.DefaultKeyPressTime = 100;
+            Delay.SpeedFactor = 1.00;
 
             Init();
 
-            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://inkubit-test.crm4.dynamics.com' with browser 'Chrome' in normal mode.", new RecordItemIndex(0));
-            Host.Current.OpenBrowser("https://inkubit-test.crm4.dynamics.com", "Chrome", "", false, false, false, true, false, true);
+            Report.Log(ReportLevel.Info, "Website", "Opening web site 'https://www.inkubit.com/en-us/' with browser 'Chrome' in normal mode.", new RecordItemIndex(0));
+            Host.Current.OpenBrowser("https://www.inkubit.com/en-us/", "Chrome", "", false, false, false, false, false, true);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'INKUBITMicrosoftDynamics365CRMCon.Content' at 411;1.", repo.INKUBITMicrosoftDynamics365CRMCon.ContentInfo, new RecordItemIndex(1));
+            repo.INKUBITMicrosoftDynamics365CRMCon.Content.Click("411;1");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'INKUBITMicrosoftDynamics365CRMCon.Main' at 683;9.", repo.INKUBITMicrosoftDynamics365CRMCon.MainInfo, new RecordItemIndex(2));
+            repo.INKUBITMicrosoftDynamics365CRMCon.Main.Click("683;9");
+            Delay.Milliseconds(200);
             
         }
 
